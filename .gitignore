@@ -1,0 +1,71 @@
+#------------------
+# ALWAYS IGNORE
+#------------------
+*.diff
+*.err
+*.orig
+*.log
+*.rej
+*.swo
+*.swp
+*.zip
+*.vi
+*~
+*.sass-cache
+*.ruby-version
+
+
+#------------------
+# OS / EDITOR
+#------------------
+.DS_Store
+._*
+Thumbs.db
+.cache
+.project
+.settings
+.tmproj
+*.esproj
+nbproject
+*.sublime-project
+*.sublime-workspace
+
+
+#------------------
+# NODE
+#------------------
+npm-debug.log
+node_modules
+
+
+#------------------
+# BOWER
+#------------------
+.bower-cache/
+.bower-registry/
+public/lib/
+
+
+#------------------
+# CONFIGURATION
+#------------------
+*.env
+.env
+.env.*
+!.env.example
+docker-compose.yml
+aws-compose.yml
+
+
+#------------------
+# TESTING
+#------------------
+coverage
+
+
+#------------------
+# ENVIRONMENT
+#------------------
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml
