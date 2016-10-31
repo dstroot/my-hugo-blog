@@ -7,7 +7,7 @@ tags: null
 title: Proprietary Software is an Unsafe Building Material
 ---
 
-![Volkswagen](/img/volkswagen.jpg)
+![Volkswagen](img/volkswagen.jpg)
 
 At one point in time I worked for an organization that banned the use of open source software.  They were concerned that in the event of issues "there would be no support".  At the time they believed that commercial software from companies like IBM, Oracle, Microsoft and SAP was "safer" because there was a commercial entity that stood behind the products they sold and provided support.
 

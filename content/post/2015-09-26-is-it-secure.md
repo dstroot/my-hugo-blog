@@ -8,8 +8,7 @@ title: Is it Secure?
 url: /2015/09/26/is-it-secure
 ---
 
-
-<img class="lazy img-rounded img-responsive" src="data:image/gif;base64,R0lGODlhAQABAIABAP///wAAACwAAAAAAQABAAACAkQBADs=" alt="FinTech" data-src="/assets/img/SmartCarLock.png" width="750">
+![Security](img/SmartCarLock.png)
 
 _Q_: Is it secure? <br>
 _A_: No it is not. Security is never binary.

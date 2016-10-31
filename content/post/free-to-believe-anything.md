@@ -5,7 +5,7 @@ draft = false
 
 +++
 
-![Cognitive Bias](/img/comic.png)
+![Cognitive Bias](img/comic.png)
 
 When I was growing up, when you read the paper, watched the news, saw a film or a picture, you inherently believed in it.  You trusted the reality it portrayed. You trusted in journalism and even believed the news was actually "fair and balanced". If you heard someone say “Kennedy’s death was faked” you would disbelieve them because you saw the evidence yourself.  
 

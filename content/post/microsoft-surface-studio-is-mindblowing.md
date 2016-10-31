@@ -14,7 +14,7 @@ Tags = [
 
 +++
 
-![Surface Studio](/img/Surface_Studio.jpg)
+![Surface Studio](img/Surface_Studio.jpg)
 
 Saw the new Microsoft Surface Studio this weekend at the Microsoft store at the South Coast Plaza. I thought the display is pretty mind blowing. I have gotten used to wide screen displays but somehow the resolution and format of the screen just feels right. The display floats in space and fills your field of vision.
 
