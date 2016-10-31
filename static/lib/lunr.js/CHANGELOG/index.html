@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]><html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]><html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--><html class="no-js" prefix="og: http://ogp.me/ns#" xmlns:og="http://ogp.me/ns#"><!--<![endif]-->
+
+    <head>
+                <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0" />
+        <meta name="mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <meta name="author" content="">
+        <meta name="keywords" content="awesome, definitely">
+	
+        <meta property="og:site_name" content="My New Hugo Site">
+        <meta property="og:title" content="My New Hugo Site">
+        <meta property="og:url" content="http://localhost:1313/assets/lib/lunr.js/CHANGELOG/">
+        <meta property="og:description" content="">
+    
+        <meta property="og:type" content="article" />
+        <meta property="og:article:author" content="" />
+        <meta property="og:article:published_time" content="0001-01-01T00:00:00Z" />
+    
+        <meta name="generator" content="Hugo 0.14" />
+        <title> &middot; My New Hugo Site </title>
+        <link rel="canonical" href="http://localhost:1313/" />
+        <link rel="alternate" type="application/rss+xml" title="RSS" href="">
+        <link rel="stylesheet" type='text/css' href="http://localhost:1313/css/main.css"/>
+        <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300|Montserrat:700' rel='stylesheet' type='text/css'>
+        <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+        <script src="//code.jquery.com/jquery-1.10.2.min.js"></script>
+    </head>
+<body>
+<!--[if lt IE 7]><p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chrome/‎">install Google Chrome</a> to experience this site.</p><![endif]-->
+
+    <header id="site-header">
+        <div class="container">
+            <a href="http://localhost:1313/" alt="My New Hugo Site"><h1 class="blog-title heading">My New Hugo Site</h1></a>
+            <p class="blog-description"></p>
+        </div>
+    </header>
+<main class="content" role="main">
+	<div class="container">
+		<article class="assets">
+	<header class="post-header">
+        <h3 class="p-post-title"></h3>
+    </header>
+
+    <section class="post-content">
+        
+
+<h1 id="changelog:a72f2bd2b10a0bd332648dd2cac5bb19">Changelog</h1>
+
+<h2 id="0-5-4:a72f2bd2b10a0bd332648dd2cac5bb19">0.5.4</h2>
+
+<ul>
+<li>Tokenizer also splits on hyphens <a href="https://github.com/olivernn/lunr.js/pull/98/files">#98</a> thanks <a href="https://github.com/nolanlawson">Nolan Lawson</a></li>
+</ul>
+
+<h2 id="0-5-3:a72f2bd2b10a0bd332648dd2cac5bb19">0.5.3</h2>
+
+<ul>
+<li>Correctly stem words ending with the letter &lsquo;y&rsquo; <a href="https://github.com/olivernn/lunr.js/pull/84">#84</a> thanks <a href="https://github.com/MihaiValentin">Mihai Valentin</a></li>
+<li>Improve build tools and dev dependency installation <a href="https://github.com/olivernn/lunr.js/pull/78">#78</a> thanks <a href="https://github.com/benpickles">Ben Pickles</a></li>
+</ul>
+
+<h2 id="0-5-2:a72f2bd2b10a0bd332648dd2cac5bb19">0.5.2</h2>
+
+<ul>
+<li>Use npm they said, it&rsquo;ll be easy they said.</li>
+</ul>
+
+<h2 id="0-5-1:a72f2bd2b10a0bd332648dd2cac5bb19">0.5.1</h2>
+
+<ul>
+<li>Because <a href="https://github.com/olivernn/lunr.js/issues/77">npm issues</a> :(</li>
+</ul>
+
+<h2 id="0-5-0:a72f2bd2b10a0bd332648dd2cac5bb19">0.5.0</h2>
+
+<ul>
+<li>Add plugin support to enable i18n and other extensions to lunr.</li>
+<li>Add AMD support <a href="https://github.com/olivernn/lunr.js/issues/72">#72</a> thanks <a href="https://github.com/lnwdr">lnwdr</a>.</li>
+<li>lunr.Vector now implemented using linked lists for better performance especially in indexes with large numbers of unique tokens.</li>
+<li>Build system clean up.</li>
+</ul>
+
+<h2 id="0-4-5:a72f2bd2b10a0bd332648dd2cac5bb19">0.4.5</h2>
+
+<ul>
+<li>Fix performance regression introduced in 0.4.4 by fixing #64.</li>
+</ul>
+
+<h2 id="0-4-4:a72f2bd2b10a0bd332648dd2cac5bb19">0.4.4</h2>
+
+<ul>
+<li>Fix bug <a href="https://github.com/olivernn/lunr.js/issues/64">#64</a> idf cache should handle tokens with the same name as object properties, thanks <a href="https://github.com/gitgrimbo">gitgrimbo</a>.</li>
+<li>Intersperse source files with a semicolon as part of the build process, fixes <a href="https://github.com/olivernn/lunr.js/issues/61">#61</a>, thanks <a href="https://github.com/shyndman">shyndman</a>.</li>
+</ul>
+
+<h2 id="0-4-3:a72f2bd2b10a0bd332648dd2cac5bb19">0.4.3</h2>
+
+<ul>
+<li>Fix bug <a href="https://github.com/olivernn/lunr.js/issues/49">#49</a> tokenizer should handle null and undefined as arguments, thanks <a href="https://github.com/jona">jona</a>.</li>
+</ul>
+
+<h2 id="0-4-2:a72f2bd2b10a0bd332648dd2cac5bb19">0.4.2</h2>
+
+<ul>
+<li>Fix bug <a href="https://github.com/olivernn/lunr.js/issues/47">#47</a> tokenizer converts its input to a string before trying to split it into tokens, thanks <a href="https://github.com/mikhailkozlov">mikhailkozlov</a>.</li>
+</ul>
+
+<h2 id="0-4-1:a72f2bd2b10a0bd332648dd2cac5bb19">0.4.1</h2>
+
+<ul>
+<li>Fix bug <a href="https://github.com/olivernn/lunr.js/issues/41">#41</a> that caused issues when indexing mixed case tags, thanks <a href="https://github.com/Aptary">Aptary</a></li>
+</ul>
+
+<h2 id="0-4-0:a72f2bd2b10a0bd332648dd2cac5bb19">0.4.0</h2>
+
+<ul>
+<li>Add index mutation events (&lsquo;add&rsquo;, &lsquo;update&rsquo; and &lsquo;remove&rsquo;).</li>
+<li>Performance improvements to searching.</li>
+<li>Penalise non-exact matches so exact matches are better ranked than expanded matches.</li>
+</ul>
+
+<h2 id="0-3-3:a72f2bd2b10a0bd332648dd2cac5bb19">0.3.3</h2>
+
+<ul>
+<li>Fix bug <a href="https://github.com/olivernn/lunr.js/pull/32">#32</a> which prevented lunr being used where a <code>console</code> object is not present, thanks <a href="https://github.com/jjbananas">Tony Marklove</a> and <a href="https://github.com/wyuenho">wyuenho</a></li>
+</ul>
+
+<h2 id="0-3-2:a72f2bd2b10a0bd332648dd2cac5bb19">0.3.2</h2>
+
+<ul>
+<li>Fix bug <a href="https://github.com/olivernn/lunr.js/pull/27">#27</a> when trying to calculate tf with empty fields, thanks <a href="https://github.com/gambhiro">Gambhiro</a></li>
+</ul>
+
+<h2 id="0-3-1:a72f2bd2b10a0bd332648dd2cac5bb19">0.3.1</h2>
+
+<ul>
+<li>Fix bug <a href="https://github.com/olivernn/lunr.js/pull/24">#24</a> that caused an error when trying to remove a non-existant document from the index, thanks <a href="https://github.com/piranna">Jesús Leganés Combarro</a></li>
+</ul>
+
+<h2 id="0-3-0:a72f2bd2b10a0bd332648dd2cac5bb19">0.3.0</h2>
+
+<ul>
+<li>Implement <a href="https://github.com/olivernn/lunr.js/pull/14">JSON serialisation</a>, allows indexes to be loaded and dumped, thanks <a href="https://github.com/ssured">ssured</a>.</li>
+<li>Performance improvements to searching and indexing.</li>
+<li>Fix bug <a href="https://github.com/olivernn/lunr.js/pull/15">#15</a> with tokeniser that added stray empty white space to the index, thanks <a href="https://github.com/ssured">ssured</a>.</li>
+</ul>
+
+<h2 id="0-2-3:a72f2bd2b10a0bd332648dd2cac5bb19">0.2.3</h2>
+
+<ul>
+<li>Fix issue with searching for a term not in the index <a href="https://github.com/olivernn/lunr.js/issues/12">#12</a>, thanks <a href="https://github.com/mcnerthney">mcnerthney</a> and <a href="https://github.com/makoto">makoto</a></li>
+</ul>
+
+<h2 id="0-2-2:a72f2bd2b10a0bd332648dd2cac5bb19">0.2.2</h2>
+
+<ul>
+<li>Boost exact term matches so they are better ranked than expanded term matches, fixes <a href="https://github.com/olivernn/lunr.js/issues/10">#10</a>, thanks <a href="https://github.com/ssured">ssured</a></li>
+</ul>
+
+<h2 id="0-2-1:a72f2bd2b10a0bd332648dd2cac5bb19">0.2.1</h2>
+
+<ul>
+<li>Changes to the build process.</li>
+<li>Add component.json and package.json</li>
+<li>Add phantomjs test runner</li>
+<li>Remove redundant attributes</li>
+<li>Many <a href="https://github.com/olivernn/lunr.js/pull/8">spelling corrections</a>, thanks <a href="https://github.com/pborreli">Pascal Borreli</a></li>
+</ul>
+
+    </section>
+
+    <hr>
+
+    <footer class="post-footer">
+        <section class="f-1">
+            
+            
+            <p class="f-post-time"><time datetime="0001-01-01T00:00:00Z">January 1, 0001</time></p>
+        </section>
+                        
+        <section class="f-2">
+            <section class="share">
+                <span>Share:
+                <a class="icon-twitter" href="http://twitter.com/share?text=&url=http%3a%2f%2flocalhost%3a1313%2fassets%2flib%2flunr.js%2fCHANGELOG%2f"
+                    onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+                    <i class="fa fa-twitter"></i>
+                </a>
+                <a class="icon-facebook" href="https://www.facebook.com/sharer/sharer.php?u=http%3a%2f%2flocalhost%3a1313%2fassets%2flib%2flunr.js%2fCHANGELOG%2f"
+                    onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
+                    <i class="fa fa-facebook"></i>
+                </a>
+                <a class="icon-google-plus" href="https://plus.google.com/share?url=http%3a%2f%2flocalhost%3a1313%2fassets%2flib%2flunr.js%2fCHANGELOG%2f"
+                   onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
+                    <i class="fa fa-google-plus"></i>
+                </a>
+                </span>
+            </section>
+
+            
+        </section>
+                        
+    </footer>
+</article>
+	</div>
+</main>
+    <footer id="site-footer">
+        <div class="container">
+            <a href="http://localhost:1313/index.xml" title="Get the RSS feed"><span class="tooltip"><i class="fa fa-rss"></i></span></a>
+            <section>&copy; <a href="http://localhost:1313/"></a> 2015 | All rights reserved</section>
+            <section>Theme by <a href="http://www.jrdnbwmn.com">Jordan Bowman</a>. Generated with <a href="http://gohugo.io/">Hugo</a>.</section>
+        </div>
+    </footer>
+
+    <script type="text/javascript" src="http://localhost:1313/js/fittext.js"></script>
+    <script type="text/javascript">
+      $(".heading").fitText();
+    </script>
+
+
+<script data-no-instant>document.write('<script src="http://'
+        + (location.host || 'localhost').split(':')[0]
+		+ ':1313/livereload.js?mindelay=10"></'
+        + 'script>')</script></body>
+</html>

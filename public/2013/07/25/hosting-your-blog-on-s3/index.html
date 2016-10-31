@@ -1,0 +1,174 @@
+	<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
+<head>
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="generator" content="Hugo 0.16" />
+
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+  
+  <title>Hosting your Blog on Amazon S3 &middot; Dan Stroot</title>
+  
+
+  
+  <link rel="stylesheet" href="http://danstroot.com/css/poole.css">
+  <link rel="stylesheet" href="http://danstroot.com/css/syntax.css">
+  <link rel="stylesheet" href="http://danstroot.com/css/hyde.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700|Abril+Fatface">
+
+  
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/apple-touch-icon-144-precomposed.png">
+  <link rel="shortcut icon" href="/favicon.png">
+
+  
+  <link href="" rel="alternate" type="application/rss+xml" title="Dan Stroot" />
+</head>
+
+	<body class=" ">
+		<div class="sidebar">
+  <div class="container sidebar-sticky">
+    <div class="sidebar-about">
+      <a href="http://danstroot.com/"><h1>Dan Stroot</h1></a>
+      <p class="lead">
+      An elegant open source and mobile first theme for <a href="http://hugo.spf13.com">hugo</a> made by <a href="http://twitter.com/mdo">@mdo</a>. Originally made for Jekyll.
+      </p>
+    </div>
+
+    <ul class="sidebar-nav">
+      <li><a href="/">Home</a> </li>
+      
+        <li><a href="/post/2015-10-03-Proprietary%20software-is-an-unsafe-building-material/"> Microsoft Surface Studio is Mindblowing </a></li>
+      
+    </ul>
+
+    <p>&copy; 2016. All rights reserved. </p>
+  </div>
+</div>
+
+
+		<div class="content container">
+			<div class="post">
+			 	<h1>Hosting your Blog on Amazon S3</h1>
+			  <span class="post-date">Thu, Jul 25, 2013</span>
+			      
+
+<p>One of the cleanest designed blogs I have seen in a while belongs to <a href="http://blog.yourkarma.com/">Karma Mobility</a>.  So I asked in the comments on a particularly interesting post by Stefan Borsje and he very nicely responded &ldquo;Thanks Daniel! This blog uses Jekyll and is hosted on S3.&rdquo;</p>
+
+<p>Hmmm.  That&rsquo;s two cool things at once.</p>
+
+<p>So let&rsquo;s do this! I know a little about Jekyll and I know it&rsquo;s engine behind GitHub Pages, plus om Github you can host it for free.But it has two disadvantages I know of:</p>
+
+<ul>
+<li>You can not use custom Jekyll plugins with GitHub Pages. Your site is generated with <code>--safe</code>.</li>
+<li>There is no possibility to redirect requests. This is vital if you do not want to lose any link traffic when fixing a typo in your URL.</li>
+</ul>
+
+<h3 id="jekyll-on-amazon-s3">Jekyll on Amazon S3</h3>
+
+<p>In order to serve your site from S3 you need to first create a bucket to hold the content. So, using the S3 web console create a bucket.</p>
+
+<p>Next we need to setup the bucket for web hosting. Click the properties button to edit the properties of your new bucket.  Then go to the Static Website Hosting section and click &ldquo;Enabled website hosting&rdquo;. Note the Endpoint of your site and remember to save!</p>
+
+<p>You also need to set your index document.  I chose index.html for my index document and nothing for my error document since I am using a redirect rule to redirect all errors back to the root of my blog.  That way no one ever gets a 404.  Cool right?</p>
+
+<p>The rule is simple:
+{% highlight xml %}
+<RoutingRules>
+  <RoutingRule>
+  <Condition>
+    <HttpErrorCodeReturnedEquals>403</HttpErrorCodeReturnedEquals >
+  </Condition>
+  <Redirect>
+    <HostName>error.html</HostName>
+  </Redirect>
+  </RoutingRule>
+</RoutingRules>
+{% endhighlight %}</p>
+
+<p>In the &ldquo;Permissions&rdquo; section you also need to add a bucket policy that makes your bucket content publicly available:
+{% highlight json %}
+  {
+    &ldquo;Version&rdquo;: &ldquo;2008-10-17&rdquo;,
+    &ldquo;Statement&rdquo;: [
+        {
+            &ldquo;Sid&rdquo;: &ldquo;PublicReadForGetBucketObjects&rdquo;,
+            &ldquo;Effect&rdquo;: &ldquo;Allow&rdquo;,
+            &ldquo;Principal&rdquo;: {
+                &ldquo;AWS&rdquo;: &ldquo;<em>&ldquo;
+            },
+            &ldquo;Action&rdquo;: &ldquo;s3:GetObject&rdquo;,
+            &ldquo;Resource&rdquo;: &ldquo;arn:aws:s3:::snapvotr-blog/</em>&ldquo;
+        }
+    ]
+  }
+{% endhighlight %}</p>
+
+<p>Now you could click Upload next and push your site up on S3.</p>
+
+<h3 id="but-we-have-another-trick-up-our-sleeve-s3-website">But we have another trick up our sleeve - s3_website</h3>
+
+<p><a href="https://github.com/laurilehmijoki/s3_website">s3_website</a></p>
+
+<p>First if you are already running Jekyll then you should have all the dependencies already setup.  So just run:
+{% highlight text %}
+gem install s3_website
+{% endhighlight %}</p>
+
+<p>To configure s3_website, make sure you are in your website’s root directory, then run:
+{% highlight text %}
+s3_website cfg create
+{% endhighlight %}</p>
+
+<p>This generates a configuration file called <code>s3_website.yml</code>. Open it in a text editor and change the values to your AWS secret and key ID.  This is where you also name your Amazon S3 bucket.  I used &ldquo;blog.mywebsite.com&rdquo; since I was setting up my site&rsquo;s blog.</p>
+
+<p>{% highlight yaml %}
+s3_id: [YOUR AWS S3 ACCESS KEY ID]
+s3_secret: [YOUR AWS S3 SECRET ACCESS KEY]
+s3_bucket: [BUCKET NAME]
+{% endhighlight %}</p>
+
+<p>Next, save the file and run this command in your Terminal.
+{% highlight text %}
+s3_website cfg apply
+{% endhighlight %}
+The S3 bucket will be automatically created for you by this command. The command will also ask if you want to use Amazon&rsquo;s CloudFront CDN.  I said &ldquo;y&rdquo;.</p>
+
+<p>In hindsight I would have kept it simple and made sure everything was working properly from S3 first.  If you do enable it there are some additional steps you have to do on Amazon:
+* You have to tell CloudFront what CNAME(s) you will be using.  So Login, edit your new CloudFront distribution and fill in the &ldquo;Alternate Domain Names (CNAMEs)&rdquo; field. Since I was creating a blog I used &ldquo;blog.website.com&rdquo; with my own domain of course. <img class="img-rounded img-responsive" alt="image of Amazon management console" src="/assets/img/CloudFront_Management_Console.png">
+* You also need to tweak the origin per the link in the references - you need a <strong>custom origin</strong>* pointing to your S3 bucket.</p>
+
+<p>Now, deploying your website is as simple as running:
+{% highlight text %}
+s3_website push
+{% endhighlight %}</p>
+
+<p>When I am done adding content or tweaking I can build and deploy with two commands:
+{% highlight text %}
+jekyll build
+s3_website push
+{% endhighlight %}</p>
+
+<p>That my friends is AWESOME!</p>
+
+<h3 id="setup-your-cname-with-your-dns-provider">Setup your CNAME with your DNS provider</h3>
+
+<p>You must be able to point a CNAME at CloudFront.  I was creating a blog so it was easy.  You do this via your DNS provider, which in many cases is your domain registrar unless you already moved your DNS hosting elsewhere.  I created a blog CNAME (so my URL will end up being blog.website.com) pointing to the Amazon CloudFront domain that was assigned.  It looks like this: xxxxxxxxxxxx.cloudfront.net.  Boom! done.</p>
+
+<h3 id="references">References</h3>
+
+<ul>
+<li><a href="http://docs.aws.amazon.com/AmazonS3/latest/dev/WebsiteHosting.html">http://docs.aws.amazon.com/AmazonS3/latest/dev/WebsiteHosting.html</a></li>
+<li><a href="http://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/CNAMEs.html">http://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/CNAMEs.html</a></li>
+<li><a href="http://holgr.com/blog/2011/12/getting-a-custom-404-document-using-amazon-cloudfront-and-s3/">http://holgr.com/blog/2011/12/getting-a-custom-404-document-using-amazon-cloudfront-and-s3/</a></li>
+<li><a href="http://legatomaniac.blogspot.com/2013/06/howto-avoid-403-in-cloudfront-requests.html">http://legatomaniac.blogspot.com/2013/06/howto-avoid-403-in-cloudfront-requests.html</a></li>
+</ul>
+
+			</div>
+
+			
+		</div>
+
+  </body>
+</html>
