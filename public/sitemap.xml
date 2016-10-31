@@ -7,11 +7,6 @@
   </url>
   
   <url>
-    <loc>http://danstroot.com/post/2015-10-03-Proprietary%20software-is-an-unsafe-building-material/</loc>
-    <lastmod>2016-10-30T15:59:01-07:00</lastmod>
-  </url>
-  
-  <url>
     <loc>http://danstroot.com/post/microsoft-surface-studio-is-mindblowing/</loc>
     <lastmod>2016-10-30T15:59:01-07:00</lastmod>
   </url>
@@ -19,6 +14,11 @@
   <url>
     <loc>http://danstroot.com/post/free-to-believe-anything/</loc>
     <lastmod>2016-10-29T19:50:04-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://danstroot.com/post/2015-10-03-Proprietary%20software-is-an-unsafe-building-material/</loc>
+    <lastmod>2015-10-03T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -214,6 +214,10 @@
   <url>
     <loc>http://danstroot.com/post/2010-01-15-lessons-from-haiti/</loc>
     <lastmod>2010-01-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://danstroot.com/about/</loc>
   </url>
   
 </urlset>

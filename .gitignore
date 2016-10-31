@@ -55,6 +55,7 @@ public/lib/
 !.env.example
 docker-compose.yml
 aws-compose.yml
+themes
 
 
 #------------------
