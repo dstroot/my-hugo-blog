@@ -1,0 +1,152 @@
+	<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
+<head>
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="generator" content="Hugo 0.16" />
+
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+  
+  <title>Virtual Machines vs. Containers &middot; Dan Stroot</title>
+  
+
+  
+  <link rel="stylesheet" href="http://dstroot.github.io/my-hugo-blogcss/poole.css">
+  <link rel="stylesheet" href="http://dstroot.github.io/my-hugo-blogcss/syntax.css">
+  <link rel="stylesheet" href="http://dstroot.github.io/my-hugo-blogcss/hyde.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,700|Titillium+Web:200">
+
+  
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/apple-touch-icon-144-precomposed.png">
+  <link rel="shortcut icon" href="/favicon.png">
+
+  
+  <link href="" rel="alternate" type="application/rss+xml" title="Dan Stroot" />
+</head>
+
+	<body class=" ">
+		<div class="sidebar">
+  <div class="container sidebar-sticky">
+    <div class="sidebar-about">
+
+      <div class="myface">
+        <a href="/">
+          <img class="img-circle" src="http://www.gravatar.com/avatar/b6e0ed5e10ea91f67808629f4ae109f2.png?s=256" alt="Dan Stroot" height="128" width="128" />
+          <i class="fa fa-home"></i>
+        </a>
+      </div>
+
+      <a href="http://dstroot.github.io/my-hugo-blog"><h1>Dan Stroot</h1></a>
+      <p class="lead">
+      An elegant open source and mobile first theme for <a href="http://hugo.spf13.com">hugo</a> made by <a href="http://twitter.com/mdo">@mdo</a>. Originally made for Jekyll.
+      </p>
+    </div>
+
+    <ul class="sidebar-nav">
+      <li><a href="/">Home</a> </li>
+      
+        <li><a href="/my-hugo-blog/post/microsoft-surface-studio-is-mindblowing/"> Microsoft Surface Studio is Mindblowing </a></li>
+      
+    </ul>
+
+    <p>&copy; 2016. All rights reserved. </p>
+  </div>
+</div>
+
+
+		<div class="content container">
+			<div class="post">
+			 	<h1>Virtual Machines vs. Containers</h1>
+			  <span class="post-date">Mon, May 5, 2014</span>
+			      <p><img class="lazy img-rounded img-responsive" src="data:image/gif;base64,R0lGODlhAQABAIABAP///wAAACwAAAAAAQABAAACAkQBADs=" alt="Docker" data-src="/assets/img/docker.png" width="750"></p>
+
+<p>Three driving forces of infrastructure efficiency in a large, distributed environment were:</p>
+
+<ul>
+<li>Data center consolidation <em>(KPI: How many DCs do you have?)</em></li>
+<li>Host virtualization <em>(KPI: what percentage of your servers are virtual?)</em></li>
+<li>&ldquo;Cloud&rdquo; in its various forms <em>(KPI: How many servers are you still running?)</em></li>
+</ul>
+
+<p>Assuming you have been aggresive you may not have any data centers left.  You may be buying services rather than servers, and/or all of your remaining machines might be virtualized and hosted in someone else&rsquo;s data center. Now what?</p>
+
+<p>##Where is the next level of infrastructure efficiency going to come from?</p>
+
+<p>Personally I think the next wave of infrastructure efficiency will be driven by Linux container technology (LinuX Containers = LXC). The LXC container approach does <strong>not</strong> require a hypervisor - instead you run isolated &ldquo;containers&rdquo; on a Linux host.</p>
+
+<p>LXC provides operating system-level virtualization, but instead of creating a full-fledged virtual machine LXC containers leverage cgroups (control groups) to completely isolate application&rsquo;s view of the operating environment, including process trees, network, user ids and mounted file systems. Cgroups are a Linux kernel feature to limit, account, and isolate resource usage (CPU, memory, disk I/O, etc.) of process groups.</p>
+
+<p>This work was started by engineers at Google and in late 2007 it was merged into kernel version 2.6.24. LXC also relies on other kinds of namespace-isolation functionality, which have been developed and integrated into the mainline Linux kernel since then. It looks something like this:</p>
+
+<p><img class="lazy img-rounded img-responsive" src="data:image/gif;base64,R0lGODlhAQABAIABAP///wAAACwAAAAAAQABAAACAkQBADs=" alt="LXC vs. Virtual Machines" data-src="/assets/img/dockervsvm.png" width="750"></p>
+
+<p>##Is LXC Technology Really Better?</p>
+
+<p>Here are some of the major benefits of Linux Containers from my perspective:</p>
+
+<p>####Fast</p>
+
+<ul>
+<li>Runtime performance at near bare metal speeds (typically 97+ percent of bare metal).</li>
+<li>Management operations (boot, stop, start, reboot, etc.) in seconds or milliseconds.</li>
+</ul>
+
+<p>####Agile</p>
+
+<ul>
+<li>VM-like agility &ndash; it&rsquo;s still &ldquo;virtualization&rdquo;.</li>
+<li>With VMs we often touted our ability to ship a machine &ldquo;over the wire&rdquo; since a virtual machine is basically just a large file.  It also allows better business recovery scenarios where I can have a snapshot of my production machine(s) copied to a different datacenter at regular intervals. Guess what? LXC containers are an order of magnitude smaller!</li>
+<li>Developers can essentially use the exact same containers as those deployed into production.</li>
+</ul>
+
+<p>####Lightweight</p>
+
+<ul>
+<li>Just enough Operating System (JeOS); include only what you need reducing image and container bloat.</li>
+<li>Minimal per container penalty which equates to greater density and hence greater returns on existing assets &ndash; imagine packing 100s or 1000s of containers on a single host node!</li>
+</ul>
+
+<p>####Inexpensive</p>
+
+<ul>
+<li>Open source &ndash; free &ndash; lower TCO.</li>
+<li>Supported with out-of-the-box modern Linux kernels.</li>
+<li>LXC hosting likely to drive the next wave of cloud products.</li>
+</ul>
+
+<p>####Ecosystem</p>
+
+<ul>
+<li>Growing in popularity &ndash; just checkout the google trends for docker or LXC.</li>
+<li>Vibrant community and numerous 3rd party applications (1000s of prebuilt images on docker index and 100s of open source apps on github or other public sources).</li>
+</ul>
+
+<p>####Benchmarks</p>
+
+<ul>
+<li>Average boot time: LXC 1.5x faster</li>
+<li>Average reboot time: LXC 18.9x faster</li>
+<li>LXC CPU growth 26x lower than VM (per machine)</li>
+<li>LXC Memory group 3x lower than VM (per machine)</li>
+<li>LXC images 3.2x smaller than VM</li>
+</ul>
+
+<p>##Summary</p>
+
+<p>The next wave of server density is likely to be driven by LXC technology instead of traditional VM technology.  This technology may also increase further an organizations agility, developer productivity and even business continuity. However, LXC technology is not yet as mature or &ldquo;manageable&rdquo; as VM technology, but tools like Docker are developing quickly.</p>
+
+<p><em>Sources:</em></p>
+
+<ul>
+<li><a href="http://bodenr.blogspot.com/2014/05/kvm-and-docker-lxc-benchmarking-with.html">KVM and Docker LXC Benchmarking with OpenStack</a></li>
+</ul>
+
+			</div>
+
+			
+		</div>
+
+  </body>
+</html>
