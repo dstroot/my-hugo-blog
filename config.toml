@@ -4,3 +4,7 @@ title = "Dan Stroot"
 languageCode = "en-us"
 theme = "hyde"
 paginate = 5
+canonifyurls = true
+
+[params]
+  themeColor = "theme-base-0d"

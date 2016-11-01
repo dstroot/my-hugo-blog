@@ -16,17 +16,17 @@
   <link rel="stylesheet" href="http://dstroot.github.io/my-hugo-blog/css/poole.css">
   <link rel="stylesheet" href="http://dstroot.github.io/my-hugo-blog/css/syntax.css">
   <link rel="stylesheet" href="http://dstroot.github.io/my-hugo-blog/css/hyde.css">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700|Abril+Fatface">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,700|Titillium+Web:200">
 
   
-  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/apple-touch-icon-144-precomposed.png">
-  <link rel="shortcut icon" href="/favicon.png">
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://dstroot.github.io/my-hugo-blog/apple-touch-icon-144-precomposed.png">
+  <link rel="shortcut icon" href="http://dstroot.github.io/my-hugo-blog/favicon.png">
 
   
   <link href="" rel="alternate" type="application/rss+xml" title="Dan Stroot" />
 </head>
 
-	<body class=" ">
+	<body class="theme-base-0d ">
 		<div class="sidebar">
   <div class="container sidebar-sticky">
     <div class="sidebar-about">
@@ -37,9 +37,9 @@
     </div>
 
     <ul class="sidebar-nav">
-      <li><a href="/">Home</a> </li>
+      <li><a href="http://dstroot.github.io/my-hugo-blog/">Home</a> </li>
       
-        <li><a href="/my-hugo-blog/post/microsoft-surface-studio-is-mindblowing/"> Microsoft Surface Studio is Mindblowing </a></li>
+        <li><a href="http://dstroot.github.io/my-hugo-blog/post/microsoft-surface-studio-is-mindblowing/"> Microsoft Surface Studio is Mindblowing </a></li>
       
     </ul>
 
@@ -135,7 +135,7 @@ s3_website cfg apply
 The S3 bucket will be automatically created for you by this command. The command will also ask if you want to use Amazon&rsquo;s CloudFront CDN.  I said &ldquo;y&rdquo;.</p>
 
 <p>In hindsight I would have kept it simple and made sure everything was working properly from S3 first.  If you do enable it there are some additional steps you have to do on Amazon:
-* You have to tell CloudFront what CNAME(s) you will be using.  So Login, edit your new CloudFront distribution and fill in the &ldquo;Alternate Domain Names (CNAMEs)&rdquo; field. Since I was creating a blog I used &ldquo;blog.website.com&rdquo; with my own domain of course. <img class="img-rounded img-responsive" alt="image of Amazon management console" src="/assets/img/CloudFront_Management_Console.png">
+* You have to tell CloudFront what CNAME(s) you will be using.  So Login, edit your new CloudFront distribution and fill in the &ldquo;Alternate Domain Names (CNAMEs)&rdquo; field. Since I was creating a blog I used &ldquo;blog.website.com&rdquo; with my own domain of course. <img class="img-rounded img-responsive" alt="image of Amazon management console" src="http://dstroot.github.io/my-hugo-blog/assets/img/CloudFront_Management_Console.png">
 * You also need to tweak the origin per the link in the references - you need a <strong>custom origin</strong>* pointing to your S3 bucket.</p>
 
 <p>Now, deploying your website is as simple as running:
