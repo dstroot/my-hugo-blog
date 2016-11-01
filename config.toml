@@ -8,4 +8,13 @@ canonifyurls = true
 
 [params]
   themeColor = "theme-base-0d"
-  description = "I love building things. Made in California. Family man, technologist and Hacker News aficionado. Eternally curious."
+  tagline = "I love building things. Made in California. Family man, technologist and Hacker News aficionado. Eternally curious."
+  disqusShortname = "danstroot"
+  gravatarHash = "b6e0ed5e10ea91f67808629f4ae109f2"
+  github = "dstroot"
+  linkedin = "danstroot"
+  facebook = "danstroot"
+  twitter = "danstroot"
+
+[author]
+  name = "Dan Stroot"
