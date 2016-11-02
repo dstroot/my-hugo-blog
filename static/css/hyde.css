@@ -68,6 +68,9 @@ html {
     width: 18rem;
     /*text-align: left;*/
   }
+  .sidebar-about img {
+    display: block !important;
+  }
 }
 
 /* Sidebar links */
@@ -80,7 +83,14 @@ html {
   color: #fff;
   margin-top: 0;
   font-family: 'Titillium Web', sans-serif;
-  font-size: 2.5rem;
+  font-size: 3rem;
+}
+
+/* About section */
+.sidebar-about img {
+  display: none;
+  margin-left: auto;
+  margin-right: auto
 }
 
 /* Sidebar nav */
@@ -246,5 +256,5 @@ a.sidebar-nav-item:focus {
 }
 .theme-base-0f .content a,
 .theme-base-0f .related-posts li a:hover {
-  color: #ff5252;  /*#ff5252*/s
+  color: #ff5252;  /*#ff5252*/
 }
