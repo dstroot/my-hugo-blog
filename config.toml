@@ -8,6 +8,10 @@ canonifyurls = true
 
 [params]
   # themeColor = "theme-base-0d"
+  # If false display full article contents in blog index.
+  # Otherwise show description and 'read on' link to individual blog post page.
+  # Default (if omitted) is true.
+  truncate = true
   tagline = "I love building things. Made in California. Family man, technologist and Hacker News aficionado. Eternally curious."
   disqusShortname = "danstroot"
   gravatarHash = "b6e0ed5e10ea91f67808629f4ae109f2"
@@ -18,3 +22,8 @@ canonifyurls = true
 
 [author]
   name = "Dan Stroot"
+
+[permalinks]
+  # Optional. Change the permalink format for the 'post' content type.
+  # The format shown here is the same one Jekyll/Octopress uses by default.
+  post = "/blog/:year/:month/:day/:title/"
