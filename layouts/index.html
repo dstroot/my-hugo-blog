@@ -32,11 +32,11 @@
 
       {{ if gt $paginator.TotalPages 1 }}
       <ul class="pagination">
-          {{ with $paginator.First }}
+          <!-- {{ with $paginator.First }}
           <li>
               <a href="{{ .URL }}" aria-label="First"><span aria-hidden="true">&laquo;&laquo;</span></a>
           </li>
-          {{ end }}
+          {{ end }} -->
           <li
           {{ if not $paginator.HasPrev }}class="disabled"{{ end }}>
           <a href="{{ if $paginator.HasPrev }}{{ $paginator.Prev.URL }}{{ end }}" aria-label="Previous"><span aria-hidden="true">&laquo;</span></a>
@@ -49,11 +49,11 @@
           {{ if not $paginator.HasNext }}class="disabled"{{ end }}>
           <a href="{{ if $paginator.HasNext }}{{ $paginator.Next.URL }}{{ end }}" aria-label="Next"><span aria-hidden="true">&raquo;</span></a>
           </li>
-          {{ with $paginator.Last }}
+          <!-- {{ with $paginator.Last }}
           <li>
               <a href="{{ .URL }}" aria-label="Last"><span aria-hidden="true">&raquo;&raquo;</span></a>
           </li>
-          {{ end }}
+          {{ end }} -->
       </ul>
       {{ end }}
 

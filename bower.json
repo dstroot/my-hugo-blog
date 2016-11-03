@@ -1,0 +1,29 @@
+{
+  "name": "danstroot.com",
+  "version": "0.0.1",
+  "authors": [
+    "Dan Stroot <dan.stroot@gmail.com>"
+  ],
+  "description": "Dan Stroot Personal Blog",
+  "main": "index.html",
+  "keywords": [
+    "Dan Stroot"
+  ],
+  "license": "MIT",
+  "homepage": "http://danstroot.com",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.2.0",
+    "date.format": "~1.2.3",
+    "uri.js": "~1.13.2",
+    "totop.js": "~0.0.4",
+    "unveil": "~1.3.0",
+    "font-awesome": "~4.1.0",
+    "lunr.js": "~0.5.4"
+  }
+}

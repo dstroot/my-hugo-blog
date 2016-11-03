@@ -45,6 +45,10 @@ html {
   }
 }
 
+li.disabled {
+  display: none;
+}
+
 
 /*
  * Sidebar
