@@ -2,7 +2,7 @@ baseurl = "http://dstroot.github.io/my-hugo-blog/"
 publishdir = "docs"
 title = "Dan Stroot"
 languageCode = "en-us"
-theme = "hyde"
+theme = "hyde-x"
 paginate = 5
 canonifyurls = true
 
