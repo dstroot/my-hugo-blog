@@ -137,13 +137,28 @@ In addition I think Jay has a great handle on <strong>the key issue</strong>.  M
 
 
 
+
 <script>
-  document.body.onload = function() {
-    var link = document.createElement('link');
-    link.rel = 'stylesheet';
-    link.href='https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,700|Titillium+Web:200';
-    document.head.appendChild(link);
-  }
+function loadStyles (url) {
+  return new Promise(function (resolve, reject) {
+    var xhr = new XMLHttpRequest();
+    xhr.returnType = 'text';
+    xhr.onload = function () {
+      var link = document.createElement('link');
+      link.rel = 'stylesheet';
+      link.href = url;
+      document.head.appendChild(link);
+      resolve();
+    };
+    xhr.onerror = reject;
+    xhr.open('get', url);
+    xhr.send();
+  });
+}
+
+
+
+loadStyles('https://fonts.googleapis.com/css?family=Titillium+Web:200');
 </script>
 
 

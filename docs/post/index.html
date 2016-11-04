@@ -78,15 +78,15 @@
     <ul class="posts">
         
         <li>
-          <span><a href="http://dstroot.github.io/my-hugo-blog/post/microsoft-surface-studio-is-mindblowing/">Microsoft Surface Studio is Mindblowing</a> <time class="pull-right post-list">Sun, Oct 30, 2016</time></span>
+          <span><a href="http://dstroot.github.io/my-hugo-blog/blog/2016/10/30/microsoft-surface-studio-is-mindblowing/">Microsoft Surface Studio is Mindblowing</a> <time class="pull-right post-list">Sun, Oct 30, 2016</time></span>
         </li>
         
         <li>
-          <span><a href="http://dstroot.github.io/my-hugo-blog/post/free-to-believe-anything/">Free to Believe Anything</a> <time class="pull-right post-list">Sat, Oct 29, 2016</time></span>
+          <span><a href="http://dstroot.github.io/my-hugo-blog/blog/2016/10/29/free-to-believe-anything/">Free to Believe Anything</a> <time class="pull-right post-list">Sat, Oct 29, 2016</time></span>
         </li>
         
         <li>
-          <span><a href="http://dstroot.github.io/my-hugo-blog/post/2015-10-03-Proprietary%20software-is-an-unsafe-building-material/">Proprietary Software is an Unsafe Building Material</a> <time class="pull-right post-list">Sat, Oct 3, 2015</time></span>
+          <span><a href="http://dstroot.github.io/my-hugo-blog/blog/2015/10/03/proprietary-software-is-an-unsafe-building-material/">Proprietary Software is an Unsafe Building Material</a> <time class="pull-right post-list">Sat, Oct 3, 2015</time></span>
         </li>
         
         <li>
@@ -242,7 +242,7 @@
         </li>
         
         <li>
-          <span><a href="http://dstroot.github.io/my-hugo-blog/post/2010-01-15-lessons-from-haiti/">Lessons from Haiti - Never Under Estimate Ease of Use</a> <time class="pull-right post-list">Fri, Jan 15, 2010</time></span>
+          <span><a href="http://dstroot.github.io/my-hugo-blog/blog/2010/01/15/lessons-from-haiti---never-under-estimate-ease-of-use/">Lessons from Haiti - Never Under Estimate Ease of Use</a> <time class="pull-right post-list">Fri, Jan 15, 2010</time></span>
         </li>
         
     </ul>
@@ -250,13 +250,28 @@
 
 
 
+
 <script>
-  document.body.onload = function() {
-    var link = document.createElement('link');
-    link.rel = 'stylesheet';
-    link.href='https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,700|Titillium+Web:200';
-    document.head.appendChild(link);
-  }
+function loadStyles (url) {
+  return new Promise(function (resolve, reject) {
+    var xhr = new XMLHttpRequest();
+    xhr.returnType = 'text';
+    xhr.onload = function () {
+      var link = document.createElement('link');
+      link.rel = 'stylesheet';
+      link.href = url;
+      document.head.appendChild(link);
+      resolve();
+    };
+    xhr.onerror = reject;
+    xhr.open('get', url);
+    xhr.send();
+  });
+}
+
+
+
+loadStyles('https://fonts.googleapis.com/css?family=Titillium+Web:200');
 </script>
 
 
