@@ -38,9 +38,9 @@ var banner = [
 
 var paths = {
   clean: [
-    'assets/js/myblog*.js',
-    'assets/css/myblog*.css',
-    'assets/css/myblog*.map',
+    'static/js/myblog*.js',
+    'static/css/myblog*.css',
+    'static/css/myblog*.map',
     'docs'
   ],
   js: [
@@ -94,6 +94,37 @@ gulp.task('clean', function () {
 /**
  * Process CSS
  */
+
+gulp.task('combineCSS', function () {
+  var concatCss = require('gulp-concat-css');
+  return gulp.src('design/css/**/*.css')
+    .pipe(concatCss("bundle.css"))
+    .pipe(gulp.dest('static/css/'));
+});
+
+gulp.task('postCSS', function () {
+  var postcss      = require('gulp-postcss');
+  var sourcemaps   = require('gulp-sourcemaps');
+  var autoprefixer = require('autoprefixer');
+  var cssnano      = require('cssnano');
+
+  var processors = [
+    autoprefixer({browsers: ['last 1 version']}),
+    cssnano(),
+  ];
+
+  return gulp.src('static/css/bundle.css')
+    .pipe(sourcemaps.init())
+    .pipe(postcss(processors))
+    .pipe(sourcemaps.write('.'))
+    .pipe(gulp.dest('static/css/'));
+});
+
+
+
+
+
+
 
 // Return the stream so that gulp knows the task is asynchronous
 // and waits for it to terminate before starting dependent tasks.
