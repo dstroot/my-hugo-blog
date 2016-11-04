@@ -1,20 +1,20 @@
 <div class="sidebar">
   <div class="container sidebar-sticky">
-
     <div class="sidebar-about">
       {{ if isset .Site.Params "gravatarHash" }}
-        <img src="https://www.gravatar.com/avatar/{{ .Site.Params.gravatarHash }}?s=200" srcset="https://www.gravatar.com/avatar/{{ .Site.Params.gravatarHash }}?s=400 2x" alt="gravatar" title="{{ .Site.Author.name }}">
+        <a href="/"><img src="https://www.gravatar.com/avatar/{{ .Site.Params.gravatarHash }}?s=200"
+             alt="gravatar" title="{{ .Site.Author.name }}"></a>
       {{ end }}
-      <h1>{{ .Site.Author.name }}</h1>
+      <a href="/"><h1>{{ .Site.Author.name }}</h1></a>
       {{ with .Site.Params.tagline }}<p class="lead">{{ . | markdownify }}</p>{{ end }}
     </div>
 
-    <!-- <div class="sidebar-about">
-      <a href="{{ .Site.BaseURL }}"><h1>{{ .Site.Title }}</h1></a>
-      <p class="lead">
-      {{ with .Site.Params.description }} {{.}} {{ else }}An elegant open source and mobile first theme for <a href="http://hugo.spf13.com">hugo</a> made by <a href="http://twitter.com/mdo">@mdo</a>. Originally made for Jekyll.{{end}}
-      </p>
-    </div> -->
+    <!-- <ul class="sidebar-nav">
+      <li class="sidebar-nav-item"><a href="{{ "/" | absURL }}">{{ if isset .Site.Params "home"}}{{ .Site.Params.home }}{{ else }}Blog{{ end }}</a></li>
+      {{ range .Site.Menus.main }}
+      <li class="sidebar-nav-item">{{ .Pre }}<a href="{{ .URL | absURL }}">{{ .Name }}</a></li>
+      {{end}}
+    </ul> -->
 
     <ul class="sidebar-nav">
       <li class="sidebar-nav-item">
@@ -30,13 +30,23 @@
       </li>
     </ul>
 
-    <!-- <ul class="sidebar-nav">
-      <li><a href="/">Home</a> </li>
-      {{ range .Site.Menus.main }}
-        <li><a href="{{.URL}}"> {{ .Name }} </a></li>
-      {{end}}
-    </ul> -->
+    <!-- {{ if isset .Site.Params "flattr" }}
+    <p><script id='flattr'>
+      (function(id){
+        var s = document.getElementById(id);
+        var f = document.createElement('iframe');
+        f.src = '//api.flattr.com/button/view/?uid={{ .Site.Params.flattr }}&button=compact&url={{ "/" | absURL }}&title={{ .Site.Title }}';
+        f.title = 'Flattr';
+        f.height = 20;
+        f.width = 110;
+        f.style.borderWidth = 0;
+        s.parentNode.insertBefore(f, s);
+      })('flattr');
+    </script></p>
+    {{ end }} -->
 
-    <p>{{ with .Site.Params.copyright }}{{.}}{{ else }}&copy; {{.Now.Format "2006"}}. All rights reserved. {{end}}</p>
+    <p>Copyright &copy; {{ .Now.Format "2006" }}</p>
+    <!-- <p><a href="{{ "/license/" | absURL }}">License</a><br/>
+       Powered by <a href="http://gohugo.io">Hugo</a> and <a href="https://github.com/zyro/hyde-x">Hyde-X</a></p> -->
   </div>
 </div>

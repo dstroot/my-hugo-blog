@@ -80,14 +80,16 @@ a:focus {
 /* Headings */
 h1, h2, h3, h4, h5, h6 {
   margin-bottom: .5rem;
-  font-weight: bold;
+  /*font-weight: bold;*/
+  font-weight: normal;
   line-height: 1.25;
-  color: #313131;
-  font-family: 'Titillium Web', sans-serif;
+  color: #515151;  /*#313131;*/
+  /*font-family: 'Titillium Web', sans-serif;*/
   text-rendering: optimizeLegibility;
 }
 h1 {
   font-size: 2rem;
+  font-family: 'Titillium Web', sans-serif;
 }
 h2 {
   margin-top: 1rem;
@@ -325,6 +327,8 @@ tbody tr:nth-child(odd) th {
   margin-top: -.5rem;
   margin-bottom: 1rem;
   color: #9a9a9a;
+  /*margin-top: 10px;*/
+  font-size: .75rem;
 }
 
 /* Related posts */
@@ -367,6 +371,11 @@ tbody tr:nth-child(odd) th {
   font-family: "PT Sans", Helvetica, Arial, sans-serif;
   color: #ccc;
   text-align: center;
+  display: inline-block;
+}
+
+.pagination > li {
+  display: inline;
 }
 
 /* Pagination items can be `span`s or `a`s */

@@ -1,0 +1,27 @@
+{{ if isset .Site.Params "highlight" }}<script src="{{ "/js/highlight.pack.js" | absURL }}"></script>
+<script>hljs.initHighlightingOnLoad();</script>{{ end }}
+<!-- <script>
+  document.body.onload = function() {
+    var xhr = new XMLHttpRequest();
+    var url = 'https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,700|Titillium+Web:200';
+
+    xhr.open('GET', url, true);
+    xhr.onreadystatechange = function () {
+      if (xhr.readyState == 4 && xhr.status == 200) {
+        var style = document.createElement('style');
+        style.innerHTML = xhr.responseText;
+        document.head.appendChild(style);
+      }
+    };
+    xhr.send();
+
+  }
+</script> -->
+<script>
+  document.body.onload = function() {
+    var link = document.createElement('link');
+    link.rel = 'stylesheet';
+    link.href='https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,700|Titillium+Web:200';
+    document.head.appendChild(link);
+  }
+</script>
