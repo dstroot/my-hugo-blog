@@ -32,7 +32,12 @@
  */
 
 html {
-  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  /*font-family: "Open Sans", Helvetica, Arial, sans-serif;*/
+  /*https://www.smashingmagazine.com/2015/11/using-system-ui-fonts-practical-guide/*/
+  font-family: -apple-system, BlinkMacSystemFont,
+    "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell",
+    "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
 }
 @media (min-width: 48em) {
   html {
@@ -86,7 +91,7 @@ li.disabled {
 .sidebar-about h1 {
   color: #fff;
   margin-top: 0;
-  font-family: 'Titillium Web', sans-serif;
+  /*font-family: 'Titillium Web', sans-serif;*/
   font-size: 3rem;
 }
 
