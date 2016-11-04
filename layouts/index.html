@@ -23,7 +23,7 @@
         <a href="{{ .Permalink }}">Read On &rarr;</a>
         {{ else }}
         {{ .Summary }}
-        {{ if .Truncated }}<a href="{{ .Permalink }}">Read On &rarr;</a>{{ end }}
+        {{ if .Truncated }}<a href="{{ .Permalink }}">Read More <i class="fa fa-chevron-circle-right"></i></a>{{ end }}
         {{ end }}
       </div>
       {{ end }}
@@ -39,15 +39,16 @@
           {{ end }} -->
           <li
           {{ if not $paginator.HasPrev }}class="disabled"{{ end }}>
-          <a href="{{ if $paginator.HasPrev }}{{ $paginator.Prev.URL }}{{ end }}" aria-label="Previous"><span aria-hidden="true">&laquo;</span></a>
+          <a href="{{ if $paginator.HasPrev }}{{ $paginator.Prev.URL }}{{ end }}" aria-label="Previous"><span aria-hidden="true"><i class="fa fa-chevron-circle-left"></i> Newer Posts</span></a>
           </li>
+
           <!-- {{ range $paginator.Pagers }}
           <li
           {{ if eq . $paginator }}class="active"{{ end }}><a href="{{ .URL }}">{{ .PageNumber }}</a></li>
           {{ end }} -->
           <li
           {{ if not $paginator.HasNext }}class="disabled"{{ end }}>
-          <a href="{{ if $paginator.HasNext }}{{ $paginator.Next.URL }}{{ end }}" aria-label="Next"><span aria-hidden="true">&raquo;</span></a>
+          <a href="{{ if $paginator.HasNext }}{{ $paginator.Next.URL }}{{ end }}" aria-label="Next"><span aria-hidden="true"> Older Posts <i class="fa fa-chevron-circle-right"></i></span></a>
           </li>
           <!-- {{ with $paginator.Last }}
           <li>
