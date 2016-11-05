@@ -4,7 +4,9 @@
 
     <div class="myface">
       <a href="/">
-        <img class="img-circle" src="https://www.gravatar.com/avatar/{{ .Site.Params.gravatarHash }}.png?s=256" alt="{{ .Site.Author.name }}" height="128" width="128" />
+
+        <img src="/img/face_sm.jpeg" srcset="/img/face_lg.jpeg 2x" alt="{{ .Site.Author.name }}" height="150" width="150">
+        <!-- <img class="img-circle" src="https://www.gravatar.com/avatar/{{ .Site.Params.gravatarHash }}.png?s=256" alt="{{ .Site.Author.name }}" height="128" width="128" /> -->
         <i class="fa fa-home"></i>
       </a>
     </div>
