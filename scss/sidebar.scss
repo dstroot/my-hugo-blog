@@ -16,7 +16,7 @@
    display: block;
  }
  .myface img {
-   display: block;
+   display: none;
    transition: opacity .2s linear;
    margin-left: auto;
    margin-right: auto
@@ -35,9 +35,7 @@
    color: #fff;
    text-shadow: 0 0 3rem rgba(0,0,0,.15);
    opacity: 0;
-   -webkit-transform: translateY(-50%);
-       -ms-transform: translateY(-50%);
-           transform: translateY(-50%);
+   transform: translateY(-50%);
    transition: opacity .2s linear;
    transition-delay: .05s;
  }
@@ -62,6 +60,9 @@
     // text-align: left;
   }
   .sidebar-about img {
+    display: block !important;
+  }
+  .myface img {
     display: block !important;
   }
 }

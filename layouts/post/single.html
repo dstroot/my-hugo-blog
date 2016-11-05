@@ -29,8 +29,7 @@
   {{ end }}
 
   {{ if and (isset .Site.Params "disqusShortname") (ne .Site.Params.disqusShortname "") }}
-    <h2>Comments</h2>
-    {{ partial "disqus" . }}
+    {{ partial "disqus.html" . }}
   {{ end }}
 
 {{ partial "footer.html" . }}
