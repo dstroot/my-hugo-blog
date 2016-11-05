@@ -70,7 +70,7 @@ var paths = {
   ],
   html: [
     'docs/**/*.html',
-    '!docs/assets/lib/**/*.html'   // ignore
+    '!docs/lib/**/*.html'   // ignore
   ],
   css: [
     'assets/css/myblog.css',               // Main CSS file built from main.less
@@ -107,13 +107,15 @@ gulp.task('postCSS', function () {
   var sourcemaps   = require('gulp-sourcemaps');
   var autoprefixer = require('autoprefixer');
   var cssnano      = require('cssnano');
+  var sass         = require('gulp-sass');
 
   var processors = [
-    autoprefixer({browsers: ['last 1 version']}),
-    cssnano(),
+    autoprefixer({browsers: ['last 2 versions']}),
+    cssnano({safe: true}),
   ];
 
-  return gulp.src('static/css/bundle.css')
+  return gulp.src('_sass/styles.scss')
+    .pipe(sass())
     .pipe(sourcemaps.init())
     .pipe(postcss(processors))
     .pipe(sourcemaps.write('.'))
@@ -229,7 +231,7 @@ gulp.task('jekyll', function (cb) {
 gulp.task('htmlhint', function () {
   return gulp.src(paths.html)
     .pipe($.htmlhint())
-    .pipe($.htmlhint.reporter())
+    .pipe($.htmlhint.reporter());
 });
 
 
@@ -268,7 +270,7 @@ gulp.task('s3', function (cb) {
     console.log(stderr);
     cb(err);  // finished task
   });
-})
+});
 
 
 // var s3 = require('gulp-s3-upload')({
@@ -300,7 +302,7 @@ gulp.task('htmlminify', function () {
       removeComments: true,
       minifyJS: true
     }))
-    .pipe(gulp.dest('./_site'))
+    .pipe(gulp.dest('./docs'));
 });
 
 /**
