@@ -5,19 +5,12 @@ date: '2011-06-10'
 published: true
 tags: null
 title: The Corporate iCloud
-url: /2011/06/10/corporate-icloud
 ---
 
+![iCloud](/img/icloud2.jpg)
 
-<div class="row">
-  <div class="col-md-5">
-    <img class="lazy img-rounded img-responsive" src="data:image/gif;base64,R0lGODlhAQABAIABAP///wAAACwAAAAAAQABAAACAkQBADs=" alt="iCloud" data-src="/assets/img/icloud2.jpg">
-  </div>
-  <div class="col-md-7">
-      <br>
-      <p>Apple’s announcements at this year’s WWDC keynote will have far reaching effects.  Much has already been written about the impacts to you and me as consumers of Apple products.  But let’s stop and think for a moment about how this will affect our perceptions about technology, and how that will translate into the corporate IT space.</p>
-  </div>
-</div>
+>Apple’s announcements at this year’s WWDC keynote will have far reaching effects.  Much has already been written about the impacts to you and me as consumers of Apple products.  But let’s stop and think for a moment about how this will affect our perceptions about technology, and how that will translate into the corporate IT space.
+
 <!--more-->
 
 ### Apple’s Vision

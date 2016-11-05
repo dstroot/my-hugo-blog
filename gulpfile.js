@@ -2,6 +2,14 @@
 
 // Install: you must install gulp both globally *and* locally.
 // Make sure you `$ npm install -g gulp`
+//
+//
+// Steps:
+// 1) compile scss to css
+// 2) inline css to head partial
+// 3) build hugo
+// 4) run HTML hint
+// 4) minify HTML
 
 /**
  * Dependencies
@@ -117,8 +125,12 @@ gulp.task('postCSS', function () {
   return gulp.src('scss/styles.scss')
     .pipe(sourcemaps.init())
     .pipe(sass())
+    .pipe(gulp.dest('./static/css'))        // Save CSS here
+    .pipe($.rename({ suffix: '.min' }))     // Add .min suffix
     .pipe(postcss(processors))
-    .pipe(sourcemaps.write('.'))
+    // .pipe($.header(banner, { pkg : pkg }))  // Add banner
+    .pipe($.size({ title: 'CSS:' }))        // What size are we at?
+    // .pipe(sourcemaps.write('.'))
     .pipe(gulp.dest('static/css/'));
 });
 
@@ -176,7 +188,7 @@ gulp.task('scripts', function () {
  */
 
 gulp.task('images', function () {
-  return gulp.src('assets/img/*.{png,jpg,gif}')
+  return gulp.src('static/img/*.{png,jpg,gif}')
     .pipe($.changed('./assets/img'))        // Only process new/changed
     .pipe($.imagemin({                      // Compress images
       progressive: true,   // JPG
@@ -213,10 +225,10 @@ gulp.task('jscs', function () {
 });
 
 /**
- * Jekyll
+ * Hugo
  */
 
-gulp.task('jekyll', function (cb) {
+gulp.task('hugo', function (cb) {
   exec('hugo', function (err, stdout, stderr) {
     console.log(stdout);
     console.log(stderr);
@@ -314,7 +326,7 @@ gulp.task('build', function (cb) {
   runSequence(
     'clean',
     ['styles', 'scripts', 'images'],
-    'jekyll',
+    'hugo',
     'htmlhint',
     'htmlminify',
     cb);
@@ -329,17 +341,3 @@ gulp.task('default', ['build'], function () {
   gulp.watch(paths.js, ['scripts']);
   gulp.watch('assets/img/**/*', ['images']);
 });
-
-/**
- * Run PageSpeed Insights
- */
-
-// By default, we use the PageSpeed Insights
-// free (no API key) tier. You can use a Google
-// Developer API key if you have one. See
-// http://goo.gl/RkN0vE for info key: 'YOUR_API_KEY'
-
-gulp.task('pagespeed', pagespeed.bind(null, {
-  url: 'http://danstroot.com',  // http://danstroot.com.s3-website-us-east-1.amazonaws.com/
-  strategy: 'desktop'
-}));

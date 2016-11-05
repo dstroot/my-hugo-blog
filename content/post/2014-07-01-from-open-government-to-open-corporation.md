@@ -8,29 +8,29 @@ title: From 'Open Government' to 'Open Corporation'
 url: /2014/07/01/from-open-government-to-open-corporation
 ---
 
-
-<img class="lazy img-rounded img-responsive" src="data:image/gif;base64,R0lGODlhAQABAIABAP///wAAACwAAAAAAQABAAACAkQBADs=" alt="Open Data" data-src="/assets/img/data_gov.png" width="750">
+![Digital Playbook](/img/data_gov.png)
 
 ## Let's Talk About Open Government First
 
 President Barack Obama, on his first day in office in 2009, signed an executive order stating that all government information that did not have to be kept secret for security or privacy reasons should be made public. The administration also launched the Open Data Initiative to publish government data and the [data.gov](http://www.data.gov/) website to distribute the data.
 
-> My Administration is committed to creating an unprecedented level of openness in Government. We will work together to ensure the public trust and establish a system of transparency, public participation, and collaboration. Openness will strengthen our democracy and promote efficiency and effectiveness in Government. 
+> My Administration is committed to creating an unprecedented level of openness in Government. We will work together to ensure the public trust and establish a system of transparency, public participation, and collaboration. Openness will strengthen our democracy and promote efficiency and effectiveness in Government.
 >
->    _- [President Barack Obama, January 21, 2009](http://www2.gwu.edu/~nsarchiv/news/20090121/2009_transparency_memo.pdf)_
+> _- [President Barack Obama, January 21, 2009](http://www2.gwu.edu/~nsarchiv/news/20090121/2009_transparency_memo.pdf)_
 
 <!--more-->
+
 Huge strides have been made by the "Open Government" movement. Today:
 
 * Citizens and government leaders alike now expect government data to be accessible, transparent and machine-readable.
-* Further, 67.9 percent of people surveyed believe that “Government data is the property of taxpayers and should be free to all citizens.” 
+* Further, 67.9 percent of people surveyed believe that “Government data is the property of taxpayers and should be free to all citizens.”
 * By a margin of three to one people said they are more likely to vote for politicians who champion data transparency.
 
 ### It's progressed far quicker than we expected
 
-1. The United States Government maintains its [Open Data Policy](https://github.com/project-open-data/project-open-data.github.io) on GitHub! Anyone can fork the policy, edit it, and submit a pull request to have their edits adopted in a fully open process, exactly like creating open source software. 
-2. Open data is a global movement. More than 40 countries — from every region of the world and at every stage of development — have established open data initiatives. These nations are opening up all kinds of data sets to promote economic development, spark innovation, and find ways to make government operate better. India has released 3,500 data 
-sets, mostly of agricultural information. Singapore has shared 8,600 data sets 
+1. The United States Government maintains its [Open Data Policy](https://github.com/project-open-data/project-open-data.github.io) on GitHub! Anyone can fork the policy, edit it, and submit a pull request to have their edits adopted in a fully open process, exactly like creating open source software.
+2. Open data is a global movement. More than 40 countries — from every region of the world and at every stage of development — have established open data initiatives. These nations are opening up all kinds of data sets to promote economic development, spark innovation, and find ways to make government operate better. India has released 3,500 data
+sets, mostly of agricultural information. Singapore has shared 8,600 data sets
 from 60 public agencies, and just this year Australian budget data was made available in machine-readable form.
 3. The International Organization for Standardization (ISO) has published a set of standards ([ISO 37120](https://www.iso.org/obp/ui/#iso:std:iso:37120:ed-1:v1:en)) that specifies the relevant metrics for city services and quality of life. This will let researchers and citizens evaluate any city based on a uniform set of metrics. Furthermore, ISO 37120 confirms and accelerates the momentum of the open data movement and now provides a common framework within which all cities can participate. It is a gateway to smarter cities (and citizens).
 4. Cities have embraced the open government movement and opened up their data to the public. Here are some examples:
@@ -79,18 +79,18 @@ Platforms have sprung up to support the open government movement. [Socrata](http
 
 ## The "Open Data" Corporation
 
-Open data is fast becoming a defining theme for business. 
+Open data is fast becoming a defining theme for business.
 
 * We all know that data is essential for management decision-making and strategic insight.
-* Enlightened organizations understand that data is a strategic corporate asset and foundational to operational excellence. 
+* Enlightened organizations understand that data is a strategic corporate asset and foundational to operational excellence.
 * Companies understand that internal clarity and efficiency requires "a single version of the truth", and making data accessible is one of the first steps on this journey.
 * Integrated data from open sources and social media now allows a 360-degree view of customers, suppliers, products and markets and can generate new product ideas.
 
 But how many companies today are committed to open data across the enterprise, or know how to implement an open data initiative? Many organizations still behave as if data is a by-product of the systems that generate and use it, and nothing more.  The data stays locked into those systems and is inaccessible to those without a seat license.  
 
 Some organizations are "shy" about sharing actual business performance data openly with their employees. This breeds mistrust of course.  Some departments may not like openly sharing their data and metrics (what _is_ the average time to resolve a customer complaint?). Some people like to hoard data, giving them power in the organization.
- 
-The idea that unlocking value requires open data, and open data deserves deliberate investment, resources, headcount, and technology support – just like a company’s other corporate assets – is starting to sound like common sense. 
+
+The idea that unlocking value requires open data, and open data deserves deliberate investment, resources, headcount, and technology support – just like a company’s other corporate assets – is starting to sound like common sense.
 
 #### Why not have an enterprise architecture that is defined by **data** instead of **services**?
 
@@ -98,16 +98,16 @@ In the past we have made several runs at enterprise architectures that were defi
 
 Some challenges of this approach:
 
-* It went against the trend towards buying sofware instead of building it - if I buy SAP what services does it expose?  Do I have to build my own services _on top of SAP_? If so, what happens when I upgrade SAP and the data model changes? 
+* It went against the trend towards buying sofware instead of building it - if I buy SAP what services does it expose?  Do I have to build my own services _on top of SAP_? If so, what happens when I upgrade SAP and the data model changes?
 * Service discovery and reuse are hard problems in large environments, and it is also hard to maintain coherence and integrity of services. Metadata is necessary, like a catalogue, to perform discovery of services.
 * Processes that require managing application or process "state" are difficult to build.
 * Initially there were many technical ways to build services - starting with Remote Procedure Calls (RPC), then Java Business Integration (JBI), Windows Communication Foundation (WCF) and data distribution service (DDS) and Simple Object Oriented Protocol (SOAP), which led us to concept of "Web Services" and the Web Services Description Language (WSDL). In short, a mess.
 
 Why not invert the concept of services and start with data? Instead of starting with the concept of a customer object and then designing services to update the object lets just buy some licenses of [Salesforce.com](http://www.salesforce.com/).  Now I have all the "services" I need to manage customer data.  The challenge is how do I share that data with other applications in the company, or people without Salesforce seat licenses?
 
-Today on the web we generally use the REST (REpresentational State Transfer) design pattern. This means that the CRUD (Create, Read, Update, and Delete) operations are specified by using HTTP methods to create APIs.  We can consume these APIs in applications or websites with technologies like AJAX.  A catalog and metadata is necessary, and this catalog must be usable by both humans and machines. 
+Today on the web we generally use the REST (REpresentational State Transfer) design pattern. This means that the CRUD (Create, Read, Update, and Delete) operations are specified by using HTTP methods to create APIs.  We can consume these APIs in applications or websites with technologies like AJAX.  A catalog and metadata is necessary, and this catalog must be usable by both humans and machines.
 
-In the example above we would use the [Salesforce REST API](https://www.salesforce.com/us/developer/docs/api_rest/).  If we were to take other datasets in the company, particularly those without REST APIs, and make them available in an online catalog like [Socrata's](http://www.socrata.com/) we then get a REST API "built-in". Now the data is both discoverable and usable anywhere in the organization! 
+In the example above we would use the [Salesforce REST API](https://www.salesforce.com/us/developer/docs/api_rest/).  If we were to take other datasets in the company, particularly those without REST APIs, and make them available in an online catalog like [Socrata's](http://www.socrata.com/) we then get a REST API "built-in". Now the data is both discoverable and usable anywhere in the organization!
 
 It has been notoriously difficult to share and integrate data across an enterpise and using a data-centric approach and REST APIs may be an answer.  
 
@@ -115,20 +115,20 @@ It has been notoriously difficult to share and integrate data across an enterpis
 
 #### Leaders are more trusted
 
-We know people are more likely to vote for politicians who who champion data transparency, but guess what? People are also more like to trust and follow leaders who who champion data transparency inside their organizations. 
+We know people are more likely to vote for politicians who who champion data transparency, but guess what? People are also more like to trust and follow leaders who who champion data transparency inside their organizations.
 
 #### Organizations perform better
 
-Open data can, and should be, linked to strategic goals.  Are your organizations goals transparent?  Are the metrics supporting those goals transparent?  Is the actual data of the performance of the company against those goals shared openly across the firm? 
+Open data can, and should be, linked to strategic goals.  Are your organizations goals transparent?  Are the metrics supporting those goals transparent?  Is the actual data of the performance of the company against those goals shared openly across the firm?
 
 Too many organizations create grandiose plans and goals that make for wonderful slideware.  When it comes to tying them to hard metrics and then rigourously and publicly sharing progress many fall short.  This means inside the organization the "chaos of competing priorities" continues and the company lacks focus and ultimately performance.
 
 #### Value is unlocked
 
 * Open data can bring fresh insights into how companies operate and help management identify and eliminate "the sand in the gears" and other barriers to productivity.
-* Companies can choose to share proprietary data to create benchmarks that can improve overall industry performance. 
-* Using open data, such as customer discussions on social media, companies can refine product requirements and create new products and services. 
-* Companies can even consider ways in which to monetize the value of their data. 
+* Companies can choose to share proprietary data to create benchmarks that can improve overall industry performance.
+* Using open data, such as customer discussions on social media, companies can refine product requirements and create new products and services.
+* Companies can even consider ways in which to monetize the value of their data.
 
 ### A few words about information security
 
@@ -142,12 +142,12 @@ Finally, REST API's are able to be secured, usually via a key or OAuth athentica
 
 Think about how open data could apply to your business:
 
-* Do you know what the key operational metrics of your company are? 
+* Do you know what the key operational metrics of your company are?
 * How transparent are those metrics?
 * Do you know which datasets support those metrics?
-* Do you know all the data that is available in your company? Is there a catalog of datasets? 
-* Do you know who is _responsible_ for the data (i.e. the data owner or steward)? 
-* How accessible is the data? 
+* Do you know all the data that is available in your company? Is there a catalog of datasets?
+* Do you know who is _responsible_ for the data (i.e. the data owner or steward)?
+* How accessible is the data?
 * Can data be explicitly shared, and when shared, can the dataset owner/publisher specify the role for each grantee - editor, viewer, etc.?
 * If data cannot be shared do we at least know who "owns" or is responsible for it?
 * Is it available for download in any reasonable format needed?  

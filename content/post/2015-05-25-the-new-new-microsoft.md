@@ -8,8 +8,7 @@ title: The 'New' New Microsoft
 url: /2015/05/25/the-new-new-microsoft
 ---
 
-
-<img class="lazy img-rounded img-responsive" src="data:image/gif;base64,R0lGODlhAQABAIABAP///wAAACwAAAAAAQABAAACAkQBADs=" alt="Open Data" data-src="/assets/img/satya-nadella-microsoft-ceo.jpg" width="750">
+![Microsoft](/img/satya-nadella-microsoft-ceo.jpg)
 
 I've been a fan of Microsoft during my whole technical career.
 

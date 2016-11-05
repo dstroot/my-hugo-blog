@@ -44,7 +44,7 @@
           {{ end }} -->
           <li
           {{ if not $paginator.HasPrev }}class="disabled"{{ end }}>
-          <a href="{{ if $paginator.HasPrev }}{{ $paginator.Prev.URL }}{{ end }}" aria-label="Previous"><span aria-hidden="true"><i class="fa fa-chevron-circle-left"></i> Newer Posts</span></a>
+          <a href="{{ if $paginator.HasPrev }}{{ $paginator.Prev.URL }}{{ end }}" aria-label="Previous"><i class="fa fa-chevron-circle-left"></i> Newer Posts</a>
           </li>
 
           <!-- {{ range $paginator.Pagers }}
@@ -53,7 +53,7 @@
           {{ end }} -->
           <li
           {{ if not $paginator.HasNext }}class="disabled"{{ end }}>
-          <a href="{{ if $paginator.HasNext }}{{ $paginator.Next.URL }}{{ end }}" aria-label="Next"><span aria-hidden="true"> Older Posts <i class="fa fa-chevron-circle-right"></i></span></a>
+          <a href="{{ if $paginator.HasNext }}{{ $paginator.Next.URL }}{{ end }}" aria-label="Next">Older Posts <i class="fa fa-chevron-circle-right"></i></a>
           </li>
           <!-- {{ with $paginator.Last }}
           <li>

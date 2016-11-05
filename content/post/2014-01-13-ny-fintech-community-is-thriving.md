@@ -2,20 +2,19 @@
 author: dan
 categories: null
 date: '2014-01-13'
-description: 'Reading up on the MEAN stack: Mongo, Express, Angular & Node'
 published: true
 tags: null
 title: NY FinTech Community is Thriving
-url: /2014/01/13/ny-fintech-community-is-thriving
 ---
 
-
-<img class="lazy img-rounded img-responsive" src="data:image/gif;base64,R0lGODlhAQABAIABAP///wAAACwAAAAAAQABAAACAkQBADs=" alt="FX Trading UI" data-src="/assets/img/new-ui.jpg" width="750">
+![FX Trading UI](/img/new-ui.jpg)
 
 I was reading up on the "MEAN" stack: Mongo, Express, Angular and Node and came across a blog post from [Francesca Krihely](http://francescak.me/blog/2013/04/09/fintech-hackathon-recap/) about the FinTech hackathon in NY from back in April, 2013.  
 
-This interested me because as a former "insider" in a large financial services company I can see clearly how open source code and tooling is replacing more proprietry code and tooling (for example .net/visual studio) but it requires an entirely different skill set for internal developers. 
+This interested me because as a former "insider" in a large financial services company I can see clearly how open source code and tooling is replacing more proprietry code and tooling (for example .net/visual studio) but it requires an entirely different skill set for internal developers.
+
 <!--more-->
+
 For the corporate economics to work the cost of the "new" platform has to be not just lower (or more productive) than the old, but low enough to also fund the transition (i.e. reskilling or hiring of the types of developers that would be needed) as well as overcome corporate inertia. The hard part is predicting "when".
 
 I get the sense that the momentum is picking up. The NY hackathon atracted over 400 people and the apps/apis were very interesting (you can read Francesca's post for more) but all built on a modern technology stack.
@@ -87,7 +86,3 @@ Using Caplin's technology for example I can show a simple _example_ feed for App
   <p>Symbol, Bid, Ask, Volume, Net Change, Time, Last Trade</p>
   <p id="recordLog" style="color:blue"></p>
 </div>
-
-
-
-

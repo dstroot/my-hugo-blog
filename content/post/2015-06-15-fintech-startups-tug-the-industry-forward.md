@@ -8,8 +8,7 @@ title: Fintech Startups Tug the Industy Forward
 url: /2015/06/15/fintech-startups-tug-the-industry-forward
 ---
 
-
-<img class="lazy img-rounded img-responsive" src="data:image/gif;base64,R0lGODlhAQABAIABAP///wAAACwAAAAAAQABAAACAkQBADs=" alt="FinTech" data-src="/assets/img/billguard.png" width="750">
+![FinTech](/img/billguard.png)
 
 Financial services companies are among the most highly regulated industries in the world.  They also suffer from a trust issue.  Trust is a key ingredient in making a financial services business viable. Why would I ever buy insurance, banking services or invest my savings via a company that I didn’t trust?
 

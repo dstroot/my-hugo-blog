@@ -5,21 +5,13 @@ date: '2012-05-02'
 published: true
 tags: null
 title: Apple Reaches for Greatness Without Apology
-url: /2012/05/02/apple-reaches-for-greatness
 ---
 
+![Steve Jobs](/img/SteveJobsCloseUp-lg.jpg)
 
-<div class="row">
-  <div class="col-md-6">
-    <img class="lazy img-rounded img-responsive" src="data:image/gif;base64,R0lGODlhAQABAIABAP///wAAACwAAAAAAQABAAACAkQBADs=" alt="Steve Jobs" data-src="/assets/img/SteveJobsCloseUp.jpg">
-  </div>
-  <div class="col-md-6">
-    <blockquote>
-      <p>I haven’t got any sort of odd chip on my shoulder about proving anything to myself or anybody else.  And remember, though the outside world looks at success from a numerical point of view, my yardstick might be quite different than that.  My yardstick may be how every computer that’s designed from here on out will have to be at least as good as a Macintosh.</p>
-      <p>– <a href="http://www.newsweek.com/1985/09/30/jobs-talks-about-his-rise-and-fall.print.html">Steve Jobs, 1985</a></p>
-    </blockquote>
-  </div>
-</div>
+
+>I haven’t got any sort of odd chip on my shoulder about proving anything to myself or anybody else.  And remember, though the outside world looks at success from a numerical point of view, my yardstick might be quite different than that.  My yardstick may be how every computer that’s designed from here on out will have to be at least as good as a Macintosh.
+> _– <a href="http://www.newsweek.com/1985/09/30/jobs-talks-about-his-rise-and-fall.print.html">Steve Jobs, 1985</a>_
 
 <!--more-->
 
@@ -61,11 +53,11 @@ One lesson could be called the "Difference between the Janitor and the Vice Pres
 
 Jobs indoctrinates a culture of responsibility by hosting a series of weekly meetings that are the metronome that sets the beat for the entire company. On Mondays he meets with his executive management team to discuss results and strategy as well as to review nearly every important project in the company. On Wednesdays he holds a marketing and communications meeting. Simplicity breeds clarity, as Jobs himself explained in a 2008 interview with Fortune.
 
-> "Every Monday we review the whole business," he said. "We look at 
-> every single product under development. I put out an agenda. 
-> Eighty percent is the same as it was the last week, and we just 
-> walk down it every single week. We don’t have a lot of process at 
-> Apple, but that’s one of the few things we do just to all stay on 
+> "Every Monday we review the whole business," he said. "We look at
+> every single product under development. I put out an agenda.
+> Eighty percent is the same as it was the last week, and we just
+> walk down it every single week. We don’t have a lot of process at
+> Apple, but that’s one of the few things we do just to all stay on
 > the same page."
 
 The accountability mindset extends down the ranks. At Apple there is never any confusion as to who is responsible for what. Internal Applespeak even has a name for it, the "DRI,"" or directly responsible individual.  Often the DRI's name will appear on an agenda for a meeting, so everybody knows who is responsible. "Any effective meeting at Apple will have an action list," says a former employee. "Next to each action item will be the DRI." A common phrase heard around Apple when someone is trying to learn the right contact on a project: "Who's the DRI on that?"

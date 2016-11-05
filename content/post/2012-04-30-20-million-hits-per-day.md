@@ -5,11 +5,10 @@ date: '2012-04-30'
 published: true
 tags: null
 title: 20.5 Million hits a day using an Amazon Micro server ($15 a month) and Node.js
-url: /2012/04/30/20-million-hits-per-day
 ---
 
-
 I have been building a website recently just to get current with the latest web technologies and scaling.  I  saw this post on Hacker News: [10 Million hits a day with WordPress using a $15 server](http://www.ewanleith.com/blog/900/10-million-hits-a-day-with-wordpress-using-a-15-server "10 Million hits a day with WordPress using a $15 server") and was intrigued.  It was time to benchmark one of my own applications ([vizilinkz.com](http://www.vizilinkz.com/ "ViziLinkz")) since it also runs on an Amazon Micro server for now as my development/production machine.
+
 <!--more-->
 
 First, let’s get this out of the way. Amazon will throttle your micro server into the ground if you actually ran this level of traffic for an extended period of time. This [article ](http://gregsramblings.com/2011/02/07/amazon-ec2-micro-instance-cpu-steal/)explains it rather well. However this experiment still illustrates what is possible with this level of virtual hardware. If you actually have high levels of traffic then you already know a micro instance is not for you.

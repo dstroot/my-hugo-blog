@@ -5,11 +5,9 @@ date: '2013-10-30'
 published: true
 tags: null
 title: Why is Apple's Capital Expenditure up 57% for 2014?
-url: /2013/10/30/apples-astounding-capital-spending
 ---
 
-
-<img class="lazy img-rounded img-responsive" src="data:image/gif;base64,R0lGODlhAQABAIABAP///wAAACwAAAAAAQABAAACAkQBADs=" alt="Apple's Campus" data-src="/assets/img/iSpaceship.jpg" width="750">
+![Earth's Weather](/img/iSpaceship.jpg)
 
 Apple’s most recent 10-K filing with the U.S. Securities and Exchange Commission shows the company has budgeted **$11 billion in capital expenditures for fiscal 2014**.
 

@@ -2,15 +2,12 @@
 author: dan
 categories: null
 date: '2014-01-28'
-description: Microsoft announced it is joining the Open Compute Project and will open source its server designs, sharing them with the world at large. Facebook saves a billion dollars via open hardware.
 published: true
 tags: null
-title: Facebook Saves a Billion Dollars via Open Compute Designs
-url: /2014/01/28/facebook-saves-a-billion-dollars-via-open-compute-designs
+title: Facebook Saves a BILLION Dollars via Open Compute Designs
 ---
 
-
-<img class="lazy img-rounded img-responsive" src="data:image/gif;base64,R0lGODlhAQABAIABAP///wAAACwAAAAAAQABAAACAkQBADs=" alt="Facebook Server" data-src="/assets/img/fb-server.jpg" width="750">
+![Facebook Server](/img/fb-server.jpg)
 
 Last week, IBM announced that it was selling its low-end server business to Chinese hardware manufacturer Lenovo. The deal has been widely viewed as the logical result of the commoditization of x86-based servers, in much the same way PCs were commoditized a decade ago.
 
@@ -20,14 +17,14 @@ It's clear that the server business is never going to be same.  For Microsoft op
 
 ### Billion Dollar Idea
 
-Facebook started this movement in 2011, when it open sourced its first server designs and founded the Open Compute Project.  The aim was to foster a community who would share hardware designs and bootstrap a more efficient means of getting these designs built. 
+Facebook started this movement in 2011, when it open sourced its first server designs and founded the Open Compute Project.  The aim was to foster a community who would share hardware designs and bootstrap a more efficient means of getting these designs built.
 
 Now, nearly three years later, the project lets Facebook crowdsource improvements to its infrastructure and **allows multiple vendors to produce identical equipment** which gives Facebook supply chain diversity. In addition there is no vendor "support" costs, and you self-insure against failure via redundancy.  So your true investment is only the hardware and engineering talent necessary to operate it.  This is a CIO's dream.  
 
 Today at the Open Compute Summit, CEO Mark Zuckerberg said that "In the last three years alone, Facebook has saved more than **a billion dollars** in building out our infrastructure using Open Compute designs."
 
 > A Million Dollars Isn't Cool. You Know What's Cool? A Billion Dollars.
-> 
+>
 >   _- Sean Parker in "The Social Network"_
 
 Zuckerberg also noted that "In just the last year we’ve saved the equivalent amount of energy of 40,000 homes in a year, and saved the amount of emissions equivalent to taking 50,000 cars off the road for a year."
@@ -36,7 +33,7 @@ Zuckerberg also noted that "In just the last year we’ve saved the equivalent a
 
 In the recent past switches were black boxes with integrated data planes, control planes and feature sets from **a single vendor**. The cost for sufficient capacity and performance was prohibitive. The challenge of making changes made the network brittle and network engineers gun-shy.
 
-Today however merchant silicon has surpassed custom Applications Specific Integrated Circuits (ASICs). This in turn enables enterprise grade networking hardware from Original Device Manufacturers (ODMs) - bare metal network hardware. 
+Today however merchant silicon has surpassed custom Applications Specific Integrated Circuits (ASICs). This in turn enables enterprise grade networking hardware from Original Device Manufacturers (ODMs) - bare metal network hardware.
 
 What becomes critical is the software layer to manage and operate the network. Google was an early driver of software defined networking on top of bare metal commodity hardware.  They helped define OpenFlow and breathe life into this technology.
 
@@ -56,7 +53,3 @@ _Sources:_
 * [Open VSwitch](http://openvswitch.org/)
 * [Wired: Google’s Secret Switch](http://www.wired.com/wiredenterprise/2012/04/going-with-the-flow-google/)
 * [Open Networking](https://www.opennetworking.org/)
-
-
-
-

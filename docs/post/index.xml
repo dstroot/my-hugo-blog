@@ -20,6 +20,18 @@
 &lt;p&gt;Saw the new Microsoft Surface Studio this weekend at the Microsoft store at the South Coast Plaza. I thought the display is pretty mind blowing. I have gotten used to wide screen displays but somehow the resolution and format of the screen just feels right. The display floats in space and fills your field of vision.&lt;/p&gt;
 
 &lt;p&gt;The surface dial seems like it would be a gimmick but it isn&amp;rsquo;t. It feels very natural particularly when zooming in and out. Tilting the display down and working right on top of it is spectacular. Way to go Microsoft - you hit it out of the park!&lt;/p&gt;
+
+
+
+var foo = &#34;English men&#34;
+var bar = &#34;bar&#34;
+
+function getJoke(foo, bar) {
+    return
+        &#34;two &#34; + foo + &#34; walk into a &#34; + bar
+}
+
+
 </description>
     </item>
     
@@ -115,7 +127,7 @@ The recent Volkswagen scandal brings to light the broader question of how vulner
       <pubDate>Sat, 26 Sep 2015 00:00:00 +0000</pubDate>
       
       <guid>http://dstroot.github.io/my-hugo-blog/2015/09/26/is-it-secure</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;img/SmartCarLock.png&#34; alt=&#34;Security&#34; /&gt;&lt;/p&gt;
+      <description>&lt;p&gt;&lt;img src=&#34;http://dstroot.github.io/my-hugo-blog/img/SmartCarLock.png&#34; alt=&#34;Security&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;em&gt;Q&lt;/em&gt;: Is it secure? &lt;br&gt;
 &lt;em&gt;A&lt;/em&gt;: No it is not. Security is never binary.&lt;/p&gt;
@@ -215,7 +227,7 @@ He would pick it until he tripped the detector mechanism, causing the lock to se
       <pubDate>Mon, 15 Jun 2015 00:00:00 +0000</pubDate>
       
       <guid>http://dstroot.github.io/my-hugo-blog/2015/06/15/fintech-startups-tug-the-industry-forward</guid>
-      <description>&lt;p&gt;&lt;img class=&#34;lazy img-rounded img-responsive&#34; src=&#34;data:image/gif;base64,R0lGODlhAQABAIABAP///wAAACwAAAAAAQABAAACAkQBADs=&#34; alt=&#34;FinTech&#34; data-src=&#34;/assets/img/billguard.png&#34; width=&#34;750&#34;&gt;&lt;/p&gt;
+      <description>&lt;p&gt;&lt;img src=&#34;http://dstroot.github.io/my-hugo-blog/img/billguard.png&#34; alt=&#34;FinTech&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Financial services companies are among the most highly regulated industries in the world.  They also suffer from a trust issue.  Trust is a key ingredient in making a financial services business viable. Why would I ever buy insurance, banking services or invest my savings via a company that I didn’t trust?&lt;/p&gt;
 
@@ -274,16 +286,17 @@ He would pick it until he tripped the detector mechanism, causing the lock to se
       <pubDate>Thu, 22 Jan 2015 00:00:00 +0000</pubDate>
       
       <guid>http://dstroot.github.io/my-hugo-blog/2015/01/22/make-big-bets</guid>
-      <description>&lt;p&gt;&lt;img class=&#34;lazy img-rounded img-responsive&#34; src=&#34;data:image/gif;base64,R0lGODlhAQABAIABAP///wAAACwAAAAAAQABAAACAkQBADs=&#34; alt=&#34;Open Data&#34; data-src=&#34;/assets/img/african_children.jpg&#34; width=&#34;750&#34;&gt;&lt;/p&gt;
+      <description>&lt;p&gt;&lt;img src=&#34;http://dstroot.github.io/my-hugo-blog/img/african_children.jpg&#34; alt=&#34;Children&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;The Bill and Melinda Gates Foundation just released it&amp;rsquo;s &lt;a href=&#34;http://www.gatesnotes.com/2015-annual-letter?page=0&amp;amp;lang=en&amp;amp;WT.mc_id=01_21_2015_AL2015-GF_GFO_domain_Top_21&#34;&gt;annual letter&lt;/a&gt;.  I have come to look forward to these letters because I find them incredibly inspiring. This year instead of an annual update they are re-baselining and taking a fifteen year view of the future. As I read this year&amp;rsquo;s letter I was simultaneously moved, inspired and awed by the scope their mission:&lt;/p&gt;
 
 &lt;blockquote&gt;
 &lt;p&gt;The lives of people in poor countries will improve faster in the next 15 years than &lt;strong&gt;at any other time in history&lt;/strong&gt;. And their lives will improve more than anyone else&amp;rsquo;s.&lt;/p&gt;
 
-&lt;p&gt;&lt;em&gt;- 2015 Gates Annual Letter&lt;/em&gt;
-&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;- 2015 Gates Annual Letter&lt;/em&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
+
+&lt;p&gt;&lt;/p&gt;
 
 &lt;p&gt;There are four pillars to accomplish this mission:&lt;/p&gt;
 
@@ -328,7 +341,7 @@ He would pick it until he tripped the detector mechanism, causing the lock to se
       <pubDate>Tue, 13 Jan 2015 00:00:00 +0000</pubDate>
       
       <guid>http://dstroot.github.io/my-hugo-blog/2015/01/13/kiss-my-ux</guid>
-      <description>&lt;p&gt;&lt;img class=&#34;lazy img-rounded img-responsive&#34; src=&#34;data:image/gif;base64,R0lGODlhAQABAIABAP///wAAACwAAAAAAQABAAACAkQBADs=&#34; alt=&#34;Open Data&#34; data-src=&#34;/assets/img/iron_man.png&#34; width=&#34;750&#34;&gt;&lt;/p&gt;
+      <description>&lt;p&gt;&lt;img src=&#34;http://dstroot.github.io/my-hugo-blog/img/iron_man.png&#34; alt=&#34;Iron Man&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Having done some user interface work over the break I discovered that my design approach was basically to:&lt;/p&gt;
 
@@ -388,7 +401,7 @@ Even though it is better if the system can be used without documentation, it may
       <pubDate>Mon, 10 Nov 2014 00:00:00 +0000</pubDate>
       
       <guid>http://dstroot.github.io/my-hugo-blog/2014/11/10/obama-net-neutrality</guid>
-      <description>&lt;p&gt;&lt;img class=&#34;lazy img-rounded img-responsive&#34; src=&#34;data:image/gif;base64,R0lGODlhAQABAIABAP///wAAACwAAAAAAQABAAACAkQBADs=&#34; alt=&#34;Open Data&#34; data-src=&#34;/assets/img/obama_internet.png&#34; width=&#34;750&#34;&gt;&lt;/p&gt;
+      <description>&lt;p&gt;&lt;img src=&#34;http://dstroot.github.io/my-hugo-blog/img/obama_internet.png&#34; alt=&#34;Obama Internet&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Today President Barack Obama has come out in favor of net neutrality in very public way.  He lays out in no uncertain terms that he believes no cable company or access provider should be able to put limits on access to the Internet. In addition, he’s suggesting that the FCC recognizes access to the Internet as a basic utility, and something that Americans have a basic right to. This means no blocking, no throttling, more transparency and no paid prioritization.
 &lt;/p&gt;
@@ -446,7 +459,7 @@ Even though it is better if the system can be used without documentation, it may
       <pubDate>Tue, 12 Aug 2014 00:00:00 +0000</pubDate>
       
       <guid>http://dstroot.github.io/my-hugo-blog/2014/08/12/usa-digital-playbook</guid>
-      <description>&lt;p&gt;&lt;img class=&#34;lazy img-rounded img-responsive&#34; src=&#34;data:image/gif;base64,R0lGODlhAQABAIABAP///wAAACwAAAAAAQABAAACAkQBADs=&#34; alt=&#34;Open Data&#34; data-src=&#34;/assets/img/USDS_Playbook.png&#34; width=&#34;750&#34;&gt;&lt;/p&gt;
+      <description>&lt;p&gt;&lt;img src=&#34;http://dstroot.github.io/my-hugo-blog/img/USDS_Playbook.png&#34; alt=&#34;Digital Playbook&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;The White House announced on Monday, August 11th 2014, that it is formally launching a new U.S. Digital Service and that it has hired Mikey Dickerson to lead it.  Mickey Dickerson is an engineer widely credited with playing a central role in salvaging HealthCare.gov. The idea behind the USDS is institutionalizing the approach that saved the US health care website.
 &lt;/p&gt;
@@ -472,7 +485,7 @@ Even though it is better if the system can be used without documentation, it may
       <pubDate>Tue, 01 Jul 2014 00:00:00 +0000</pubDate>
       
       <guid>http://dstroot.github.io/my-hugo-blog/2014/07/01/from-open-government-to-open-corporation</guid>
-      <description>&lt;p&gt;&lt;img class=&#34;lazy img-rounded img-responsive&#34; src=&#34;data:image/gif;base64,R0lGODlhAQABAIABAP///wAAACwAAAAAAQABAAACAkQBADs=&#34; alt=&#34;Open Data&#34; data-src=&#34;/assets/img/data_gov.png&#34; width=&#34;750&#34;&gt;&lt;/p&gt;
+      <description>&lt;p&gt;&lt;img src=&#34;http://dstroot.github.io/my-hugo-blog/img/data_gov.png&#34; alt=&#34;Digital Playbook&#34; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;let-s-talk-about-open-government-first&#34;&gt;Let&amp;rsquo;s Talk About Open Government First&lt;/h2&gt;
 
@@ -484,8 +497,9 @@ Even though it is better if the system can be used without documentation, it may
 &lt;p&gt;_- &lt;a href=&#34;http://www2.gwu.edu/~nsarchiv/news/20090121/2009_transparency_memo.pdf&#34;&gt;President Barack Obama, January 21, 2009&lt;/a&gt;_&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;
-Huge strides have been made by the &amp;ldquo;Open Government&amp;rdquo; movement. Today:&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+
+&lt;p&gt;Huge strides have been made by the &amp;ldquo;Open Government&amp;rdquo; movement. Today:&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Citizens and government leaders alike now expect government data to be accessible, transparent and machine-readable.&lt;/li&gt;
@@ -677,7 +691,7 @@ from 60 public agencies, and just this year Australian budget data was made avai
       <pubDate>Sun, 29 Jun 2014 00:00:00 +0000</pubDate>
       
       <guid>http://dstroot.github.io/my-hugo-blog/2014/06/29/coreos-thousands-of-machines-and-millions-of-docker-containers-no-hypervisor-needed</guid>
-      <description>&lt;p&gt;&lt;img class=&#34;lazy img-rounded img-responsive&#34; src=&#34;data:image/gif;base64,R0lGODlhAQABAIABAP///wAAACwAAAAAAQABAAACAkQBADs=&#34; alt=&#34;CoreOS&#34; data-src=&#34;/assets/img/coreos-logo.png&#34; width=&#34;594&#34;&gt;&lt;/p&gt;
+      <description>&lt;p&gt;&lt;img src=&#34;http://dstroot.github.io/my-hugo-blog/img/coreos-logo.png&#34; alt=&#34;CoreOS&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;I have been playing around with CoreOS to get a sense of how everything works. The vision of this project is incredible.&lt;/p&gt;
 
@@ -741,7 +755,7 @@ from 60 public agencies, and just this year Australian budget data was made avai
       <pubDate>Mon, 05 May 2014 00:00:00 +0000</pubDate>
       
       <guid>http://dstroot.github.io/my-hugo-blog/2014/05/05/virtual-machines-vs-containers</guid>
-      <description>&lt;p&gt;&lt;img class=&#34;lazy img-rounded img-responsive&#34; src=&#34;data:image/gif;base64,R0lGODlhAQABAIABAP///wAAACwAAAAAAQABAAACAkQBADs=&#34; alt=&#34;Docker&#34; data-src=&#34;/assets/img/docker.png&#34; width=&#34;750&#34;&gt;&lt;/p&gt;
+      <description>&lt;p&gt;&lt;img src=&#34;http://dstroot.github.io/my-hugo-blog/img/docker.png&#34; alt=&#34;Docker&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Three driving forces of infrastructure efficiency in a large, distributed environment were:&lt;/p&gt;
 
@@ -751,9 +765,11 @@ from 60 public agencies, and just this year Australian budget data was made avai
 &lt;li&gt;&amp;ldquo;Cloud&amp;rdquo; in its various forms &lt;em&gt;(KPI: How many servers are you still running?)&lt;/em&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;Assuming you have been aggresive you may not have any data centers left.  You may be buying services rather than servers, and/or all of your remaining machines might be virtualized and hosted in someone else&amp;rsquo;s data center. Now what?&lt;br /&gt;
+&lt;p&gt;Assuming you have been aggresive you may not have any data centers left.  You may be buying services rather than servers, and/or all of your remaining machines might be virtualized and hosted in someone else&amp;rsquo;s data center. Now what?&lt;/p&gt;
 
-##Where is the next level of infrastructure efficiency going to come from?&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;where-is-the-next-level-of-infrastructure-efficiency-going-to-come-from&#34;&gt;Where is the next level of infrastructure efficiency going to come from?&lt;/h3&gt;
 
 &lt;p&gt;Personally I think the next wave of infrastructure efficiency will be driven by Linux container technology (LinuX Containers = LXC). The LXC container approach does &lt;strong&gt;not&lt;/strong&gt; require a hypervisor - instead you run isolated &amp;ldquo;containers&amp;rdquo; on a Linux host.&lt;/p&gt;
 
@@ -761,20 +777,20 @@ from 60 public agencies, and just this year Australian budget data was made avai
 
 &lt;p&gt;This work was started by engineers at Google and in late 2007 it was merged into kernel version 2.6.24. LXC also relies on other kinds of namespace-isolation functionality, which have been developed and integrated into the mainline Linux kernel since then. It looks something like this:&lt;/p&gt;
 
-&lt;p&gt;&lt;img class=&#34;lazy img-rounded img-responsive&#34; src=&#34;data:image/gif;base64,R0lGODlhAQABAIABAP///wAAACwAAAAAAQABAAACAkQBADs=&#34; alt=&#34;LXC vs. Virtual Machines&#34; data-src=&#34;/assets/img/dockervsvm.png&#34; width=&#34;750&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://dstroot.github.io/my-hugo-blog/img/dockervsvm.png&#34; alt=&#34;Docker&#34; /&gt;&lt;/p&gt;
 
-&lt;p&gt;##Is LXC Technology Really Better?&lt;/p&gt;
+&lt;h3 id=&#34;is-lxc-technology-really-better&#34;&gt;Is LXC Technology Really Better?&lt;/h3&gt;
 
 &lt;p&gt;Here are some of the major benefits of Linux Containers from my perspective:&lt;/p&gt;
 
-&lt;p&gt;####Fast&lt;/p&gt;
+&lt;h4 id=&#34;fast&#34;&gt;Fast&lt;/h4&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Runtime performance at near bare metal speeds (typically 97+ percent of bare metal).&lt;/li&gt;
 &lt;li&gt;Management operations (boot, stop, start, reboot, etc.) in seconds or milliseconds.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;####Agile&lt;/p&gt;
+&lt;h4 id=&#34;agile&#34;&gt;Agile&lt;/h4&gt;
 
 &lt;ul&gt;
 &lt;li&gt;VM-like agility &amp;ndash; it&amp;rsquo;s still &amp;ldquo;virtualization&amp;rdquo;.&lt;/li&gt;
@@ -782,14 +798,14 @@ from 60 public agencies, and just this year Australian budget data was made avai
 &lt;li&gt;Developers can essentially use the exact same containers as those deployed into production.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;####Lightweight&lt;/p&gt;
+&lt;h4 id=&#34;lightweight&#34;&gt;Lightweight&lt;/h4&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Just enough Operating System (JeOS); include only what you need reducing image and container bloat.&lt;/li&gt;
 &lt;li&gt;Minimal per container penalty which equates to greater density and hence greater returns on existing assets &amp;ndash; imagine packing 100s or 1000s of containers on a single host node!&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;####Inexpensive&lt;/p&gt;
+&lt;h4 id=&#34;inexpensive&#34;&gt;Inexpensive&lt;/h4&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Open source &amp;ndash; free &amp;ndash; lower TCO.&lt;/li&gt;
@@ -797,14 +813,14 @@ from 60 public agencies, and just this year Australian budget data was made avai
 &lt;li&gt;LXC hosting likely to drive the next wave of cloud products.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;####Ecosystem&lt;/p&gt;
+&lt;h4 id=&#34;ecosystem&#34;&gt;Ecosystem&lt;/h4&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Growing in popularity &amp;ndash; just checkout the google trends for docker or LXC.&lt;/li&gt;
 &lt;li&gt;Vibrant community and numerous 3rd party applications (1000s of prebuilt images on docker index and 100s of open source apps on github or other public sources).&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;####Benchmarks&lt;/p&gt;
+&lt;h4 id=&#34;benchmarks&#34;&gt;Benchmarks&lt;/h4&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Average boot time: LXC 1.5x faster&lt;/li&gt;
@@ -814,7 +830,7 @@ from 60 public agencies, and just this year Australian budget data was made avai
 &lt;li&gt;LXC images 3.2x smaller than VM&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;##Summary&lt;/p&gt;
+&lt;h3 id=&#34;summary&#34;&gt;Summary&lt;/h3&gt;
 
 &lt;p&gt;The next wave of server density is likely to be driven by LXC technology instead of traditional VM technology.  This technology may also increase further an organizations agility, developer productivity and even business continuity. However, LXC technology is not yet as mature or &amp;ldquo;manageable&amp;rdquo; as VM technology, but tools like Docker are developing quickly.&lt;/p&gt;
 
@@ -831,7 +847,7 @@ from 60 public agencies, and just this year Australian budget data was made avai
       <pubDate>Fri, 14 Mar 2014 00:00:00 +0000</pubDate>
       
       <guid>http://dstroot.github.io/my-hugo-blog/2014/03/14/enterprise-search-2014</guid>
-      <description>&lt;p&gt;&lt;img class=&#34;lazy img-rounded img-responsive&#34; src=&#34;data:image/gif;base64,R0lGODlhAQABAIABAP///wAAACwAAAAAAQABAAACAkQBADs=&#34; alt=&#34;Google Enterprise Search&#34; data-src=&#34;/assets/img/Google_Enterprise_Search.png&#34; width=&#34;750&#34;&gt;&lt;/p&gt;
+      <description>&lt;p&gt;&lt;img src=&#34;http://dstroot.github.io/my-hugo-blog/img/Google_Enterprise_Search.png&#34; alt=&#34;Google Enterprise Search&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;One of the challenges in a large distributed enterprise is &amp;ldquo;finding stuff&amp;rdquo;.  Sure we call it collaboration, knowledge management, or any number of other sophisticated terms but often it boils down to just finding stuff.&lt;/p&gt;
 
@@ -872,23 +888,16 @@ from 60 public agencies, and just this year Australian budget data was made avai
     
     <item>
       <title>Happy Birthday Steve</title>
-      <link>http://dstroot.github.io/my-hugo-blog/2014/02/24/happy-birthday-steve</link>
+      <link>http://dstroot.github.io/my-hugo-blog/blog/2014/02/24/happy-birthday-steve/</link>
       <pubDate>Mon, 24 Feb 2014 00:00:00 +0000</pubDate>
       
-      <guid>http://dstroot.github.io/my-hugo-blog/2014/02/24/happy-birthday-steve</guid>
-      <description>&lt;script async src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+      <guid>http://dstroot.github.io/my-hugo-blog/blog/2014/02/24/happy-birthday-steve/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;http://dstroot.github.io/my-hugo-blog/img/SteveJobsCloseUp-lg.jpg&#34; alt=&#34;Steve Jobs&#34; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img class=&#34;lazy img-rounded img-responsive&#34; src=&#34;data:image/gif;base64,R0lGODlhAQABAIABAP///wAAACwAAAAAAQABAAACAkQBADs=&#34; alt=&#34;Steve Jobs&#34; data-src=&#34;/assets/img/SteveJobsCloseUp-lg.jpg&#34; width=&#34;750&#34;&gt;&lt;/p&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Remembering my friend Steve on his birthday. &amp;quot;Stay hungry, Stay foolish&amp;quot;. We honor him by continuing the work he loved so much.&lt;/p&gt;&amp;mdash; Tim Cook (@tim_cook) &lt;a href=&#34;https://twitter.com/tim_cook/status/437966455229804545&#34;&gt;February 24, 2014&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
 
-&lt;div class=&#34;row&#34;&gt;
-  &lt;div class=&#34;col-md-6&#34;&gt;
-    &lt;blockquote class=&#34;twitter-tweet&#34; lang=&#34;en&#34;&gt;&lt;p&gt;Remembering my friend Steve on his birthday. &amp;quot;Stay hungry, Stay foolish&amp;quot;. We honor him by continuing the work he loved so much.&lt;/p&gt;&amp;mdash; Tim Cook (@tim_cook) &lt;a href=&#34;https://twitter.com/tim_cook/statuses/437966455229804545&#34;&gt;February 24, 2014&lt;/a&gt;&lt;/blockquote&gt;
-  &lt;/div&gt;
-  &lt;div class=&#34;col-md-6&#34;&gt;
-    &lt;blockquote class=&#34;twitter-tweet&#34; lang=&#34;en&#34;&gt;&lt;p&gt;Remembering Steve on his birthday: &amp;quot;Details matter, it’s worth waiting to get it right.&amp;quot;&lt;/p&gt;&amp;mdash; Tim Cook (@tim_cook) &lt;a href=&#34;https://twitter.com/tim_cook/statuses/437966914170540032&#34;&gt;February 24, 2014&lt;/a&gt;&lt;/blockquote&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-</description>
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
   </channel>

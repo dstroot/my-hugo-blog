@@ -8,8 +8,7 @@ title: Enterprise Search 2014
 url: /2014/03/14/enterprise-search-2014
 ---
 
-
-<img class="lazy img-rounded img-responsive" src="data:image/gif;base64,R0lGODlhAQABAIABAP///wAAACwAAAAAAQABAAACAkQBADs=" alt="Google Enterprise Search" data-src="/assets/img/Google_Enterprise_Search.png" width="750">
+![Google Enterprise Search](/img/Google_Enterprise_Search.png)
 
 One of the challenges in a large distributed enterprise is "finding stuff".  Sure we call it collaboration, knowledge management, or any number of other sophisticated terms but often it boils down to just finding stuff.
 

@@ -27,6 +27,7 @@ pre code {
   color: inherit;
   background-color: transparent;
 }
+
 // Pygments via Jekyll
 .highlight {
   padding: 1rem;
@@ -47,11 +48,10 @@ pre code {
     padding-left: 0.25rem;
     color: #999;
     // Make sure numbers aren't selectable
-    -webkit-user-select: none;
-    -moz-user-select: none;
     user-select: none;
   }
 }
+
 // Gist via GitHub Pages
 // .gist .gist-file {
 //   font-family: Menlo, Monaco, "Courier New", monospace !important;

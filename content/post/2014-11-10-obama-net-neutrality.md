@@ -8,8 +8,8 @@ title: President Obama's Plan for a Free and Open Internet
 url: /2014/11/10/obama-net-neutrality
 ---
 
+![Obama Internet](/img/obama_internet.png)
 
-<img class="lazy img-rounded img-responsive" src="data:image/gif;base64,R0lGODlhAQABAIABAP///wAAACwAAAAAAQABAAACAkQBADs=" alt="Open Data" data-src="/assets/img/obama_internet.png" width="750">
 
 Today President Barack Obama has come out in favor of net neutrality in very public way.  He lays out in no uncertain terms that he believes no cable company or access provider should be able to put limits on access to the Internet. In addition, he’s suggesting that the FCC recognizes access to the Internet as a basic utility, and something that Americans have a basic right to. This means no blocking, no throttling, more transparency and no paid prioritization.
 <!--more-->
@@ -45,7 +45,7 @@ As someone who considers himself a Republican It saddens me that this issue has 
 <blockquote class="twitter-tweet" lang="en"><p>&quot;Net Neutrality&quot; is Obamacare for the Internet; the Internet should not operate at the speed of government.</p>&mdash; Senator Ted Cruz (@SenTedCruz) <a href="https://twitter.com/SenTedCruz/status/531834493922189313">November 10, 2014</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-The only similarity to the Affordable Care Act is that Obama supports it. There may be a rational, reasoned argument against Net Neutrality, but Republicans aren’t making it, and neither are the cable companies or cellular providers. 
+The only similarity to the Affordable Care Act is that Obama supports it. There may be a rational, reasoned argument against Net Neutrality, but Republicans aren’t making it, and neither are the cable companies or cellular providers.
 
 The main thrust seems to be "Government regulation of the Internet will be bad."  And yet, we seem to have no issues regulating banks, power utilities, telephone companies and other utilities.  The other argument seems to be the "slippery slope" argument - by introducing goverment regulation it is easy to envision that we will soon start regulating **content**.  However, with our country's foundation on free speech I find that argument quite a stretch and exactly the opposite of Obama's first principle: "No Blocking".
 

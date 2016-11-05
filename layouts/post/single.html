@@ -13,6 +13,18 @@
       {{ end }}</span>
       {{ .Content }}
     </div>
+
+    <ul class="pagination">
+      {{ if .NextInSection }}
+      <li><a href="{{.NextInSection.Permalink}}"><i class="fa fa-chevron-circle-left"></i> Previous Post</a></li>
+      {{ end }}
+      {{ if .PrevInSection }}
+      <li><a href="{{.PrevInSection.Permalink}}">Next Post <i class="fa fa-chevron-circle-right"></i></a></li>
+      {{ end }}
+    </ul>
+
+    <hr class="soften">
+
     {{ if .Site.Params.disqusShortname }}<div id="disqus_thread"></div>{{ end }}
   </div>
 

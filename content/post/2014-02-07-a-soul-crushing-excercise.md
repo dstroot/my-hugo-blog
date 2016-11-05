@@ -2,18 +2,17 @@
 author: dan
 categories: null
 date: '2014-02-07'
-description: The elimination of annual stack ranking at Adobe
 published: true
 tags: null
 title: A Soul Crushing Exercise
-url: /2014/02/07/a-soul-crushing-excercise
 ---
 
-
-<img class="lazy img-rounded img-responsive" src="data:image/gif;base64,R0lGODlhAQABAIABAP///wAAACwAAAAAAQABAAACAkQBADs=" alt="Soul Crushing" data-src="/assets/img/soulcrushing.jpg" width="750">
+![Soul Crushing](/img/soulcrushing.jpg)
 
 This morning I saw a post on LinkedIn by Bob Sutton who is a Stanford Professor and Co-author of Scaling up Excellence.  He discusses Adobe's move to abolish it's employee stack ranking system.  After the system was eliminated, one Adobe employee noted that a feeling of relief spread throughout the company because the old annual review system was **“a soul-less and soul crushing exercise.”**
+
 <!--more-->
+
 Stack-ranking was popularized by Jack Welch at General Electric _(which has since ended the practice)_.  GE felt the discussions forced honesty. Stack ranking forces the discussion betweenn manager and employee to address at least one key question: "Tell me where I rank and tell me why."  Some organizations go even further - terminating employees who fall into the bottom 5-10% each year.  
 
 My personal experience with systems like these is they force employees to play "Game of Thrones" at work.  It doesn't drive teamwork, instead employees hoard information and act on their best interests.  It also creates a culture where people are afraid to be innovative and take risks (because what if they fail?). The worst aspects may be the politics that arise, or the behaviors where people highlight failure and mistakes in others in order to make themselves look better.  
@@ -21,14 +20,14 @@ My personal experience with systems like these is they force employees to play "
 I think W. Edwards Deming characterized stack ranking better than I ever could:
 
 > “It nourishes short-term performance, annihilates long-term planning, builds fear, demolishes teamwork, nourishes rivalry and politics. It leaves people bitter, crushed, bruised, battered, desolate, despondent, dejected, feeling inferior some even depressed, unfit for work for weeks after receipt of rating, unable to comprehend why they are inferior. It is unfair, as it ascribes to the people in a group differences that may be caused totally by the system that they work in.”
-> 
+>
 >    _- W. Edwards Deming - Out of the Crisis (1986)_
 
 ### Adobe's Changes:
 
 * No more annual reviews, but managers are expected to have frequent “check-ins” with employees to provide targeted coaching and advice. There is no prescribed format or frequency for these conversations, and managers don’t complete any forms or use any technologies to guide or document what happens during such conversations.
 * One of the main goals was to **subtract technology*** from the feedback process.  Adobe didn’t want managers to hide behind forms and computers. Instead, managers should focus on having candid and open conversations with the people they lead.
-* Once a year, managers make adjustments in employee compensation. Managers have far more discretion over such decisions than in the past: they have nearly complete authority to allocate their budget among their charges as they see fit. 
+* Once a year, managers make adjustments in employee compensation. Managers have far more discretion over such decisions than in the past: they have nearly complete authority to allocate their budget among their charges as they see fit.
 * Employees are compensated based on how well they have met their goals - not on the "bell curve".
 
 ### Adobe's Results:
@@ -49,7 +48,7 @@ In addition you need a culture that top performers find enticing:
 * **Clear goals** - What am I expected to contribute? What are the "the rules"?
 * **Linkage of company success to personal success** - "A" players are competive and want to be on a winning team. They also want to be recognized for their contribution.
 * **Positive feedback** - "A" players are used to positive feedback loops.  They don't respond well to negative feedback loops.  Make sure you tell them how important they are and exactly where and how they are doing well, _then_ you can share how they can improve.  
-* **"Listened to" and respected** - By definition "A" players are smart - listen to them!  If an "A" player shares a great idea to improve the company and it is seriously considered and/or implemented they will feel great (and probably will come up with many more ideas). 
+* **"Listened to" and respected** - By definition "A" players are smart - listen to them!  If an "A" player shares a great idea to improve the company and it is seriously considered and/or implemented they will feel great (and probably will come up with many more ideas).
 
 > Surprise - a culture like this works for everyone!
 
@@ -58,7 +57,3 @@ _Sources:_
 
 * [LinkedIn: How Adobe Got Rid of Traditional Performance Reviews](https://www.linkedin.com/today/post/article/20140206114808-15893932-how-adobe-got-rid-of-traditional-performance-reviews?trk=object-title)
 * [Business Week: Microsoft Kills Its Hated Stack Rankings](http://www.businessweek.com/articles/2013-11-13/microsoft-kills-its-hated-stack-rankings-dot-does-anyone-do-employee-reviews-right)
-
-
-
-

@@ -1,4 +1,9 @@
-# About Me
++++
+date = "2016-10-29T19:50:04-07:00"
+title = "About Me"
+draft = false
+
++++
 
 However you know me, or however you found me, I’m glad you are here.
 

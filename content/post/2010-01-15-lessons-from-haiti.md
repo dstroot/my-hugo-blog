@@ -7,7 +7,7 @@ tags: null
 title: Lessons from Haiti - Never Under Estimate Ease of Use
 ---
 
-<img class="lazy img-rounded img-responsive" src="data:image/gif;base64,R0lGODlhAQABAIABAP///wAAACwAAAAAAQABAAACAkQBADs=" alt="Haiti" data-src="/assets/img/haiti.jpg">
+![Haiti](/img/haiti.jpg)
 
 My assistant Kathy told me today about donating to Haitian relief efforts by simply sending a text message from my cellphone.  The Red Cross, via a company called mGive, has got the major U.S. carriers on board to allow people to very easily donate $10 to the Red Cross via a simple SMS text message.
 

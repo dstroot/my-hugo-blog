@@ -5,13 +5,12 @@ date: '2013-07-25'
 published: true
 tags: null
 title: Hosting your Blog on Amazon S3
-url: /2013/07/25/hosting-your-blog-on-s3
 ---
-
 
 One of the cleanest designed blogs I have seen in a while belongs to [Karma Mobility](http://blog.yourkarma.com/).  So I asked in the comments on a particularly interesting post by Stefan Borsje and he very nicely responded "Thanks Daniel! This blog uses Jekyll and is hosted on S3."
 
 Hmmm.  That's two cool things at once.
+
 <!--more-->
 
 So let's do this! I know a little about Jekyll and I know it's engine behind GitHub Pages, plus om Github you can host it for free.But it has two disadvantages I know of:

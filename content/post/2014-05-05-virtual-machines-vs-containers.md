@@ -8,8 +8,7 @@ title: Virtual Machines vs. Containers
 url: /2014/05/05/virtual-machines-vs-containers
 ---
 
-
-<img class="lazy img-rounded img-responsive" src="data:image/gif;base64,R0lGODlhAQABAIABAP///wAAACwAAAAAAQABAAACAkQBADs=" alt="Docker" data-src="/assets/img/docker.png" width="750">
+![Docker](/img/docker.png)
 
 Three driving forces of infrastructure efficiency in a large, distributed environment were:
 
@@ -18,8 +17,10 @@ Three driving forces of infrastructure efficiency in a large, distributed enviro
 - "Cloud" in its various forms _(KPI: How many servers are you still running?)_
 
 Assuming you have been aggresive you may not have any data centers left.  You may be buying services rather than servers, and/or all of your remaining machines might be virtualized and hosted in someone else's data center. Now what?  
+
 <!--more-->
-##Where is the next level of infrastructure efficiency going to come from?
+
+### Where is the next level of infrastructure efficiency going to come from?
 
 Personally I think the next wave of infrastructure efficiency will be driven by Linux container technology (LinuX Containers = LXC). The LXC container approach does **not** require a hypervisor - instead you run isolated "containers" on a Linux host.  
 
@@ -27,40 +28,40 @@ LXC provides operating system-level virtualization, but instead of creating a fu
 
 This work was started by engineers at Google and in late 2007 it was merged into kernel version 2.6.24. LXC also relies on other kinds of namespace-isolation functionality, which have been developed and integrated into the mainline Linux kernel since then. It looks something like this:
 
-<img class="lazy img-rounded img-responsive" src="data:image/gif;base64,R0lGODlhAQABAIABAP///wAAACwAAAAAAQABAAACAkQBADs=" alt="LXC vs. Virtual Machines" data-src="/assets/img/dockervsvm.png" width="750">
+![Docker](/img/dockervsvm.png)
 
-##Is LXC Technology Really Better?
+### Is LXC Technology Really Better?
 
-Here are some of the major benefits of Linux Containers from my perspective: 
+Here are some of the major benefits of Linux Containers from my perspective:
 
-####Fast
+#### Fast
 
 - Runtime performance at near bare metal speeds (typically 97+ percent of bare metal).
 - Management operations (boot, stop, start, reboot, etc.) in seconds or milliseconds.
 
-####Agile
+#### Agile
 
 - VM-like agility -- it's still "virtualization".
 - With VMs we often touted our ability to ship a machine "over the wire" since a virtual machine is basically just a large file.  It also allows better business recovery scenarios where I can have a snapshot of my production machine(s) copied to a different datacenter at regular intervals. Guess what? LXC containers are an order of magnitude smaller!
 - Developers can essentially use the exact same containers as those deployed into production.
 
-####Lightweight
+#### Lightweight
 
 - Just enough Operating System (JeOS); include only what you need reducing image and container bloat.
 - Minimal per container penalty which equates to greater density and hence greater returns on existing assets -- imagine packing 100s or 1000s of containers on a single host node!
 
-####Inexpensive
+#### Inexpensive
 
 - Open source -- free -- lower TCO.
 - Supported with out-of-the-box modern Linux kernels.
 - LXC hosting likely to drive the next wave of cloud products.
 
-####Ecosystem
+#### Ecosystem
 
 - Growing in popularity -- just checkout the google trends for docker or LXC.
 - Vibrant community and numerous 3rd party applications (1000s of prebuilt images on docker index and 100s of open source apps on github or other public sources).
 
-####Benchmarks
+#### Benchmarks
 
 - Average boot time: LXC 1.5x faster
 - Average reboot time: LXC 18.9x faster
@@ -68,9 +69,9 @@ Here are some of the major benefits of Linux Containers from my perspective:
 - LXC Memory group 3x lower than VM (per machine)
 - LXC images 3.2x smaller than VM
 
-##Summary
+### Summary
 
-The next wave of server density is likely to be driven by LXC technology instead of traditional VM technology.  This technology may also increase further an organizations agility, developer productivity and even business continuity. However, LXC technology is not yet as mature or "manageable" as VM technology, but tools like Docker are developing quickly. 
+The next wave of server density is likely to be driven by LXC technology instead of traditional VM technology.  This technology may also increase further an organizations agility, developer productivity and even business continuity. However, LXC technology is not yet as mature or "manageable" as VM technology, but tools like Docker are developing quickly.
 
 _Sources:_
 

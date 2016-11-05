@@ -5,9 +5,7 @@ date: '2011-12-22'
 published: true
 tags: null
 title: The Corporate iCloud, part 2
-url: /2011/12/22/corporate-icloud-part-2
 ---
-
 
 When Apple introduced iCloud I wrote an article about the potential impact in the corporate computing space: [The Corporate iCloud](http://danstroot.com/2011/06/10/corporate-icloud/).
 

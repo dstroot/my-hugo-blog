@@ -4,7 +4,7 @@
 
 h1, h2, h3, h4, h5, h6 {
   margin-bottom: .5rem;
-  font-weight: 600;
+  font-weight: 500;
   line-height: 1.25;
   color: #313131;
   text-rendering: optimizeLegibility;
@@ -36,7 +36,8 @@ p {
 }
 
 strong {
-  color: #303030;
+  // color: #303030;
+  font-weight: 600;
 }
 
 ul, ol, dl {
@@ -52,13 +53,13 @@ dd {
   margin-bottom: .5rem;
 }
 
-hr {
-  position: relative;
-  margin: 1.5rem 0;
-  border: 0;
-  border-top: 1px solid #eee;
-  border-bottom: 1px solid #fff;
-}
+// hr {
+//   position: relative;
+//   margin: 1.5rem 0;
+//   border: 0;
+//   border-top: 1px solid #eee;
+//   border-bottom: 1px solid #fff;
+// }
 
 abbr {
   font-size: 85%;
@@ -76,8 +77,8 @@ blockquote {
   padding: .5rem 1rem;
   margin: .8rem 0;
   color: #7a7a7a;
-  border-left: .25rem solid #e5e5e5;
-  background-color: #f5f5f5;
+  border-left: .25rem solid $gray-4;
+  background-color: $gray-1;
 
   p:last-child {
     margin-bottom: 0;
@@ -115,7 +116,8 @@ a[href^="#fnref:"] {
 
 .lead {
   font-size: 1rem;
-  font-weight: 200;
+  letter-spacing: 2px;
+  font-weight: 100;
 }
 
 .small {

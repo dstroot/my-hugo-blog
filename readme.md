@@ -1,6 +1,9 @@
 TODO
 
 [ ] Build system for CSS/LESS/SASS (Gulp)
-[ ] Pagination
-[ ] "Read more"
+[X] Pagination
+[X] "Read more"
 [ ] IcoMoon for Icons
+[ ] https://www.npmjs.com/package/hugo-lunr
+[ ] List of articles
+[ ] About Page
