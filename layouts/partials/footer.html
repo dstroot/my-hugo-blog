@@ -1,5 +1,7 @@
-{{ if isset .Site.Params "highlight" }}<script src="{{ "/js/highlight.pack.js" | absURL }}"></script>
-<script>hljs.initHighlightingOnLoad();</script>{{ end }}
+{{ if isset .Site.Params "highlight" }}
+<script src="{{ "/js/highlight.pack.js" | absURL }}"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+{{ end }}
 <!-- <script>
   document.body.onload = function() {
     var xhr = new XMLHttpRequest();
@@ -26,6 +28,21 @@
   }
 </script> -->
 <script>
+// // Load Scripts
+// function loadScript (url, async) {
+//   return new Promise(function (resolve, reject) {
+//     var script = document.createElement('script');
+//     script.src = url;
+//     if (typeof async !== 'undefined') {
+//       script.async = async;
+//     }
+//
+//     script.onerror = reject;
+//     script.onload = resolve;
+//     document.head.appendChild(script);
+//   });
+// }
+// Load Styles
 function loadStyles (url) {
   return new Promise(function (resolve, reject) {
     var xhr = new XMLHttpRequest();
@@ -46,4 +63,6 @@ function loadStyles (url) {
 //   loadStyles('https://fonts.googleapis.com/css?family=Titillium+Web:200');
 // };
 loadStyles('https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css');
+// loadScript('lib/jquery/dist/jquery.min.js');
+// loadScript('lib/totop.js/totop.min.js', true);
 </script>
