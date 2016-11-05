@@ -10,17 +10,17 @@
   <title>Responsive Design vs. Mobile-First &middot; Dan Stroot</title>
 
   
-  <link rel="stylesheet" href="localhost:8000/css/bundle.css">
+  <link rel="stylesheet" href="http://dstroot.github.io/my-hugo-blog/css/styles.css">
   
   
 
   
   
-  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+  
 
   
-  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="#ZgotmplZ">
-  <link href="#ZgotmplZ" rel="icon">
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://dstroot.github.io/touch-icon-144-precomposed.png">
+  <link href="http://dstroot.github.io/favicon.png" rel="icon">
 
   
   
@@ -38,12 +38,20 @@
 
 <div class="sidebar">
   <div class="container sidebar-sticky">
+
+
+    <div class="myface">
+      <a href="http://dstroot.github.io/my-hugo-blog/">
+        <img class="img-circle" src="https://www.gravatar.com/avatar/b6e0ed5e10ea91f67808629f4ae109f2.png?s=256" alt="Dan Stroot" height="128" width="128" />
+        <i class="fa fa-home"></i>
+      </a>
+    </div>
+
+
+
     <div class="sidebar-about">
       
-        <a href="localhost:8000/"><img src="https://www.gravatar.com/avatar/b6e0ed5e10ea91f67808629f4ae109f2?s=200"
-             alt="gravatar" title="Dan Stroot"></a>
-      
-      <a href="localhost:8000/"><h1>Dan Stroot</h1></a>
+      <a href="http://dstroot.github.io/my-hugo-blog/"><h1>Dan Stroot</h1></a>
       <p class="lead">I love building things. Made in California. Family man, technologist and Hacker News aficionado. Eternally curious.</p>
     </div>
 
@@ -65,7 +73,7 @@
 
     
 
-    <p>Copyright &copy; 2016</p>
+    <p class="small">Copyright &copy; 2016</p>
     
   </div>
 </div>
@@ -74,14 +82,14 @@
   <div class="content container">
     <div class="post">
       <h1 class="post-title">Responsive Design vs. Mobile-First</h1>
-      <span class="post-date">Dec 31, 2013 &middot; <i class="fa fa-clock-o" aria-hidden="true"></i> 3 minute read &middot; <a href="#ZgotmplZ#disqus_thread">Comments</a>
+      <span class="post-date">Dec 31, 2013 &middot; <i class="fa fa-clock-o" aria-hidden="true"></i> 3 minute read &middot; <a href="http://dstroot.github.io/my-hugo-blog/2013/12/31/responsive-design-vs-mobile-first#disqus_thread">Comments</a>
       
       <br/>
       
       </span>
-      <p>I have heard some people speak of &ldquo;mobile-first&rdquo; and &ldquo;responsive design&rdquo; interchangeably making them sound as if they were one and the same.  However I think there are some subtle differences.  I believe responsive design is the broadest possible definition. It says to me that we are going to target all platforms, screen sizes, pixel densities, etc.  It means that the user experience will be custom tailored to the exact device you just happen to be viewing it with. This should be our ulimate goal, right?</p>
+      <p>I have heard some people speak of &ldquo;mobile-first&rdquo; and &ldquo;responsive design&rdquo; interchangeably making them sound as if they were one and the same.  However I think there are some subtle differences.  I believe responsive design is the broadest possible definition. It says to me that we are going to target all platforms, screen sizes, pixel densities, etc.  It means that the user experience will be custom tailored to the exact device you just happen to be viewing it with. This should be our ulimate goal, right?
 
-<p>&ldquo;Mobile-first&rdquo; is a narrower definition and implies that the majority of the design effort is going to be geared towards the mobile experience.  But there are a lot of other things it doesn&rsquo;t clarify such as:</p>
+&ldquo;Mobile-first&rdquo; is a narrower definition and implies that the majority of the design effort is going to be geared towards the mobile experience.  But there are a lot of other things it doesn&rsquo;t clarify such as:</p>
 
 <ul>
 <li>Definition of &ldquo;Mobile&rdquo; - aren&rsquo;t smartphones, tablets and laptops <strong>all</strong> mobile? Do we really mean &ldquo;Smartphone-first&rdquo;?</li>
@@ -129,7 +137,6 @@ because it pays speed dividends on <strong>every device, everywhere</strong>.</p
     document.write('<div class="hidden-xs hidden-sm"><h3>See for yourself:</h3><div style="background-image:url(&#39;/assets/img/iphone5.png&#39;);background-repeat:no-repeat;margin: 0px 0px 0px 0px;padding: 145px 0px 0px 27px;width:375px;height:820px"><iframe src="http://danstroot.com" width="320" height="550"></iframe></div></div>');
   }
 </script>
-
     </div>
     <div id="disqus_thread"></div>
   </div>
@@ -187,7 +194,7 @@ function loadStyles (url) {
 
 
 
-loadStyles('https://fonts.googleapis.com/css?family=Titillium+Web:200');
+loadStyles('https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css');
 </script>
 
 

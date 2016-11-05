@@ -95,12 +95,12 @@ gulp.task('clean', function () {
  * Process CSS
  */
 
-gulp.task('combineCSS', function () {
-  var concatCss = require('gulp-concat-css');
-  return gulp.src('design/css/**/*.css')
-    .pipe(concatCss("bundle.css"))
-    .pipe(gulp.dest('static/css/'));
-});
+// gulp.task('combineCSS', function () {
+//   var concatCss = require('gulp-concat-css');
+//   return gulp.src('design/css/**/*.css')
+//     .pipe(concatCss("bundle.css"))
+//     .pipe(gulp.dest('static/css/'));
+// });
 
 gulp.task('postCSS', function () {
   var postcss      = require('gulp-postcss');
@@ -114,9 +114,9 @@ gulp.task('postCSS', function () {
     cssnano({safe: true}),
   ];
 
-  return gulp.src('_sass/styles.scss')
-    .pipe(sass())
+  return gulp.src('scss/styles.scss')
     .pipe(sourcemaps.init())
+    .pipe(sass())
     .pipe(postcss(processors))
     .pipe(sourcemaps.write('.'))
     .pipe(gulp.dest('static/css/'));

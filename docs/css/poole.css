@@ -70,26 +70,25 @@ a {
   color: #268bd2;
   text-decoration: none;
 }
+a strong {
+  color: inherit;
+}
 /* `:focus` is linked to `:hover` for basic accessibility */
 a:hover,
 a:focus {
-  text-decoration: none;
-  color: #ff5252;
+  text-decoration: underline;
 }
 
 /* Headings */
 h1, h2, h3, h4, h5, h6 {
   margin-bottom: .5rem;
-  /*font-weight: bold;*/
-  font-weight: normal;
+  font-weight: bold;
   line-height: 1.25;
-  color: #515151;  /*#313131;*/
-  /*font-family: 'Titillium Web', sans-serif;*/
+  color: #313131;
   text-rendering: optimizeLegibility;
 }
 h1 {
   font-size: 2rem;
-  font-family: 'Titillium Web', sans-serif;
 }
 h2 {
   margin-top: 1rem;
@@ -179,6 +178,8 @@ pre code {
   color: inherit;
   background-color: transparent;
 }
+
+/* Pygments via Jekyll */
 .highlight {
   margin-bottom: 1rem;
   border-radius: 4px;
@@ -187,12 +188,34 @@ pre code {
   margin-bottom: 0;
 }
 
+/* Gist via GitHub Pages */
+.gist .gist-file {
+  font-family: Menlo, Monaco, "Courier New", monospace !important;
+}
+.gist .markdown-body {
+  padding: 15px;
+}
+.gist pre {
+  padding: 0;
+  background-color: transparent;
+}
+.gist .gist-file .gist-data {
+  font-size: .8rem !important;
+  line-height: 1.4;
+}
+.gist code {
+  padding: 0;
+  color: inherit;
+  background-color: transparent;
+  border-radius: 0;
+}
+
 /* Quotes */
 blockquote {
   padding: .5rem 1rem;
   margin: .8rem 0;
   color: #7a7a7a;
-  border-left: .5rem solid #e5e5e5;
+  border-left: .25rem solid #e5e5e5;
 }
 blockquote p:last-child {
   margin-bottom: 0;
@@ -206,9 +229,9 @@ blockquote p:last-child {
 
 img {
   display: block;
+  max-width: 100%;
   margin: 0 0 1rem;
   border-radius: 5px;
-  max-width: 100%;
 }
 
 /* Tables */
@@ -236,7 +259,7 @@ tbody tr:nth-child(odd) th {
  */
 
 .lead {
-  font-size: 1rem;
+  font-size: 1.25rem;
   font-weight: 300;
 }
 
@@ -327,8 +350,6 @@ tbody tr:nth-child(odd) th {
   margin-top: -.5rem;
   margin-bottom: 1rem;
   color: #9a9a9a;
-  /*margin-top: 10px;*/
-  font-size: .75rem;
 }
 
 /* Related posts */
@@ -371,11 +392,6 @@ tbody tr:nth-child(odd) th {
   font-family: "PT Sans", Helvetica, Arial, sans-serif;
   color: #ccc;
   text-align: center;
-  display: inline-block;
-}
-
-.pagination > li {
-  display: inline;
 }
 
 /* Pagination items can be `span`s or `a`s */

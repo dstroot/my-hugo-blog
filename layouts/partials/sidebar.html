@@ -1,10 +1,21 @@
 <div class="sidebar">
   <div class="container sidebar-sticky">
+
+
+    <div class="myface">
+      <a href="/">
+        <img class="img-circle" src="https://www.gravatar.com/avatar/{{ .Site.Params.gravatarHash }}.png?s=256" alt="{{ .Site.Author.name }}" height="128" width="128" />
+        <i class="fa fa-home"></i>
+      </a>
+    </div>
+
+
+
     <div class="sidebar-about">
-      {{ if isset .Site.Params "gravatarHash" }}
+      <!-- {{ if isset .Site.Params "gravatarHash" }}
         <a href="/"><img src="https://www.gravatar.com/avatar/{{ .Site.Params.gravatarHash }}?s=200"
              alt="gravatar" title="{{ .Site.Author.name }}"></a>
-      {{ end }}
+      {{ end }} -->
       <a href="/"><h1>{{ .Site.Author.name }}</h1></a>
       {{ with .Site.Params.tagline }}<p class="lead">{{ . | markdownify }}</p>{{ end }}
     </div>
