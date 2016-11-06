@@ -1,11 +1,9 @@
----
-author: dan
-categories: null
-date: '2014-01-22'
-published: true
-tags: null
-title: Billion Dollar March Madness Bracket
----
++++
+date = "2014-01-22T10:00:00-00:00"
+title = "Billion Dollar March Madness Bracket"
+draft = false
+description = ""
++++
 
 ![NCAA Bracket](/img/ncaa-brackets.jpg)
 
@@ -34,7 +32,7 @@ If you are really smart and know that No. 1 seeds always advance in the first ro
 
 Get schooled by DePaul math professor Jay Bergen:
 
-{{< youtube O6Smkv11Mj4 >}}
+{{< youtube O6Smkv11Mj4 >}}<br>
 
 Using 1 in 128 billion odds, if everyone in the United States filled out a bracket, we'd see a perfect one **every 400 years**!  ESPN which has run a tournament challenge for the past 16 years has **never had a perfect bracket in over 30 million entries** according to the network.  I assume that many of the people filling those out are pretty smart.
 

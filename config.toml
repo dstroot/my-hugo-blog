@@ -7,6 +7,7 @@ paginate = 5
 canonifyurls = true
 
 [params]
+  googleAnalytics = ""
   # themeColor = "theme-base-0d"
   # If false display full article contents in blog index.
   # Otherwise show description and 'read on' link to individual blog post page.

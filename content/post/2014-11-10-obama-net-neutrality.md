@@ -1,12 +1,9 @@
----
-author: dan
-categories: null
-date: '2014-11-10'
-published: true
-tags: null
-title: President Obama's Plan for a Free and Open Internet
-url: /2014/11/10/obama-net-neutrality
----
++++
+date = "2014-11-10T10:00:00-00:00"
+title = "President Obama's Plan for a Free and Open Internet"
+draft = false
+description = ""
++++
 
 ![Obama Internet](/img/obama_internet.png)
 
@@ -25,25 +22,21 @@ It doesn't matter whether you are on the "red team" or the "blue team" - this is
 
 >...honest, inclusive conversation across a society will reliably lead to equality and higher quality of life, in any place it is allowed to happen.
 
-###My Thoughts:
+### My Thoughts:
 * There is one principle missing: **No Content Modification.** ISPs should not be allowed to modify any of the content they transport.  This prevents them from injecting beacons, tracking code, advertising, etc. into web content that they are entrusted to deliver.  This is happening and it needs to be stopped.
 * "Government Regulation" is known to increase costs, and potentially reduce growth and innovation.  All things being equal I am in favor of less regulation rather than more regulation.  We need to tread carefully as we seek to increase regulation to protect openness (bit of an oxymoron isn't it?).
 * We have to think carefully about the paid access issue. Does "no slow lanes" also mean "No Fast Lanes"?  What if I want an ISP to provide a service where I get premium access to YouTube content, or Netflix content?  Should that be illegal?
 * It is not a requirement that ISPs block unlawful content, rather it is a prohibition on blocking lawful content. But a strong enough prohibition on blocking lawful content (e.g., one which provides consequences whenever lawful content is blocked, even if the intent was to block unlawful content and the lawful content just got caught up in the filter) actually reduces the incentive for ISPs to attempt to identify and block unlawful content, since attempting to do so but making a misidentification in the process can result in penalties.  In other words access to child pornography, terrorist information, and illicit drugs could actually increase as a result (i.e. "the law of unintended consequences").
 
-###Here is President Obama's Video:
+### Here is President Obama's Video:
 
-<!-- 16:9 aspect ratio -->
-<div class="embed-responsive embed-responsive-16by9">
-  <iframe class="embed-responsive-item" src="//www.youtube.com/embed/uKcjQPVwfDk"></iframe>
-</div>
+{{< youtube uKcjQPVwfDk >}}
 
-###Update:
+### Update:
 
 As someone who considers himself a Republican It saddens me that this issue has become so polarized along party lines.
 
-<blockquote class="twitter-tweet" lang="en"><p>&quot;Net Neutrality&quot; is Obamacare for the Internet; the Internet should not operate at the speed of government.</p>&mdash; Senator Ted Cruz (@SenTedCruz) <a href="https://twitter.com/SenTedCruz/status/531834493922189313">November 10, 2014</a></blockquote>
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+{{< tweet 531834493922189313 >}}
 
 The only similarity to the Affordable Care Act is that Obama supports it. There may be a rational, reasoned argument against Net Neutrality, but Republicans aren’t making it, and neither are the cable companies or cellular providers.
 

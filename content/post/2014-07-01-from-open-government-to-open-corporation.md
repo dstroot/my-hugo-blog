@@ -1,16 +1,13 @@
----
-author: dan
-categories: null
-date: '2014-07-01'
-published: true
-tags: null
-title: From 'Open Government' to 'Open Corporation'
-url: /2014/07/01/from-open-government-to-open-corporation
----
++++
+date = "2014-07-01T10:00:00-00:00"
+title = "From 'Open Government' to 'Open Corporation'"
+draft = false
+description = ""
++++
 
 ![Digital Playbook](/img/data_gov.png)
 
-## Let's Talk About Open Government First
+### Let's Talk About Open Government First
 
 President Barack Obama, on his first day in office in 2009, signed an executive order stating that all government information that did not have to be kept secret for security or privacy reasons should be made public. The administration also launched the Open Data Initiative to publish government data and the [data.gov](http://www.data.gov/) website to distribute the data.
 
@@ -44,7 +41,7 @@ from 60 public agencies, and just this year Australian budget data was made avai
 * A [report](http://www.omidyar.com/sites/default/files/file_archive/insights/ON%20Report_061114_FNL.pdf) by Lateral Economics and the Omidyar Network finds that, by implementing open data policies, G20 countries could increase their cumulative GDP by $13 trillion over the next five years, because open data attracts private infrastructure investment, creates jobs, strengthens tax systems, and fights corruption.
 * A report by [McKinsey & Co.](http://www.mckinsey.com/insights/business_technology/open_data_unlocking_innovation_and_performance_with_liquid_information)  suggests that seven sectors alone could generate more than $3 trillion a year in additional value as a result of open data, which is already giving rise to hundreds of entrepreneurial businesses and helping established companies to segment markets, define new products and services, and improve the efficiency and effectiveness of operations.
 
-## A Few Words About Open Science
+### A Few Words About Open Science
 
 Science can be broadly described as collecting, analyzing, publishing, reanalyzing, critiquing, and reusing data. Interestingly, the open data movement in science predates the Internet. The concept of open access to scientific data was institutionally established in the mid-20th century when the International Council of Scientific Unions (now the International Council for Science) established several World Data Centers to minimize the risk of data loss and to maximize data accessibility, further recommending in **1955** that data be made available in machine-readable form. [1](http://www.icsu-wds.org/organization)
 
@@ -59,25 +56,28 @@ As a result has been a [strong backlash](http://thecostofknowledge.com/) to the 
 
 It's clear that that the concepts of open data benefit science, and the platforms we discuss below could be used to further the goals of open science.
 
-## What Open Data Looks Like
+### What Open Data Looks Like
 
 Goals, metrics and discoveries must be transparent.  Here are examples from city data:
 
-<img class="lazy img-rounded img-responsive" src="data:image/gif;base64,R0lGODlhAQABAIABAP///wAAACwAAAAAAQABAAACAkQBADs=" alt="Goals" data-src="/assets/img/goals.png" width="750">
+![Digital Playbook](/img/goals.png)
 
-<img class="lazy img-rounded img-responsive" src="data:image/gif;base64,R0lGODlhAQABAIABAP///wAAACwAAAAAAQABAAACAkQBADs=" alt="Goals" data-src="/assets/img/goals_metric.png" width="750">
+![Digital Playbook](/img/goals_metric.png)
 
-<img class="lazy img-rounded img-responsive" src="data:image/gif;base64,R0lGODlhAQABAIABAP///wAAACwAAAAAAQABAAACAkQBADs=" alt="Open Data" data-src="/assets/img/open_data.png" width="750">
+![Digital Playbook](/img/open_data.png)
+
 
 Datasets supporting the goals, metrics and discoveries must be publicly available, along with other supporting data:
 
-<img class="lazy img-rounded img-responsive" src="data:image/gif;base64,R0lGODlhAQABAIABAP///wAAACwAAAAAAQABAAACAkQBADs=" alt="Data Catalog" data-src="/assets/img/data_catalog.png" width="750">
+![Digital Playbook](/img/data_catalog.png)
+
 
 Platforms have sprung up to support the open government movement. [Socrata](http://www.socrata.com/) appears to have market leadership in this space and has a very complete vision of what an open data platform looks like:
 
-<img class="lazy img-rounded img-responsive" src="data:image/gif;base64,R0lGODlhAQABAIABAP///wAAACwAAAAAAQABAAACAkQBADs=" alt="Socrata" data-src="/assets/img/socrata.png" width="750">
+![Digital Playbook](/img/socrata.png)
 
-## The "Open Data" Corporation
+
+### The "Open Data" Corporation
 
 Open data is fast becoming a defining theme for business.
 

@@ -23,97 +23,102 @@
   
   <url>
     <loc>http://dstroot.github.io/my-hugo-blog/blog/2015/10/03/proprietary-software-is-an-unsafe-building-material/</loc>
-    <lastmod>2015-10-03T00:00:00+00:00</lastmod>
+    <lastmod>2015-10-03T10:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://dstroot.github.io/my-hugo-blog/2015/09/26/is-it-secure</loc>
-    <lastmod>2015-09-26T00:00:00+00:00</lastmod>
+    <loc>http://dstroot.github.io/my-hugo-blog/blog/2015/09/26/is-it-secure/</loc>
+    <lastmod>2015-09-26T10:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://dstroot.github.io/my-hugo-blog/2015/09/26/why-automate-code-reviews</loc>
-    <lastmod>2015-09-26T00:00:00+00:00</lastmod>
+    <loc>http://dstroot.github.io/my-hugo-blog/blog/2015/09/06/why-automate-code-reviews/</loc>
+    <lastmod>2015-09-06T10:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://dstroot.github.io/my-hugo-blog/2015/06/15/fintech-startups-tug-the-industry-forward</loc>
-    <lastmod>2015-06-15T00:00:00+00:00</lastmod>
+    <loc>http://dstroot.github.io/my-hugo-blog/blog/2015/06/15/fintech-startups-tug-the-industry-forward/</loc>
+    <lastmod>2015-06-15T10:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://dstroot.github.io/my-hugo-blog/2015/01/22/make-big-bets</loc>
-    <lastmod>2015-01-22T00:00:00+00:00</lastmod>
+    <loc>http://dstroot.github.io/my-hugo-blog/blog/2015/05/25/the-new-new-microsoft/</loc>
+    <lastmod>2015-05-25T10:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://dstroot.github.io/my-hugo-blog/2015/01/13/kiss-my-ux</loc>
-    <lastmod>2015-01-13T00:00:00+00:00</lastmod>
+    <loc>http://dstroot.github.io/my-hugo-blog/blog/2015/01/22/make-big-bets/</loc>
+    <lastmod>2015-01-22T10:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://dstroot.github.io/my-hugo-blog/2014/11/10/obama-net-neutrality</loc>
-    <lastmod>2014-11-10T00:00:00+00:00</lastmod>
+    <loc>http://dstroot.github.io/my-hugo-blog/blog/2015/01/13/keep-it-simple...-ux-design/</loc>
+    <lastmod>2015-01-13T10:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://dstroot.github.io/my-hugo-blog/2014/08/12/usa-digital-playbook</loc>
-    <lastmod>2014-08-12T00:00:00+00:00</lastmod>
+    <loc>http://dstroot.github.io/my-hugo-blog/blog/2014/11/10/president-obamas-plan-for-a-free-and-open-internet/</loc>
+    <lastmod>2014-11-10T10:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://dstroot.github.io/my-hugo-blog/2014/07/01/from-open-government-to-open-corporation</loc>
-    <lastmod>2014-07-01T00:00:00+00:00</lastmod>
+    <loc>http://dstroot.github.io/my-hugo-blog/blog/2014/08/12/usas-digital-playbook/</loc>
+    <lastmod>2014-08-12T10:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://dstroot.github.io/my-hugo-blog/2014/06/29/coreos-thousands-of-machines-and-millions-of-docker-containers-no-hypervisor-needed</loc>
-    <lastmod>2014-06-29T00:00:00+00:00</lastmod>
+    <loc>http://dstroot.github.io/my-hugo-blog/blog/2014/07/01/from-open-government-to-open-corporation/</loc>
+    <lastmod>2014-07-01T10:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://dstroot.github.io/my-hugo-blog/2014/05/05/virtual-machines-vs-containers</loc>
-    <lastmod>2014-05-05T00:00:00+00:00</lastmod>
+    <loc>http://dstroot.github.io/my-hugo-blog/blog/2014/06/29/coreos-thousands-of-machines-and-millions-of-docker-containers...-no-hypervisor-needed./</loc>
+    <lastmod>2014-06-29T10:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://dstroot.github.io/my-hugo-blog/2014/03/14/enterprise-search-2014</loc>
-    <lastmod>2014-03-14T00:00:00+00:00</lastmod>
+    <loc>http://dstroot.github.io/my-hugo-blog/blog/2014/05/05/virtual-machines-vs.-containers/</loc>
+    <lastmod>2014-05-05T10:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dstroot.github.io/my-hugo-blog/blog/2014/03/14/enterprise-search-2014/</loc>
+    <lastmod>2014-03-14T10:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>http://dstroot.github.io/my-hugo-blog/blog/2014/02/24/happy-birthday-steve/</loc>
-    <lastmod>2014-02-24T00:00:00+00:00</lastmod>
+    <lastmod>2014-02-24T10:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>http://dstroot.github.io/my-hugo-blog/blog/2014/02/18/ipv6-gets-real/</loc>
-    <lastmod>2014-02-18T00:00:00+00:00</lastmod>
+    <lastmod>2014-02-18T10:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>http://dstroot.github.io/my-hugo-blog/blog/2014/02/07/a-soul-crushing-exercise/</loc>
-    <lastmod>2014-02-07T00:00:00+00:00</lastmod>
+    <lastmod>2014-02-07T10:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>http://dstroot.github.io/my-hugo-blog/blog/2014/02/01/fixing-windows-8/</loc>
-    <lastmod>2014-02-01T00:00:00+00:00</lastmod>
+    <lastmod>2014-02-01T10:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>http://dstroot.github.io/my-hugo-blog/blog/2014/01/28/facebook-saves-a-billion-dollars-via-open-compute-designs/</loc>
-    <lastmod>2014-01-28T00:00:00+00:00</lastmod>
+    <lastmod>2014-01-28T10:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>http://dstroot.github.io/my-hugo-blog/blog/2014/01/22/awkward-bill-gates-notices-jimmy-fallon-uses-a-mac/</loc>
-    <lastmod>2014-01-22T00:00:00+00:00</lastmod>
+    <lastmod>2014-01-22T10:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>http://dstroot.github.io/my-hugo-blog/blog/2014/01/22/billion-dollar-march-madness-bracket/</loc>
-    <lastmod>2014-01-22T00:00:00+00:00</lastmod>
+    <lastmod>2014-01-22T10:00:00+00:00</lastmod>
   </url>
   
   <url>

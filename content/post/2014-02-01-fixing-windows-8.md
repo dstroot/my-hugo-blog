@@ -1,11 +1,9 @@
----
-author: dan
-categories: null
-date: '2014-02-01'
-published: true
-tags: null
-title: Fixing Windows 8
----
++++
+date = "2014-02-01T10:00:00-00:00"
+title = "Fixing Windows 8"
+draft = false
+description = ""
++++
 
 ![Windows 8](/img/windows8.jpg)
 

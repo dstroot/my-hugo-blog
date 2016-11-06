@@ -2,7 +2,7 @@
 date = "2016-10-29T19:50:04-07:00"
 title = "Free to Believe Anything"
 draft = false
-
+description = ""
 +++
 
 ![Cognitive Bias](/img/comic.png)

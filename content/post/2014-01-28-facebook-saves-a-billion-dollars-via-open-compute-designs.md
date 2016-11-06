@@ -1,11 +1,9 @@
----
-author: dan
-categories: null
-date: '2014-01-28'
-published: true
-tags: null
-title: Facebook Saves a BILLION Dollars via Open Compute Designs
----
++++
+date = "2014-01-28T10:00:00-00:00"
+title = "Facebook Saves a BILLION Dollars via Open Compute Designs"
+draft = false
+description = ""
++++
 
 ![Facebook Server](/img/fb-server.jpg)
 

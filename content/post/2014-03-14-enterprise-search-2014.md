@@ -1,12 +1,9 @@
----
-author: dan
-categories: null
-date: '2014-03-14'
-published: true
-tags: null
-title: Enterprise Search 2014
-url: /2014/03/14/enterprise-search-2014
----
++++
+date = "2014-03-14T10:00:00-00:00"
+title = "Enterprise Search 2014"
+draft = false
+description = ""
++++
 
 ![Google Enterprise Search](/img/Google_Enterprise_Search.png)
 

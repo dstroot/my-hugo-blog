@@ -1,12 +1,9 @@
----
-author: dan
-categories: null
-date: '2014-06-29'
-published: false
-tags: null
-title: Setup a CoreOS playground
-url: /2014/06/29/setup-a-coreos-playground
----
++++
+date = "2014-06-29T10:00:00-00:00"
+title = "Setup a CoreOS Playground"
+draft = true
+description = ""
++++
 
 ![CoreOS](/img/coreos-logo.png)
 

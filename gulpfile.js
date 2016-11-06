@@ -47,8 +47,8 @@ var banner = [
 var paths = {
   clean: [
     'static/js/myblog*.js',
-    'static/css/myblog*.css',
-    'static/css/myblog*.map',
+    'static/css/*.css',
+    'static/css/*.map',
     'docs'
   ],
   js: [
@@ -123,7 +123,7 @@ gulp.task('postCSS', function () {
   ];
 
   return gulp.src('scss/styles.scss')
-    .pipe(sourcemaps.init())
+    // .pipe(sourcemaps.init())
     .pipe(sass())
     .pipe(gulp.dest('./static/css'))        // Save CSS here
     .pipe($.rename({ suffix: '.min' }))     // Add .min suffix

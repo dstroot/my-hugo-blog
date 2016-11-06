@@ -1,11 +1,9 @@
----
-author: dan
-categories: null
-date: '2014-02-24'
-published: true
-tags: null
-title: Happy Birthday Steve
----
++++
+date = "2014-02-24T10:00:00-00:00"
+title = "Happy Birthday Steve"
+draft = false
+description = ""
++++
 
 ![Steve Jobs](/img/SteveJobsCloseUp-lg.jpg)
 

@@ -1,12 +1,9 @@
----
-author: dan
-categories: null
-date: '2015-06-15'
-published: true
-tags: null
-title: Fintech Startups Tug the Industy Forward
-url: /2015/06/15/fintech-startups-tug-the-industry-forward
----
++++
+date = "2015-06-15T10:00:00-00:00"
+title = "FinTech Startups Tug the Industry Forward"
+draft = false
+description = ""
++++
 
 ![FinTech](/img/billguard.png)
 

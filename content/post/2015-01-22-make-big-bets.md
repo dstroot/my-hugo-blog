@@ -1,12 +1,9 @@
----
-author: dan
-categories: null
-date: '2015-01-22'
-published: true
-tags: null
-title: Make Big Bets
-url: /2015/01/22/make-big-bets
----
++++
+date = "2015-01-22T10:00:00-00:00"
+title = "Make Big Bets"
+draft = false
+description = ""
++++
 
 ![Children](/img/african_children.jpg)
 
@@ -29,7 +26,7 @@ My daughter and I spent 10 days traveling in Uganda several years ago with our f
 
 One of the places we visited was [Krochet Kids](http://www.krochetkids.org/) in Gulu. They are the largest employer of women in the area. They provide job training, a fair wage to lift them and their families out of poverty, and a positive family-oriented environment. On a side note you can buy their products in Nordstrom!  This picture is "the factory" on the day we visited:
 
-<img class="lazy img-rounded img-responsive" src="data:image/gif;base64,R0lGODlhAQABAIABAP///wAAACwAAAAAAQABAAACAkQBADs=" alt="Open Data" data-src="/assets/img/krochet-kids.jpg" width="750">
+![Children](/img/krochet-kids.jpg)
 
 As you can see the women get to sit in the shade of large trees, children are welcome, and they are encouraged to socialize as they work. The women I met were very happy and grateful for the opportunity.  However we found out that when the women got paid (cash - they do not have bank accounts) their husbands would take the money.  Some husbands would go drinking or find other ways to spend the money unwisely. The women were not empowered culturally to resist.
 

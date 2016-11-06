@@ -1,12 +1,9 @@
----
-author: dan
-categories: null
-date: '2014-05-05'
-published: true
-tags: null
-title: Virtual Machines vs. Containers
-url: /2014/05/05/virtual-machines-vs-containers
----
++++
+date = "2014-05-05T10:00:00-00:00"
+title = "Virtual Machines vs. Containers"
+draft = false
+description = ""
++++
 
 ![Docker](/img/docker.png)
 

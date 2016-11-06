@@ -1,12 +1,9 @@
----
-author: dan
-categories: null
-date: '2014-08-12'
-published: true
-tags: null
-title: USA's Digital Playbook
-url: /2014/08/12/usa-digital-playbook
----
++++
+date = "2014-08-12T10:00:00-00:00"
+title = "USA's Digital Playbook"
+draft = false
+description = ""
++++
 
 ![Digital Playbook](/img/USDS_Playbook.png)
 

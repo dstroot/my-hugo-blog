@@ -1,11 +1,9 @@
----
-author: dan
-categories: null
-date: '2014-02-18'
-published: true
-tags: null
-title: IPv6 Gets Real
----
++++
+date = "2014-02-18T10:00:00-00:00"
+title = "IPv6 Gets Real"
+draft = false
+description = ""
++++
 
 ![IPv6](/img/IPv6-google.jpg)
 

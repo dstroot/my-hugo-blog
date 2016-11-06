@@ -1,11 +1,9 @@
----
-author: dan
-categories: null
-date: '2014-02-07'
-published: true
-tags: null
-title: A Soul Crushing Exercise
----
++++
+date = "2014-02-07T10:00:00-00:00"
+title = "A Soul Crushing Exercise"
+draft = false
+description = ""
++++
 
 ![Soul Crushing](/img/soulcrushing.jpg)
 

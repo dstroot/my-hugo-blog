@@ -175,7 +175,7 @@ function getJoke(foo, bar) {
     <item>
       <title>Proprietary Software is an Unsafe Building Material</title>
       <link>http://dstroot.github.io/my-hugo-blog/blog/2015/10/03/proprietary-software-is-an-unsafe-building-material/</link>
-      <pubDate>Sat, 03 Oct 2015 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 03 Oct 2015 10:00:00 +0000</pubDate>
       
       <guid>http://dstroot.github.io/my-hugo-blog/blog/2015/10/03/proprietary-software-is-an-unsafe-building-material/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;http://dstroot.github.io/my-hugo-blog/img/volkswagen.jpg&#34; alt=&#34;Volkswagen&#34; /&gt;&lt;/p&gt;
@@ -215,10 +215,10 @@ The recent Volkswagen scandal brings to light the broader question of how vulner
     
     <item>
       <title>Is it Secure?</title>
-      <link>http://dstroot.github.io/my-hugo-blog/2015/09/26/is-it-secure</link>
-      <pubDate>Sat, 26 Sep 2015 00:00:00 +0000</pubDate>
+      <link>http://dstroot.github.io/my-hugo-blog/blog/2015/09/26/is-it-secure/</link>
+      <pubDate>Sat, 26 Sep 2015 10:00:00 +0000</pubDate>
       
-      <guid>http://dstroot.github.io/my-hugo-blog/2015/09/26/is-it-secure</guid>
+      <guid>http://dstroot.github.io/my-hugo-blog/blog/2015/09/26/is-it-secure/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;http://dstroot.github.io/my-hugo-blog/img/SmartCarLock.png&#34; alt=&#34;Security&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;em&gt;Q&lt;/em&gt;: Is it secure? &lt;br&gt;
@@ -232,7 +232,7 @@ The recent Volkswagen scandal brings to light the broader question of how vulner
 
 &lt;p&gt;&lt;/p&gt;
 
-&lt;h2 id=&#34;there-is-no-such-thing-as-perfect-security&#34;&gt;There is no such thing as perfect security&lt;/h2&gt;
+&lt;h3 id=&#34;there-is-no-such-thing-as-perfect-security&#34;&gt;There is no such thing as perfect security&lt;/h3&gt;
 
 &lt;p&gt;Most information security practitioners do a poor job explaining the relative nature of security.  Secure relative to what? A bot that looks for un-patched systems? A determined hacker? A nation-state?&lt;/p&gt;
 
@@ -242,7 +242,7 @@ The recent Volkswagen scandal brings to light the broader question of how vulner
 
 &lt;p&gt;Like mountain climbing, security can and should be rated/evaluated based on actual experience. Also like mountain climbing there are initial conditions that indicate a “tough climb” or an easy one.&lt;/p&gt;
 
-&lt;h2 id=&#34;conditions-for-high-security-levels&#34;&gt;Conditions for high security levels&lt;/h2&gt;
+&lt;h3 id=&#34;conditions-for-high-security-levels&#34;&gt;Conditions for high security levels&lt;/h3&gt;
 
 &lt;ol&gt;
 &lt;li&gt;&lt;strong&gt;The technology is widely deployed/adopted.&lt;/strong&gt; Note that being widely deployed does NOT mean the technology is secure (Windows XP was widely deployed). It simply means that we are more likely to have lots of data about its security performance. The more opportunities and incentives for attack will give us more data, which increases our confidence of it&amp;rsquo;s &amp;ldquo;rating&amp;rdquo;.&lt;/li&gt;
@@ -252,7 +252,7 @@ The recent Volkswagen scandal brings to light the broader question of how vulner
 &lt;li&gt;&lt;strong&gt;Bug Bounty Program&lt;/strong&gt;. Public, open &lt;a href=&#34;https://bugcrowd.com/list-of-bug-bounty-programs&#34;&gt;Bug Bounty Programs&lt;/a&gt; encourage vulnerability research in a responsible manner. As an economist by training I believe when the rewards for good behavior are there you tend to get good behavior. If not, only bad behavior is rewarded.&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;h2 id=&#34;conditions-for-low-security-levels&#34;&gt;Conditions for low security levels&lt;/h2&gt;
+&lt;h3 id=&#34;conditions-for-low-security-levels&#34;&gt;Conditions for low security levels&lt;/h3&gt;
 
 &lt;ol&gt;
 &lt;li&gt;&lt;strong&gt;Not widely deployed&lt;/strong&gt; The less widely the technology is deployed and used the fewer opportunities we have to gather good data about it’s security profile.&lt;/li&gt;
@@ -261,7 +261,7 @@ The recent Volkswagen scandal brings to light the broader question of how vulner
 &lt;li&gt;&lt;strong&gt;Closed code base&lt;/strong&gt; If you have to ask your vendor “is it secure?” then it’s not.  Security isn&amp;rsquo;t something you can provide an answer to unless you&amp;rsquo;re selling snake oil. If the vendor says: “It&amp;rsquo;s secure. We did not put in any back doors. We audited the code ourselves. There are not any kernel level hacks, root kits, or otherwise. This has been tested against a variety of anti-virus scanners and none of them flagged anything. We&amp;rsquo;re very good. Please, please trust us.” then you should know that they are telling you what you want, or need to hear. You could read the &lt;a href=&#34;https://technet.microsoft.com/en-us/library/bb457059.aspx&#34;&gt;WinXP pamphlet&lt;/a&gt; on security back when it was released and it had endless bullet points about how secure it was. It was probably the least secure software in the history of computing based on actual attacks after the fact.&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;h2 id=&#34;it-s-secure-until-it-s-not&#34;&gt;It’s secure… until it’s not&lt;/h2&gt;
+&lt;h3 id=&#34;it-s-secure-until-it-s-not&#34;&gt;It’s secure… until it’s not&lt;/h3&gt;
 
 &lt;p&gt;In the 1770s Joseph Bramah created a lock that was vastly superior to any the world ever seen. Bramah believed it was 100% theft-proof. Bramah was so confident in his design that he published a pamphlet detailing exactly how it worked and he put it in the window of his London storefront, and painted on it a challenge:&lt;/p&gt;
 
@@ -289,36 +289,37 @@ He would pick it until he tripped the detector mechanism, causing the lock to se
 &lt;h4 id=&#34;references&#34;&gt;References&lt;/h4&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://gizmodo.com/in-1851-a-man-picked-two-unpickable-locks-and-changed-1698557792&#34;&gt;http://gizmodo.com/in-1851-a-man-picked-two-unpickable-locks-and-changed-1698557792&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://gizmodo.com/in-1851-a-man-picked-two-unpickable-locks-and-changed-1698557792&#34;&gt;In 1851 a man picked two unpickable locks&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</description>
     </item>
     
     <item>
       <title>Why Automate Code Reviews?</title>
-      <link>http://dstroot.github.io/my-hugo-blog/2015/09/26/why-automate-code-reviews</link>
-      <pubDate>Sat, 26 Sep 2015 00:00:00 +0000</pubDate>
+      <link>http://dstroot.github.io/my-hugo-blog/blog/2015/09/06/why-automate-code-reviews/</link>
+      <pubDate>Sun, 06 Sep 2015 10:00:00 +0000</pubDate>
       
-      <guid>http://dstroot.github.io/my-hugo-blog/2015/09/26/why-automate-code-reviews</guid>
+      <guid>http://dstroot.github.io/my-hugo-blog/blog/2015/09/06/why-automate-code-reviews/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;Ask a programmer to review 10 lines of code, they&amp;rsquo;ll make 10 suggestions. Ask them to review 1,000 lines of code and they&amp;rsquo;ll say &amp;ldquo;it looks good!&amp;rdquo;&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;p&gt;Many people have begun integrating bots into the GitHub ecosystem for code review. For example the folks who created the Bootstrap UI framework created a bot called &lt;a href=&#34;https://github/twbs/rorshach&#34;&gt;rorshach&lt;/a&gt; to perform sanity checks on pull requests. If the sanity check fails it leaves a nice informative comment, explaining the issue and how to fix it.&lt;/p&gt;
 
+&lt;p&gt;&lt;/p&gt;
+
 &lt;p&gt;There is another example at &lt;a href=&#34;https://betterdiff.com/&#34;&gt;BetterDiff&lt;/a&gt;. The idea there is that instead of having humans go through and give cursory reviews, you have a round of automated review by bots (using normal, industry-standard tooling) and it comments on the pull request just like a reviewer would.&lt;/p&gt;
 
 &lt;p&gt;Pretty soon I expect to see &amp;ldquo;when tests pass, and code reviews pass, then go ahead and merge the code&amp;rdquo; bots.&lt;/p&gt;
 
-&lt;p&gt;Welcome to the future.&lt;/p&gt;
-</description>
+&lt;p&gt;Welcome to the future.&lt;/p&gt;</description>
     </item>
     
     <item>
-      <title>Fintech Startups Tug the Industy Forward</title>
-      <link>http://dstroot.github.io/my-hugo-blog/2015/06/15/fintech-startups-tug-the-industry-forward</link>
-      <pubDate>Mon, 15 Jun 2015 00:00:00 +0000</pubDate>
+      <title>FinTech Startups Tug the Industry Forward</title>
+      <link>http://dstroot.github.io/my-hugo-blog/blog/2015/06/15/fintech-startups-tug-the-industry-forward/</link>
+      <pubDate>Mon, 15 Jun 2015 10:00:00 +0000</pubDate>
       
-      <guid>http://dstroot.github.io/my-hugo-blog/2015/06/15/fintech-startups-tug-the-industry-forward</guid>
+      <guid>http://dstroot.github.io/my-hugo-blog/blog/2015/06/15/fintech-startups-tug-the-industry-forward/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;http://dstroot.github.io/my-hugo-blog/img/billguard.png&#34; alt=&#34;FinTech&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Financial services companies are among the most highly regulated industries in the world.  They also suffer from a trust issue.  Trust is a key ingredient in making a financial services business viable. Why would I ever buy insurance, banking services or invest my savings via a company that I didn’t trust?&lt;/p&gt;
@@ -373,11 +374,61 @@ He would pick it until he tripped the detector mechanism, causing the lock to se
     </item>
     
     <item>
-      <title>Make Big Bets</title>
-      <link>http://dstroot.github.io/my-hugo-blog/2015/01/22/make-big-bets</link>
-      <pubDate>Thu, 22 Jan 2015 00:00:00 +0000</pubDate>
+      <title>The &#39;New&#39; New Microsoft</title>
+      <link>http://dstroot.github.io/my-hugo-blog/blog/2015/05/25/the-new-new-microsoft/</link>
+      <pubDate>Mon, 25 May 2015 10:00:00 +0000</pubDate>
       
-      <guid>http://dstroot.github.io/my-hugo-blog/2015/01/22/make-big-bets</guid>
+      <guid>http://dstroot.github.io/my-hugo-blog/blog/2015/05/25/the-new-new-microsoft/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;http://dstroot.github.io/my-hugo-blog/img/satya-nadella-microsoft-ceo.jpg&#34; alt=&#34;Microsoft&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;I&amp;rsquo;ve been a fan of Microsoft during my whole technical career.  However I don&amp;rsquo;t recommend Microsoft any longer for server workloads, and haven&amp;rsquo;t for years due to the fact that the Linux ecosystem is far less expensive and has more innovative people working on it and sharing what they do openly. However, I am very impressed with the direction and leadership of Satya Nadella.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;windows-package-manager&#34;&gt;Windows Package Manager&lt;/h3&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;In Windows 10 we are launching a new Package Management feature (formerly referred to as OneGet) that enables ITPros or DevOps to automate software discovery, installation, and inventory (SDII), locally or remotely, no matter what the installer technology is and where the software is located.&lt;/p&gt;
+
+&lt;p&gt;So why are we implementing Package Management? In the Linux world, people are familiar with package managers such as Apt-Get, YUM, RPM, etc, for different Linux distros.  In the Windows world, however, there are quite a few installer technologies, each having their own way to install software, such as MSI, MSU, APPX, and the list goes on and on. This creates a challenge for ITPros and DevOps and a need for a tool to automate the software deployment experience.  PackageManagement is aimed at solving this problem.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&#34;net-for-linux-and-mac&#34;&gt;.NET for Linux and Mac&lt;/h3&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;.NET Core supports Windows, OS X and Linux. You can write Universal apps on Windows 10 and ASP.NET 5 and Console apps on all of the three OSes. FreeBSD support is in progress, led by the .NET open source community. We expect that the community will create other OS ports. In fact, the OS X port has also been community led.&lt;/p&gt;
+
+&lt;p&gt;.NET Core supports x86, x64 and ARM CPUs in order to support device, cloud and console app scenarios. We expect that to see more chips come online, particularly given the LLILC LLVM integration project. LLILC will (in theory) make it possible to port .NET Core to all of the chips that LLVM supports.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;strong&gt;The .NET Core is open source on GitHub!&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;visual-studio-code&#34;&gt;Visual Studio Code&lt;/h3&gt;
+
+&lt;p&gt;This marks the first time that Microsoft offers developers a true cross-platform code editor. The full Visual Studio is still Windows-only, but today’s announcement shows the company’s commitment to supporting other platforms.  What is really fascinating is they built it with SAME basic architecture as GitHub&amp;rsquo;s Atom editor!&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Architecturally, Visual Studio Code combines the best of web, native, and language-specific technologies. Using the &lt;strong&gt;GitHub Electron Shell, Code combines web technologies such as JavaScript and Node.js with the speed and flexibility of native apps&lt;/strong&gt;. Code uses a newer, faster version of the same industrial-strength HTML-based editor that has powered the “Monaco” cloud editor, Internet Explorer&amp;rsquo;s F12 Tools, and other projects. And Code uses a tools service architecture that enables it to use many of the same technologies that power Visual Studio, including Roslyn for .NET, TypeScript, the Visual Studio debugging engine, and more. In future previews, as we continue to evolve and refine this architecture, Visual Studio Code will include a public extensibility model that lets developers build and use plug-ins, and richly customize their edit-build-debug experience.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;This is all incredible coming from Microsoft.  Way to go!&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Sources:&lt;/em&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://techcrunch.com/2015/04/29/microsoft-shocks-the-world-with-visual-studio-code-a-free-code-editor-for-os-x-linux-and-windows/&#34;&gt;Microsoft Launches Visual Studio Code&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://code.visualstudio.com/Docs&#34;&gt;Visual Studio Docs&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://techcrunch.com/2015/04/29/microsoft-launches-its-net-distribution-for-linux-and-mac/&#34;&gt;Microsoft Launches Its .NET Distribution For Linux And Mac&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://blogs.technet.com/b/packagemanagement/archive/2015/04/29/introducing-packagemanagement-in-windows-10.aspx&#34;&gt;Introducing PackageManagement in Windows 10&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    
+    <item>
+      <title>Make Big Bets</title>
+      <link>http://dstroot.github.io/my-hugo-blog/blog/2015/01/22/make-big-bets/</link>
+      <pubDate>Thu, 22 Jan 2015 10:00:00 +0000</pubDate>
+      
+      <guid>http://dstroot.github.io/my-hugo-blog/blog/2015/01/22/make-big-bets/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;http://dstroot.github.io/my-hugo-blog/img/african_children.jpg&#34; alt=&#34;Children&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;The Bill and Melinda Gates Foundation just released it&amp;rsquo;s &lt;a href=&#34;http://www.gatesnotes.com/2015-annual-letter?page=0&amp;amp;lang=en&amp;amp;WT.mc_id=01_21_2015_AL2015-GF_GFO_domain_Top_21&#34;&gt;annual letter&lt;/a&gt;.  I have come to look forward to these letters because I find them incredibly inspiring. This year instead of an annual update they are re-baselining and taking a fifteen year view of the future. As I read this year&amp;rsquo;s letter I was simultaneously moved, inspired and awed by the scope their mission:&lt;/p&gt;
@@ -403,7 +454,7 @@ He would pick it until he tripped the detector mechanism, causing the lock to se
 
 &lt;p&gt;One of the places we visited was &lt;a href=&#34;http://www.krochetkids.org/&#34;&gt;Krochet Kids&lt;/a&gt; in Gulu. They are the largest employer of women in the area. They provide job training, a fair wage to lift them and their families out of poverty, and a positive family-oriented environment. On a side note you can buy their products in Nordstrom!  This picture is &amp;ldquo;the factory&amp;rdquo; on the day we visited:&lt;/p&gt;
 
-&lt;p&gt;&lt;img class=&#34;lazy img-rounded img-responsive&#34; src=&#34;data:image/gif;base64,R0lGODlhAQABAIABAP///wAAACwAAAAAAQABAAACAkQBADs=&#34; alt=&#34;Open Data&#34; data-src=&#34;/assets/img/krochet-kids.jpg&#34; width=&#34;750&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://dstroot.github.io/my-hugo-blog/img/krochet-kids.jpg&#34; alt=&#34;Children&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;As you can see the women get to sit in the shade of large trees, children are welcome, and they are encouraged to socialize as they work. The women I met were very happy and grateful for the opportunity.  However we found out that when the women got paid (cash - they do not have bank accounts) their husbands would take the money.  Some husbands would go drinking or find other ways to spend the money unwisely. The women were not empowered culturally to resist.&lt;/p&gt;
 
@@ -429,10 +480,10 @@ He would pick it until he tripped the detector mechanism, causing the lock to se
     
     <item>
       <title>Keep it Simple... UX Design</title>
-      <link>http://dstroot.github.io/my-hugo-blog/2015/01/13/kiss-my-ux</link>
-      <pubDate>Tue, 13 Jan 2015 00:00:00 +0000</pubDate>
+      <link>http://dstroot.github.io/my-hugo-blog/blog/2015/01/13/keep-it-simple...-ux-design/</link>
+      <pubDate>Tue, 13 Jan 2015 10:00:00 +0000</pubDate>
       
-      <guid>http://dstroot.github.io/my-hugo-blog/2015/01/13/kiss-my-ux</guid>
+      <guid>http://dstroot.github.io/my-hugo-blog/blog/2015/01/13/keep-it-simple...-ux-design/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;http://dstroot.github.io/my-hugo-blog/img/iron_man.png&#34; alt=&#34;Iron Man&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Having done some user interface work over the break I discovered that my design approach was basically to:&lt;/p&gt;
@@ -450,31 +501,50 @@ He would pick it until he tripped the detector mechanism, causing the lock to se
 &lt;p&gt;Nielsen&amp;rsquo;s 10 Heuristic Design Principles:&lt;/p&gt;
 
 &lt;blockquote&gt;
-&lt;p&gt;####VISIBILITY OF SYSTEM STATUS
-The system should always keep users informed about what is going on, through appropriate feedback within reasonable time.
-####MATCH BETWEEN SYSTEM AND THE REAL WORLD
-The system should speak the users&amp;rsquo; language, with words, phrases and concepts familiar to the user, rather than system-oriented terms. Follow real-world conventions, making information appear in a natural and logical order.
-####USER CONTROL AND FREEDOM
-Users often choose system functions by mistake and will need a clearly marked &amp;ldquo;emergency exit&amp;rdquo; to leave the unwanted state without having to go through an extended dialogue. Support undo and redo.
-####CONSISTENCY AND STANDARDS
-Users should not have to wonder whether different words, situations, or actions mean the same thing. Follow platform conventions.
-####ERROR PREVENTION
-Even better than good error messages is a careful design which prevents a problem from occurring in the first place. Either eliminate error-prone conditions or check for them and present users with a confirmation option before they commit to the action.
-####RECOGNITION RATHER THAN RECALL
-Minimize the user&amp;rsquo;s memory load by making objects, actions, and options visible. The user should not have to remember information from one part of the dialogue to another. Instructions for use of the system should be visible or easily retrievable whenever appropriate.
-####FLEXIBILITY AND EFFICIENCY OF USE
-Accelerators &amp;ndash; unseen by the novice user &amp;ndash; may often speed up the interaction for the expert user such that the system can cater to both inexperienced and experienced users. Allow users to tailor frequent actions.
-####AESTHETIC AND MINIMALIST DESIGN
-Dialogues should not contain information which is irrelevant or rarely needed. Every extra unit of information in a dialogue competes with the relevant units of information and diminishes their relative visibility.
-####HELP USERS RECOGNIZE, DIAGNOSE, AND RECOVER FROM ERRORS
-Error messages should be expressed in plain language (no codes), precisely indicate the problem, and constructively suggest a solution.
-####HELP AND DOCUMENTATION
-Even though it is better if the system can be used without documentation, it may be necessary to provide help and documentation. Any such information should be easy to search, focused on the user&amp;rsquo;s task, list concrete steps to be carried out, and not be too large.&lt;/p&gt;
+&lt;h4 id=&#34;visibility-of-system-status&#34;&gt;VISIBILITY OF SYSTEM STATUS&lt;/h4&gt;
+
+&lt;p&gt;The system should always keep users informed about what is going on, through appropriate feedback within reasonable time.&lt;/p&gt;
+
+&lt;h4 id=&#34;match-between-system-and-the-real-world&#34;&gt;MATCH BETWEEN SYSTEM AND THE REAL WORLD&lt;/h4&gt;
+
+&lt;p&gt;The system should speak the users&amp;rsquo; language, with words, phrases and concepts familiar to the user, rather than system-oriented terms. Follow real-world conventions, making information appear in a natural and logical order.&lt;/p&gt;
+
+&lt;h4 id=&#34;user-control-and-freedom&#34;&gt;USER CONTROL AND FREEDOM&lt;/h4&gt;
+
+&lt;p&gt;Users often choose system functions by mistake and will need a clearly marked &amp;ldquo;emergency exit&amp;rdquo; to leave the unwanted state without having to go through an extended dialogue. Support undo and redo.&lt;/p&gt;
+
+&lt;h4 id=&#34;consistency-and-standards&#34;&gt;CONSISTENCY AND STANDARDS&lt;/h4&gt;
+
+&lt;p&gt;Users should not have to wonder whether different words, situations, or actions mean the same thing. Follow platform conventions.&lt;/p&gt;
+
+&lt;h4 id=&#34;error-prevention&#34;&gt;ERROR PREVENTION&lt;/h4&gt;
+
+&lt;p&gt;Even better than good error messages is a careful design which prevents a problem from occurring in the first place. Either eliminate error-prone conditions or check for them and present users with a confirmation option before they commit to the action.&lt;/p&gt;
+
+&lt;h4 id=&#34;recognition-rather-than-recall&#34;&gt;RECOGNITION RATHER THAN RECALL&lt;/h4&gt;
+
+&lt;p&gt;Minimize the user&amp;rsquo;s memory load by making objects, actions, and options visible. The user should not have to remember information from one part of the dialogue to another. Instructions for use of the system should be visible or easily retrievable whenever appropriate.&lt;/p&gt;
+
+&lt;h4 id=&#34;flexibility-and-efficiency-of-use&#34;&gt;FLEXIBILITY AND EFFICIENCY OF USE&lt;/h4&gt;
+
+&lt;p&gt;Accelerators &amp;ndash; unseen by the novice user &amp;ndash; may often speed up the interaction for the expert user such that the system can cater to both inexperienced and experienced users. Allow users to tailor frequent actions.&lt;/p&gt;
+
+&lt;h4 id=&#34;aesthetic-and-minimalist-design&#34;&gt;AESTHETIC AND MINIMALIST DESIGN&lt;/h4&gt;
+
+&lt;p&gt;Dialogues should not contain information which is irrelevant or rarely needed. Every extra unit of information in a dialogue competes with the relevant units of information and diminishes their relative visibility.&lt;/p&gt;
+
+&lt;h4 id=&#34;help-users-recognize-diagnose-and-recover-from-errors&#34;&gt;HELP USERS RECOGNIZE, DIAGNOSE, AND RECOVER FROM ERRORS&lt;/h4&gt;
+
+&lt;p&gt;Error messages should be expressed in plain language (no codes), precisely indicate the problem, and constructively suggest a solution.&lt;/p&gt;
+
+&lt;h4 id=&#34;help-and-documentation&#34;&gt;HELP AND DOCUMENTATION&lt;/h4&gt;
+
+&lt;p&gt;Even though it is better if the system can be used without documentation, it may be necessary to provide help and documentation. Any such information should be easy to search, focused on the user&amp;rsquo;s task, list concrete steps to be carried out, and not be too large.&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;p&gt;The main area that I struggle with is keeping it simple and minimal.  I tend to want to create &amp;ldquo;Tony Stark&amp;rdquo; approved interfaces, yet in the real world I strongly prefer clean simplicity. Check out this example from the retailer Victoria Beckham:&lt;/p&gt;
 
-&lt;p&gt;&lt;img class=&#34;lazy img-rounded img-responsive&#34; src=&#34;data:image/gif;base64,R0lGODlhAQABAIABAP///wAAACwAAAAAAQABAAACAkQBADs=&#34; alt=&#34;Open Data&#34; data-src=&#34;/assets/img/VICTORIA_BECKHAM.png&#34; width=&#34;750&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://dstroot.github.io/my-hugo-blog/img/VICTORIA_BECKHAM.png&#34; alt=&#34;Victoria Beckham&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;The product is front and center and draws your eye.  The navigation is minimal.  The buying options are as limited as possible, you can only choose your size.  Yet there is nothing missing - I can get more details if I want, or a size guide if needed.  To me, this is oustanding UI/UX.  It is clean, simple and usable, and it highlights the product and only the product. What is your ideal UI/UX?&lt;/p&gt;
 
@@ -489,10 +559,10 @@ Even though it is better if the system can be used without documentation, it may
     
     <item>
       <title>President Obama&#39;s Plan for a Free and Open Internet</title>
-      <link>http://dstroot.github.io/my-hugo-blog/2014/11/10/obama-net-neutrality</link>
-      <pubDate>Mon, 10 Nov 2014 00:00:00 +0000</pubDate>
+      <link>http://dstroot.github.io/my-hugo-blog/blog/2014/11/10/president-obamas-plan-for-a-free-and-open-internet/</link>
+      <pubDate>Mon, 10 Nov 2014 10:00:00 +0000</pubDate>
       
-      <guid>http://dstroot.github.io/my-hugo-blog/2014/11/10/obama-net-neutrality</guid>
+      <guid>http://dstroot.github.io/my-hugo-blog/blog/2014/11/10/president-obamas-plan-for-a-free-and-open-internet/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;http://dstroot.github.io/my-hugo-blog/img/obama_internet.png&#34; alt=&#34;Obama Internet&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Today President Barack Obama has come out in favor of net neutrality in very public way.  He lays out in no uncertain terms that he believes no cable company or access provider should be able to put limits on access to the Internet. In addition, he’s suggesting that the FCC recognizes access to the Internet as a basic utility, and something that Americans have a basic right to. This means no blocking, no throttling, more transparency and no paid prioritization.
@@ -513,26 +583,29 @@ Even though it is better if the system can be used without documentation, it may
 &lt;p&gt;&amp;hellip;honest, inclusive conversation across a society will reliably lead to equality and higher quality of life, in any place it is allowed to happen.&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;###My Thoughts:
-* There is one principle missing: &lt;strong&gt;No Content Modification.&lt;/strong&gt; ISPs should not be allowed to modify any of the content they transport.  This prevents them from injecting beacons, tracking code, advertising, etc. into web content that they are entrusted to deliver.  This is happening and it needs to be stopped.
-* &amp;ldquo;Government Regulation&amp;rdquo; is known to increase costs, and potentially reduce growth and innovation.  All things being equal I am in favor of less regulation rather than more regulation.  We need to tread carefully as we seek to increase regulation to protect openness (bit of an oxymoron isn&amp;rsquo;t it?).
-* We have to think carefully about the paid access issue. Does &amp;ldquo;no slow lanes&amp;rdquo; also mean &amp;ldquo;No Fast Lanes&amp;rdquo;?  What if I want an ISP to provide a service where I get premium access to YouTube content, or Netflix content?  Should that be illegal?
-* It is not a requirement that ISPs block unlawful content, rather it is a prohibition on blocking lawful content. But a strong enough prohibition on blocking lawful content (e.g., one which provides consequences whenever lawful content is blocked, even if the intent was to block unlawful content and the lawful content just got caught up in the filter) actually reduces the incentive for ISPs to attempt to identify and block unlawful content, since attempting to do so but making a misidentification in the process can result in penalties.  In other words access to child pornography, terrorist information, and illicit drugs could actually increase as a result (i.e. &amp;ldquo;the law of unintended consequences&amp;rdquo;).&lt;/p&gt;
+&lt;h3 id=&#34;my-thoughts&#34;&gt;My Thoughts:&lt;/h3&gt;
 
-&lt;p&gt;###Here is President Obama&amp;rsquo;s Video:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;There is one principle missing: &lt;strong&gt;No Content Modification.&lt;/strong&gt; ISPs should not be allowed to modify any of the content they transport.  This prevents them from injecting beacons, tracking code, advertising, etc. into web content that they are entrusted to deliver.  This is happening and it needs to be stopped.&lt;/li&gt;
+&lt;li&gt;&amp;ldquo;Government Regulation&amp;rdquo; is known to increase costs, and potentially reduce growth and innovation.  All things being equal I am in favor of less regulation rather than more regulation.  We need to tread carefully as we seek to increase regulation to protect openness (bit of an oxymoron isn&amp;rsquo;t it?).&lt;/li&gt;
+&lt;li&gt;We have to think carefully about the paid access issue. Does &amp;ldquo;no slow lanes&amp;rdquo; also mean &amp;ldquo;No Fast Lanes&amp;rdquo;?  What if I want an ISP to provide a service where I get premium access to YouTube content, or Netflix content?  Should that be illegal?&lt;/li&gt;
+&lt;li&gt;It is not a requirement that ISPs block unlawful content, rather it is a prohibition on blocking lawful content. But a strong enough prohibition on blocking lawful content (e.g., one which provides consequences whenever lawful content is blocked, even if the intent was to block unlawful content and the lawful content just got caught up in the filter) actually reduces the incentive for ISPs to attempt to identify and block unlawful content, since attempting to do so but making a misidentification in the process can result in penalties.  In other words access to child pornography, terrorist information, and illicit drugs could actually increase as a result (i.e. &amp;ldquo;the law of unintended consequences&amp;rdquo;).&lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;!-- 16:9 aspect ratio --&gt;
+&lt;h3 id=&#34;here-is-president-obama-s-video&#34;&gt;Here is President Obama&amp;rsquo;s Video:&lt;/h3&gt;
 
-&lt;div class=&#34;embed-responsive embed-responsive-16by9&#34;&gt;
-  &lt;iframe class=&#34;embed-responsive-item&#34; src=&#34;//www.youtube.com/embed/uKcjQPVwfDk&#34;&gt;&lt;/iframe&gt;
-&lt;/div&gt;
 
-&lt;p&gt;###Update:&lt;/p&gt;
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;//www.youtube.com/embed/uKcjQPVwfDk&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34; allowfullscreen frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
+ &lt;/div&gt;
+
+
+&lt;h3 id=&#34;update&#34;&gt;Update:&lt;/h3&gt;
 
 &lt;p&gt;As someone who considers himself a Republican It saddens me that this issue has become so polarized along party lines.&lt;/p&gt;
 
-&lt;p&gt;&lt;blockquote class=&#34;twitter-tweet&#34; lang=&#34;en&#34;&gt;&lt;p&gt;&amp;quot;Net Neutrality&amp;quot; is Obamacare for the Internet; the Internet should not operate at the speed of government.&lt;/p&gt;&amp;mdash; Senator Ted Cruz (@SenTedCruz) &lt;a href=&#34;https://twitter.com/SenTedCruz/status/531834493922189313&#34;&gt;November 10, 2014&lt;/a&gt;&lt;/blockquote&gt;
-&lt;script async src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/p&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;&amp;quot;Net Neutrality&amp;quot; is Obamacare for the Internet; the Internet should not operate at the speed of government.&lt;/p&gt;&amp;mdash; Senator Ted Cruz (@SenTedCruz) &lt;a href=&#34;https://twitter.com/SenTedCruz/status/531834493922189313&#34;&gt;November 10, 2014&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
 
 &lt;p&gt;The only similarity to the Affordable Care Act is that Obama supports it. There may be a rational, reasoned argument against Net Neutrality, but Republicans aren’t making it, and neither are the cable companies or cellular providers.&lt;/p&gt;
 
@@ -547,10 +620,10 @@ Even though it is better if the system can be used without documentation, it may
     
     <item>
       <title>USA&#39;s Digital Playbook</title>
-      <link>http://dstroot.github.io/my-hugo-blog/2014/08/12/usa-digital-playbook</link>
-      <pubDate>Tue, 12 Aug 2014 00:00:00 +0000</pubDate>
+      <link>http://dstroot.github.io/my-hugo-blog/blog/2014/08/12/usas-digital-playbook/</link>
+      <pubDate>Tue, 12 Aug 2014 10:00:00 +0000</pubDate>
       
-      <guid>http://dstroot.github.io/my-hugo-blog/2014/08/12/usa-digital-playbook</guid>
+      <guid>http://dstroot.github.io/my-hugo-blog/blog/2014/08/12/usas-digital-playbook/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;http://dstroot.github.io/my-hugo-blog/img/USDS_Playbook.png&#34; alt=&#34;Digital Playbook&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;The White House announced on Monday, August 11th 2014, that it is formally launching a new U.S. Digital Service and that it has hired Mikey Dickerson to lead it.  Mickey Dickerson is an engineer widely credited with playing a central role in salvaging HealthCare.gov. The idea behind the USDS is institutionalizing the approach that saved the US health care website.
@@ -573,13 +646,13 @@ Even though it is better if the system can be used without documentation, it may
     
     <item>
       <title>From &#39;Open Government&#39; to &#39;Open Corporation&#39;</title>
-      <link>http://dstroot.github.io/my-hugo-blog/2014/07/01/from-open-government-to-open-corporation</link>
-      <pubDate>Tue, 01 Jul 2014 00:00:00 +0000</pubDate>
+      <link>http://dstroot.github.io/my-hugo-blog/blog/2014/07/01/from-open-government-to-open-corporation/</link>
+      <pubDate>Tue, 01 Jul 2014 10:00:00 +0000</pubDate>
       
-      <guid>http://dstroot.github.io/my-hugo-blog/2014/07/01/from-open-government-to-open-corporation</guid>
+      <guid>http://dstroot.github.io/my-hugo-blog/blog/2014/07/01/from-open-government-to-open-corporation/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;http://dstroot.github.io/my-hugo-blog/img/data_gov.png&#34; alt=&#34;Digital Playbook&#34; /&gt;&lt;/p&gt;
 
-&lt;h2 id=&#34;let-s-talk-about-open-government-first&#34;&gt;Let&amp;rsquo;s Talk About Open Government First&lt;/h2&gt;
+&lt;h3 id=&#34;let-s-talk-about-open-government-first&#34;&gt;Let&amp;rsquo;s Talk About Open Government First&lt;/h3&gt;
 
 &lt;p&gt;President Barack Obama, on his first day in office in 2009, signed an executive order stating that all government information that did not have to be kept secret for security or privacy reasons should be made public. The administration also launched the Open Data Initiative to publish government data and the &lt;a href=&#34;http://www.data.gov/&#34;&gt;data.gov&lt;/a&gt; website to distribute the data.&lt;/p&gt;
 
@@ -624,7 +697,7 @@ from 60 public agencies, and just this year Australian budget data was made avai
 &lt;li&gt;A report by &lt;a href=&#34;http://www.mckinsey.com/insights/business_technology/open_data_unlocking_innovation_and_performance_with_liquid_information&#34;&gt;McKinsey &amp;amp; Co.&lt;/a&gt;  suggests that seven sectors alone could generate more than $3 trillion a year in additional value as a result of open data, which is already giving rise to hundreds of entrepreneurial businesses and helping established companies to segment markets, define new products and services, and improve the efficiency and effectiveness of operations.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;a-few-words-about-open-science&#34;&gt;A Few Words About Open Science&lt;/h2&gt;
+&lt;h3 id=&#34;a-few-words-about-open-science&#34;&gt;A Few Words About Open Science&lt;/h3&gt;
 
 &lt;p&gt;Science can be broadly described as collecting, analyzing, publishing, reanalyzing, critiquing, and reusing data. Interestingly, the open data movement in science predates the Internet. The concept of open access to scientific data was institutionally established in the mid-20th century when the International Council of Scientific Unions (now the International Council for Science) established several World Data Centers to minimize the risk of data loss and to maximize data accessibility, further recommending in &lt;strong&gt;1955&lt;/strong&gt; that data be made available in machine-readable form. &lt;a href=&#34;http://www.icsu-wds.org/organization&#34;&gt;1&lt;/a&gt;&lt;/p&gt;
 
@@ -641,25 +714,25 @@ from 60 public agencies, and just this year Australian budget data was made avai
 
 &lt;p&gt;It&amp;rsquo;s clear that that the concepts of open data benefit science, and the platforms we discuss below could be used to further the goals of open science.&lt;/p&gt;
 
-&lt;h2 id=&#34;what-open-data-looks-like&#34;&gt;What Open Data Looks Like&lt;/h2&gt;
+&lt;h3 id=&#34;what-open-data-looks-like&#34;&gt;What Open Data Looks Like&lt;/h3&gt;
 
 &lt;p&gt;Goals, metrics and discoveries must be transparent.  Here are examples from city data:&lt;/p&gt;
 
-&lt;p&gt;&lt;img class=&#34;lazy img-rounded img-responsive&#34; src=&#34;data:image/gif;base64,R0lGODlhAQABAIABAP///wAAACwAAAAAAQABAAACAkQBADs=&#34; alt=&#34;Goals&#34; data-src=&#34;/assets/img/goals.png&#34; width=&#34;750&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://dstroot.github.io/my-hugo-blog/img/goals.png&#34; alt=&#34;Digital Playbook&#34; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img class=&#34;lazy img-rounded img-responsive&#34; src=&#34;data:image/gif;base64,R0lGODlhAQABAIABAP///wAAACwAAAAAAQABAAACAkQBADs=&#34; alt=&#34;Goals&#34; data-src=&#34;/assets/img/goals_metric.png&#34; width=&#34;750&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://dstroot.github.io/my-hugo-blog/img/goals_metric.png&#34; alt=&#34;Digital Playbook&#34; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img class=&#34;lazy img-rounded img-responsive&#34; src=&#34;data:image/gif;base64,R0lGODlhAQABAIABAP///wAAACwAAAAAAQABAAACAkQBADs=&#34; alt=&#34;Open Data&#34; data-src=&#34;/assets/img/open_data.png&#34; width=&#34;750&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://dstroot.github.io/my-hugo-blog/img/open_data.png&#34; alt=&#34;Digital Playbook&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Datasets supporting the goals, metrics and discoveries must be publicly available, along with other supporting data:&lt;/p&gt;
 
-&lt;p&gt;&lt;img class=&#34;lazy img-rounded img-responsive&#34; src=&#34;data:image/gif;base64,R0lGODlhAQABAIABAP///wAAACwAAAAAAQABAAACAkQBADs=&#34; alt=&#34;Data Catalog&#34; data-src=&#34;/assets/img/data_catalog.png&#34; width=&#34;750&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://dstroot.github.io/my-hugo-blog/img/data_catalog.png&#34; alt=&#34;Digital Playbook&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Platforms have sprung up to support the open government movement. &lt;a href=&#34;http://www.socrata.com/&#34;&gt;Socrata&lt;/a&gt; appears to have market leadership in this space and has a very complete vision of what an open data platform looks like:&lt;/p&gt;
 
-&lt;p&gt;&lt;img class=&#34;lazy img-rounded img-responsive&#34; src=&#34;data:image/gif;base64,R0lGODlhAQABAIABAP///wAAACwAAAAAAQABAAACAkQBADs=&#34; alt=&#34;Socrata&#34; data-src=&#34;/assets/img/socrata.png&#34; width=&#34;750&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://dstroot.github.io/my-hugo-blog/img/socrata.png&#34; alt=&#34;Digital Playbook&#34; /&gt;&lt;/p&gt;
 
-&lt;h2 id=&#34;the-open-data-corporation&#34;&gt;The &amp;ldquo;Open Data&amp;rdquo; Corporation&lt;/h2&gt;
+&lt;h3 id=&#34;the-open-data-corporation&#34;&gt;The &amp;ldquo;Open Data&amp;rdquo; Corporation&lt;/h3&gt;
 
 &lt;p&gt;Open data is fast becoming a defining theme for business.&lt;/p&gt;
 
@@ -779,10 +852,10 @@ from 60 public agencies, and just this year Australian budget data was made avai
     
     <item>
       <title>CoreOS: thousands of machines and millions of Docker containers... no hypervisor needed.</title>
-      <link>http://dstroot.github.io/my-hugo-blog/2014/06/29/coreos-thousands-of-machines-and-millions-of-docker-containers-no-hypervisor-needed</link>
-      <pubDate>Sun, 29 Jun 2014 00:00:00 +0000</pubDate>
+      <link>http://dstroot.github.io/my-hugo-blog/blog/2014/06/29/coreos-thousands-of-machines-and-millions-of-docker-containers...-no-hypervisor-needed./</link>
+      <pubDate>Sun, 29 Jun 2014 10:00:00 +0000</pubDate>
       
-      <guid>http://dstroot.github.io/my-hugo-blog/2014/06/29/coreos-thousands-of-machines-and-millions-of-docker-containers-no-hypervisor-needed</guid>
+      <guid>http://dstroot.github.io/my-hugo-blog/blog/2014/06/29/coreos-thousands-of-machines-and-millions-of-docker-containers...-no-hypervisor-needed./</guid>
       <description>&lt;p&gt;&lt;img src=&#34;http://dstroot.github.io/my-hugo-blog/img/coreos-logo.png&#34; alt=&#34;CoreOS&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;I have been playing around with CoreOS to get a sense of how everything works. The vision of this project is incredible.&lt;/p&gt;
@@ -828,11 +901,11 @@ from 60 public agencies, and just this year Australian budget data was made avai
 &lt;li&gt;Your applications can read and write data into etcd. Common examples are storing database connection details, cache settings, feature flags, and more. Let&amp;rsquo;s say we&amp;rsquo;re running a simple web app like Wordpress. Instead of hardcoding our database address with in the config file, we&amp;rsquo;ll fetch it from etcd instead. It&amp;rsquo;s as simple as curl-ing &lt;a href=&#34;http://127.0.0.1:4001/v1/keys/database&#34;&gt;http://127.0.0.1:4001/v1/keys/database&lt;/a&gt; and using the response within your DB connection code.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;##Summary&lt;/p&gt;
+&lt;h3 id=&#34;summary&#34;&gt;Summary&lt;/h3&gt;
 
 &lt;p&gt;So now we have a hive of self-updating Linux hosts with a single, distributed init system (systemd and fleet) and a single shared brain (etcd).  It looks something like this:&lt;/p&gt;
 
-&lt;p&gt;&lt;img class=&#34;lazy img-rounded img-responsive&#34; src=&#34;data:image/gif;base64,R0lGODlhAQABAIABAP///wAAACwAAAAAAQABAAACAkQBADs=&#34; alt=&#34;CoreOS in Action&#34; data-src=&#34;/assets/img/coreos-action.png&#34; width=&#34;750&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://dstroot.github.io/my-hugo-blog/img/coreos-action.png&#34; alt=&#34;CoreOS in Action&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;This depicts eight containers (two load balancers and six api servers) being managed by &amp;ldquo;fleet&amp;rdquo; to run in various CoreOS hosts in the cluster, with shared access to etcd.&lt;/p&gt;
 
@@ -843,10 +916,10 @@ from 60 public agencies, and just this year Australian budget data was made avai
     
     <item>
       <title>Virtual Machines vs. Containers</title>
-      <link>http://dstroot.github.io/my-hugo-blog/2014/05/05/virtual-machines-vs-containers</link>
-      <pubDate>Mon, 05 May 2014 00:00:00 +0000</pubDate>
+      <link>http://dstroot.github.io/my-hugo-blog/blog/2014/05/05/virtual-machines-vs.-containers/</link>
+      <pubDate>Mon, 05 May 2014 10:00:00 +0000</pubDate>
       
-      <guid>http://dstroot.github.io/my-hugo-blog/2014/05/05/virtual-machines-vs-containers</guid>
+      <guid>http://dstroot.github.io/my-hugo-blog/blog/2014/05/05/virtual-machines-vs.-containers/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;http://dstroot.github.io/my-hugo-blog/img/docker.png&#34; alt=&#34;Docker&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Three driving forces of infrastructure efficiency in a large, distributed environment were:&lt;/p&gt;
@@ -930,51 +1003,6 @@ from 60 public agencies, and just this year Australian budget data was made avai
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;http://bodenr.blogspot.com/2014/05/kvm-and-docker-lxc-benchmarking-with.html&#34;&gt;KVM and Docker LXC Benchmarking with OpenStack&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-    </item>
-    
-    <item>
-      <title>Enterprise Search 2014</title>
-      <link>http://dstroot.github.io/my-hugo-blog/2014/03/14/enterprise-search-2014</link>
-      <pubDate>Fri, 14 Mar 2014 00:00:00 +0000</pubDate>
-      
-      <guid>http://dstroot.github.io/my-hugo-blog/2014/03/14/enterprise-search-2014</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;http://dstroot.github.io/my-hugo-blog/img/Google_Enterprise_Search.png&#34; alt=&#34;Google Enterprise Search&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;One of the challenges in a large distributed enterprise is &amp;ldquo;finding stuff&amp;rdquo;.  Sure we call it collaboration, knowledge management, or any number of other sophisticated terms but often it boils down to just finding stuff.&lt;/p&gt;
-
-&lt;p&gt;To compensate the organization reacts by saving multiple copies and versions of a file in many different locations: email, shared file systems, intranets, etc.  Of course this compounds the issue and drives the desire to save &amp;ldquo;my copy&amp;rdquo; to &amp;ldquo;somewhere where I can find it&amp;rdquo;.
-&lt;/p&gt;
-
-&lt;p&gt;A CIO&amp;rsquo;s role is to figure out how to make this problem go away.  So we start with good solid information management concepts:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;We need a taxonomy of our information&lt;/li&gt;
-&lt;li&gt;We need to understand our &amp;ldquo;golden copies&amp;rdquo;, or master repositories&lt;/li&gt;
-&lt;li&gt;We need the information to be very easily searched and discovered by our employees - wherever they are. This problem encompasses:
-
-&lt;ul&gt;
-&lt;li&gt;Time zones&lt;/li&gt;
-&lt;li&gt;Languages&lt;/li&gt;
-&lt;li&gt;Geography and the associated latency&lt;/li&gt;
-&lt;li&gt;Indexing/crawling many diverse data stores&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;It needs to be so simple and easy that it naturally overcomes the employee&amp;rsquo;s desire save a personal copy.&lt;/li&gt;
-&lt;li&gt;We must have mature data access and permissioning processes in place.  Unleashing search on corporate systems where permissions aren&amp;rsquo;t managed well is a huge risk.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;But even though these concepts are straightforward  they are not easy.  Many of us wished we could just &amp;ldquo;Google&amp;rdquo; our companies documents.  Google understands this and has made enterprise search a product for some time now - it was first released in 2002!  I was just taking a look at it recently and it has come a long way from where it started. Relevancy is the key however, and Google considers its relevancy calculation models to be a precious competitive differentiator and therefore keeps them opaque.&lt;/p&gt;
-
-&lt;p&gt;Many of us have tried to use Microsoft&amp;rsquo;s platform in the past but it was always a bit of a challenge to manage, and the results were a hodgepodge.  It has also come a very long way with Microsoft&amp;rsquo;s FAST search technology and in SharePoint 2013 there is a mature approach to deploying search.  This clarifies what had long been a confusing product line featuring many different kinds of search capability for SharePoint.&lt;/p&gt;
-
-&lt;p&gt;It is encouraging to see the progress and competition in this space. Someday soon corporate document/information search may be as simple as we are accustomed to on the web.&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Sources:&lt;/em&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.google.com/enterprise/search/products/gsa.html&#34;&gt;Google Enterprise Search&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://technet.microsoft.com/en-us/library/cc263400(v=office.15)&#34;&gt;Microsoft Sharepoint Search&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.opentestsearch.com/&#34;&gt;Open Test Search&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</description>
     </item>
     

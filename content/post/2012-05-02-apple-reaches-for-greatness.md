@@ -9,7 +9,6 @@ title: Apple Reaches for Greatness Without Apology
 
 ![Steve Jobs](/img/SteveJobsCloseUp-lg.jpg)
 
-
 >I haven’t got any sort of odd chip on my shoulder about proving anything to myself or anybody else.  And remember, though the outside world looks at success from a numerical point of view, my yardstick might be quite different than that.  My yardstick may be how every computer that’s designed from here on out will have to be at least as good as a Macintosh.
 > _– <a href="http://www.newsweek.com/1985/09/30/jobs-talks-about-his-rise-and-fall.print.html">Steve Jobs, 1985</a>_
 

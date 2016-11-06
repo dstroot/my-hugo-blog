@@ -1,12 +1,9 @@
----
-author: dan
-categories: null
-date: '2014-06-29'
-published: true
-tags: null
-title: 'CoreOS: thousands of machines and millions of Docker containers... no hypervisor needed.'
-url: /2014/06/29/coreos-thousands-of-machines-and-millions-of-docker-containers-no-hypervisor-needed
----
++++
+date = "2014-06-29T10:00:00-00:00"
+title = "CoreOS: thousands of machines and millions of Docker containers... no hypervisor needed."
+draft = false
+description = ""
++++
 
 ![CoreOS](/img/coreos-logo.png)
 
@@ -44,11 +41,11 @@ CoreOS displaces hypervisors and machine virtualization in favor of Docker and L
 -  Since etcd is replicated, all changes are reflected across the entire cluster. Your application can always reach the local etcd instance at 127.0.0.1:4001.
 - Your applications can read and write data into etcd. Common examples are storing database connection details, cache settings, feature flags, and more. Let's say we're running a simple web app like Wordpress. Instead of hardcoding our database address with in the config file, we'll fetch it from etcd instead. It's as simple as curl-ing http://127.0.0.1:4001/v1/keys/database and using the response within your DB connection code.
 
-##Summary
+### Summary
 
 So now we have a hive of self-updating Linux hosts with a single, distributed init system (systemd and fleet) and a single shared brain (etcd).  It looks something like this:
 
-<img class="lazy img-rounded img-responsive" src="data:image/gif;base64,R0lGODlhAQABAIABAP///wAAACwAAAAAAQABAAACAkQBADs=" alt="CoreOS in Action" data-src="/assets/img/coreos-action.png" width="750">
+![CoreOS in Action](/img/coreos-action.png)
 
 This depicts eight containers (two load balancers and six api servers) being managed by "fleet" to run in various CoreOS hosts in the cluster, with shared access to etcd.
 

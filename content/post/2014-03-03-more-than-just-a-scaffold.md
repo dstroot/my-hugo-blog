@@ -7,7 +7,12 @@ tags: null
 title: More Than Just a Scaffold
 url: /2014/03/03/more-than-just-a-scaffold
 ---
-
++++
+date = "2014-03-03T10:00:00-00:00"
+title = "More Than Just a Scaffold"
+draft = false
+description = ""
++++
 
 <img class="lazy img-rounded img-responsive" src="data:image/gif;base64,R0lGODlhAQABAIABAP///wAAACwAAAAAAQABAAACAkQBADs=" alt="Skeleton Website" data-src="/assets/img/skeleton-sm.jpg" width="750">
 
@@ -28,11 +33,11 @@ Yeoman example:
 - .editorconfig file
 - even a favicon.ico
 
-Does this get you up and running?  Absolutely! 
+Does this get you up and running?  Absolutely!
 Does it reflect current best practices? Absolutely!
 Is it updated regularly? Absolutely!
 
-But what is it really?  It is basically **tooling**. 
+But what is it really?  It is basically **tooling**.
 
 Tooling is good - if you are developer you should be **really, really into your tool stack.** That of course is what drives your productivity!
 
