@@ -13,7 +13,7 @@
           <a href="{{ .Permalink }}">{{ .Title }}</a>
         </h1>
 
-        <span class="post-date">{{ .Date.Format "Jan 2, 2006" }}{{ if not .Site.Params.hideReadingTime }} &middot; <i class="fa fa-clock-o" aria-hidden="true"></i> {{ .ReadingTime }} minute read{{ end }}{{ if .Site.Params.disqusShortname }} &middot; <a href="{{ .Permalink }}#disqus_thread">Comments</a>{{ end }}
+        <span class="post-date">{{ .Date.Format "Jan 2, 2006" }}{{ if not .Site.Params.hideReadingTime }} &middot; <span class="icon-clock-o"></span> {{ .ReadingTime }} minute read{{ end }}{{ if .Site.Params.disqusShortname }} &middot; <a href="{{ .Permalink }}#disqus_thread">Comments</a>{{ end }}
         {{ if isset .Params "categories" }}
         <br/>
         {{ range .Params.categories }}<i class="fa fa-tag" aria-hidden="true"></i> <a class="label" href="{{ "/categories/" | absURL }}{{ . | urlize }}">{{ . }}</a> {{ end }}
@@ -27,7 +27,7 @@
         <a href="{{ .Permalink }}">Read On <i class="fa fa-chevron-circle-right"></i></a>
         {{ else }}
         {{ .Summary }}
-        {{ if .Truncated }}<a href="{{ .Permalink }}">Read On <i class="fa fa-chevron-circle-right"></i></a>{{ end }}
+        {{ if .Truncated }}<a href="{{ .Permalink }}">Read On <span class="icon-chevron-circle-right"></span></a>{{ end }}
         {{ end }}
         <hr class="soften">
       </div>
@@ -44,7 +44,7 @@
           {{ end }} -->
           <li
           {{ if not $paginator.HasPrev }}class="disabled"{{ end }}>
-          <a href="{{ if $paginator.HasPrev }}{{ $paginator.Prev.URL }}{{ end }}" aria-label="Previous"><i class="fa fa-chevron-circle-left"></i> Newer Posts</a>
+          <a href="{{ if $paginator.HasPrev }}{{ $paginator.Prev.URL }}{{ end }}" aria-label="Previous"><span class="icon-chevron-circle-left"></span> Newer Posts</a>
           </li>
 
           <!-- {{ range $paginator.Pagers }}
@@ -53,7 +53,7 @@
           {{ end }} -->
           <li
           {{ if not $paginator.HasNext }}class="disabled"{{ end }}>
-          <a href="{{ if $paginator.HasNext }}{{ $paginator.Next.URL }}{{ end }}" aria-label="Next">Older Posts <i class="fa fa-chevron-circle-right"></i></a>
+          <a href="{{ if $paginator.HasNext }}{{ $paginator.Next.URL }}{{ end }}" aria-label="Next">Older Posts <span class="icon-chevron-circle-right"></span></a>
           </li>
           <!-- {{ with $paginator.Last }}
           <li>

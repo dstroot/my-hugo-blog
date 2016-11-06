@@ -104,8 +104,9 @@
 }
 .sidebar-nav-item {
   display: block;
-  line-height: 1.75;
-  font-size: .9rem;
+  // line-height: 1.75;
+  font-size: 3rem;
+  letter-spacing: -2px;
 }
 a.sidebar-nav-item:hover,
 a.sidebar-nav-item:focus {

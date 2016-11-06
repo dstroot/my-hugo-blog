@@ -6,7 +6,7 @@
   <div class="content container">
     <div class="post">
       <h1 class="post-title">{{ .Title }}</h1>
-      <span class="post-date">{{ .Date.Format "Jan 2, 2006" }}{{ if not .Site.Params.hideReadingTime }} &middot; <i class="fa fa-clock-o" aria-hidden="true"></i> {{ .ReadingTime }} minute read{{ end }}{{ if .Site.Params.disqusShortname }} &middot; <a href="{{ .Permalink }}#disqus_thread">Comments</a>{{ end }}
+      <span class="post-date">{{ .Date.Format "Jan 2, 2006" }}{{ if not .Site.Params.hideReadingTime }} &middot; <span class="icon-clock-o"></span> {{ .ReadingTime }} minute read{{ end }}{{ if .Site.Params.disqusShortname }} &middot; <a href="{{ .Permalink }}#disqus_thread">Comments</a>{{ end }}
       {{ if isset .Params "categories" }}
       <br/>
       {{ range .Params.categories }}<a class="label" href="{{ "/categories/" | absURL }}{{ . | urlize }}">{{ . }}</a>{{ end }}
@@ -16,10 +16,10 @@
 
     <ul class="pagination">
       {{ if .NextInSection }}
-      <li><a href="{{.NextInSection.Permalink}}"><i class="fa fa-chevron-circle-left"></i> Previous Post</a></li>
+      <li><a href="{{.NextInSection.Permalink}}"><span class="icon-chevron-circle-left"></span> Previous Post</a></li>
       {{ end }}
       {{ if .PrevInSection }}
-      <li><a href="{{.PrevInSection.Permalink}}">Next Post <i class="fa fa-chevron-circle-right"></i></a></li>
+      <li><a href="{{.PrevInSection.Permalink}}">Next Post <span class="icon-chevron-circle-right"></span></a></li>
       {{ end }}
     </ul>
 

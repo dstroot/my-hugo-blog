@@ -13,7 +13,7 @@
   <meta name="keywords" content="">
 
   
-  <link rel="stylesheet" href="http://dstroot.github.io/my-hugo-blogcss/styles.min.css">
+  <link rel="stylesheet" href="http://dstroot.github.io/my-hugo-blog/css/styles.min.css">
   
 
   
@@ -42,7 +42,7 @@
     <div class="myface">
       <a href="http://dstroot.github.io/my-hugo-blog/">
         <img src="http://dstroot.github.io/my-hugo-blog/img/face_sm.jpeg" srcset="http://dstroot.github.io/my-hugo-blog/img/face_lg.jpeg 2x" alt="Dan Stroot" height="150" width="150">
-        <i class="fa fa-home"></i>
+        <i class="icon-home"></i>
       </a>
     </div>
 
@@ -59,14 +59,10 @@
 
     <ul class="sidebar-nav">
       <li class="sidebar-nav-item">
-      <a href="https://github.com/dstroot"><i class="fa fa-github-square fa-3x"></i></a>
-      
-      
-      <a href="https://www.linkedin.com/in/danstroot"><i class="fa fa-linkedin-square fa-3x"></i></a>
-      
-      <a href="https://www.facebook.com/dan.stroot"><i class="fa fa-facebook-square fa-3x"></i></a>
-      <a href="https://twitter.com/danstroot"><i class="fa fa-twitter-square fa-3x"></i></a>
-      
+      <a href="https://github.com/dstroot"><span class="icon-github-square"></span></a>
+      <a href="https://www.linkedin.com/in/danstroot"><span class="icon-linkedin-square"></span></a>
+      <a href="https://www.facebook.com/dan.stroot"><span class="icon-facebook-square"></span></a>
+      <a href="https://twitter.com/danstroot"><span class="icon-twitter-square"></span></a>
       
       </li>
     </ul>
@@ -82,7 +78,7 @@
   <div class="content container">
     <div class="post">
       <h1 class="post-title">Great Web Product Images: PlaceIt</h1>
-      <span class="post-date">Jul 30, 2013 &middot; <i class="fa fa-clock-o" aria-hidden="true"></i> 1 minute read &middot; <a href="http://dstroot.github.io/my-hugo-blog/blog/2013/07/30/great-web-product-images-placeit/#disqus_thread">Comments</a>
+      <span class="post-date">Jul 30, 2013 &middot; <span class="icon-clock-o"></span> 1 minute read &middot; <a href="http://dstroot.github.io/my-hugo-blog/blog/2013/07/30/great-web-product-images-placeit/#disqus_thread">Comments</a>
       
       <br/>
       
@@ -98,10 +94,10 @@
 
     <ul class="pagination">
       
-      <li><a href="http://dstroot.github.io/my-hugo-blog/blog/2013/08/01/only-usain-bolt-looks-at-the-clock/"><i class="fa fa-chevron-circle-left"></i> Previous Post</a></li>
+      <li><a href="http://dstroot.github.io/my-hugo-blog/blog/2013/08/01/only-usain-bolt-looks-at-the-clock/"><span class="icon-chevron-circle-left"></span> Previous Post</a></li>
       
       
-      <li><a href="http://dstroot.github.io/my-hugo-blog/blog/2013/07/25/hosting-your-blog-on-amazon-s3/">Next Post <i class="fa fa-chevron-circle-right"></i></a></li>
+      <li><a href="http://dstroot.github.io/my-hugo-blog/blog/2013/07/25/hosting-your-blog-on-amazon-s3/">Next Post <span class="icon-chevron-circle-right"></span></a></li>
       
     </ul>
 
@@ -143,45 +139,7 @@
 
 
 
-<script>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-function loadStyles (url) {
-  return new Promise(function (resolve, reject) {
-    var xhr = new XMLHttpRequest();
-    xhr.returnType = 'text';
-    xhr.onload = function () {
-      var link = document.createElement('link');
-      link.rel = 'stylesheet';
-      link.href = url;
-      document.head.appendChild(link);
-      resolve();
-    };
-    xhr.onerror = reject;
-    xhr.open('get', url);
-    xhr.send();
-  });
-}
-
-
-
-loadStyles('https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css');
-
-
-</script>
 
 
 </body>
