@@ -4,24 +4,17 @@
 
     <div class="myface">
       <a href="/">
-
         <img src="/img/face_sm.jpeg" srcset="/img/face_lg.jpeg 2x" alt="{{ .Site.Author.name }}" height="150" width="150">
-        <!-- <img class="img-circle" src="https://www.gravatar.com/avatar/{{ .Site.Params.gravatarHash }}.png?s=256" alt="{{ .Site.Author.name }}" height="128" width="128" /> -->
         <i class="fa fa-home"></i>
       </a>
     </div>
 
-
-
     <div class="sidebar-about">
-      <!-- {{ if isset .Site.Params "gravatarHash" }}
-        <a href="/"><img src="https://www.gravatar.com/avatar/{{ .Site.Params.gravatarHash }}?s=200"
-             alt="gravatar" title="{{ .Site.Author.name }}"></a>
-      {{ end }} -->
       <a href="/"><h1>{{ .Site.Author.name }}</h1></a>
       {{ with .Site.Params.tagline }}<p class="lead">{{ . | markdownify }}</p>{{ end }}
-      <hr class="hr-sidebar">
     </div>
+
+    <hr class="hr-sidebar">
 
     <!-- <ul class="sidebar-nav">
       <li class="sidebar-nav-item"><a href="{{ "/" | absURL }}">{{ if isset .Site.Params "home"}}{{ .Site.Params.home }}{{ else }}Blog{{ end }}</a></li>
@@ -65,7 +58,6 @@
     {{ end }} -->
 
     <p class="small">Copyright &copy; {{ .Now.Format "2006" }}</p>
-    <!-- <p><a href="{{ "/license/" | absURL }}">License</a><br/>
-       Powered by <a href="http://gohugo.io">Hugo</a> and <a href="https://github.com/zyro/hyde-x">Hyde-X</a></p> -->
+
   </div>
 </div>

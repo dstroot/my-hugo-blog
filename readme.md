@@ -7,3 +7,4 @@ TODO
 [ ] https://www.npmjs.com/package/hugo-lunr
 [ ] List of articles
 [ ] About Page
+[ ] Code highlighting
