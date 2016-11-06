@@ -28,41 +28,55 @@
   }
 </script> -->
 <!-- <script>
-// // Load Scripts
-// function loadScript (url, async) {
+
+  var css = "@font-face { font-family: 'icomoon'; src: url('{{ .Site.BaseURL }}/fonts/icomoon.eot?y9uzuy'); src: url('{{ .Site.BaseURL }}/fonts/icomoon.eot?y9uzuy#iefix') format('embedded-opentype'), url('{{ .Site.BaseURL }}/fonts/icomoon.ttf?y9uzuy') format('truetype'), url('{{ .Site.BaseURL }}/fonts/icomoon.woff?y9uzuy') format('woff'), url('{{ .Site.BaseURL }}/fonts/icomoon.svg?y9uzuy#icomoon') format('svg'); font-weight: normal; font-style: normal;}"
+  var head = document.head || document.getElementsByTagName('head')[0];
+  var style = document.createElement('style');
+  style.type = 'text/css';
+
+  if (style.styleSheet){
+    style.styleSheet.cssText = css;
+  } else {
+    style.appendChild(document.createTextNode(css));
+  }
+
+  head.appendChild(style);
+
+// // // Load Scripts
+// // function loadScript (url, async) {
+// //   return new Promise(function (resolve, reject) {
+// //     var script = document.createElement('script');
+// //     script.src = url;
+// //     if (typeof async !== 'undefined') {
+// //       script.async = async;
+// //     }
+// //
+// //     script.onerror = reject;
+// //     script.onload = resolve;
+// //     document.head.appendChild(script);
+// //   });
+// // }
+// // Load Styles
+// function loadStyles (url) {
 //   return new Promise(function (resolve, reject) {
-//     var script = document.createElement('script');
-//     script.src = url;
-//     if (typeof async !== 'undefined') {
-//       script.async = async;
-//     }
-//
-//     script.onerror = reject;
-//     script.onload = resolve;
-//     document.head.appendChild(script);
+//     var xhr = new XMLHttpRequest();
+//     xhr.returnType = 'text';
+//     xhr.onload = function () {
+//       var link = document.createElement('link');
+//       link.rel = 'stylesheet';
+//       link.href = url;
+//       document.head.appendChild(link);
+//       resolve();
+//     };
+//     xhr.onerror = reject;
+//     xhr.open('get', url);
+//     xhr.send();
 //   });
 // }
-// Load Styles
-function loadStyles (url) {
-  return new Promise(function (resolve, reject) {
-    var xhr = new XMLHttpRequest();
-    xhr.returnType = 'text';
-    xhr.onload = function () {
-      var link = document.createElement('link');
-      link.rel = 'stylesheet';
-      link.href = url;
-      document.head.appendChild(link);
-      resolve();
-    };
-    xhr.onerror = reject;
-    xhr.open('get', url);
-    xhr.send();
-  });
-}
-// document.body.onload = function() {
-//   loadStyles('https://fonts.googleapis.com/css?family=Titillium+Web:200');
-// };
-loadStyles('https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css');
-// loadScript('lib/jquery/dist/jquery.min.js');
-// loadScript('lib/totop.js/totop.min.js', true);
+// // document.body.onload = function() {
+// //   loadStyles('https://fonts.googleapis.com/css?family=Titillium+Web:200');
+// // };
+// loadStyles('https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css');
+// // loadScript('lib/jquery/dist/jquery.min.js');
+// // loadScript('lib/totop.js/totop.min.js', true);
 </script> -->
