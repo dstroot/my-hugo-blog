@@ -1,5 +1,5 @@
 +++
-date = "2016-10-30T15:59:01-07:00"
+date = "2016-10-29T15:59:01-07:00"
 title = "Microsoft Surface Studio is Mindblowing"
 description = ""
 +++
