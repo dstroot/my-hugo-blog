@@ -10,3 +10,4 @@ TODO
 [X] Code highlighting
 [ ] Shrink References
 [ ] Fix iPad Display
+[ ] Fix favicon on child pages
