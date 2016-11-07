@@ -297,7 +297,7 @@ gulp.task('htmlminify', function () {
  */
 
 gulp.task('git', function (cb) {
-  exec('git poull && git add -A && git commit -m "update" && git push', function (err, stdout, stderr) {
+  exec('git pull && git add -A && git commit -m "update" && git push', function (err, stdout, stderr) {
     console.log(stdout);
     console.log(stderr);
     cb(err);  // finished task
