@@ -1,4 +1,4 @@
-TODO
+### TODO
 
 [ ] Build system for CSS/LESS/SASS (Gulp)
 [X] Pagination

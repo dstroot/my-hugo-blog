@@ -6,8 +6,25 @@
     <description>Recent content in Post-rsses on Dan Stroot</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 30 Oct 2016 19:50:04 -0700</lastBuildDate>
+    <lastBuildDate>Mon, 07 Nov 2016 15:15:42 -0800</lastBuildDate>
     <atom:link href="http://danstroot.com/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>There is No Such Thing as Not Voting</title>
+      <link>http://danstroot.com/blog/2016/11/07/there-is-no-such-thing-as-not-voting/</link>
+      <pubDate>Mon, 07 Nov 2016 15:15:42 -0800</pubDate>
+      
+      <guid>http://danstroot.com/blog/2016/11/07/there-is-no-such-thing-as-not-voting/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;http://danstroot.com/img/dfw.jpg&#34; alt=&#34;David Foster Wallace&#34; /&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;“If you are bored and disgusted by politics and don&amp;rsquo;t bother to vote, you are in effect voting for the entrenched establishments of the two major parties, who please rest assured are not dumb, and who are keenly aware that it is in their interests to keep you disgusted and bored and cynical and to give you every possible reason to stay at home doing one-hitters and watching MTV on primary day. By all means stay home if you want, but don&amp;rsquo;t bullshit yourself that you&amp;rsquo;re not voting. In reality, there is no such thing as not voting: you either vote by voting, or you vote by staying home and tacitly doubling the value of some diehard&amp;rsquo;s vote.”&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;― David Foster Wallace&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Free to Believe Anything</title>
@@ -912,51 +929,6 @@ from 60 public agencies, and just this year Australian budget data was made avai
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;http://bodenr.blogspot.com/2014/05/kvm-and-docker-lxc-benchmarking-with.html&#34;&gt;KVM and Docker LXC Benchmarking with OpenStack&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-    </item>
-    
-    <item>
-      <title>Enterprise Search 2014</title>
-      <link>http://danstroot.com/blog/2014/03/14/enterprise-search-2014/</link>
-      <pubDate>Fri, 14 Mar 2014 10:00:00 +0000</pubDate>
-      
-      <guid>http://danstroot.com/blog/2014/03/14/enterprise-search-2014/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;http://danstroot.com/img/Google_Enterprise_Search.png&#34; alt=&#34;Google Enterprise Search&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;One of the challenges in a large distributed enterprise is &amp;ldquo;finding stuff&amp;rdquo;.  Sure we call it collaboration, knowledge management, or any number of other sophisticated terms but often it boils down to just finding stuff.&lt;/p&gt;
-
-&lt;p&gt;To compensate the organization reacts by saving multiple copies and versions of a file in many different locations: email, shared file systems, intranets, etc.  Of course this compounds the issue and drives the desire to save &amp;ldquo;my copy&amp;rdquo; to &amp;ldquo;somewhere where I can find it&amp;rdquo;.
-&lt;/p&gt;
-
-&lt;p&gt;A CIO&amp;rsquo;s role is to figure out how to make this problem go away.  So we start with good solid information management concepts:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;We need a taxonomy of our information&lt;/li&gt;
-&lt;li&gt;We need to understand our &amp;ldquo;golden copies&amp;rdquo;, or master repositories&lt;/li&gt;
-&lt;li&gt;We need the information to be very easily searched and discovered by our employees - wherever they are. This problem encompasses:
-
-&lt;ul&gt;
-&lt;li&gt;Time zones&lt;/li&gt;
-&lt;li&gt;Languages&lt;/li&gt;
-&lt;li&gt;Geography and the associated latency&lt;/li&gt;
-&lt;li&gt;Indexing/crawling many diverse data stores&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;It needs to be so simple and easy that it naturally overcomes the employee&amp;rsquo;s desire save a personal copy.&lt;/li&gt;
-&lt;li&gt;We must have mature data access and permissioning processes in place.  Unleashing search on corporate systems where permissions aren&amp;rsquo;t managed well is a huge risk.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;But even though these concepts are straightforward  they are not easy.  Many of us wished we could just &amp;ldquo;Google&amp;rdquo; our companies documents.  Google understands this and has made enterprise search a product for some time now - it was first released in 2002!  I was just taking a look at it recently and it has come a long way from where it started. Relevancy is the key however, and Google considers its relevancy calculation models to be a precious competitive differentiator and therefore keeps them opaque.&lt;/p&gt;
-
-&lt;p&gt;Many of us have tried to use Microsoft&amp;rsquo;s platform in the past but it was always a bit of a challenge to manage, and the results were a hodgepodge.  It has also come a very long way with Microsoft&amp;rsquo;s FAST search technology and in SharePoint 2013 there is a mature approach to deploying search.  This clarifies what had long been a confusing product line featuring many different kinds of search capability for SharePoint.&lt;/p&gt;
-
-&lt;p&gt;It is encouraging to see the progress and competition in this space. Someday soon corporate document/information search may be as simple as we are accustomed to on the web.&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Sources:&lt;/em&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.google.com/enterprise/search/products/gsa.html&#34;&gt;Google Enterprise Search&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://technet.microsoft.com/en-us/library/cc263400(v=office.15)&#34;&gt;Microsoft Sharepoint Search&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.opentestsearch.com/&#34;&gt;Open Test Search&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</description>
     </item>
     
