@@ -1,11 +1,11 @@
 /**
- * lunr - http://lunrjs.com - A bit like Solr, but much smaller and not as bright - 0.5.4
- * Copyright (C) 2014 Oliver Nightingale
+ * lunr - http://lunrjs.com - A bit like Solr, but much smaller and not as bright - 0.5.12
+ * Copyright (C) 2015 Oliver Nightingale
  * MIT Licensed
  * @license
  */
 
-(function(){
+;(function(){
 
 /**
  * Convenience function for instantiating a new lunr index and configuring it
@@ -56,10 +56,10 @@ var lunr = function (config) {
   return idx
 }
 
-lunr.version = "0.5.4"
+lunr.version = "0.5.12"
 /*!
  * lunr.utils
- * Copyright (C) 2014 Oliver Nightingale
+ * Copyright (C) 2015 Oliver Nightingale
  */
 
 /**
@@ -83,7 +83,7 @@ lunr.utils.warn = (function (global) {
 
 /*!
  * lunr.EventEmitter
- * Copyright (C) 2014 Oliver Nightingale
+ * Copyright (C) 2015 Oliver Nightingale
  */
 
 /**
@@ -101,7 +101,7 @@ lunr.EventEmitter = function () {
  * Can bind a single function to many different events in one call.
  *
  * @param {String} [eventName] The name(s) of events to bind this function to.
- * @param {Function} handler The function to call when an event is fired.
+ * @param {Function} fn The function to call when an event is fired.
  * @memberOf EventEmitter
  */
 lunr.EventEmitter.prototype.addListener = function () {
@@ -121,7 +121,7 @@ lunr.EventEmitter.prototype.addListener = function () {
  * Removes a handler function from a specific event.
  *
  * @param {String} eventName The name of the event to remove this function from.
- * @param {Function} handler The function to remove from an event.
+ * @param {Function} fn The function to remove from an event.
  * @memberOf EventEmitter
  */
 lunr.EventEmitter.prototype.removeListener = function (name, fn) {
@@ -165,7 +165,7 @@ lunr.EventEmitter.prototype.hasHandler = function (name) {
 
 /*!
  * lunr.tokenizer
- * Copyright (C) 2014 Oliver Nightingale
+ * Copyright (C) 2015 Oliver Nightingale
  */
 
 /**
@@ -180,24 +180,12 @@ lunr.tokenizer = function (obj) {
   if (!arguments.length || obj == null || obj == undefined) return []
   if (Array.isArray(obj)) return obj.map(function (t) { return t.toLowerCase() })
 
-  var str = obj.toString().replace(/^\s+/, '')
-
-  for (var i = str.length - 1; i >= 0; i--) {
-    if (/\S/.test(str.charAt(i))) {
-      str = str.substring(0, i + 1)
-      break
-    }
-  }
-
-  return str
-    .split(/(?:\s+|\-)/)
-    .map(function (token) {
-      return token.toLowerCase()
-    })
+  return obj.toString().trim().toLowerCase().split(/[\s\-]+/)
 }
+
 /*!
  * lunr.Pipeline
- * Copyright (C) 2014 Oliver Nightingale
+ * Copyright (C) 2015 Oliver Nightingale
  */
 
 /**
@@ -292,7 +280,7 @@ lunr.Pipeline.load = function (serialised) {
     if (fn) {
       pipeline.add(fn)
     } else {
-      throw new Error ('Cannot load un-registered function: ' + fnName)
+      throw new Error('Cannot load un-registered function: ' + fnName)
     }
   })
 
@@ -329,7 +317,12 @@ lunr.Pipeline.prototype.add = function () {
 lunr.Pipeline.prototype.after = function (existingFn, newFn) {
   lunr.Pipeline.warnIfFunctionNotRegistered(newFn)
 
-  var pos = this._stack.indexOf(existingFn) + 1
+  var pos = this._stack.indexOf(existingFn)
+  if (pos == -1) {
+    throw new Error('Cannot find existingFn')
+  }
+
+  pos = pos + 1
   this._stack.splice(pos, 0, newFn)
 }
 
@@ -347,6 +340,10 @@ lunr.Pipeline.prototype.before = function (existingFn, newFn) {
   lunr.Pipeline.warnIfFunctionNotRegistered(newFn)
 
   var pos = this._stack.indexOf(existingFn)
+  if (pos == -1) {
+    throw new Error('Cannot find existingFn')
+  }
+
   this._stack.splice(pos, 0, newFn)
 }
 
@@ -358,6 +355,10 @@ lunr.Pipeline.prototype.before = function (existingFn, newFn) {
  */
 lunr.Pipeline.prototype.remove = function (fn) {
   var pos = this._stack.indexOf(fn)
+  if (pos == -1) {
+    return
+  }
+
   this._stack.splice(pos, 1)
 }
 
@@ -414,7 +415,7 @@ lunr.Pipeline.prototype.toJSON = function () {
 }
 /*!
  * lunr.Vector
- * Copyright (C) 2014 Oliver Nightingale
+ * Copyright (C) 2015 Oliver Nightingale
  */
 
 /**
@@ -454,9 +455,15 @@ lunr.Vector.Node = function (idx, val, next) {
  * @memberOf Vector.
  */
 lunr.Vector.prototype.insert = function (idx, val) {
+  this._magnitude = undefined;
   var list = this.list
 
   if (!list) {
+    this.list = new lunr.Vector.Node (idx, val, list)
+    return this.length++
+  }
+
+  if (idx < list.idx) {
     this.list = new lunr.Vector.Node (idx, val, list)
     return this.length++
   }
@@ -484,7 +491,7 @@ lunr.Vector.prototype.insert = function (idx, val) {
  * @memberOf Vector
  */
 lunr.Vector.prototype.magnitude = function () {
-  if (this._magniture) return this._magnitude
+  if (this._magnitude) return this._magnitude
   var node = this.list,
       sumOfSquares = 0,
       val
@@ -539,7 +546,7 @@ lunr.Vector.prototype.similarity = function (otherVector) {
 }
 /*!
  * lunr.SortedSet
- * Copyright (C) 2014 Oliver Nightingale
+ * Copyright (C) 2015 Oliver Nightingale
  */
 
 /**
@@ -577,10 +584,13 @@ lunr.SortedSet.load = function (serialisedData) {
  * @memberOf SortedSet
  */
 lunr.SortedSet.prototype.add = function () {
-  Array.prototype.slice.call(arguments).forEach(function (element) {
-    if (~this.indexOf(element)) return
+  var i, element
+
+  for (i = 0; i < arguments.length; i++) {
+    element = arguments[i]
+    if (~this.indexOf(element)) continue
     this.elements.splice(this.locationFor(element), 0, element)
-  }, this)
+  }
 
   this.length = this.elements.length
 }
@@ -632,31 +642,30 @@ lunr.SortedSet.prototype.forEach = function (fn, ctx) {
  * sorted set, or -1 if it is not present.
  *
  * @param {Object} elem The object to locate in the sorted set.
- * @param {Number} start An optional index at which to start searching from
- * within the set.
- * @param {Number} end An optional index at which to stop search from within
- * the set.
  * @returns {Number}
  * @memberOf SortedSet
  */
-lunr.SortedSet.prototype.indexOf = function (elem, start, end) {
-  var start = start || 0,
-      end = end || this.elements.length,
+lunr.SortedSet.prototype.indexOf = function (elem) {
+  var start = 0,
+      end = this.elements.length,
       sectionLength = end - start,
       pivot = start + Math.floor(sectionLength / 2),
       pivotElem = this.elements[pivot]
 
-  if (sectionLength <= 1) {
-    if (pivotElem === elem) {
-      return pivot
-    } else {
-      return -1
-    }
+  while (sectionLength > 1) {
+    if (pivotElem === elem) return pivot
+
+    if (pivotElem < elem) start = pivot
+    if (pivotElem > elem) end = pivot
+
+    sectionLength = end - start
+    pivot = start + Math.floor(sectionLength / 2)
+    pivotElem = this.elements[pivot]
   }
 
-  if (pivotElem < elem) return this.indexOf(elem, pivot, end)
-  if (pivotElem > elem) return this.indexOf(elem, start, pivot)
   if (pivotElem === elem) return pivot
+
+  return -1
 }
 
 /**
@@ -667,27 +676,27 @@ lunr.SortedSet.prototype.indexOf = function (elem, start, end) {
  * in the sorted set.
  *
  * @param {Object} elem The elem to find the position for in the set
- * @param {Number} start An optional index at which to start searching from
- * within the set.
- * @param {Number} end An optional index at which to stop search from within
- * the set.
  * @returns {Number}
  * @memberOf SortedSet
  */
-lunr.SortedSet.prototype.locationFor = function (elem, start, end) {
-  var start = start || 0,
-      end = end || this.elements.length,
+lunr.SortedSet.prototype.locationFor = function (elem) {
+  var start = 0,
+      end = this.elements.length,
       sectionLength = end - start,
       pivot = start + Math.floor(sectionLength / 2),
       pivotElem = this.elements[pivot]
 
-  if (sectionLength <= 1) {
-    if (pivotElem > elem) return pivot
-    if (pivotElem < elem) return pivot + 1
+  while (sectionLength > 1) {
+    if (pivotElem < elem) start = pivot
+    if (pivotElem > elem) end = pivot
+
+    sectionLength = end - start
+    pivot = start + Math.floor(sectionLength / 2)
+    pivotElem = this.elements[pivot]
   }
 
-  if (pivotElem < elem) return this.locationFor(elem, pivot, end)
-  if (pivotElem > elem) return this.locationFor(elem, start, pivot)
+  if (pivotElem > elem) return pivot
+  if (pivotElem < elem) return pivot + 1
 }
 
 /**
@@ -777,7 +786,7 @@ lunr.SortedSet.prototype.toJSON = function () {
 }
 /*!
  * lunr.Index
- * Copyright (C) 2014 Oliver Nightingale
+ * Copyright (C) 2015 Oliver Nightingale
  */
 
 /**
@@ -809,7 +818,7 @@ lunr.Index = function () {
  * The handler can be bound to many events at the same time.
  *
  * @param {String} [eventName] The name(s) of events to bind the function to.
- * @param {Function} handler The serialised set to load.
+ * @param {Function} fn The serialised set to load.
  * @memberOf Index
  */
 lunr.Index.prototype.on = function () {
@@ -821,7 +830,7 @@ lunr.Index.prototype.on = function () {
  * Removes a handler from an event being emitted by the index.
  *
  * @param {String} eventName The name of events to remove the function from.
- * @param {Function} handler The serialised set to load.
+ * @param {Function} fn The serialised set to load.
  * @memberOf Index
  */
 lunr.Index.prototype.off = function (name, fn) {
@@ -1029,7 +1038,7 @@ lunr.Index.prototype.idf = function (term) {
       idf = 1
 
   if (documentFrequency > 0) {
-    idf = 1 + Math.log(this.tokenStore.length / documentFrequency)
+    idf = 1 + Math.log(this.documentStore.length / documentFrequency)
   }
 
   return this._idfCache[cacheKey] = idf
@@ -1198,7 +1207,7 @@ lunr.Index.prototype.use = function (plugin) {
 }
 /*!
  * lunr.Store
- * Copyright (C) 2014 Oliver Nightingale
+ * Copyright (C) 2015 Oliver Nightingale
  */
 
 /**
@@ -1240,8 +1249,8 @@ lunr.Store.load = function (serialisedData) {
  * @memberOf Store
  */
 lunr.Store.prototype.set = function (id, tokens) {
+  if (!this.has(id)) this.length++
   this.store[id] = tokens
-  this.length = Object.keys(this.store).length
 }
 
 /**
@@ -1294,13 +1303,13 @@ lunr.Store.prototype.toJSON = function () {
 
 /*!
  * lunr.stemmer
- * Copyright (C) 2014 Oliver Nightingale
+ * Copyright (C) 2015 Oliver Nightingale
  * Includes code from - http://tartarus.org/~martin/PorterStemmer/js.txt
  */
 
 /**
  * lunr.stemmer is an english language stemmer, this is a JavaScript
- * implementation of the PorterStemmer taken from http://tartaurs.org/~martin
+ * implementation of the PorterStemmer taken from http://tartarus.org/~martin
  *
  * @module
  * @param {String} str The string to stem
@@ -1352,7 +1361,33 @@ lunr.stemmer = (function(){
     mgr1 = "^(" + C + ")?" + V + C + V + C,       // [C]VCVC... is m>1
     s_v = "^(" + C + ")?" + v;                   // vowel in stem
 
-  return function (w) {
+  var re_mgr0 = new RegExp(mgr0);
+  var re_mgr1 = new RegExp(mgr1);
+  var re_meq1 = new RegExp(meq1);
+  var re_s_v = new RegExp(s_v);
+
+  var re_1a = /^(.+?)(ss|i)es$/;
+  var re2_1a = /^(.+?)([^s])s$/;
+  var re_1b = /^(.+?)eed$/;
+  var re2_1b = /^(.+?)(ed|ing)$/;
+  var re_1b_2 = /.$/;
+  var re2_1b_2 = /(at|bl|iz)$/;
+  var re3_1b_2 = new RegExp("([^aeiouylsz])\\1$");
+  var re4_1b_2 = new RegExp("^" + C + v + "[^aeiouwxy]$");
+
+  var re_1c = /^(.+?[^aeiou])y$/;
+  var re_2 = /^(.+?)(ational|tional|enci|anci|izer|bli|alli|entli|eli|ousli|ization|ation|ator|alism|iveness|fulness|ousness|aliti|iviti|biliti|logi)$/;
+
+  var re_3 = /^(.+?)(icate|ative|alize|iciti|ical|ful|ness)$/;
+
+  var re_4 = /^(.+?)(al|ance|ence|er|ic|able|ible|ant|ement|ment|ent|ou|ism|ate|iti|ous|ive|ize)$/;
+  var re2_4 = /^(.+?)(s|t)(ion)$/;
+
+  var re_5 = /^(.+?)e$/;
+  var re_5_1 = /ll$/;
+  var re3_5 = new RegExp("^" + C + v + "[^aeiouwxy]$");
+
+  var porterStemmer = function porterStemmer(w) {
     var   stem,
       suffix,
       firstch,
@@ -1369,39 +1404,39 @@ lunr.stemmer = (function(){
     }
 
     // Step 1a
-    re = /^(.+?)(ss|i)es$/;
-    re2 = /^(.+?)([^s])s$/;
+    re = re_1a
+    re2 = re2_1a;
 
     if (re.test(w)) { w = w.replace(re,"$1$2"); }
     else if (re2.test(w)) { w = w.replace(re2,"$1$2"); }
 
     // Step 1b
-    re = /^(.+?)eed$/;
-    re2 = /^(.+?)(ed|ing)$/;
+    re = re_1b;
+    re2 = re2_1b;
     if (re.test(w)) {
       var fp = re.exec(w);
-      re = new RegExp(mgr0);
+      re = re_mgr0;
       if (re.test(fp[1])) {
-        re = /.$/;
+        re = re_1b_2;
         w = w.replace(re,"");
       }
     } else if (re2.test(w)) {
       var fp = re2.exec(w);
       stem = fp[1];
-      re2 = new RegExp(s_v);
+      re2 = re_s_v;
       if (re2.test(stem)) {
         w = stem;
-        re2 = /(at|bl|iz)$/;
-        re3 = new RegExp("([^aeiouylsz])\\1$");
-        re4 = new RegExp("^" + C + v + "[^aeiouwxy]$");
+        re2 = re2_1b_2;
+        re3 = re3_1b_2;
+        re4 = re4_1b_2;
         if (re2.test(w)) {  w = w + "e"; }
-        else if (re3.test(w)) { re = /.$/; w = w.replace(re,""); }
+        else if (re3.test(w)) { re = re_1b_2; w = w.replace(re,""); }
         else if (re4.test(w)) { w = w + "e"; }
       }
     }
 
     // Step 1c - replace suffix y or Y by i if preceded by a non-vowel which is not the first letter of the word (so cry -> cri, by -> by, say -> say)
-    re = /^(.+?[^aeiou])y$/;
+    re = re_1c;
     if (re.test(w)) {
       var fp = re.exec(w);
       stem = fp[1];
@@ -1409,65 +1444,65 @@ lunr.stemmer = (function(){
     }
 
     // Step 2
-    re = /^(.+?)(ational|tional|enci|anci|izer|bli|alli|entli|eli|ousli|ization|ation|ator|alism|iveness|fulness|ousness|aliti|iviti|biliti|logi)$/;
+    re = re_2;
     if (re.test(w)) {
       var fp = re.exec(w);
       stem = fp[1];
       suffix = fp[2];
-      re = new RegExp(mgr0);
+      re = re_mgr0;
       if (re.test(stem)) {
         w = stem + step2list[suffix];
       }
     }
 
     // Step 3
-    re = /^(.+?)(icate|ative|alize|iciti|ical|ful|ness)$/;
+    re = re_3;
     if (re.test(w)) {
       var fp = re.exec(w);
       stem = fp[1];
       suffix = fp[2];
-      re = new RegExp(mgr0);
+      re = re_mgr0;
       if (re.test(stem)) {
         w = stem + step3list[suffix];
       }
     }
 
     // Step 4
-    re = /^(.+?)(al|ance|ence|er|ic|able|ible|ant|ement|ment|ent|ou|ism|ate|iti|ous|ive|ize)$/;
-    re2 = /^(.+?)(s|t)(ion)$/;
+    re = re_4;
+    re2 = re2_4;
     if (re.test(w)) {
       var fp = re.exec(w);
       stem = fp[1];
-      re = new RegExp(mgr1);
+      re = re_mgr1;
       if (re.test(stem)) {
         w = stem;
       }
     } else if (re2.test(w)) {
       var fp = re2.exec(w);
       stem = fp[1] + fp[2];
-      re2 = new RegExp(mgr1);
+      re2 = re_mgr1;
       if (re2.test(stem)) {
         w = stem;
       }
     }
 
     // Step 5
-    re = /^(.+?)e$/;
+    re = re_5;
     if (re.test(w)) {
       var fp = re.exec(w);
       stem = fp[1];
-      re = new RegExp(mgr1);
-      re2 = new RegExp(meq1);
-      re3 = new RegExp("^" + C + v + "[^aeiouwxy]$");
+      re = re_mgr1;
+      re2 = re_meq1;
+      re3 = re3_5;
       if (re.test(stem) || (re2.test(stem) && !(re3.test(stem)))) {
         w = stem;
       }
     }
 
-    re = /ll$/;
-    re2 = new RegExp(mgr1);
+    re = re_5_1;
+    re2 = re_mgr1;
     if (re.test(w) && re2.test(w)) {
-      re = /.$/;
+      re = re_1b_2;
       w = w.replace(re,"");
     }
 
@@ -1478,13 +1513,15 @@ lunr.stemmer = (function(){
     }
 
     return w;
-  }
+  };
+
+  return porterStemmer;
 })();
 
 lunr.Pipeline.registerFunction(lunr.stemmer, 'stemmer')
 /*!
  * lunr.stopWordFilter
- * Copyright (C) 2014 Oliver Nightingale
+ * Copyright (C) 2015 Oliver Nightingale
  */
 
 /**
@@ -1500,138 +1537,135 @@ lunr.Pipeline.registerFunction(lunr.stemmer, 'stemmer')
  * @see lunr.Pipeline
  */
 lunr.stopWordFilter = function (token) {
-  if (lunr.stopWordFilter.stopWords.indexOf(token) === -1) return token
+  if (token && lunr.stopWordFilter.stopWords[token] !== token) return token;
 }
 
-lunr.stopWordFilter.stopWords = new lunr.SortedSet
-lunr.stopWordFilter.stopWords.length = 119
-lunr.stopWordFilter.stopWords.elements = [
-  "",
-  "a",
-  "able",
-  "about",
-  "across",
-  "after",
-  "all",
-  "almost",
-  "also",
-  "am",
-  "among",
-  "an",
-  "and",
-  "any",
-  "are",
-  "as",
-  "at",
-  "be",
-  "because",
-  "been",
-  "but",
-  "by",
-  "can",
-  "cannot",
-  "could",
-  "dear",
-  "did",
-  "do",
-  "does",
-  "either",
-  "else",
-  "ever",
-  "every",
-  "for",
-  "from",
-  "get",
-  "got",
-  "had",
-  "has",
-  "have",
-  "he",
-  "her",
-  "hers",
-  "him",
-  "his",
-  "how",
-  "however",
-  "i",
-  "if",
-  "in",
-  "into",
-  "is",
-  "it",
-  "its",
-  "just",
-  "least",
-  "let",
-  "like",
-  "likely",
-  "may",
-  "me",
-  "might",
-  "most",
-  "must",
-  "my",
-  "neither",
-  "no",
-  "nor",
-  "not",
-  "of",
-  "off",
-  "often",
-  "on",
-  "only",
-  "or",
-  "other",
-  "our",
-  "own",
-  "rather",
-  "said",
-  "say",
-  "says",
-  "she",
-  "should",
-  "since",
-  "so",
-  "some",
-  "than",
-  "that",
-  "the",
-  "their",
-  "them",
-  "then",
-  "there",
-  "these",
-  "they",
-  "this",
-  "tis",
-  "to",
-  "too",
-  "twas",
-  "us",
-  "wants",
-  "was",
-  "we",
-  "were",
-  "what",
-  "when",
-  "where",
-  "which",
-  "while",
-  "who",
-  "whom",
-  "why",
-  "will",
-  "with",
-  "would",
-  "yet",
-  "you",
-  "your"
-]
+lunr.stopWordFilter.stopWords = {
+  'a': 'a',
+  'able': 'able',
+  'about': 'about',
+  'across': 'across',
+  'after': 'after',
+  'all': 'all',
+  'almost': 'almost',
+  'also': 'also',
+  'am': 'am',
+  'among': 'among',
+  'an': 'an',
+  'and': 'and',
+  'any': 'any',
+  'are': 'are',
+  'as': 'as',
+  'at': 'at',
+  'be': 'be',
+  'because': 'because',
+  'been': 'been',
+  'but': 'but',
+  'by': 'by',
+  'can': 'can',
+  'cannot': 'cannot',
+  'could': 'could',
+  'dear': 'dear',
+  'did': 'did',
+  'do': 'do',
+  'does': 'does',
+  'either': 'either',
+  'else': 'else',
+  'ever': 'ever',
+  'every': 'every',
+  'for': 'for',
+  'from': 'from',
+  'get': 'get',
+  'got': 'got',
+  'had': 'had',
+  'has': 'has',
+  'have': 'have',
+  'he': 'he',
+  'her': 'her',
+  'hers': 'hers',
+  'him': 'him',
+  'his': 'his',
+  'how': 'how',
+  'however': 'however',
+  'i': 'i',
+  'if': 'if',
+  'in': 'in',
+  'into': 'into',
+  'is': 'is',
+  'it': 'it',
+  'its': 'its',
+  'just': 'just',
+  'least': 'least',
+  'let': 'let',
+  'like': 'like',
+  'likely': 'likely',
+  'may': 'may',
+  'me': 'me',
+  'might': 'might',
+  'most': 'most',
+  'must': 'must',
+  'my': 'my',
+  'neither': 'neither',
+  'no': 'no',
+  'nor': 'nor',
+  'not': 'not',
+  'of': 'of',
+  'off': 'off',
+  'often': 'often',
+  'on': 'on',
+  'only': 'only',
+  'or': 'or',
+  'other': 'other',
+  'our': 'our',
+  'own': 'own',
+  'rather': 'rather',
+  'said': 'said',
+  'say': 'say',
+  'says': 'says',
+  'she': 'she',
+  'should': 'should',
+  'since': 'since',
+  'so': 'so',
+  'some': 'some',
+  'than': 'than',
+  'that': 'that',
+  'the': 'the',
+  'their': 'their',
+  'them': 'them',
+  'then': 'then',
+  'there': 'there',
+  'these': 'these',
+  'they': 'they',
+  'this': 'this',
+  'tis': 'tis',
+  'to': 'to',
+  'too': 'too',
+  'twas': 'twas',
+  'us': 'us',
+  'wants': 'wants',
+  'was': 'was',
+  'we': 'we',
+  'were': 'were',
+  'what': 'what',
+  'when': 'when',
+  'where': 'where',
+  'which': 'which',
+  'while': 'while',
+  'who': 'who',
+  'whom': 'whom',
+  'why': 'why',
+  'will': 'will',
+  'with': 'with',
+  'would': 'would',
+  'yet': 'yet',
+  'you': 'you',
+  'your': 'your'
+}
 
 lunr.Pipeline.registerFunction(lunr.stopWordFilter, 'stopWordFilter')
 /*!
  * lunr.trimmer
- * Copyright (C) 2014 Oliver Nightingale
+ * Copyright (C) 2015 Oliver Nightingale
  */
 
 /**
@@ -1649,15 +1683,15 @@ lunr.Pipeline.registerFunction(lunr.stopWordFilter, 'stopWordFilter')
  * @see lunr.Pipeline
  */
 lunr.trimmer = function (token) {
-  return token
-    .replace(/^\W+/, '')
-    .replace(/\W+$/, '')
+  var result = token.replace(/^\W+/, '')
+                    .replace(/\W+$/, '')
+  return result === '' ? undefined : result
 }
 
 lunr.Pipeline.registerFunction(lunr.trimmer, 'trimmer')
 /*!
  * lunr.stemmer
- * Copyright (C) 2014 Oliver Nightingale
+ * Copyright (C) 2015 Oliver Nightingale
  * Includes code from - http://tartarus.org/~martin/PorterStemmer/js.txt
  */
 
@@ -1850,7 +1884,7 @@ lunr.TokenStore.prototype.toJSON = function () {
 
 
   /**
-   * export the module via AMD, CommonnJS or as a browser global
+   * export the module via AMD, CommonJS or as a browser global
    * Export code from https://github.com/umdjs/umd/blob/master/returnExports.js
    */
   ;(function (root, factory) {
@@ -1876,4 +1910,4 @@ lunr.TokenStore.prototype.toJSON = function () {
      */
     return lunr
   }))
-})()
+})();

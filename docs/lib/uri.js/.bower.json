@@ -33,7 +33,7 @@
     "tag": "v1.13.2",
     "commit": "85cc312f394ee848933da218a4ff407e8e8e81e7"
   },
-  "_source": "git://github.com/medialize/URI.js.git",
+  "_source": "https://github.com/medialize/URI.js.git",
   "_target": "~1.13.2",
   "_originalSource": "uri.js"
 }

@@ -1,7 +1,10 @@
 <!DOCTYPE html>
+<html>
 <head>
   <title>lunr.js - A bit like Solr, but much smaller and not as bright</title>
   <link rel="stylesheet" href="/styles.css" type="text/css">
+  <script type="text/javascript" src="/lunr.min.js">
+  </script>
   <script type="text/javascript">
 
       var _gaq = _gaq || [];
@@ -37,6 +40,8 @@
           <h3>Get Started</h3>
         </header>
 
+        <p>Open your browser's <a id="developer-tools" target="_blank">developer tools</a> on this page to follow along.</p>
+
         <p>Set up an index for your notes:</p>
         <pre>
   var index = lunr(function () {
@@ -71,7 +76,7 @@
 
         <p>lunr.js is a simple full text search engine for your client side applications. It is designed to be small, yet full featured, enabling you to provide a great search experience without the need for external, server side, search services.</p>
 
-        <p>lunr.js has no external dependencies, although it does require a modern browser with ES5 support. In older browsers you can use an ES5 shim, such as <a href="http://augmentjs.com">augment.js</a>, to provide any missing JavaScript functionality.</p>
+        <p>lunr.js has no external dependencies, although it does require a modern browser with ES5 support. In older browsers you can use an ES5 shim, such as <a href="https://olivernn.github.io/augment.js/">augment.js</a>, to provide any missing JavaScript functionality.</p>
       </article>
 
       <article class="download">
@@ -158,14 +163,58 @@
   </div>
 
   <script>
-    (function (hijs) {
-    
-    
-    
-    
-    
+    (function (ua) {
+      // some _really_ basic browser sniffing to choose the right dev tools link.
 
-    
+      var consoleSrc,
+          CHROME    = /Chrome/,
+          CHROMIUM  = /Chromium/,
+          FIREFOX   = /Firefox/,
+          MSIE      = /MSIE/
+          OPERA     = /(OPR|Opera)/,
+          SAFARI    = /Safari/,
+          SEAMONKEY = /Seamonkey/
+
+      switch (true) {
+        case FIREFOX.test(ua) && !SEAMONKEY.test(ua):
+          // firefox
+          consoleSrc = "https://developer.mozilla.org/en-US/docs/Tools/Web_Console"
+          break
+
+        case CHROME.test(ua):
+          // chrome
+          consoleSrc = "https://developer.chrome.com/devtools"
+          break
+
+        case SAFARI.test(ua) && !CHROME.test(ua) && !CHROMIUM.test(ua):
+          // safari
+          consoleSrc = "https://developer.apple.com/library/safari/documentation/AppleApplications/Conceptual/Safari_Developer_Guide/GettingStarted/GettingStarted.html#//apple_ref/doc/uid/TP40007874-CH2-SW1"
+          break
+
+        case OPERA.test(ua):
+          // opera
+          consoleSrc = "http://www.opera.com/dragonfly/"
+          break
+
+        case MSIE.test(ua):
+          // IE
+          consoleSrc = "http://msdn.microsoft.com/en-us/library/ie/hh673541(v=vs.85).aspx"
+          break
+      }
+
+      if (consoleSrc) document.getElementById('developer-tools').href = consoleSrc
+    })(navigator.userAgent)
+  </script>
+
+  <script>
+    (function (hijs) {
+    //
+    // hijs - JavaScript Syntax Highlighter
+    //
+    // Copyright (c) 2010 Alexis Sellier
+    //
+
+    // All elements which match this will be syntax highlighted.
     var selector = hijs || 'pre';
 
     var keywords = ('var function if else for while break switch case do new null in with void '
@@ -173,9 +222,9 @@
         special  = ('eval window document undefined NaN Infinity parseInt parseFloat '
                    +'encodeURI decodeURI encodeURIComponent decodeURIComponent').split(' ');
 
-    
-    
-    
+    // Syntax definition
+    // The key becomes the class name of the <span>
+    // around the matched block of code.
     var syntax = [
       ['comment', /(\/\*(?:[^*\n]|\*+[^\/*])*\*+\/)/g],
       ['comment', /(\/\/[^\n]*)/g],
@@ -204,8 +253,8 @@
         for (var j = 0, str; j < children.length; j++) {
             code = children[j];
 
-            if (code.length >= 0) { 
-                
+            if (code.length >= 0) { // It's a text node
+                // Don't highlight command-line snippets
                 if (! /^\$/.test(code.nodeValue.trim())) {
                     syntax.forEach(function (s) {
                         var k = s[0], v = s[1];
@@ -231,7 +280,7 @@
         return str.replace(/</g, '&lt;').replace(/>/g, '&gt;');
     }
 
-    
+    // Encode ASCII characters to, and from Braille
     function encode (str, encoded) {
         table[encoded = str.split('').map(function (s) {
             if (s.charCodeAt(0) > 127) { return s }
@@ -252,7 +301,5 @@
 
     })(window.hijs);
   </script>
-<script data-no-instant>document.write('<script src="http://'
-        + (location.host || 'localhost').split(':')[0]
-		+ ':1313/livereload.js?mindelay=10"></'
-        + 'script>')</script></body>
+</body>
+</html>

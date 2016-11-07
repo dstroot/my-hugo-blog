@@ -14,7 +14,7 @@
     "tag": "1.2.3",
     "commit": "b1ddf0e6485e2b2071abf34a95b00512a018f6a9"
   },
-  "_source": "git://github.com/tiger-seo/date.format.git",
+  "_source": "https://github.com/tiger-seo/date.format.git",
   "_target": "~1.2.3",
   "_originalSource": "date.format"
 }

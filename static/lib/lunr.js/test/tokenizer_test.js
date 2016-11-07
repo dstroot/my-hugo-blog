@@ -36,7 +36,7 @@ test('handling null-like arguments', function () {
 })
 
 test('calling to string on passed val', function () {
-  var date = new Date (Date.UTC(2013, 0, 1)),
+  var date = new Date (Date.UTC(2013, 0, 1, 12)),
       obj = {
         toString: function () { return 'custom object' }
       }
@@ -55,4 +55,11 @@ test("splitting strings with hyphens", function () {
       tokens = lunr.tokenizer(simpleString)
 
   deepEqual(tokens, ['take', 'the', 'new', 'york', 'san', 'francisco', 'flight'])
+})
+
+test("splitting strings with hyphens and spaces", function () {
+  var simpleString = "Solve for A - B",
+      tokens = lunr.tokenizer(simpleString)
+
+  deepEqual(tokens, ['solve', 'for', 'a', 'b'])
 })

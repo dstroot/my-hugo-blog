@@ -441,38 +441,13 @@ pre {
   font-family: Menlo, Monaco, "Courier New", monospace; }
 
 code {
-  padding: 0.25em 0.5em;
-  font-size: 85%;
-  color: #bf616a;
-  background-color: #f9f9f9;
+  padding: 0.2em 0.4em;
+  overflow: auto;
+  font-size: 75%;
+  line-height: 1.45;
+  background-color: #f8f8f8;
+  color: #d14;
   border-radius: 3px; }
-
-pre {
-  margin-top: 0;
-  margin-bottom: 1rem; }
-
-pre code {
-  padding: 0;
-  font-size: 100%;
-  color: inherit;
-  background-color: transparent; }
-
-.highlight {
-  padding: 1rem;
-  margin-bottom: 1rem;
-  font-size: 0.8rem;
-  line-height: 1.4;
-  background-color: #f9f9f9;
-  border-radius: 0.25rem; }
-  .highlight pre {
-    margin-bottom: 0;
-    overflow-x: auto; }
-  .highlight .lineno {
-    display: inline-block;
-    padding-right: 0.75rem;
-    padding-left: 0.25rem;
-    color: #999;
-    user-select: none; }
 
 .container {
   max-width: 38rem;
