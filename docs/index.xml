@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Dan Stroot</title>
-    <link>http://danstroot.com/</link>
+    <link>http://danstroot.com/index.xml</link>
     <description>Recent content on Dan Stroot</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -15,13 +15,13 @@
       <pubDate>Sun, 30 Oct 2016 19:50:04 -0700</pubDate>
       
       <guid>http://danstroot.com/blog/2016/10/30/free-to-believe-anything/</guid>
-      <description>
-
-&lt;p&gt;&lt;img src=&#34;http://danstroot.com/img/comic.png&#34; alt=&#34;Cognitive Bias&#34; /&gt;&lt;/p&gt;
+      <description>&lt;p&gt;&lt;img src=&#34;http://danstroot.com/img/comic.png&#34; alt=&#34;Cognitive Bias&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;When I was growing up, when you read the paper, watched the news, saw a film or a picture, you inherently believed in it.  You trusted the reality it portrayed. You trusted in journalism and even believed the news was actually &amp;ldquo;fair and balanced&amp;rdquo;. Then technology destroyed the business model of traditional journalism. The news institutions of the 20th century, print newspapers, the evening broadcast news, the trusted anchorman, are but relics of the past.&lt;/p&gt;
 
 &lt;p&gt;We turned to the Internet, but then we all learned the hard way that we can’t trust the Internet. We no longer know what is real and what is fake.  With everything now digital, and with excellent tools to edit audio, video, and photos, we have become skeptics. As soon as we see a viral video on YouTube we immediately say to ourselves “that’s fake”. Every magazine with a beautiful girl on the cover we think to ourselves “Photoshop”. When we read a blog post we think “spin”.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
 
 &lt;p&gt;The Internet is filled with anti-vaxxers, World Trade truthers, Kennedy theorists, religious fanatics of all stripes, and people who think that Barack Obama is a foreign-born Muslim. (He&amp;rsquo;s not). Since we no longer trust the news or what we read on the Internet we live in strange and interesting times. Now people are free to believe whatever they want to believe by discounting anything they see that does not align with their beliefs.&lt;/p&gt;
 
@@ -63,8 +63,7 @@
 &lt;li&gt;&lt;a href=&#34;http://www.bbc.com/future/story/20161026-how-liars-create-the-illusion-of-truth&#34;&gt;How liars create the &amp;lsquo;illusion of truth&amp;rsquo;&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;http://www.wsj.com/articles/both-old-and-new-media-are-failing-voters-1478216173&#34;&gt;Both Old and New Media Are Failing Voters&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;http://www.nytimes.com/2016/11/03/technology/how-the-internet-is-loosening-our-grip-on-the-truth.html&#34;&gt;How the Internet Is Loosening Our Grip on the Truth&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
+&lt;/ul&gt;</description>
     </item>
     
     <item>
@@ -169,8 +168,9 @@
 
 &lt;p&gt;Saw the new Microsoft Surface Studio this weekend at the Microsoft store at the South Coast Plaza. I thought the display is pretty mind blowing. I have gotten used to wide screen displays but somehow the resolution and format of the screen just feels right. The display floats in space and fills your field of vision.&lt;/p&gt;
 
-&lt;p&gt;The surface dial seems like it would be a gimmick but it isn&amp;rsquo;t. It feels very natural particularly when zooming in and out. Tilting the display down and working right on top of it is spectacular. Way to go Microsoft - you hit it out of the park!&lt;/p&gt;
-</description>
+&lt;p&gt;&lt;/p&gt;
+
+&lt;p&gt;The surface dial seems like it would be a gimmick but it isn&amp;rsquo;t. It feels very natural particularly when zooming in and out. Tilting the display down and working right on top of it is spectacular. Way to go Microsoft - you hit it out of the park!&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -179,17 +179,15 @@
       <pubDate>Sat, 03 Oct 2015 10:00:00 +0000</pubDate>
       
       <guid>http://danstroot.com/blog/2015/10/03/proprietary-software-is-an-unsafe-building-material/</guid>
-      <description>
-
-&lt;p&gt;&lt;img src=&#34;http://danstroot.com/img/volkswagen.jpg&#34; alt=&#34;Volkswagen&#34; /&gt;&lt;/p&gt;
+      <description>&lt;p&gt;&lt;img src=&#34;http://danstroot.com/img/volkswagen.jpg&#34; alt=&#34;Volkswagen&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;At one point in time I worked for an organization that banned the use of open source software.  They were concerned that in the event of issues &amp;ldquo;there would be no support&amp;rdquo;.  At the time they believed that commercial software from companies like IBM, Oracle, Microsoft and SAP was &amp;ldquo;safer&amp;rdquo; because there was a commercial entity that stood behind the products they sold and provided support.&lt;/p&gt;
 
 &lt;h3 id=&#34;now-that-s-changing&#34;&gt;Now that&amp;rsquo;s changing&lt;/h3&gt;
 
-&lt;p&gt;Most technology leadership today recognizes that proprietary software is not safer than open source software. Basic metrics around the number of disclosed vulnerabilities and &amp;ldquo;time to patch availability&amp;rdquo; seem to give an edge to open source software at least being patched faster.  Not only that but you have the option to inspect the code yourself, and patch it yourself - options that are simply not available with commercial, closed software. This causes a re-evaluation of the relationship of proprietary, commercial software to operating a safe and secure business.&lt;/p&gt;
+&lt;p&gt;Most technology leadership today recognizes that proprietary software is not safer than open source software. Basic metrics around the number of disclosed vulnerabilities and &amp;ldquo;time to patch availability&amp;rdquo; seem to give an edge to open source software at least being patched faster.  Not only that but you have the option to inspect the code yourself, and patch it yourself - options that are simply not available with commercial, closed software. This causes a re-evaluation of the relationship of proprietary, commercial software to operating a safe and secure business.
 
-&lt;p&gt;The recent Volkswagen scandal brings to light the broader question of how vulnerable we are to software that is beyond oversight.  Today when we have software running critical systems like medical devices, transportation systems, elevators, and cars we are realizing this code &lt;strong&gt;must&lt;/strong&gt; be open to inspection. This does not mean the code must be open source - only that the code must be available for inspection and oversight.&lt;/p&gt;
+The recent Volkswagen scandal brings to light the broader question of how vulnerable we are to software that is beyond oversight.  Today when we have software running critical systems like medical devices, transportation systems, elevators, and cars we are realizing this code &lt;strong&gt;must&lt;/strong&gt; be open to inspection. This does not mean the code must be open source - only that the code must be available for inspection and oversight.&lt;/p&gt;
 
 &lt;p&gt;For example, the Food and Drug Administration (FDA) is responsible for evaluating the risks of new devices and monitoring the safety and efficacy of those currently on market. The software on these devices performs life-sustaining functions such as cardiac pacing and defibrillation, drug delivery, and insulin administration.&lt;/p&gt;
 
@@ -213,8 +211,7 @@
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;http://www.nytimes.com/2015/09/23/nyregion/volkswagens-diesel-fraud-makes-critic-of-secret-code-a-prophet.html?mwrsm=Email&#34;&gt;http://www.nytimes.com/2015/09/23/nyregion/volkswagens-diesel-fraud-makes-critic-of-secret-code-a-prophet.html?mwrsm=Email&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;http://www.wired.com/2015/09/volkswagen-open-iot/&#34;&gt;http://www.wired.com/2015/09/volkswagen-open-iot/&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
+&lt;/ul&gt;</description>
     </item>
     
     <item>
@@ -223,9 +220,7 @@
       <pubDate>Sat, 26 Sep 2015 10:00:00 +0000</pubDate>
       
       <guid>http://danstroot.com/blog/2015/09/26/is-it-secure/</guid>
-      <description>
-
-&lt;p&gt;&lt;img src=&#34;http://danstroot.com/img/SmartCarLock.png&#34; alt=&#34;Security&#34; /&gt;&lt;/p&gt;
+      <description>&lt;p&gt;&lt;img src=&#34;http://danstroot.com/img/SmartCarLock.png&#34; alt=&#34;Security&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;em&gt;Q&lt;/em&gt;: Is it secure? &lt;br&gt;
 &lt;em&gt;A&lt;/em&gt;: No it is not. Security is never binary.&lt;/p&gt;
@@ -235,6 +230,8 @@
 
 &lt;p&gt;&lt;em&gt;Q&lt;/em&gt;: No, the first question was if it&amp;rsquo;s secure, the second question was how secure is it. &lt;br&gt;
 &lt;em&gt;A&lt;/em&gt;: Well now that wasn&amp;rsquo;t even a question at all.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
 
 &lt;h3 id=&#34;there-is-no-such-thing-as-perfect-security&#34;&gt;There is no such thing as perfect security&lt;/h3&gt;
 
@@ -294,8 +291,7 @@ He would pick it until he tripped the detector mechanism, causing the lock to se
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;http://gizmodo.com/in-1851-a-man-picked-two-unpickable-locks-and-changed-1698557792&#34;&gt;In 1851 a man picked two unpickable locks&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
+&lt;/ul&gt;</description>
     </item>
     
     <item>
@@ -310,12 +306,13 @@ He would pick it until he tripped the detector mechanism, causing the lock to se
 
 &lt;p&gt;Many people have begun integrating bots into the GitHub ecosystem for code review. For example the folks who created the Bootstrap UI framework created a bot called &lt;a href=&#34;https://github/twbs/rorshach&#34;&gt;rorshach&lt;/a&gt; to perform sanity checks on pull requests. If the sanity check fails it leaves a nice informative comment, explaining the issue and how to fix it.&lt;/p&gt;
 
+&lt;p&gt;&lt;/p&gt;
+
 &lt;p&gt;There is another example at &lt;a href=&#34;https://betterdiff.com/&#34;&gt;BetterDiff&lt;/a&gt;. The idea there is that instead of having humans go through and give cursory reviews, you have a round of automated review by bots (using normal, industry-standard tooling) and it comments on the pull request just like a reviewer would.&lt;/p&gt;
 
 &lt;p&gt;Pretty soon I expect to see &amp;ldquo;when tests pass, and code reviews pass, then go ahead and merge the code&amp;rdquo; bots.&lt;/p&gt;
 
-&lt;p&gt;Welcome to the future.&lt;/p&gt;
-</description>
+&lt;p&gt;Welcome to the future.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -329,6 +326,8 @@ He would pick it until he tripped the detector mechanism, causing the lock to se
 &lt;p&gt;Financial services companies are among the most highly regulated industries in the world.  They also suffer from a trust issue.  Trust is a key ingredient in making a financial services business viable. Why would I ever buy insurance, banking services or invest my savings via a company that I didn’t trust?&lt;/p&gt;
 
 &lt;p&gt;After the sub-prime debt crisis in 2008 it became clear that the financial services industry would need to rebuild it’s image. Companies would need to zealously rebuild their brands to aspire to become “trusted advisors”. From an IT standpoint it is crystal clear that client and corporate data must be guarded and protected to prevent any loss as well as minimize the potential for damage to an organization’s reputation. How to manage the risk and yet stay innovative?&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
 
 &lt;p&gt;The response by some financial services companies is to stick their head in the sand and avoid &amp;ldquo;the cloud&amp;rdquo;, open source technologies, and try to make their networks ever more restrictive. This backfires in several ways:&lt;/p&gt;
 
@@ -372,8 +371,7 @@ He would pick it until he tripped the detector mechanism, causing the lock to se
 
 &lt;p&gt;What will this mean for incumbent companies that refuse to change? Maybe in the future they will be both secure and irrelevant.  Or worse, maybe just irrelevant.&lt;/p&gt;
 
-&lt;p&gt;Note: Technology data from &lt;a href=&#34;http://builtwith.com/&#34;&gt;builtwith.com&lt;/a&gt;&lt;/p&gt;
-</description>
+&lt;p&gt;Note: Technology data from &lt;a href=&#34;http://builtwith.com/&#34;&gt;builtwith.com&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -382,11 +380,11 @@ He would pick it until he tripped the detector mechanism, causing the lock to se
       <pubDate>Mon, 25 May 2015 10:00:00 +0000</pubDate>
       
       <guid>http://danstroot.com/blog/2015/05/25/the-new-new-microsoft/</guid>
-      <description>
-
-&lt;p&gt;&lt;img src=&#34;http://danstroot.com/img/satya-nadella-microsoft-ceo.jpg&#34; alt=&#34;Microsoft&#34; /&gt;&lt;/p&gt;
+      <description>&lt;p&gt;&lt;img src=&#34;http://danstroot.com/img/satya-nadella-microsoft-ceo.jpg&#34; alt=&#34;Microsoft&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;I&amp;rsquo;ve been a fan of Microsoft during my whole technical career.  However I don&amp;rsquo;t recommend Microsoft any longer for server workloads, and haven&amp;rsquo;t for years due to the fact that the Linux ecosystem is far less expensive and has more innovative people working on it and sharing what they do openly. However, I am very impressed with the direction and leadership of Satya Nadella.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
 
 &lt;h3 id=&#34;windows-package-manager&#34;&gt;Windows Package Manager&lt;/h3&gt;
 
@@ -423,8 +421,7 @@ He would pick it until he tripped the detector mechanism, causing the lock to se
 &lt;li&gt;&lt;a href=&#34;https://code.visualstudio.com/Docs&#34;&gt;Visual Studio Docs&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;http://techcrunch.com/2015/04/29/microsoft-launches-its-net-distribution-for-linux-and-mac/&#34;&gt;Microsoft Launches Its .NET Distribution For Linux And Mac&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;http://blogs.technet.com/b/packagemanagement/archive/2015/04/29/introducing-packagemanagement-in-windows-10.aspx&#34;&gt;Introducing PackageManagement in Windows 10&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
+&lt;/ul&gt;</description>
     </item>
     
     <item>
@@ -442,6 +439,8 @@ He would pick it until he tripped the detector mechanism, causing the lock to se
 
 &lt;p&gt;&lt;em&gt;- 2015 Gates Annual Letter&lt;/em&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
+
+&lt;p&gt;&lt;/p&gt;
 
 &lt;p&gt;There are four pillars to accomplish this mission:&lt;/p&gt;
 
@@ -477,8 +476,7 @@ He would pick it until he tripped the detector mechanism, causing the lock to se
 &lt;li&gt;&lt;a href=&#34;http://www.krochetkids.org/&#34;&gt;Krochet Kids&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;http://restoreinternational.org/&#34;&gt;Restore International&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;http://bobgoff.com/&#34;&gt;Bob Goff&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
+&lt;/ul&gt;</description>
     </item>
     
     <item>
@@ -487,15 +485,14 @@ He would pick it until he tripped the detector mechanism, causing the lock to se
       <pubDate>Tue, 13 Jan 2015 10:00:00 +0000</pubDate>
       
       <guid>http://danstroot.com/blog/2015/01/13/keep-it-simple...-ux-design/</guid>
-      <description>
-
-&lt;p&gt;&lt;img src=&#34;http://danstroot.com/img/iron_man.png&#34; alt=&#34;Iron Man&#34; /&gt;&lt;/p&gt;
+      <description>&lt;p&gt;&lt;img src=&#34;http://danstroot.com/img/iron_man.png&#34; alt=&#34;Iron Man&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Having done some user interface work over the break I discovered that my design approach was basically to:&lt;/p&gt;
 
 &lt;ol&gt;
 &lt;li&gt;Look around the web for things that I liked and then proceed to &amp;lsquo;borrow&amp;rsquo; their aesthetic.&lt;/li&gt;
-&lt;li&gt;Leverage UX/UI frameworks such as &lt;a href=&#34;http://getbootstrap.com&#34;&gt;Bootstrap&lt;/a&gt; or &lt;a href=&#34;http://foundation.zurb.com/&#34;&gt;Foundation&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Leverage UX/UI frameworks such as &lt;a href=&#34;http://getbootstrap.com&#34;&gt;Bootstrap&lt;/a&gt; or &lt;a href=&#34;http://foundation.zurb.com/&#34;&gt;Foundation&lt;/a&gt;.
+&lt;/li&gt;
 &lt;/ol&gt;
 
 &lt;p&gt;Combining a framework with something I think &amp;ldquo;looks cool&amp;rdquo; is a quick win.  I can get something created quickly that has an incredible amount of time and effort already baked in to making it usable, responsive and approachable.  Given the very wide of use of these frameworks I suspect many others work this way, but also since users are used to seeing many sites built with these frameworks it creates sense of familiarity.&lt;/p&gt;
@@ -558,8 +555,7 @@ He would pick it until he tripped the detector mechanism, causing the lock to se
 &lt;li&gt;&lt;a href=&#34;http://www.nngroup.com/&#34;&gt;Nielsen Norman Group&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.victoriabeckham.com&#34;&gt;Victoria Beckham&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://userium.com/&#34;&gt;Userium&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
+&lt;/ul&gt;</description>
     </item>
     
     <item>
@@ -568,11 +564,10 @@ He would pick it until he tripped the detector mechanism, causing the lock to se
       <pubDate>Mon, 10 Nov 2014 10:00:00 +0000</pubDate>
       
       <guid>http://danstroot.com/blog/2014/11/10/president-obamas-plan-for-a-free-and-open-internet/</guid>
-      <description>
+      <description>&lt;p&gt;&lt;img src=&#34;http://danstroot.com/img/obama_internet.png&#34; alt=&#34;Obama Internet&#34; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;http://danstroot.com/img/obama_internet.png&#34; alt=&#34;Obama Internet&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Today President Barack Obama has come out in favor of net neutrality in very public way.  He lays out in no uncertain terms that he believes no cable company or access provider should be able to put limits on access to the Internet. In addition, he’s suggesting that the FCC recognizes access to the Internet as a basic utility, and something that Americans have a basic right to. This means no blocking, no throttling, more transparency and no paid prioritization.&lt;/p&gt;
+&lt;p&gt;Today President Barack Obama has come out in favor of net neutrality in very public way.  He lays out in no uncertain terms that he believes no cable company or access provider should be able to put limits on access to the Internet. In addition, he’s suggesting that the FCC recognizes access to the Internet as a basic utility, and something that Americans have a basic right to. This means no blocking, no throttling, more transparency and no paid prioritization.
+&lt;/p&gt;
 
 &lt;p&gt;Here are the four principles quoted directly:&lt;/p&gt;
 
@@ -621,8 +616,7 @@ He would pick it until he tripped the detector mechanism, causing the lock to se
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;http://www.whitehouse.gov/net-neutrality&#34;&gt;White House - President Obama&amp;rsquo;s Plan for a Free and Open Internet&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
+&lt;/ul&gt;</description>
     </item>
     
     <item>
@@ -633,7 +627,8 @@ He would pick it until he tripped the detector mechanism, causing the lock to se
       <guid>http://danstroot.com/blog/2014/08/12/usas-digital-playbook/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;http://danstroot.com/img/USDS_Playbook.png&#34; alt=&#34;Digital Playbook&#34; /&gt;&lt;/p&gt;
 
-&lt;p&gt;The White House announced on Monday, August 11th 2014, that it is formally launching a new U.S. Digital Service and that it has hired Mikey Dickerson to lead it.  Mickey Dickerson is an engineer widely credited with playing a central role in salvaging HealthCare.gov. The idea behind the USDS is institutionalizing the approach that saved the US health care website.&lt;/p&gt;
+&lt;p&gt;The White House announced on Monday, August 11th 2014, that it is formally launching a new U.S. Digital Service and that it has hired Mikey Dickerson to lead it.  Mickey Dickerson is an engineer widely credited with playing a central role in salvaging HealthCare.gov. The idea behind the USDS is institutionalizing the approach that saved the US health care website.
+&lt;/p&gt;
 
 &lt;p&gt;USDS is launching with a pair of foundational texts: &lt;a href=&#34;https://playbook.cio.gov/&#34;&gt;A Digital Services Playbook&lt;/a&gt; with 13 key &amp;lsquo;plays&amp;rsquo;&amp;rdquo; for implementing digital government and a &lt;a href=&#34;https://github.com/WhiteHouse/playbook/blob/gh-pages/_includes/techfar-online.md&#34;&gt;TechFAR Handbook&lt;/a&gt; to advise agencies on how to take a more agile approach to federal contracting and procurement.&lt;/p&gt;
 
@@ -647,8 +642,7 @@ He would pick it until he tripped the detector mechanism, causing the lock to se
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;http://www.washingtonpost.com/blogs/the-switch/wp/2014/08/11/white-house-launches-u-s-digital-service-with-healthcare-gov-fixer-at-the-helm/&#34;&gt;White House launches ‘U.S. Digital Service,’ with HealthCare.gov fixer at the helm&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
+&lt;/ul&gt;</description>
     </item>
     
     <item>
@@ -657,9 +651,7 @@ He would pick it until he tripped the detector mechanism, causing the lock to se
       <pubDate>Tue, 01 Jul 2014 10:00:00 +0000</pubDate>
       
       <guid>http://danstroot.com/blog/2014/07/01/from-open-government-to-open-corporation/</guid>
-      <description>
-
-&lt;p&gt;&lt;img src=&#34;http://danstroot.com/img/data_gov.png&#34; alt=&#34;Digital Playbook&#34; /&gt;&lt;/p&gt;
+      <description>&lt;p&gt;&lt;img src=&#34;http://danstroot.com/img/data_gov.png&#34; alt=&#34;Digital Playbook&#34; /&gt;&lt;/p&gt;
 
 &lt;h3 id=&#34;let-s-talk-about-open-government-first&#34;&gt;Let&amp;rsquo;s Talk About Open Government First&lt;/h3&gt;
 
@@ -670,6 +662,8 @@ He would pick it until he tripped the detector mechanism, causing the lock to se
 
 &lt;p&gt;_- &lt;a href=&#34;http://www2.gwu.edu/~nsarchiv/news/20090121/2009_transparency_memo.pdf&#34;&gt;President Barack Obama, January 21, 2009&lt;/a&gt;_&lt;/p&gt;
 &lt;/blockquote&gt;
+
+&lt;p&gt;&lt;/p&gt;
 
 &lt;p&gt;Huge strides have been made by the &amp;ldquo;Open Government&amp;rdquo; movement. Today:&lt;/p&gt;
 
@@ -854,8 +848,7 @@ from 60 public agencies, and just this year Australian budget data was made avai
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://sheetlabs.com/#/&#34;&gt;Sheetlabs&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
+&lt;/ul&gt;</description>
     </item>
     
     <item>
@@ -864,9 +857,7 @@ from 60 public agencies, and just this year Australian budget data was made avai
       <pubDate>Sun, 29 Jun 2014 10:00:00 +0000</pubDate>
       
       <guid>http://danstroot.com/blog/2014/06/29/coreos-thousands-of-machines-and-millions-of-docker-containers...-no-hypervisor-needed./</guid>
-      <description>
-
-&lt;p&gt;&lt;img src=&#34;http://danstroot.com/img/coreos-logo.png&#34; alt=&#34;CoreOS&#34; /&gt;&lt;/p&gt;
+      <description>&lt;p&gt;&lt;img src=&#34;http://danstroot.com/img/coreos-logo.png&#34; alt=&#34;CoreOS&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;I have been playing around with CoreOS to get a sense of how everything works. The vision of this project is incredible.&lt;/p&gt;
 
@@ -874,7 +865,8 @@ from 60 public agencies, and just this year Australian budget data was made avai
 
 &lt;p&gt;CoreOS displaces hypervisors and machine virtualization in favor of Docker and Linux containers.  CoreOS uses Linux containers to manage your services at a high level of abstraction. A single service&amp;rsquo;s code and all dependencies are packaged within a container that can be run on one or many CoreOS machines.&lt;/p&gt;
 
-&lt;p&gt;Clustering works across platforms, meaning there is no cloud vendor lock-in. For example, CoreOS runs on Amazon EC2, Rackspace, QEMU/KVM, VMware and OpenStack and your own hardware. Running a single CoreOS cluster on multiple different clouds or cloud + bare metal is supported and encouraged. This lack of lock-in is the reason why I have supported OpenStack and CoreOS takes this even further.&lt;/p&gt;
+&lt;p&gt;Clustering works across platforms, meaning there is no cloud vendor lock-in. For example, CoreOS runs on Amazon EC2, Rackspace, QEMU/KVM, VMware and OpenStack and your own hardware. Running a single CoreOS cluster on multiple different clouds or cloud + bare metal is supported and encouraged. This lack of lock-in is the reason why I have supported OpenStack and CoreOS takes this even further.
+&lt;/p&gt;
 
 &lt;h4 id=&#34;we-begin-with-concept-of-a-large-fleet-of-machines-that-start-and-remain-exactly-consistent-at-the-os-level&#34;&gt;We begin with concept of a large fleet of machines that start (and remain) exactly consistent at the OS level.&lt;/h4&gt;
 
@@ -920,8 +912,7 @@ from 60 public agencies, and just this year Australian budget data was made avai
 
 &lt;p&gt;Momentum is shifting this way rapidly. Earlier this month Rackspace announced &lt;a href=&#34;https://www.rackspace.com/blog/onmetal-the-right-way-to-scale/&#34;&gt;OnMetal&lt;/a&gt;. Rackspace&amp;rsquo;s OnMetal Cloud Service is the first of its kind. Using OnMetal you create machine instances using OpenStack APIs but, instead of being provisioned a virtual machine, you are provisioned &lt;strong&gt;on physical hardware&lt;/strong&gt;. OnMetal servers are single-tenant, bare-metal servers provisioned via the OpenStack API and can be spun up as quickly as VMs.&lt;/p&gt;
 
-&lt;p&gt;Once OnMetal is live, you&amp;rsquo;ll be able to provision CoreOS instances on Rackspace&amp;rsquo;s OnMetalcloud. This combination gives you the ease of spinning up machines with the click of a mouse, the security of running CoreOS with automatic updates, and the raw horsepower of running on bare metal. Pretty impressive!&lt;/p&gt;
-</description>
+&lt;p&gt;Once OnMetal is live, you&amp;rsquo;ll be able to provision CoreOS instances on Rackspace&amp;rsquo;s OnMetalcloud. This combination gives you the ease of spinning up machines with the click of a mouse, the security of running CoreOS with automatic updates, and the raw horsepower of running on bare metal. Pretty impressive!&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -930,9 +921,7 @@ from 60 public agencies, and just this year Australian budget data was made avai
       <pubDate>Mon, 05 May 2014 10:00:00 +0000</pubDate>
       
       <guid>http://danstroot.com/blog/2014/05/05/virtual-machines-vs.-containers/</guid>
-      <description>
-
-&lt;p&gt;&lt;img src=&#34;http://danstroot.com/img/docker.png&#34; alt=&#34;Docker&#34; /&gt;&lt;/p&gt;
+      <description>&lt;p&gt;&lt;img src=&#34;http://danstroot.com/img/docker.png&#34; alt=&#34;Docker&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Three driving forces of infrastructure efficiency in a large, distributed environment were:&lt;/p&gt;
 
@@ -943,6 +932,8 @@ from 60 public agencies, and just this year Australian budget data was made avai
 &lt;/ul&gt;
 
 &lt;p&gt;Assuming you have been aggresive you may not have any data centers left.  You may be buying services rather than servers, and/or all of your remaining machines might be virtualized and hosted in someone else&amp;rsquo;s data center. Now what?&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
 
 &lt;h3 id=&#34;where-is-the-next-level-of-infrastructure-efficiency-going-to-come-from&#34;&gt;Where is the next level of infrastructure efficiency going to come from?&lt;/h3&gt;
 
@@ -1013,8 +1004,7 @@ from 60 public agencies, and just this year Australian budget data was made avai
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;http://bodenr.blogspot.com/2014/05/kvm-and-docker-lxc-benchmarking-with.html&#34;&gt;KVM and Docker LXC Benchmarking with OpenStack&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
+&lt;/ul&gt;</description>
     </item>
     
   </channel>

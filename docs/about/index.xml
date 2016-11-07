@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Abouts on Dan Stroot</title>
-    <link>http://danstroot.com/about/</link>
-    <description>Recent content in Abouts on Dan Stroot</description>
+    <title>About-rsses on Dan Stroot</title>
+    <link>http://danstroot.com/about/index.xml</link>
+    <description>Recent content in About-rsses on Dan Stroot</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 29 Oct 2016 19:50:04 -0700</lastBuildDate>

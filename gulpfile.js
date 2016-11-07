@@ -50,31 +50,25 @@ var paths = {
     'static/js/myblog*.js',
     'static/css/*.css',
     'static/css/*.map',
-    'docs'
+    'docs/**',
+    '!docs',
+    '!docs/CNAME'
   ],
   js: [
-    // Bootstrap
-    'assets/lib/bootstrap/js/transition.js',
-    // 'assets/lib/bootstrap/js/alert.js',
-    'assets/lib/bootstrap/js/button.js',
-    // 'assets/lib/bootstrap/js/carousel.js',
-    // 'assets/lib/bootstrap/js/collapse.js',
-    // 'assets/lib/bootstrap/js/dropdown.js',
-    // 'assets/lib/bootstrap/js/modal.js',
-    // 'assets/lib/bootstrap/js/tooltip.js',
-    // 'assets/lib/bootstrap/js/popover.js',
-    // 'assets/lib/bootstrap/js/scrollspy.js',
-    // 'assets/lib/bootstrap/js/tab.js',
-    'assets/lib/bootstrap/js/affix.js',
-
-    // Unveil http://luis-almeida.github.io/unveil/
-    'assets/lib/unveil/jquery.unveil.js',
-
-    // To Top
-    'assets/lib/totop.js/totop.js'
+    // Highlight JS
+    'static/lib/highlight/src/highlight.js',
+    'static/lib/highlight/src/languages/bash.js',
+    'static/lib/highlight/src/languages/css.js',
+    'static/lib/highlight/src/languages/dockerfile.js',
+    'static/lib/highlight/src/languages/go.js',
+    'static/lib/highlight/src/languages/javascript.js',
+    'static/lib/highlight/src/languages/json.js',
+    'static/lib/highlight/src/languages/scss.js',
+    'static/lib/highlight/src/languages/xml.js',
+    'static/lib/highlight/src/languages/yaml.js'
   ],
   lint: [
-    'assets/js/*.js',
+    'static/js/*.js',
     'gulpfile.js'
   ],
   html: [
@@ -86,8 +80,8 @@ var paths = {
     'assets/css/font-awesome.css',         // Font Awesome Fonts
     'assets/css/pygments-manni.css'        // Code syntax highlighting
   ],
-  less: [
-    'less/**/*.less'
+  scss: [
+    'scss/**/*.scss'
   ]
 };
 
@@ -104,7 +98,7 @@ gulp.task('clean', function () {
  * Process CSS
  */
 
-gulp.task('postCSS', function () {
+gulp.task('styles', function () {
   var postcss      = require('gulp-postcss');
   var sourcemaps   = require('gulp-sourcemaps');
   var autoprefixer = require('autoprefixer');
@@ -132,16 +126,35 @@ gulp.task('postCSS', function () {
  * Process Scripts
  */
 
-gulp.task('scripts', function () {
-  return gulp.src(paths.js)                 // Read .js files
-    .pipe($.concat(pkg.name + '.js'))       // Concatenate .js files
-    .pipe(gulp.dest('./assets/js'))         // Save main.js here
-    .pipe($.rename({ suffix: '.min' }))     // Add .min suffix
-    .pipe($.uglify({ outSourceMap: true })) // Minify the .js
-    .pipe($.header(banner, { pkg : pkg }))  // Add banner
-    .pipe($.size({ title: 'JS:' }))         // What size are we at?
-    .pipe(gulp.dest('./assets/js'))         // Save minified .js
-    .pipe($.livereload());                  // Initiate a reload
+// gulp.task('scripts', function () {
+//   return gulp.src(paths.js)                 // Read .js files
+//     .pipe($.concat(pkg.name + '.js'))       // Concatenate .js files
+//     .pipe(gulp.dest('./static/js'))         // Save main.js here
+//     .pipe($.rename({ suffix: '.min' }))     // Add .min suffix
+//     .pipe($.uglify({ outSourceMap: true })) // Minify the .js
+//     .pipe($.header(banner, { pkg : pkg }))  // Add banner
+//     .pipe($.size({ title: 'JS:' }))         // What size are we at?
+//     .pipe(gulp.dest('./static/js'))         // Save minified .js
+//     .pipe($.livereload());                  // Initiate a reload
+// });
+
+gulp.task('scripts', function (cb) {
+  return exec('cd static/lib/highlight && node tools/build.js -t browser bash css dockerfile go json scss xml yaml', function (err, stdout, stderr) {
+    console.log(stdout);
+    console.log(stderr);
+    cb();  // finished task
+  });
+});
+
+/**
+ * Move results of Highlight build
+ */
+
+gulp.task('move', function (cb) {
+  gulp.src('static/lib/highlight/build/highlight.pack.js')
+    .pipe(gulp.dest('./static/js'));
+  return gulp.src('static/lib/highlight/src/styles/*.css')
+    .pipe(gulp.dest('./static/css/highlight'));
 });
 
 /**
@@ -193,7 +206,7 @@ gulp.task('hugo', function (cb) {
   exec('hugo', function (err, stdout, stderr) {
     console.log(stdout);
     console.log(stderr);
-    cb(err);  // finished task
+    cb();  // finished task
   });
 });
 
@@ -283,7 +296,7 @@ gulp.task('htmlminify', function () {
  *   - Build all the things...
  */
 
-gulp.task('build', function (cb) {
+gulp.task('default', function (cb) {
   runSequence(
     'clean',
     ['styles', 'scripts', 'images'],
@@ -297,8 +310,6 @@ gulp.task('build', function (cb) {
  * Default Task
  */
 
-gulp.task('default', ['build'], function () {
-  gulp.watch(paths.less, ['styles']);
-  gulp.watch(paths.js, ['scripts']);
-  gulp.watch('assets/img/**/*', ['images']);
+gulp.task('watch', ['build'], function () {
+  gulp.watch(paths.scss, ['styles']);
 });
