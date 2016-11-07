@@ -8,3 +8,5 @@ TODO
 [ ] List of articles
 [ ] About Page
 [X] Code highlighting
+[ ] Shrink References
+[ ] Fix iPad Display

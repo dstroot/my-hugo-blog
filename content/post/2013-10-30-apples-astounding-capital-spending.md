@@ -1,11 +1,9 @@
----
-author: dan
-categories: null
-date: '2013-10-30'
-published: true
-tags: null
-title: Why is Apple's Capital Expenditure up 57% for 2014?
----
++++
+date = "2013-10-30T10:00:00-00:00"
+title = "Apple's Astounding Capital Expenditures"
+draft = false
+description = ""
++++
 
 ![Earth's Weather](/img/iSpaceship.jpg)
 

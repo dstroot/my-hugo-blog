@@ -1,3 +1,4 @@
+/* jshint node: true */
 'use strict';
 
 // Install: you must install gulp both globally *and* locally.
@@ -77,7 +78,7 @@ var paths = {
     'gulpfile.js'
   ],
   html: [
-    'docs/**/*.html',
+    'docs/**/*.html',  // TODO     'docs/**/*.html',
     '!docs/lib/**/*.html'   // ignore
   ],
   css: [
@@ -103,13 +104,6 @@ gulp.task('clean', function () {
  * Process CSS
  */
 
-// gulp.task('combineCSS', function () {
-//   var concatCss = require('gulp-concat-css');
-//   return gulp.src('design/css/**/*.css')
-//     .pipe(concatCss("bundle.css"))
-//     .pipe(gulp.dest('static/css/'));
-// });
-
 gulp.task('postCSS', function () {
   var postcss      = require('gulp-postcss');
   var sourcemaps   = require('gulp-sourcemaps');
@@ -134,39 +128,6 @@ gulp.task('postCSS', function () {
     .pipe(gulp.dest('static/css/'));
 });
 
-
-
-
-
-
-
-// Return the stream so that gulp knows the task is asynchronous
-// and waits for it to terminate before starting dependent tasks.
-
-gulp.task('styles', function () {
-  return gulp.src('./less/myblog.less')     // Read in Less file
-    .pipe($.sourcemaps.init())              // Initialize gulp-sourcemaps
-    .pipe($.less({ strictMath: true }))     // Compile Less files
-    .pipe($.autoprefixer([                  // Autoprefix for target browsers
-      'last 2 versions',
-      '> 1%',
-      'Firefox ESR',
-      'Opera 12.1'
-    ], { cascade: true }))
-    .pipe($.csscomb())                      // Coding style formatter for CSS
-    // .pipe($.csslint('.csslintrc'))          // Lint CSS
-    // .pipe($.csslint.reporter())             // Report issues
-    .pipe($.rename(pkg.name + '.css'))      // Rename to "packagename.css"
-    .pipe($.sourcemaps.write())             // Write sourcemap
-    .pipe(gulp.dest('./assets/css'))        // Save CSS here
-    .pipe($.rename({ suffix: '.min' }))     // Add .min suffix
-    .pipe($.csso())                         // Minify CSS
-    .pipe($.header(banner, { pkg : pkg }))  // Add banner
-    .pipe($.size({ title: 'CSS:' }))        // What size are we at?
-    .pipe(gulp.dest('./assets/css'))        // Save minified CSS
-    .pipe($.livereload());                  // Initiate a reload
-});
-
 /**
  * Process Scripts
  */
@@ -189,7 +150,7 @@ gulp.task('scripts', function () {
 
 gulp.task('images', function () {
   return gulp.src('static/img/*.{png,jpg,gif}')
-    .pipe($.changed('./assets/img'))        // Only process new/changed
+    .pipe($.changed('./static/img'))        // Only process new/changed
     .pipe($.imagemin({                      // Compress images
       progressive: true,   // JPG
       interlaced: true,    // GIF
@@ -197,7 +158,7 @@ gulp.task('images', function () {
       use: [pngcrush()]    // PNG
     }))
     .on('error', console.error)
-    .pipe(gulp.dest('./assets/img'));      // Write processed images
+    .pipe(gulp.dest('./static/img'));      // Write processed images
 });
 
 /**

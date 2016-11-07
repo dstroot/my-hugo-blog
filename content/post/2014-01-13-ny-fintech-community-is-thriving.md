@@ -1,11 +1,9 @@
----
-author: dan
-categories: null
-date: '2014-01-13'
-published: true
-tags: null
-title: NY FinTech Community is Thriving
----
++++
+date = "2014-01-13T10:00:00-00:00"
+title = "NY FinTech Community is Thriving"
+draft = false
+description = ""
++++
 
 ![FX Trading UI](/img/new-ui.jpg)
 
