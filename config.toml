@@ -1,4 +1,4 @@
-baseurl = "http://dstroot.github.io/my-hugo-blog"
+baseurl = "http://danstroot.com"
 publishdir = "docs"
 title = "Dan Stroot"
 languageCode = "en-us"
