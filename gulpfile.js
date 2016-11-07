@@ -138,7 +138,7 @@ gulp.task('styles', function () {
 //     .pipe($.livereload());                  // Initiate a reload
 // });
 
-gulp.task('scripts', function (cb) {
+gulp.task('compile', function (cb) {
   return exec('cd static/lib/highlight && node tools/build.js -t browser bash css dockerfile go json scss xml yaml', function (err, stdout, stderr) {
     console.log(stdout);
     console.log(stderr);
@@ -150,7 +150,7 @@ gulp.task('scripts', function (cb) {
  * Move results of Highlight build
  */
 
-gulp.task('move', function (cb) {
+gulp.task('scripts', ['compile'], function () {
   gulp.src('static/lib/highlight/build/highlight.pack.js')
     .pipe(gulp.dest('./static/js'));
   return gulp.src('static/lib/highlight/src/styles/*.css')
@@ -317,6 +317,7 @@ gulp.task('default', function (cb) {
     'hugo',
     'htmlhint',
     'htmlminify',
+    'git',
     cb);
 });
 
@@ -324,6 +325,6 @@ gulp.task('default', function (cb) {
  * Default Task
  */
 
-gulp.task('watch', ['build'], function () {
+gulp.task('watch', function () {
   gulp.watch(paths.scss, ['styles']);
 });
