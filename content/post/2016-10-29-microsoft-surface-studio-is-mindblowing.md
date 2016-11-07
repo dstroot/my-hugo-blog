@@ -4,7 +4,7 @@ title = "Microsoft Surface Studio is Mindblowing"
 description = ""
 +++
 
-![Surface Studio](/img/Surface_Studio.jpg)
+<img src="/img/Surface_Studio.jpg" srcset="/img/Surface_Studio2x.jpg 2x" alt="{{ .Site.Author.name }}">
 
 Saw the new Microsoft Surface Studio this weekend at the Microsoft store at the South Coast Plaza. I thought the display is pretty mind blowing. I have gotten used to wide screen displays but somehow the resolution and format of the screen just feels right. The display floats in space and fills your field of vision.
 

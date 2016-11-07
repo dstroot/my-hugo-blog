@@ -6,30 +6,15 @@
     <description>Recent content in Post-rsses on Dan Stroot</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 30 Oct 2016 15:59:01 -0700</lastBuildDate>
+    <lastBuildDate>Sun, 30 Oct 2016 19:50:04 -0700</lastBuildDate>
     <atom:link href="http://dstroot.github.io/my-hugo-blog/post/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>Microsoft Surface Studio is Mindblowing</title>
-      <link>http://dstroot.github.io/my-hugo-blog/blog/2016/10/30/microsoft-surface-studio-is-mindblowing/</link>
-      <pubDate>Sun, 30 Oct 2016 15:59:01 -0700</pubDate>
-      
-      <guid>http://dstroot.github.io/my-hugo-blog/blog/2016/10/30/microsoft-surface-studio-is-mindblowing/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;http://dstroot.github.io/my-hugo-blog/img/Surface_Studio.jpg&#34; alt=&#34;Surface Studio&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Saw the new Microsoft Surface Studio this weekend at the Microsoft store at the South Coast Plaza. I thought the display is pretty mind blowing. I have gotten used to wide screen displays but somehow the resolution and format of the screen just feels right. The display floats in space and fills your field of vision.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;
-
-&lt;p&gt;The surface dial seems like it would be a gimmick but it isn&amp;rsquo;t. It feels very natural particularly when zooming in and out. Tilting the display down and working right on top of it is spectacular. Way to go Microsoft - you hit it out of the park!&lt;/p&gt;</description>
-    </item>
-    
-    <item>
       <title>Free to Believe Anything</title>
-      <link>http://dstroot.github.io/my-hugo-blog/blog/2016/10/29/free-to-believe-anything/</link>
-      <pubDate>Sat, 29 Oct 2016 19:50:04 -0700</pubDate>
+      <link>http://dstroot.github.io/my-hugo-blog/blog/2016/10/30/free-to-believe-anything/</link>
+      <pubDate>Sun, 30 Oct 2016 19:50:04 -0700</pubDate>
       
-      <guid>http://dstroot.github.io/my-hugo-blog/blog/2016/10/29/free-to-believe-anything/</guid>
+      <guid>http://dstroot.github.io/my-hugo-blog/blog/2016/10/30/free-to-believe-anything/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;http://dstroot.github.io/my-hugo-blog/img/comic.png&#34; alt=&#34;Cognitive Bias&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;When I was growing up, when you read the paper, watched the news, saw a film or a picture, you inherently believed in it.  You trusted the reality it portrayed. You trusted in journalism and even believed the news was actually &amp;ldquo;fair and balanced&amp;rdquo;. Then technology destroyed the business model of traditional journalism. The news institutions of the 20th century, print newspapers, the evening broadcast news, the trusted anchorman, are but relics of the past.&lt;/p&gt;
@@ -79,6 +64,21 @@
 &lt;li&gt;&lt;a href=&#34;http://www.wsj.com/articles/both-old-and-new-media-are-failing-voters-1478216173&#34;&gt;Both Old and New Media Are Failing Voters&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;http://www.nytimes.com/2016/11/03/technology/how-the-internet-is-loosening-our-grip-on-the-truth.html&#34;&gt;How the Internet Is Loosening Our Grip on the Truth&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</description>
+    </item>
+    
+    <item>
+      <title>Microsoft Surface Studio is Mindblowing</title>
+      <link>http://dstroot.github.io/my-hugo-blog/blog/2016/10/29/microsoft-surface-studio-is-mindblowing/</link>
+      <pubDate>Sat, 29 Oct 2016 15:59:01 -0700</pubDate>
+      
+      <guid>http://dstroot.github.io/my-hugo-blog/blog/2016/10/29/microsoft-surface-studio-is-mindblowing/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;http://dstroot.github.io/my-hugo-blog/img/Surface_Studio.jpg&#34; srcset=&#34;http://dstroot.github.io/my-hugo-blog/img/Surface_Studio2x.jpg 2x&#34; alt=&#34;{{ .Site.Author.name }}&#34;&gt;&lt;/p&gt;
+
+&lt;p&gt;Saw the new Microsoft Surface Studio this weekend at the Microsoft store at the South Coast Plaza. I thought the display is pretty mind blowing. I have gotten used to wide screen displays but somehow the resolution and format of the screen just feels right. The display floats in space and fills your field of vision.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;p&gt;The surface dial seems like it would be a gimmick but it isn&amp;rsquo;t. It feels very natural particularly when zooming in and out. Tilting the display down and working right on top of it is spectacular. Way to go Microsoft - you hit it out of the park!&lt;/p&gt;</description>
     </item>
     
     <item>
