@@ -291,6 +291,20 @@ gulp.task('htmlminify', function () {
     .pipe(gulp.dest('./docs'));
 });
 
+
+/**
+ * Git it!
+ */
+
+gulp.task('git', function (cb) {
+  exec('git poull && git add -A && git commit -m "update" && git push', function (err, stdout, stderr) {
+    console.log(stdout);
+    console.log(stderr);
+    cb(err);  // finished task
+  });
+});
+
+
 /**
  * Build Task
  *   - Build all the things...
