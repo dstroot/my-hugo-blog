@@ -24,8 +24,14 @@ $link-color: #515151;
 
 $border-color: #e5e5e5;
 
-$large-breakpoint: 38em;
+// $large-breakpoint: 40em;
 $large-font-size: 20px;
 
 $code-font-family: Menlo, Monaco, "Courier New", monospace;
 $code-color: #d14;
+
+// Breakpoints
+$bp-small : 24em;
+$bp-med : 46.8em;
+$bp-large : 65em;
+$bp-xl : 73em;

@@ -17,7 +17,7 @@ html {
   font-size: $root-font-size;
   line-height: $root-line-height;
 
-  @media (min-width: $large-breakpoint) {
+  @media (min-width: $bp-large) {
     font-size: $large-font-size;
   }
 }

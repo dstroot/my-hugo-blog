@@ -45,12 +45,12 @@
 
 .sidebar {
   text-align: center;
-  padding: 2rem 1rem;
+  padding: 1rem;
   color: rgba(255,255,255,.5);
   background-color: #202020;
 }
 
-@media (min-width: 48em) {
+@media (min-width: $bp-large) {
   .sidebar {
     position: fixed;
     top: 0;
@@ -74,8 +74,11 @@
 
 /* Sidebar links */
 .sidebar a {
-  // color: #fff;
   color: rgba(255,255,255,.5);
+}
+
+.sidebar p {
+  margin: 0;
 }
 
 /* About section */
@@ -88,6 +91,7 @@
 
 .sidebar-about p {
   display: none;
+  margin: 0;
 }
 
 .sidebar-about img {
@@ -98,12 +102,12 @@
 
 /* Sidebar nav */
 .sidebar-nav {
-  padding-left: 0;
+  padding: 0;
+  margin: 0;
   list-style: none;
 }
 .sidebar-nav-item {
   display: block;
-  // line-height: 1.75;
   font-size: 3rem;
   letter-spacing: -2px;
 }
@@ -121,7 +125,7 @@ a.sidebar-nav-item:focus {
  * contents to the bottom of the sidebar in tablets and up.
  */
 
-@media (min-width: 48em) {
+@media (min-width: $bp-large) {
   .sidebar-sticky {
     position: absolute;
     right:  1rem;
