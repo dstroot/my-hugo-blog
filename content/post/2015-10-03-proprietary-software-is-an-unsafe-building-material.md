@@ -23,8 +23,9 @@ However, the agency is unlikely to scrutinize the software operating on devices 
 
 A Columbia University professor, Eben Moglen, who founded the Software Freedom Law Center, has argued proprietary, and thus invisible, software puts us all at risk. He uses the analogy of being able to inspect an elevator's operating mechanical condition as a foundational principle for having "safe" elevators.  But isn't the software that operates  elevators necessary to inspect as well?
 
->“Proprietary software is an unsafe building material”<br>
->  _- Eben Moglen, Law Professor, Columbia University_
+>“Proprietary software is an unsafe building material”
+>
+>_- Eben Moglen, Columbia University_
 
 How can we have "safe" cars or medical devices when the software is a black box and we simply have to trust the manufacturers? The code in automobiles is tightly protected under the Digital Millennium Copyright Act. Last year, several groups sought to have the code made available for “good-faith testing, identifying, disclosing and fixing of malfunctions, security flaws or vulnerabilities”. In response, a group of automobile manufacturers said that opening the code to scrutiny could create “serious threats to safety and security.” Think about that for a moment.
 
@@ -32,5 +33,5 @@ When proprietary code inflicts harm, such as Volkswagen’s polluting cars, the 
 
 #### References
 
-* http://www.nytimes.com/2015/09/23/nyregion/volkswagens-diesel-fraud-makes-critic-of-secret-code-a-prophet.html?mwrsm=Email
-* http://www.wired.com/2015/09/volkswagen-open-iot/
+* [Volkswagen’s Diesel Fraud Makes Critic of Secret Code a Prophet](http://www.nytimes.com/2015/09/23/nyregion/volkswagens-diesel-fraud-makes-critic-of-secret-code-a-prophet.html)
+* [VW’s Cheating Proves We Must Open Up the Internet of Things](http://www.wired.com/2015/09/volkswagen-open-iot/)

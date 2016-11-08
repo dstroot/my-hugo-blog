@@ -1,6 +1,3 @@
-* {
-  box-sizing: border-box; }
-
 html,
 body {
   margin: 0;
@@ -137,7 +134,9 @@ strong {
 
 ul, ol, dl {
   margin-top: 0;
-  margin-bottom: 1rem; }
+  margin-bottom: 1rem;
+  font-size: 90%;
+  line-height: 1.2; }
 
 dt {
   font-weight: bold; }
@@ -162,6 +161,8 @@ blockquote {
   background-color: #f9f9f9; }
   blockquote p:last-child {
     margin-bottom: 0; }
+  blockquote em {
+    font-size: 90%; }
   @media (min-width: 30em) {
     blockquote {
       padding-right: 5rem;

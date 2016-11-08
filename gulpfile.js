@@ -256,7 +256,7 @@ gulp.task('git', function (cb) {
 gulp.task('default', function (cb) {
   runSequence(
     'clean',
-    ['styles', 'scripts', 'images'],
+    ['styles', 'images'],  // , 'scripts'
     'hugo',
     'htmlminify',
     'git',

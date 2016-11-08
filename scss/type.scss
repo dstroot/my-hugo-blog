@@ -43,6 +43,8 @@ strong {
 ul, ol, dl {
   margin-top: 0;
   margin-bottom: 1rem;
+  font-size: 90%;
+  line-height: 1.2;
 }
 
 dt {
@@ -74,6 +76,10 @@ blockquote {
 
   p:last-child {
     margin-bottom: 0;
+  }
+
+  em {
+    font-size: 90%;
   }
 
   @media (min-width: 30em) {

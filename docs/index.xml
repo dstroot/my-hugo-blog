@@ -215,8 +215,9 @@ The recent Volkswagen scandal brings to light the broader question of how vulner
 &lt;p&gt;A Columbia University professor, Eben Moglen, who founded the Software Freedom Law Center, has argued proprietary, and thus invisible, software puts us all at risk. He uses the analogy of being able to inspect an elevator&amp;rsquo;s operating mechanical condition as a foundational principle for having &amp;ldquo;safe&amp;rdquo; elevators.  But isn&amp;rsquo;t the software that operates  elevators necessary to inspect as well?&lt;/p&gt;
 
 &lt;blockquote&gt;
-&lt;p&gt;“Proprietary software is an unsafe building material”&lt;br&gt;
- &lt;em&gt;- Eben Moglen, Law Professor, Columbia University&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;“Proprietary software is an unsafe building material”&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;- Eben Moglen, Columbia University&lt;/em&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;p&gt;How can we have &amp;ldquo;safe&amp;rdquo; cars or medical devices when the software is a black box and we simply have to trust the manufacturers? The code in automobiles is tightly protected under the Digital Millennium Copyright Act. Last year, several groups sought to have the code made available for “good-faith testing, identifying, disclosing and fixing of malfunctions, security flaws or vulnerabilities”. In response, a group of automobile manufacturers said that opening the code to scrutiny could create “serious threats to safety and security.” Think about that for a moment.&lt;/p&gt;
@@ -226,8 +227,8 @@ The recent Volkswagen scandal brings to light the broader question of how vulner
 &lt;h4 id=&#34;references&#34;&gt;References&lt;/h4&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.nytimes.com/2015/09/23/nyregion/volkswagens-diesel-fraud-makes-critic-of-secret-code-a-prophet.html?mwrsm=Email&#34;&gt;http://www.nytimes.com/2015/09/23/nyregion/volkswagens-diesel-fraud-makes-critic-of-secret-code-a-prophet.html?mwrsm=Email&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.wired.com/2015/09/volkswagen-open-iot/&#34;&gt;http://www.wired.com/2015/09/volkswagen-open-iot/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.nytimes.com/2015/09/23/nyregion/volkswagens-diesel-fraud-makes-critic-of-secret-code-a-prophet.html&#34;&gt;Volkswagen’s Diesel Fraud Makes Critic of Secret Code a Prophet&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.wired.com/2015/09/volkswagen-open-iot/&#34;&gt;VW’s Cheating Proves We Must Open Up the Internet of Things&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</description>
     </item>
     
