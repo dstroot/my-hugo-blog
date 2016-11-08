@@ -36,7 +36,7 @@ If we look at a recent article in Forbes that profiles [15 FinTech startups to w
 * [Square](https://squareup.com/): nginx, Ruby on Rails, Amazon Cloudfront CDN
 * [Tipalti](http://www.tipalti.com/): IIS, nginx, Google Apps, Rackspace, Wordpress, PHP, .NET
 * [Flint](https://www.flint.com/): Apache, Amazon AWS, Google Apps, PHP, Akamai CDN
-* [Check] - Acquired by Intuit (no info available)
+* Check - Acquired by Intuit (no info available)
 * [Zipmark](https://www.zipmark.com/): Cowboy(erlang), Postmark, Google Apps, Amazon AWS, Ruby on Rails, Heroku
 * [WePay](https://www.wepay.com/): nginx, Amazon AWS, Mailgun, Zendesk, Google Apps, Akamai CDN
 

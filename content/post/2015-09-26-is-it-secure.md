@@ -67,4 +67,4 @@ Overnight, the feeling of perfect security had evaporated. And we have never got
 
 #### References
 
-* [In 1851 a man picked two unpickable locks](http://gizmodo.com/in-1851-a-man-picked-two-unpickable-locks-and-changed-1698557792)
+* [In 1851 a man picked two unpickable locks...](http://gizmodo.com/in-1851-a-man-picked-two-unpickable-locks-and-changed-1698557792)

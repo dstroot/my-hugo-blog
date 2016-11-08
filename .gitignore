@@ -27,8 +27,6 @@ Thumbs.db
 .tmproj
 *.esproj
 nbproject
-*.sublime-project
-*.sublime-workspace
 
 
 #------------------
@@ -43,7 +41,7 @@ node_modules
 #------------------
 .bower-cache/
 .bower-registry/
-public/lib/
+static/lib/
 
 
 #------------------
@@ -56,17 +54,3 @@ public/lib/
 docker-compose.yml
 aws-compose.yml
 themes
-
-
-#------------------
-# TESTING
-#------------------
-coverage
-
-
-#------------------
-# ENVIRONMENT
-#------------------
-.elasticbeanstalk/*
-!.elasticbeanstalk/*.cfg.yml
-!.elasticbeanstalk/*.global.yml
