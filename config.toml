@@ -7,7 +7,7 @@ paginate = 5
 canonifyurls = true
 
 [params]
-  googleAnalytics = ""
+  googleAnalytics = "UA-44765020"
   truncate = true
   tagline = "I love building things. Made in California. Family man, technologist and Hacker News aficionado. Eternally curious."
   disqusShortname = "danstroot"
