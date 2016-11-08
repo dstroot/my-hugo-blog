@@ -54,31 +54,14 @@ var paths = {
     '!docs',
     '!docs/CNAME'
   ],
-  js: [
-    // Highlight JS
-    'static/lib/highlight/src/highlight.js',
-    'static/lib/highlight/src/languages/bash.js',
-    'static/lib/highlight/src/languages/css.js',
-    'static/lib/highlight/src/languages/dockerfile.js',
-    'static/lib/highlight/src/languages/go.js',
-    'static/lib/highlight/src/languages/javascript.js',
-    'static/lib/highlight/src/languages/json.js',
-    'static/lib/highlight/src/languages/scss.js',
-    'static/lib/highlight/src/languages/xml.js',
-    'static/lib/highlight/src/languages/yaml.js'
-  ],
+  js: [],
   lint: [
     'static/js/*.js',
     'gulpfile.js'
   ],
   html: [
-    'docs/**/*.html',  // TODO     'docs/**/*.html',
+    'docs/**/*.html',
     '!docs/lib/**/*.html'   // ignore
-  ],
-  css: [
-    'assets/css/myblog.css',               // Main CSS file built from main.less
-    'assets/css/font-awesome.css',         // Font Awesome Fonts
-    'assets/css/pygments-manni.css'        // Code syntax highlighting
   ],
   scss: [
     'scss/**/*.scss'
@@ -126,20 +109,8 @@ gulp.task('styles', function () {
  * Process Scripts
  */
 
-// gulp.task('scripts', function () {
-//   return gulp.src(paths.js)                 // Read .js files
-//     .pipe($.concat(pkg.name + '.js'))       // Concatenate .js files
-//     .pipe(gulp.dest('./static/js'))         // Save main.js here
-//     .pipe($.rename({ suffix: '.min' }))     // Add .min suffix
-//     .pipe($.uglify({ outSourceMap: true })) // Minify the .js
-//     .pipe($.header(banner, { pkg : pkg }))  // Add banner
-//     .pipe($.size({ title: 'JS:' }))         // What size are we at?
-//     .pipe(gulp.dest('./static/js'))         // Save minified .js
-//     .pipe($.livereload());                  // Initiate a reload
-// });
-
 gulp.task('compile', function (cb) {
-  return exec('cd static/lib/highlight && node tools/build.js -t browser bash css dockerfile go json scss xml yaml', function (err, stdout, stderr) {
+  exec('cd static/lib/highlight && node tools/build.js -t browser bash css dockerfile go json scss xml yaml', function (err, stdout, stderr) {
     console.log(stdout);
     console.log(stderr);
     cb();  // finished task
@@ -203,7 +174,7 @@ gulp.task('jscs', function () {
  */
 
 gulp.task('hugo', function (cb) {
-  exec('hugo', function (err, stdout, stderr) {
+  return exec('hugo', function (err, stdout, stderr) {
     console.log(stdout);
     console.log(stderr);
     cb();  // finished task
@@ -247,34 +218,6 @@ gulp.task('critical', ['copystyles'], function () {
   });
 
 /**
- * Upload to S3
- */
-
-gulp.task('s3', function (cb) {
-  exec('s3_website push', function (err, stdout, stderr) {
-    console.log(stdout);
-    console.log(stderr);
-    cb(err);  // finished task
-  });
-});
-
-
-// var s3 = require('gulp-s3-upload')({
-//   key:       process.env.S3_ID,
-//   secret:    process.env.S3_SECRET
-// });
-//
-//
-// gulp.task('s3', function() {
-//   gulp.src('./_site/**/*.*')
-//   .pipe(s3({
-//     bucket: 'danstroot.com', //  Required
-//     acl:    'public-read'    //  Optional ACL permissions, defaults to public-read.
-//   }));
-// });
-
-
-/**
  * HTML Minify
  */
 
@@ -315,7 +258,6 @@ gulp.task('default', function (cb) {
     'clean',
     ['styles', 'scripts', 'images'],
     'hugo',
-    'htmlhint',
     'htmlminify',
     'git',
     cb);
