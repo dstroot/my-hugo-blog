@@ -2,7 +2,7 @@ baseurl = "http://danstroot.com"
 publishdir = "docs"
 title = "Dan Stroot"
 languageCode = "en-us"
-theme = "hyde-x"
+theme = "hugo"
 paginate = 5
 canonifyurls = true
 
