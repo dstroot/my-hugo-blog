@@ -1,9 +1,8 @@
 // Layout
-//
 // Styles for managing the structural hierarchy of the site.
 
 .container {
-  max-width: 40rem;
+  max-width: $max-width;
   padding-left:  1.3rem;
   padding-right: 1.3rem;
   margin-left:  auto;
@@ -23,7 +22,7 @@
 
 @media (min-width: $bp-large) {
   .content {
-    max-width: 40rem;
+    max-width: $max-width;
     margin-left: 18rem;
     margin-right: 2rem;
   }
