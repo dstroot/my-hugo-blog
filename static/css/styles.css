@@ -6,10 +6,14 @@ body {
 html {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif;
   font-size: 16px;
-  line-height: 1.5; }
-  @media (min-width: 65em) {
+  line-height: 1.5;
+  box-sizing: border-box; }
+  @media (min-width: 49em) {
     html {
       font-size: 20px; } }
+
+*, *:before, *:after {
+  box-sizing: inherit; }
 
 body {
   color: #515151;
@@ -18,7 +22,7 @@ body {
   -ms-text-size-adjust: 100%; }
 
 a {
-  color: #515151;
+  color: #225378;
   text-decoration: none;
   transition: all 0.2s ease-in-out; }
   a:hover, a:focus {
@@ -134,8 +138,7 @@ strong {
 
 ul, ol, dl {
   margin-top: 0;
-  margin-bottom: 1rem;
-  font-size: 90%; }
+  margin-bottom: 1rem; }
 
 dt {
   font-weight: bold; }
@@ -179,7 +182,7 @@ a[href^="#fnref:"] {
 
 .lead {
   font-size: 1rem;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
   font-weight: 100; }
 
 .small {
@@ -200,9 +203,9 @@ code {
   border-radius: 3px; }
 
 .container {
-  max-width: 50rem;
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
+  max-width: 40rem;
+  padding-left: 1.3rem;
+  padding-right: 1.3rem;
   margin-left: auto;
   margin-right: auto; }
 
@@ -215,15 +218,15 @@ code {
   padding-top: 4rem;
   padding-bottom: 4rem; }
 
-@media (min-width: 65em) {
+@media (min-width: 49em) {
   .content {
     max-width: 40rem;
-    margin-left: 20rem;
+    margin-left: 18rem;
     margin-right: 2rem; } }
 
-@media (min-width: 73em) {
+@media (min-width: 58em) {
   .content {
-    margin-left: 22rem;
+    margin-left: 20rem;
     margin-right: 4rem; } }
 
 .page,
@@ -266,20 +269,15 @@ code {
   display: inline;
   font-size: 1.5rem; }
 
-.pagination > li:first-child > a,
-.pagination > li:first-child > span {
+.pagination > li:first-child > a {
   position: relative;
   float: left; }
 
-.pagination > li:last-child > a,
-.pagination > li:last-child > span {
+.pagination > li:last-child > a {
   position: relative;
   float: right;
   text-align: right; }
 
-.pagination > .disabled > span,
-.pagination > .disabled > span:hover,
-.pagination > .disabled > span:focus,
 .pagination > .disabled > a,
 .pagination > .disabled > a:hover,
 .pagination > .disabled > a:focus {
@@ -327,17 +325,17 @@ code {
 
 .sidebar {
   text-align: center;
-  padding: 1rem;
+  padding: .75rem;
   color: rgba(255, 255, 255, 0.5);
   background-color: #202020; }
 
-@media (min-width: 65em) {
+@media (min-width: 49em) {
   .sidebar {
     position: fixed;
     top: 0;
     left: 0;
     bottom: 0;
-    width: 18rem; }
+    width: 16rem; }
   .sidebar-about img {
     display: block !important; }
   .sidebar-about p {
@@ -358,7 +356,7 @@ code {
 .sidebar-about h1 {
   color: #fff;
   margin-top: 0;
-  font-size: 2.8rem;
+  font-size: 2.5rem;
   font-weight: 200; }
 
 .sidebar-about p {
@@ -378,7 +376,7 @@ code {
 
 .sidebar-nav-item {
   display: block;
-  font-size: 3rem;
+  font-size: 2.5rem;
   letter-spacing: -2px; }
 
 a.sidebar-nav-item:hover,
@@ -393,7 +391,7 @@ a.sidebar-nav-item:focus {
  * Add the `sidebar-sticky` class to the sidebar's container to affix it the
  * contents to the bottom of the sidebar in tablets and up.
  */
-@media (min-width: 65em) {
+@media (min-width: 49em) {
   .sidebar-sticky {
     position: absolute;
     right: 1rem;

@@ -13,7 +13,7 @@ President Barack Obama, on his first day in office in 2009, signed an executive 
 
 > My Administration is committed to creating an unprecedented level of openness in Government. We will work together to ensure the public trust and establish a system of transparency, public participation, and collaboration. Openness will strengthen our democracy and promote efficiency and effectiveness in Government.
 >
-> _- [President Barack Obama, January 21, 2009](http://www2.gwu.edu/~nsarchiv/news/20090121/2009_transparency_memo.pdf)_
+>_[President Barack Obama, January 21, 2009](http://www2.gwu.edu/~nsarchiv/news/20090121/2009_transparency_memo.pdf)_
 
 <!--more-->
 

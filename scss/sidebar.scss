@@ -45,7 +45,7 @@
 
 .sidebar {
   text-align: center;
-  padding: 1rem;
+  padding: .75rem;
   color: rgba(255,255,255,.5);
   background-color: #202020;
 }
@@ -56,7 +56,7 @@
     top: 0;
     left: 0;
     bottom: 0;
-    width: 18rem;
+    width: 16rem;
   }
   .sidebar-about img {
     display: block !important;
@@ -85,7 +85,7 @@
 .sidebar-about h1 {
   color: #fff;
   margin-top: 0;
-  font-size: 2.8rem;
+  font-size: 2.5rem;
   font-weight: 200;
 }
 
@@ -108,7 +108,7 @@
 }
 .sidebar-nav-item {
   display: block;
-  font-size: 3rem;
+  font-size: 2.5rem;
   letter-spacing: -2px;
 }
 a.sidebar-nav-item:hover,

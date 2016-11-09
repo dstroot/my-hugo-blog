@@ -12,20 +12,15 @@
   display: inline;
   font-size: 1.5rem;
 }
-.pagination > li:first-child > a,
-.pagination > li:first-child > span {
+.pagination > li:first-child > a {
   position: relative;
   float: left;
 }
-.pagination > li:last-child > a,
-.pagination > li:last-child > span {
+.pagination > li:last-child > a {
   position: relative;
   float: right;
   text-align: right;
 }
-.pagination > .disabled > span,
-.pagination > .disabled > span:hover,
-.pagination > .disabled > span:focus,
 .pagination > .disabled > a,
 .pagination > .disabled > a:hover,
 .pagination > .disabled > a:focus {
