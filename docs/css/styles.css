@@ -1,3 +1,12 @@
+/**
+ * Colors
+ */
+/**
+ * Fonts
+ */
+/**
+ * Breakpoints
+ */
 html,
 body {
   margin: 0;
@@ -5,9 +14,9 @@ body {
 
 html {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 1.5; }
-  @media (min-width: 65em) {
+  @media (min-width: 50rem) {
     html {
       font-size: 20px; } }
 
@@ -183,8 +192,8 @@ a[href^="#fnref:"] {
   font-weight: 100; }
 
 .small {
-  font-size: .6rem;
-  font-weight: 300; }
+  font-size: .7rem;
+  font-weight: 100; }
 
 code,
 pre {
@@ -200,7 +209,7 @@ code {
   border-radius: 3px; }
 
 .container {
-  max-width: 50rem;
+  max-width: 38rem;
   padding-left: 1.5rem;
   padding-right: 1.5rem;
   margin-left: auto;
@@ -215,15 +224,15 @@ code {
   padding-top: 4rem;
   padding-bottom: 4rem; }
 
-@media (min-width: 65em) {
+@media (min-width: 50rem) {
   .content {
-    max-width: 40rem;
-    margin-left: 20rem;
+    max-width: 38rem;
+    margin-left: 18rem;
     margin-right: 2rem; } }
 
-@media (min-width: 73em) {
+@media (min-width: 60rem) {
   .content {
-    margin-left: 22rem;
+    margin-left: 20rem;
     margin-right: 4rem; } }
 
 .page,
@@ -331,13 +340,13 @@ code {
   color: rgba(255, 255, 255, 0.5);
   background-color: #202020; }
 
-@media (min-width: 65em) {
+@media (min-width: 50rem) {
   .sidebar {
     position: fixed;
     top: 0;
     left: 0;
     bottom: 0;
-    width: 18rem; }
+    width: 16rem; }
   .sidebar-about img {
     display: block !important; }
   .sidebar-about p {
@@ -393,7 +402,7 @@ a.sidebar-nav-item:focus {
  * Add the `sidebar-sticky` class to the sidebar's container to affix it the
  * contents to the bottom of the sidebar in tablets and up.
  */
-@media (min-width: 65em) {
+@media (min-width: 50rem) {
   .sidebar-sticky {
     position: absolute;
     right: 1rem;
