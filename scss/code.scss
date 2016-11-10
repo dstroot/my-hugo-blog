@@ -10,7 +10,7 @@ code {
     overflow: auto;
     font-size: 75%;
     line-height: 1.45;
-    background-color: #f8f8f8;
+    background-color: $code-background-color;
     color: $code-color;
     border-radius: 3px;
 }
