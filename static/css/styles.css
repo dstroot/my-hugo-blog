@@ -7,13 +7,15 @@
 /**
  * Breakpoints
  */
-html,
+/**
+ * The Basics
+ */
 body {
   margin: 0;
   padding: 0; }
 
 html {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   font-size: 18px;
   line-height: 1.5;
   box-sizing: border-box; }
@@ -46,6 +48,9 @@ img {
   margin: 0 0 1rem;
   border-radius: 6px; }
 
+/**
+ * Tables
+ */
 table {
   margin-bottom: 1rem;
   width: 100%;
@@ -65,6 +70,9 @@ tbody tr:nth-child(odd) td,
 tbody tr:nth-child(odd) th {
   background-color: #f9f9f9; }
 
+/**
+ * Icomoon Fonts
+ */
 @font-face {
   font-family: 'icomoon';
   src: url("../fonts/icomoon.eot?y9uzuy");
@@ -115,6 +123,9 @@ tbody tr:nth-child(odd) th {
 .icon-chevron-circle-up:before {
   content: "\f139"; }
 
+/**
+ *  Typography
+ */
 h1, h2, h3, h4, h5, h6 {
   margin-bottom: .5rem;
   font-weight: 500;
@@ -198,9 +209,12 @@ a[href^="#fnref:"] {
   font-size: .7rem;
   font-weight: 100; }
 
+/**
+ * Code
+ */
 code,
 pre {
-  font-family: Menlo, Monaco, "Courier New", monospace; }
+  font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; }
 
 code {
   padding: 0.2em 0.4em;
@@ -211,6 +225,9 @@ code {
   color: #d14;
   border-radius: 3px; }
 
+/**
+ * Layout
+ */
 .container {
   max-width: 38rem;
   padding-left: 1.3rem;
@@ -218,11 +235,6 @@ code {
   margin-left: auto;
   margin-right: auto; }
 
-/* Container
- *
- * Align the contents of the site above the proper threshold with some margin-fu
- * with a 25%-wide `.sidebar`.
- */
 .content {
   padding-top: 4rem;
   padding-bottom: 4rem; }
@@ -238,6 +250,12 @@ code {
     margin-left: 20rem;
     margin-right: 4rem; } }
 
+/**
+ * Posts and pages
+ *
+  * Each page is wrapped in `.page` and is only used on the page layout.
+  * Each post is wrapped in `.post` and is used on default and post layouts.
+ */
 .page,
 .post {
   margin-bottom: 2rem; }
@@ -269,6 +287,12 @@ code {
   font-size: .8rem;
   font-weight: 300; }
 
+/**
+ * Related Posts
+ */
+/**
+ * Super lightweight (HTML-wise) blog pagination.
+ */
 .pagination {
   display: inline-block;
   padding-left: 0;
@@ -407,6 +431,9 @@ a.sidebar-nav-item:focus {
     bottom: 1rem;
     left: 1rem; } }
 
+/**
+ * Faded out hr
+ */
 .soften {
   margin-top: 1.5rem;
   border: 0;

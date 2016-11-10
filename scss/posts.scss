@@ -1,7 +1,9 @@
-// Posts and pages
-//
-// Each post is wrapped in `.post` and is used on default and post layouts. Each
-// page is wrapped in `.page` and is only used on the page layout.
+/**
+ * Posts and pages
+ *
+  * Each page is wrapped in `.page` and is only used on the page layout.
+  * Each post is wrapped in `.post` and is used on default and post layouts.
+ */
 
 .page,
 .post {
@@ -33,7 +35,6 @@
   font-weight: 300;
 }
 .post-date > a {
-  // display: block;
   margin-top: -.5rem;
   margin-bottom: 1rem;
   color: #9a9a9a;
@@ -41,7 +42,10 @@
   font-weight: 300;
 }
 
-// // Related posts
+/**
+ * Related Posts
+ */
+
 // .related {
 //   padding-top: 2rem;
 //   padding-bottom: 2rem;
