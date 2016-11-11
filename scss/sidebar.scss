@@ -1,4 +1,3 @@
-
 /*
  * Sidebar
  *
@@ -6,41 +5,40 @@
  * out above content in mobile and later moves to the side with wider viewports.
  */
 
- // My Face!!  ;)
- .sidebar > .myface > a {
-   border-bottom: none;
- }
- .myface {
-   position: relative;
-   display: block;
- }
- .myface img {
-   display: none;
-   transition: opacity .2s linear;
-   margin-left: auto;
-   margin-right: auto
- }
- .myface:hover img {
-   opacity: .65;
- }
- .myface i {
-   position: absolute;
-   display: none;
-   text-align: center;
-   top: 50%;
-   left: 0;
-   right: 0;
-   font-size: 4rem;
-   color: #fff;
-   text-shadow: 0 0 3rem rgba(0,0,0,.15);
-   opacity: 0;
-   transform: translateY(-50%);
-   transition: opacity .2s linear;
-   transition-delay: .05s;
- }
- .myface:hover i {
-   opacity: 1;
- }
+.myface > a {
+  border-bottom: none;
+}
+.myface {
+  position: relative;
+  display: block;
+}
+.myface img {
+  display: none;
+  transition: opacity .2s linear;
+  margin-left: auto;
+  margin-right: auto
+}
+.myface:hover img {
+  opacity: .65;
+}
+.myface i {
+  position: absolute;
+  display: none;
+  text-align: center;
+  top: 50%;
+  left: 0;
+  right: 0;
+  font-size: 4rem;
+  color: #fff;
+  text-shadow: 0 0 3rem rgba(0,0,0,.15);
+  opacity: 0;
+  transform: translateY(-50%);
+  transition: opacity .2s linear;
+  transition-delay: .05s;
+}
+.myface:hover i {
+  opacity: 1;
+}
 
 .sidebar {
   text-align: center;
@@ -108,14 +106,7 @@
 .sidebar-nav-item {
   display: block;
   font-size: 2.5rem;
-  letter-spacing: -2px;
-}
-a.sidebar-nav-item:hover,
-a.sidebar-nav-item:focus {
-  text-decoration: underline;
-}
-.sidebar-nav-item.active {
-  font-weight: bold;
+  letter-spacing: -1px;
 }
 
 /* Sticky sidebar
