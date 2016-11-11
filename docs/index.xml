@@ -93,31 +93,37 @@
 
 &lt;p&gt;However you know me, or however you found me, I’m glad you are here.&lt;/p&gt;
 
-&lt;p&gt;I have been a Chief Information Officer for a long time and it&amp;rsquo;s clear that “managing information” is just the price of entry. In today&amp;rsquo;s world I think CIO must mean “Chief Innovation Officer”. Managing innovation buys you a seat at the head table.&lt;/p&gt;
+&lt;p&gt;I have been a Chief Information Officer for a long time and it&amp;rsquo;s clear that “managing information” is just the price of entry. In today&amp;rsquo;s world I think CIO should mean “Chief Innovation Officer”. Managing innovation buys you a seat at the head table.&lt;/p&gt;
 
-&lt;p&gt;My ambition is to find ways in which technology and innovation can be leveraged for more effective, more engaging, more sustainable, and more exciting business growth.&lt;/p&gt;
+&lt;p&gt;My ambition is to find ways in which technology and innovation can be leveraged for more effective, more engaging, and more sustainable business growth.&lt;/p&gt;
 
 &lt;p&gt;Some examples I am interested are:&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;Harnessing the consumerization of enterprise technology&lt;/li&gt;
-&lt;li&gt;Encouraging data “curation” and ownership in a large, diverse corporate enterprise&lt;/li&gt;
-&lt;li&gt;The social enterprise, ideas and how they propagate and mass collaboration&lt;/li&gt;
+&lt;li&gt;Harnessing the consumerization of technology for the enterprise&lt;/li&gt;
+&lt;li&gt;Encouraging and managing data “curation” and ownership - a precursor to better analytics.&lt;/li&gt;
+&lt;li&gt;How to propagate ideas, mass collaboration and the social enterprise&lt;/li&gt;
 &lt;li&gt;Social brand development, social capital and online reputation&lt;/li&gt;
 &lt;li&gt;Frictionless security - i.e. security that will not be actively resisted by employees&lt;/li&gt;
 &lt;li&gt;Development approaches that are rapid, iterative &amp;amp; nimble&lt;/li&gt;
-&lt;li&gt;Open source, transparent, collaborative, “hive” development&lt;/li&gt;
 &lt;li&gt;Scale computing in all forms, shapes and sizes (Cloud, Software as a Service, Platform as a service, etc.)&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;where-i-ve-worked&#34;&gt;Where I&amp;rsquo;ve Worked&lt;/h2&gt;
+&lt;h3 id=&#34;where-i-ve-worked&#34;&gt;Where I&amp;rsquo;ve Worked&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;http://www.accenture.com/us-en/pages/index.aspx&#34;&gt;Associate Partner: Accenture&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;http://us.allianzgi.com/Pages/Default.aspx&#34;&gt;Global CIO: Allianz Global Investors&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;education&#34;&gt;Education&lt;/h2&gt;
+&lt;h3 id=&#34;community-service&#34;&gt;Community Service&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Board Member, Ronald McDonald House, Los Angeles&lt;/li&gt;
+&lt;li&gt;Technology Committee Member, Santa Margarita Catholic High School&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;education&#34;&gt;Education&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;University of California at Los Angeles, BA Economics, 1985
@@ -128,18 +134,18 @@
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;community-service&#34;&gt;Community Service&lt;/h2&gt;
+&lt;h3 id=&#34;some-example-open-source-contributions&#34;&gt;Some Example Open Source Contributions&lt;/h3&gt;
 
 &lt;ul&gt;
-&lt;li&gt;Board Member, Ronald McDonald House, Los Angeles&lt;/li&gt;
-&lt;li&gt;Technology Committee Member, Santa Margarita Catholic High School&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/dstroot/skeleton&#34;&gt;Skeleton&lt;/a&gt; (maintainer)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://getbootstrap.com/&#34;&gt;Boostrap&lt;/a&gt; (contributor)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://kubernetes.io/&#34;&gt;Kubernetes&lt;/a&gt; (contributor)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://helmetjs.github.io/&#34;&gt;Helmet&lt;/a&gt; (contributor)&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;open-source-contributions&#34;&gt;Open Source Contributions&lt;/h2&gt;
+&lt;h3 id=&#34;a-little-more-on-me-the-personal-side&#34;&gt;A Little More on Me - the Personal Side&lt;/h3&gt;
 
-&lt;h2 id=&#34;a-little-more-on-me-the-personal-side&#34;&gt;A Little More on Me - the Personal Side&lt;/h2&gt;
-
-&lt;p&gt;I’ve been happily married to Julie for over twenty-two years, and have I have two children, Matt and Elise, who make me very proud. Julie and I met at UCLA where she was in Pi Beta Phi and I was in Lambda Chi Alpha. Go Bruins!&lt;/p&gt;
+&lt;p&gt;I’ve been happily married to Julie for over twenty-five years, and have I have two children, Matt and Elise, who make me very proud. Julie and I met at UCLA. Go Bruins!&lt;/p&gt;
 
 &lt;p&gt;My favorites movies are Princess Bride and Dead Poets Society. I actually have &amp;ldquo;Carpe Diem&amp;rdquo; imprinted on my custom iPad cover!&lt;/p&gt;
 
@@ -147,30 +153,21 @@
 
 &lt;p&gt;My favorite place on earth is Hawaii, so a big mahalo to all of you who feel the same way. There is no place else where I can literally step off the plane and feel the weight lift from my shoulders and my spirit open up.&lt;/p&gt;
 
-&lt;h2 id=&#34;technical-details-about-this-site&#34;&gt;Technical Details About This Site&lt;/h2&gt;
+&lt;h3 id=&#34;technical-details-about-this-site&#34;&gt;Technical Details About This Site&lt;/h3&gt;
 
-&lt;p&gt;We are all standing on the back of giants and I am constantly amazed at the quality and diversity of tools available. I love learning and using new technology, and I am a generally curious person, so I am always interested in what technologies others use to create sites - so I thought I might share what tools I am using.&lt;/p&gt;
+&lt;p&gt;We are all standing on the back of giants and I am constantly amazed at the quality and diversity of the open source tools available now. I love learning and using new technology, and I am a curious person, so I am always interested in what technologies others use to create sites - so I thought I might share what tools I am using.&lt;/p&gt;
 
-&lt;p&gt;While this site is very simple in some ways in others it serves as my classroom and testbed. It is basically a static site built using &lt;a href=&#34;http://jekyllrb.com/&#34;&gt;Jekyll&lt;/a&gt; and hosted on Amazon &lt;a href=&#34;http://aws.amazon.com/&#34;&gt;S3/CloudFront&lt;/a&gt;. Since I am using the Cloudfront CDN I have good delivery performance globally.&lt;/p&gt;
+&lt;p&gt;This site is very simple. It is a static site built using &lt;a href=&#34;https://gohugo.io/&#34;&gt;Hugo&lt;/a&gt; and hosted on &lt;a href=&#34;https://github.com&#34;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;Jekyll is a simple, blog-aware, static site generator. It takes a template directory containing raw text files in various formats, runs it through Markdown and Liquid converters, and creates a complete, ready-to-publish static website. This simplicity keeps it very reliable and also very secure. This is a great lesson for corporate sites - the simpler the architecture the easier it is to secure and operate.&lt;/p&gt;
-
-&lt;p&gt;Here is a quick list of what I am currrently using:&lt;/p&gt;
+&lt;p&gt;Here is a quick list of what I am currently using:&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Source code and content is managed on &lt;a href=&#34;https://github.com/&#34;&gt;GitHub&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Continuous integration testing is performed by &lt;a href=&#34;https://travis-ci.org/&#34;&gt;Travis&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Site is published via &lt;a href=&#34;https://github.com/laurilehmijoki/s3_website&#34;&gt;S3_website&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Dependencies are watched by &lt;a href=&#34;https://david-dm.org&#34;&gt;David&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Site performance and uptime is monitored using Rew Relic/Pingdom as well as AWS tools&lt;/li&gt;
 &lt;li&gt;Site analytics are provided by &lt;a href=&#34;http://www.google.com/analytics/&#34;&gt;Google Analytics&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;My personal images are served from &lt;a href=&#34;http://en.gravatar.com/&#34;&gt;Gravatar&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Blog images are served directly from &lt;a href=&#34;https://www.dropbox.com&#34;&gt;Dropbox&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;The UI framework is &lt;a href=&#34;http://getbootstrap.com/&#34;&gt;Bootstrap&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;The build system is &lt;a href=&#34;http://gruntjs.com/&#34;&gt;Grunt&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;The CSS is compiled from &lt;a href=&#34;http://lesscss.org/&#34;&gt;LESS&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Site comments are provided by &lt;a href=&#34;http://disqus.com/&#34;&gt;Disqus&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Site mailing list is managed via &lt;a href=&#34;http://mailchimp.com/&#34;&gt;Mailchimp&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;The build system is &lt;a href=&#34;http://gulpjs.com/&#34;&gt;Gulp.js&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;The CSS is compiled from &lt;a href=&#34;http://sass-lang.com/&#34;&gt;SCSS&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Site comments are provided by &lt;a href=&#34;http://disqus.com/&#34;&gt;Disqus&lt;/a&gt;
+&lt;!-- *   Site mailing list is managed via [Mailchimp](http://mailchimp.com/) --&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>
