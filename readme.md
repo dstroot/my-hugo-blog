@@ -1,6 +1,6 @@
 ### TODO
 
-- [ ] Build system for CSS/LESS/SASS (Gulp)
+- [ ] Build system for SASS/CSS (Gulp)
 - [X] Pagination
 - [X] "Read more"
 - [X] IcoMoon for Icons (awesome)
