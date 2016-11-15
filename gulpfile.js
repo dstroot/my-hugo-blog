@@ -22,9 +22,7 @@ var del           = require('del');
 var runSequence   = require('run-sequence');
 var pngcrush      = require('imagemin-pngcrush');
 var terminus      = require('terminus');
-var pagespeed     = require('psi');
 var exec          = require('child_process').exec;
-var critical      = require('critical');
 
 /**
  * Banner
@@ -56,7 +54,6 @@ var paths = {
   ],
   js: [],
   lint: [
-    'static/js/*.js',
     'gulpfile.js'
   ],
   html: [
@@ -73,6 +70,7 @@ var paths = {
  */
 
 gulp.task('clean', function () {
+  var del           = require('del');
   del(paths.clean);
 });
 
@@ -89,8 +87,8 @@ gulp.task('styles', function () {
   var sass         = require('gulp-sass');
 
   var processors = [
-    autoprefixer({browsers: ['last 2 versions']}),
-    cssnano({safe: true}),
+    autoprefixer({ browsers: ['last 2 versions'] }),
+    cssnano({ safe: true })
   ];
 
   return gulp.src('scss/styles.scss')
@@ -106,7 +104,7 @@ gulp.task('styles', function () {
 });
 
 /**
- * Process Scripts
+ * Build Highlight.js with the language packs needed.
  */
 
 gulp.task('compile', function (cb) {
@@ -118,7 +116,7 @@ gulp.task('compile', function (cb) {
 });
 
 /**
- * Move results of Highlight build
+ * Move results of Highlight.js build
  */
 
 gulp.task('scripts', ['compile'], function () {
@@ -191,32 +189,6 @@ gulp.task('htmlhint', function () {
     .pipe($.htmlhint.reporter());
 });
 
-
-/**
- * Inline Critical CSS
- */
-
-gulp.task('copystyles', function () {
-  return gulp.src(['assets/css/myblog.css'])
-    .pipe($.rename({
-      basename: 'site' // site.css
-    }))
-    .pipe(gulp.dest('./assets/css'));
-});
-
-gulp.task('critical', ['copystyles'], function () {
-    critical.generateInline({
-        base: '_site/',
-        src: 'index.html',
-        // css: ['_site/assets/css/myblog.css'],
-        styleTarget: 'assets/css/main.css',
-        htmlTarget: 'index.html',
-        width: 1000,
-        height: 1000,
-        minify: true
-      });
-  });
-
 /**
  * HTML Minify
  */
@@ -240,7 +212,7 @@ gulp.task('htmlminify', function () {
  */
 
 gulp.task('git', function (cb) {
-  exec('git pull && git add -A && git commit -m "update" && git push', function (err, stdout, stderr) {
+  return exec('git pull && git add -A && git commit -m "update" && git push', function (err, stdout, stderr) {
     console.log(stdout);
     console.log(stderr);
     cb();  // finished task
@@ -249,22 +221,21 @@ gulp.task('git', function (cb) {
 
 
 /**
- * Build Task
+ * Default Task
  *   - Build all the things...
  */
 
 gulp.task('default', function (cb) {
   runSequence(
     'clean',
-    ['styles', 'images'],  // , 'scripts'
+    ['styles', 'images', 'lint', 'jscs'],  // , 'scripts'
     'hugo',
     'htmlminify',
-    'git',
     cb);
 });
 
 /**
- * Default Task
+ * Watch Task
  */
 
 gulp.task('watch', function () {
