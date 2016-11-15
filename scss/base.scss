@@ -28,6 +28,10 @@ body {
   background-color: $body-bg;
   -webkit-text-size-adjust: 100%;
       -ms-text-size-adjust: 100%;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 // No `:visited` state is required by default (browsers will use `a`)
@@ -40,7 +44,7 @@ a {
   &:hover,
   &:focus {
     text-decoration: none;
-    border-bottom: 1px dotted $body-color;  // from the link style on http://www.briangardner.com/
+    border-bottom: 1px dotted $link-color;  // from the link style on http://www.briangardner.com/
   }
 
   strong {
