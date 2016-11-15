@@ -1,6 +1,9 @@
 ### TODO
 
-- [ ] Build system for SASS/CSS (Gulp)
+- [X] Build system for SASS/CSS (Gulp)
+    - `gulp` to build site
+    - `gulp git` to push site
+    - `gulp watch` to build CSS fro, SCSS changes
 - [X] Pagination
 - [X] "Read more"
 - [X] IcoMoon for Icons (awesome)
