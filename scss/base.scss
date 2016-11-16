@@ -63,20 +63,20 @@ img {
  * Tables
  */
 
-// table {
-//   margin-bottom: 1rem;
-//   width: 100%;
-//   font-size: 85%;
-//   border: 1px solid $border-color;
-//   border-collapse: collapse;
-// }
-//
-// td,
-// th {
-//   padding: .25rem .5rem;
-//   border: 1px solid $border-color;
-// }
-//
+table {
+  // margin-bottom: 1rem;
+  width: 100%;
+  // font-size: 85%;
+  // border: none; //1px solid $border-color;
+  border-collapse: collapse;
+}
+
+td,
+th {
+  padding: .25rem .5rem;
+  // border: 1px solid $border-color;
+}
+
 // th {
 //   text-align: left;
 // }

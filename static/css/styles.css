@@ -54,6 +54,14 @@ img {
 /**
  * Tables
  */
+table {
+  width: 100%;
+  border-collapse: collapse; }
+
+td,
+th {
+  padding: .25rem .5rem; }
+
 /**
  * Icomoon Fonts
  */
