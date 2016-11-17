@@ -12,6 +12,7 @@ html {
   font-size: $root-font-size;
   line-height: $root-line-height;
   box-sizing: border-box;
+  quotes: "“" "”";
 
   @media (min-width: $bp-large) {
     font-size: $large-font-size;
@@ -32,6 +33,9 @@ body {
   /* Better Font Rendering =========== */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -moz-font-feature-settings: 'liga', 'kern';
 }
 
 // No `:visited` state is required by default (browsers will use `a`)
