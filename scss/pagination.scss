@@ -7,19 +7,23 @@
   padding-left: 0;
   width: 100%;
 }
+
 .pagination > li {
   display: inline;
-  font-size: 1.5rem;
+  font-size: 1.25rem;
 }
+
 .pagination > li:first-child > a {
   position: relative;
   float: left;
 }
+
 .pagination > li:last-child > a {
   position: relative;
   float: right;
   text-align: right;
 }
+
 .pagination > .disabled > a,
 .pagination > .disabled > a:hover,
 .pagination > .disabled > a:focus {
