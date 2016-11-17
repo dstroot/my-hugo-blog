@@ -2,17 +2,11 @@
  * Colors
  */
 
-$gray-1: #f9f9f9;
-$gray-2: #ccc;
-$gray-3: #767676;
-$gray-4: #515151;
-$gray-5: #313131;
-
-// $gray-dark:                 #373a3c !default;
-// $gray:                      #55595c !default;
-// $gray-light:                #818a91 !default;
-// $gray-lighter:              #eceeef !default;
-// $gray-lightest:             #f7f7f9 !default;
+$gray-dark:          #373a3c !default;
+$gray:               #55595c !default;
+$gray-light:         #818a91 !default;
+$gray-lighter:       #eceeef !default;
+$gray-lightest:      #f7f7f9 !default;
 
 // $red: #ac4142;
 // $orange: #d28445;
@@ -23,13 +17,19 @@ $gray-5: #313131;
 // $blue: #6a9fb5;
 // $brown: #8f5536;
 
-$body-bg: #fff;
-$link-color: #FF0000;
-$body-color: #515151;
-$border-color: #e5e5e5;
+// Main
+$body-bg:       #fff;
+$link-color:    #FF0000;
+$body-color:    #515151;
+$border-color:  #e5e5e5;
+
+// Code
 $code-color: #d14;
 $code-background-color: #f8f8f8;
+
+// Posts
 $post-title: #515151;
+$post-meta: $gray-light;
 
 /**
  * Fonts

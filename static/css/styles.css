@@ -170,8 +170,8 @@ blockquote {
   padding: .5rem 1rem;
   margin: .8rem 0;
   color: #7a7a7a;
-  border-left: 0.25rem solid #515151;
-  background-color: #f9f9f9; }
+  border-left: 0.25rem solid #55595c;
+  background-color: #f7f7f9; }
   blockquote p:last-child {
     margin-bottom: 0; }
   blockquote em {
@@ -272,14 +272,14 @@ code {
   display: block;
   margin-top: -.5rem;
   margin-bottom: 1rem;
-  color: #9a9a9a;
+  color: #818a91;
   font-size: .8rem;
   font-weight: 300; }
 
 .post-date > a {
   margin-top: -.5rem;
   margin-bottom: 1rem;
-  color: #9a9a9a;
+  color: #818a91;
   font-size: .8rem;
   font-weight: 300; }
 
@@ -448,7 +448,7 @@ code {
   background: none; }
 
 .blog-archives > h1 {
-  color: #ccc;
+  color: #818a91;
   display: inline-block;
   position: relative; }
 
@@ -465,7 +465,7 @@ article > h2 {
   left: .5rem;
   top: .7rem;
   font-size: .8rem;
-  color: #767676;
+  color: #818a91;
   display: inline-block;
   text-transform: uppercase; }
 
