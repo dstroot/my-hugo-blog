@@ -1,4 +1,3 @@
-@charset "UTF-8";
 /**
  * Colors
  */
@@ -11,42 +10,35 @@
 /**
  * The Basics
  */
+body {
+  margin: 0;
+  padding: 0; }
+
 html {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-  font-size: 1.25rem;
+  font-size: 18px;
   line-height: 1.5;
-  box-sizing: border-box;
-  quotes: "“" "”"; }
+  box-sizing: border-box; }
   @media (min-width: 50rem) {
     html {
-      font-size: 1.25rem; } }
+      font-size: 20px; } }
 
 *, *:before, *:after {
   box-sizing: inherit; }
 
 body {
-  margin: 0;
-  padding: 0;
   color: #515151;
   background-color: #fff;
   -webkit-text-size-adjust: 100%;
-  -ms-text-size-adjust: 100%;
-  /* Better Font Rendering =========== */
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  font-synthesis: none;
-  -moz-font-feature-settings: 'liga', 'kern'; }
+  -ms-text-size-adjust: 100%; }
 
 a {
-  color: #FF0000;
+  color: #225378;
   text-decoration: none;
-  transition: all 0.3s ease-in-out; }
+  transition: all 0.2s ease-in-out; }
   a:hover, a:focus {
-    outline-width: 0;
     text-decoration: none;
-    border-bottom: 1px dotted;
-    border-bottom-color: inherit; }
+    border-bottom: 1px dotted #515151; }
   a strong {
     color: inherit; }
 
@@ -59,14 +51,6 @@ img {
 /**
  * Tables
  */
-table {
-  width: 100%;
-  border-collapse: collapse; }
-
-td,
-th {
-  padding: .25rem .5rem; }
-
 /**
  * Icomoon Fonts
  */
@@ -86,7 +70,9 @@ th {
   font-variant: normal;
   text-transform: none;
   line-height: 1;
-  /* Better Font Rendering =========== */ }
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
 
 .icon-home:before {
   content: "\f015"; }
@@ -123,23 +109,25 @@ th {
  */
 h1, h2, h3, h4, h5, h6 {
   margin-bottom: .5rem;
-  font-weight: 300;
-  letter-spacing: -.016em;
-  line-height: 1.25; }
+  font-weight: 500;
+  line-height: 1.25;
+  color: #313131;
+  text-rendering: optimizeLegibility; }
 
 h1 {
-  font-size: 2rem; }
+  font-size: 2rem;
+  font-weight: 300; }
 
 h2 {
-  font-size: 1.75rem; }
-
-h3 {
+  margin-top: 1rem;
   font-size: 1.5rem; }
 
-h4 {
+h3 {
+  margin-top: 1.5rem;
   font-size: 1.25rem; }
 
-h5, h6 {
+h4, h5, h6 {
+  margin-top: 1rem;
   font-size: 1rem; }
 
 p {
@@ -152,9 +140,6 @@ strong {
 ul, ol, dl {
   margin-top: 0;
   margin-bottom: 1rem; }
-
-li {
-  line-height: 1.2rem; }
 
 dt {
   font-weight: bold; }
@@ -260,14 +245,11 @@ code {
   .page li + li,
   .post li + li {
     margin-top: .25rem; }
-  .page p > a,
-  .post p > a {
-    font-weight: 400; }
 
 .page-title,
 .post-title,
 .post-title a {
-  color: #515151; }
+  color: #303030; }
 
 .page-title,
 .post-title {
@@ -301,7 +283,7 @@ code {
 
 .pagination > li {
   display: inline;
-  font-size: 1.25rem; }
+  font-size: 1.5rem; }
 
 .pagination > li:first-child > a {
   position: relative;
@@ -388,7 +370,7 @@ code {
 
 /* About section */
 .sidebar-about h1 {
-  color: #FF0000;
+  color: #fff;
   margin-top: 0;
   font-size: 2.5rem;
   font-weight: 200; }
@@ -470,7 +452,7 @@ article > h2 {
   left: .5rem;
   top: .7rem;
   font-size: .8rem;
-  color: #767676;
+  color: #ccc;
   display: inline-block;
   text-transform: uppercase; }
 
