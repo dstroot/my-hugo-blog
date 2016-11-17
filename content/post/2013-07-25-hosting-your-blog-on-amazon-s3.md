@@ -4,7 +4,7 @@ categories: null
 date: '2013-07-25'
 published: true
 tags: null
-title: Hosting your Blog on Amazon S3
+title: Hosting your Blog on S3
 ---
 
 One of the cleanest designed blogs I have seen in a while belongs to [Karma Mobility](http://blog.yourkarma.com/).  So I asked in the comments on a particularly interesting post by Stefan Borsje and he very nicely responded "Thanks Daniel! This blog uses Jekyll and is hosted on S3."

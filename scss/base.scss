@@ -7,7 +7,7 @@ html {
   font-size: $root-font-size;
   line-height: $root-line-height;
   box-sizing: border-box;
-  quotes: "“" "”";
+  // quotes: "“" "”";
 
   @media (min-width: $bp-large) {
     font-size: $large-font-size;
