@@ -1,32 +1,52 @@
-* {
-  box-sizing: border-box; }
+@charset "UTF-8";
+/**
+ * Colors
+ */
+/**
+ * Fonts
+ */
+/**
+ * Breakpoints
+ */
+/**
+ * The Basics
+ */
+html {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-size: 1.25rem;
+  line-height: 1.5;
+  box-sizing: border-box;
+  quotes: "“" "”"; }
+  @media (min-width: 50rem) {
+    html {
+      font-size: 1.25rem; } }
 
-html,
+*, *:before, *:after {
+  box-sizing: inherit; }
+
 body {
   margin: 0;
-  padding: 0; }
-
-html {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif;
-  font-size: 16px;
-  line-height: 1.5; }
-  @media (min-width: 65em) {
-    html {
-      font-size: 20px; } }
-
-body {
+  padding: 0;
   color: #515151;
   background-color: #fff;
   -webkit-text-size-adjust: 100%;
-  -ms-text-size-adjust: 100%; }
+  -ms-text-size-adjust: 100%;
+  /* Better Font Rendering =========== */
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-synthesis: none;
+  -moz-font-feature-settings: 'liga', 'kern'; }
 
 a {
-  color: #515151;
+  color: #FF0000;
   text-decoration: none;
-  transition: all 0.2s ease-in-out; }
+  transition: all 0.3s ease-in-out; }
   a:hover, a:focus {
+    outline-width: 0;
     text-decoration: none;
-    border-bottom: 1px dotted #515151; }
+    border-bottom: 1px dotted;
+    border-bottom-color: inherit; }
   a strong {
     color: inherit; }
 
@@ -36,25 +56,20 @@ img {
   margin: 0 0 1rem;
   border-radius: 6px; }
 
+/**
+ * Tables
+ */
 table {
-  margin-bottom: 1rem;
   width: 100%;
-  font-size: 85%;
-  border: 1px solid #e5e5e5;
   border-collapse: collapse; }
 
 td,
 th {
-  padding: .25rem .5rem;
-  border: 1px solid #e5e5e5; }
+  padding: .25rem .5rem; }
 
-th {
-  text-align: left; }
-
-tbody tr:nth-child(odd) td,
-tbody tr:nth-child(odd) th {
-  background-color: #f9f9f9; }
-
+/**
+ * Icomoon Fonts
+ */
 @font-face {
   font-family: 'icomoon';
   src: url("../fonts/icomoon.eot?y9uzuy");
@@ -71,9 +86,7 @@ tbody tr:nth-child(odd) th {
   font-variant: normal;
   text-transform: none;
   line-height: 1;
-  /* Better Font Rendering =========== */
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale; }
+  /* Better Font Rendering =========== */ }
 
 .icon-home:before {
   content: "\f015"; }
@@ -105,27 +118,28 @@ tbody tr:nth-child(odd) th {
 .icon-chevron-circle-up:before {
   content: "\f139"; }
 
+/**
+ *  Typography
+ */
 h1, h2, h3, h4, h5, h6 {
   margin-bottom: .5rem;
-  font-weight: 500;
-  line-height: 1.25;
-  color: #313131;
-  text-rendering: optimizeLegibility; }
+  font-weight: 300;
+  letter-spacing: -.016em;
+  line-height: 1.25; }
 
 h1 {
-  font-size: 2rem;
-  font-weight: 300; }
+  font-size: 2rem; }
 
 h2 {
-  margin-top: 1rem;
-  font-size: 1.5rem; }
+  font-size: 1.75rem; }
 
 h3 {
-  margin-top: 1.5rem;
+  font-size: 1.5rem; }
+
+h4 {
   font-size: 1.25rem; }
 
-h4, h5, h6 {
-  margin-top: 1rem;
+h5, h6 {
   font-size: 1rem; }
 
 p {
@@ -138,6 +152,9 @@ strong {
 ul, ol, dl {
   margin-top: 0;
   margin-bottom: 1rem; }
+
+li {
+  line-height: 1.2rem; }
 
 dt {
   font-weight: bold; }
@@ -162,6 +179,8 @@ blockquote {
   background-color: #f9f9f9; }
   blockquote p:last-child {
     margin-bottom: 0; }
+  blockquote em {
+    font-size: 90%; }
   @media (min-width: 30em) {
     blockquote {
       padding-right: 5rem;
@@ -179,16 +198,19 @@ a[href^="#fnref:"] {
 
 .lead {
   font-size: 1rem;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
   font-weight: 100; }
 
 .small {
-  font-size: .6rem;
-  font-weight: 300; }
+  font-size: .7rem;
+  font-weight: 100; }
 
+/**
+ * Code
+ */
 code,
 pre {
-  font-family: Menlo, Monaco, "Courier New", monospace; }
+  font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; }
 
 code {
   padding: 0.2em 0.4em;
@@ -199,44 +221,53 @@ code {
   color: #d14;
   border-radius: 3px; }
 
+/**
+ * Layout
+ */
 .container {
-  max-width: 50rem;
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
+  max-width: 38rem;
+  padding-left: 1.3rem;
+  padding-right: 1.3rem;
   margin-left: auto;
   margin-right: auto; }
 
-/* Container
- *
- * Align the contents of the site above the proper threshold with some margin-fu
- * with a 25%-wide `.sidebar`.
- */
 .content {
-  padding-top: 4rem;
-  padding-bottom: 4rem; }
+  padding-top: 2rem;
+  padding-bottom: 2rem; }
 
-@media (min-width: 65em) {
+@media (min-width: 50rem) {
   .content {
-    max-width: 40rem;
-    margin-left: 20rem;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    max-width: 38rem;
+    margin-left: 18rem;
     margin-right: 2rem; } }
 
-@media (min-width: 73em) {
+@media (min-width: 60rem) {
   .content {
-    margin-left: 22rem;
+    margin-left: 20rem;
     margin-right: 4rem; } }
 
+/**
+ * Posts and pages
+ *
+  * Each page is wrapped in `.page` and is only used on the page layout.
+  * Each post is wrapped in `.post` and is used on default and post layouts.
+ */
 .page,
 .post {
   margin-bottom: 2rem; }
   .page li + li,
   .post li + li {
     margin-top: .25rem; }
+  .page p > a,
+  .post p > a {
+    font-weight: 400; }
 
 .page-title,
 .post-title,
 .post-title a {
-  color: #303030; }
+  color: #515151; }
 
 .page-title,
 .post-title {
@@ -257,6 +288,12 @@ code {
   font-size: .8rem;
   font-weight: 300; }
 
+/**
+ * Related Posts
+ */
+/**
+ * Super lightweight (HTML-wise) blog pagination.
+ */
 .pagination {
   display: inline-block;
   padding-left: 0;
@@ -264,22 +301,17 @@ code {
 
 .pagination > li {
   display: inline;
-  font-size: 1.5rem; }
+  font-size: 1.25rem; }
 
-.pagination > li:first-child > a,
-.pagination > li:first-child > span {
+.pagination > li:first-child > a {
   position: relative;
   float: left; }
 
-.pagination > li:last-child > a,
-.pagination > li:last-child > span {
+.pagination > li:last-child > a {
   position: relative;
   float: right;
   text-align: right; }
 
-.pagination > .disabled > span,
-.pagination > .disabled > span:hover,
-.pagination > .disabled > span:focus,
 .pagination > .disabled > a,
 .pagination > .disabled > a:hover,
 .pagination > .disabled > a:focus {
@@ -291,7 +323,7 @@ code {
  * Flexible banner for housing site name, intro, and "footer" content. Starts
  * out above content in mobile and later moves to the side with wider viewports.
  */
-.sidebar > .myface > a {
+.myface > a {
   border-bottom: none; }
 
 .myface {
@@ -327,17 +359,17 @@ code {
 
 .sidebar {
   text-align: center;
-  padding: 1rem;
+  padding: .75rem;
   color: rgba(255, 255, 255, 0.5);
   background-color: #202020; }
 
-@media (min-width: 65em) {
+@media (min-width: 50rem) {
   .sidebar {
     position: fixed;
     top: 0;
     left: 0;
     bottom: 0;
-    width: 18rem; }
+    width: 16rem; }
   .sidebar-about img {
     display: block !important; }
   .sidebar-about p {
@@ -356,9 +388,9 @@ code {
 
 /* About section */
 .sidebar-about h1 {
-  color: #fff;
+  color: #FF0000;
   margin-top: 0;
-  font-size: 2.8rem;
+  font-size: 2.5rem;
   font-weight: 200; }
 
 .sidebar-about p {
@@ -378,28 +410,24 @@ code {
 
 .sidebar-nav-item {
   display: block;
-  font-size: 3rem;
-  letter-spacing: -2px; }
-
-a.sidebar-nav-item:hover,
-a.sidebar-nav-item:focus {
-  text-decoration: underline; }
-
-.sidebar-nav-item.active {
-  font-weight: bold; }
+  font-size: 2.5rem;
+  letter-spacing: -1px; }
 
 /* Sticky sidebar
  *
  * Add the `sidebar-sticky` class to the sidebar's container to affix it the
  * contents to the bottom of the sidebar in tablets and up.
  */
-@media (min-width: 65em) {
+@media (min-width: 50rem) {
   .sidebar-sticky {
     position: absolute;
     right: 1rem;
     bottom: 1rem;
     left: 1rem; } }
 
+/**
+ * Faded out hr
+ */
 .soften {
   margin-top: 1.5rem;
   border: 0;
@@ -411,3 +439,47 @@ a.sidebar-nav-item:focus {
   height: 1px;
   width: 70%;
   background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0)); }
+
+/**
+ *  Blog Archives
+ */
+.blog-archives article {
+  margin-left: 0;
+  padding-left: 4em;
+  position: relative;
+  background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAABCAYAAACsXeyTAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAFUlEQVQIHWNIS0sr/v//PwMMDzY+ADqMahlW4J91AAAAAElFTkSuQmCC") bottom left repeat-x; }
+
+.blog-archives article:last-child {
+  background: none; }
+
+.blog-archives > h1 {
+  color: #ccc;
+  display: inline-block;
+  position: relative; }
+
+article > h2 {
+  font-size: 1.1rem;
+  font-weight: 300;
+  margin: .5em 0 .5rem .5rem;
+  /* TRBL */
+  display: inline-block; }
+
+.blog-archives time {
+  position: absolute;
+  text-align: right;
+  left: .5rem;
+  top: .7rem;
+  font-size: .8rem;
+  color: #767676;
+  display: inline-block;
+  text-transform: uppercase; }
+
+@media (min-width: 50rem) {
+  .blog-archives article {
+    margin-left: 2em;
+    padding-left: 4.5em; }
+  article > h2 {
+    font-size: 1.3rem; }
+  .blog-archives time {
+    top: .8rem;
+    font-size: 1rem; } }
