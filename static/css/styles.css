@@ -36,12 +36,13 @@ body {
   -moz-osx-font-smoothing: grayscale; }
 
 a {
-  color: #225378;
+  color: #712275;
   text-decoration: none;
-  transition: all 0.2s ease-in-out; }
+  transition: all 0.3s ease-in-out; }
   a:hover, a:focus {
     text-decoration: none;
-    border-bottom: 1px dotted #225378; }
+    border-bottom: 1px dotted;
+    border-bottom-color: inherit; }
   a strong {
     color: inherit; }
 
@@ -246,6 +247,9 @@ code {
   .page li + li,
   .post li + li {
     margin-top: .25rem; }
+  .page p > a,
+  .post p > a {
+    font-weight: 400; }
 
 .page-title,
 .post-title,
@@ -453,7 +457,7 @@ article > h2 {
   left: .5rem;
   top: .7rem;
   font-size: .8rem;
-  color: #ccc;
+  color: #767676;
   display: inline-block;
   text-transform: uppercase; }
 

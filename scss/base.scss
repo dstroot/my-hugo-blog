@@ -38,13 +38,14 @@ body {
 a {
   color: $link-color;
   text-decoration: none;
-  transition: all 0.2s ease-in-out;
+  transition: all 0.3s ease-in-out;
 
   // `:focus` is linked to `:hover` for basic accessibility
   &:hover,
   &:focus {
     text-decoration: none;
-    border-bottom: 1px dotted $link-color;  // from the link style on http://www.briangardner.com/
+    border-bottom: 1px dotted;  // from the link style on http://www.briangardner.com/
+    border-bottom-color: inherit;
   }
 
   strong {
