@@ -6,8 +6,29 @@
     <description>Recent content in Post-rsses on Dan Stroot</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 07 Nov 2016 15:15:42 -0800</lastBuildDate>
+    <lastBuildDate>Wed, 16 Nov 2016 10:25:35 -0800</lastBuildDate>
     <atom:link href="http://danstroot.com/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>If you are in San Francisco... SFMOMA!</title>
+      <link>http://danstroot.com/blog/2016/11/16/if-you-are-in-san-francisco...-sfmoma/</link>
+      <pubDate>Wed, 16 Nov 2016 10:25:35 -0800</pubDate>
+      
+      <guid>http://danstroot.com/blog/2016/11/16/if-you-are-in-san-francisco...-sfmoma/</guid>
+      <description>&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;&lt;img src=&#34;http://danstroot.com/img/sfmoma.jpg&#34; alt=&#34;San Francisco MOMA&#34; /&gt;&lt;/th&gt;
+&lt;th&gt;If you are in San Francisco go visit MOMA. Just go. Now.&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>There is No Such Thing as Not Voting</title>
@@ -839,98 +860,6 @@ from 60 public agencies, and just this year Australian budget data was made avai
 &lt;p&gt;Momentum is shifting this way rapidly. Earlier this month Rackspace announced &lt;a href=&#34;https://www.rackspace.com/blog/onmetal-the-right-way-to-scale/&#34;&gt;OnMetal&lt;/a&gt;. Rackspace&amp;rsquo;s OnMetal Cloud Service is the first of its kind. Using OnMetal you create machine instances using OpenStack APIs but, instead of being provisioned a virtual machine, you are provisioned &lt;strong&gt;on physical hardware&lt;/strong&gt;. OnMetal servers are single-tenant, bare-metal servers provisioned via the OpenStack API and can be spun up as quickly as VMs.&lt;/p&gt;
 
 &lt;p&gt;Once OnMetal is live, you&amp;rsquo;ll be able to provision CoreOS instances on Rackspace&amp;rsquo;s OnMetalcloud. This combination gives you the ease of spinning up machines with the click of a mouse, the security of running CoreOS with automatic updates, and the raw horsepower of running on bare metal. Pretty impressive!&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Virtual Machines vs. Containers</title>
-      <link>http://danstroot.com/blog/2014/05/05/virtual-machines-vs.-containers/</link>
-      <pubDate>Mon, 05 May 2014 10:00:00 +0000</pubDate>
-      
-      <guid>http://danstroot.com/blog/2014/05/05/virtual-machines-vs.-containers/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;http://danstroot.com/img/docker.png&#34; alt=&#34;Docker&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Three driving forces of infrastructure efficiency in a large, distributed environment were:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Data center consolidation &lt;em&gt;(KPI: How many DCs do you have?)&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Host virtualization &lt;em&gt;(KPI: what percentage of your servers are virtual?)&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;&amp;ldquo;Cloud&amp;rdquo; in its various forms &lt;em&gt;(KPI: How many servers are you still running?)&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Assuming you have been aggresive you may not have any data centers left.  You may be buying services rather than servers, and/or all of your remaining machines might be virtualized and hosted in someone else&amp;rsquo;s data center. Now what?&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;where-is-the-next-level-of-infrastructure-efficiency-going-to-come-from&#34;&gt;Where is the next level of infrastructure efficiency going to come from?&lt;/h3&gt;
-
-&lt;p&gt;Personally I think the next wave of infrastructure efficiency will be driven by Linux container technology (LinuX Containers = LXC). The LXC container approach does &lt;strong&gt;not&lt;/strong&gt; require a hypervisor - instead you run isolated &amp;ldquo;containers&amp;rdquo; on a Linux host.&lt;/p&gt;
-
-&lt;p&gt;LXC provides operating system-level virtualization, but instead of creating a full-fledged virtual machine LXC containers leverage cgroups (control groups) to completely isolate application&amp;rsquo;s view of the operating environment, including process trees, network, user ids and mounted file systems. Cgroups are a Linux kernel feature to limit, account, and isolate resource usage (CPU, memory, disk I/O, etc.) of process groups.&lt;/p&gt;
-
-&lt;p&gt;This work was started by engineers at Google and in late 2007 it was merged into kernel version 2.6.24. LXC also relies on other kinds of namespace-isolation functionality, which have been developed and integrated into the mainline Linux kernel since then. It looks something like this:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://danstroot.com/img/dockervsvm.png&#34; alt=&#34;Docker&#34; /&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;is-lxc-technology-really-better&#34;&gt;Is LXC Technology Really Better?&lt;/h3&gt;
-
-&lt;p&gt;Here are some of the major benefits of Linux Containers from my perspective:&lt;/p&gt;
-
-&lt;h4 id=&#34;fast&#34;&gt;Fast&lt;/h4&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Runtime performance at near bare metal speeds (typically 97+ percent of bare metal).&lt;/li&gt;
-&lt;li&gt;Management operations (boot, stop, start, reboot, etc.) in seconds or milliseconds.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4 id=&#34;agile&#34;&gt;Agile&lt;/h4&gt;
-
-&lt;ul&gt;
-&lt;li&gt;VM-like agility &amp;ndash; it&amp;rsquo;s still &amp;ldquo;virtualization&amp;rdquo;.&lt;/li&gt;
-&lt;li&gt;With VMs we often touted our ability to ship a machine &amp;ldquo;over the wire&amp;rdquo; since a virtual machine is basically just a large file.  It also allows better business recovery scenarios where I can have a snapshot of my production machine(s) copied to a different datacenter at regular intervals. Guess what? LXC containers are an order of magnitude smaller!&lt;/li&gt;
-&lt;li&gt;Developers can essentially use the exact same containers as those deployed into production.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4 id=&#34;lightweight&#34;&gt;Lightweight&lt;/h4&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Just enough Operating System (JeOS); include only what you need reducing image and container bloat.&lt;/li&gt;
-&lt;li&gt;Minimal per container penalty which equates to greater density and hence greater returns on existing assets &amp;ndash; imagine packing 100s or 1000s of containers on a single host node!&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4 id=&#34;inexpensive&#34;&gt;Inexpensive&lt;/h4&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Open source &amp;ndash; free &amp;ndash; lower TCO.&lt;/li&gt;
-&lt;li&gt;Supported with out-of-the-box modern Linux kernels.&lt;/li&gt;
-&lt;li&gt;LXC hosting likely to drive the next wave of cloud products.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4 id=&#34;ecosystem&#34;&gt;Ecosystem&lt;/h4&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Growing in popularity &amp;ndash; just checkout the google trends for docker or LXC.&lt;/li&gt;
-&lt;li&gt;Vibrant community and numerous 3rd party applications (1000s of prebuilt images on docker index and 100s of open source apps on github or other public sources).&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4 id=&#34;benchmarks&#34;&gt;Benchmarks&lt;/h4&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Average boot time: LXC 1.5x faster&lt;/li&gt;
-&lt;li&gt;Average reboot time: LXC 18.9x faster&lt;/li&gt;
-&lt;li&gt;LXC CPU growth 26x lower than VM (per machine)&lt;/li&gt;
-&lt;li&gt;LXC Memory group 3x lower than VM (per machine)&lt;/li&gt;
-&lt;li&gt;LXC images 3.2x smaller than VM&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;summary&#34;&gt;Summary&lt;/h3&gt;
-
-&lt;p&gt;The next wave of server density is likely to be driven by LXC technology instead of traditional VM technology.  This technology may also increase further an organizations agility, developer productivity and even business continuity. However, LXC technology is not yet as mature or &amp;ldquo;manageable&amp;rdquo; as VM technology, but tools like Docker are developing quickly.&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Sources:&lt;/em&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://bodenr.blogspot.com/2014/05/kvm-and-docker-lxc-benchmarking-with.html&#34;&gt;KVM and Docker LXC Benchmarking with OpenStack&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
     </item>
     
   </channel>
