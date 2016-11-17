@@ -8,27 +8,31 @@
   position:relative;
   background:url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAABCAYAAACsXeyTAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAFUlEQVQIHWNIS0sr/v//PwMMDzY+ADqMahlW4J91AAAAAElFTkSuQmCC') bottom left repeat-x;
 }
+
 .blog-archives article:last-child {
  background:none;
 }
+
 .blog-archives > h1 {
   color: $gray-2;
   display:inline-block;
   position:relative;
 }
+
 article > h2 {
   font-size: 1.1rem;
   font-weight: 300;
   margin: .5em 0 .5rem .5rem;     /* TRBL */
   display:inline-block;
 }
+
 .blog-archives time{
   position: absolute;
   text-align: right;
   left: .5rem;
   top: .7rem;
   font-size: .8rem;
-  color: $gray-2;
+  color: $gray-3;
   display: inline-block;
   text-transform: uppercase;
 }

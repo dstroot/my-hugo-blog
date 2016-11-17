@@ -2,11 +2,6 @@
  * The Basics
  */
 
-body {
-  margin: 0;
-  padding: 0;
-}
-
 html {
   font-family: $root-font-family;
   font-size: $root-font-size;
@@ -25,16 +20,18 @@ html {
 }
 
 body {
+  margin: 0;
+  padding: 0;
   color: $body-color;
   background-color: $body-bg;
   -webkit-text-size-adjust: 100%;
       -ms-text-size-adjust: 100%;
 
   /* Better Font Rendering =========== */
+  text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-synthesis: none;
-  text-rendering: optimizeLegibility;
   -moz-font-feature-settings: 'liga', 'kern';
 }
 
@@ -42,13 +39,15 @@ body {
 a {
   color: $link-color;
   text-decoration: none;
-  transition: all 0.2s ease-in-out;
+  transition: all 0.3s ease-in-out;
 
   // `:focus` is linked to `:hover` for basic accessibility
   &:hover,
   &:focus {
+    outline-width: 0;
     text-decoration: none;
-    border-bottom: 1px dotted $link-color;  // from the link style on http://www.briangardner.com/
+    border-bottom: 1px dotted;  // from the link style on http://www.briangardner.com/
+    border-bottom-color: inherit;
   }
 
   strong {
