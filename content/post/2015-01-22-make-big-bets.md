@@ -11,7 +11,7 @@ The Bill and Melinda Gates Foundation just released it's [annual letter](http://
 
 >The lives of people in poor countries will improve faster in the next 15 years than **at any other time in history**. And their lives will improve more than anyone else's.
 >
->  _- 2015 Gates Annual Letter_
+><cite>&mdash; 2015 Gates Annual Letter</cite>
 
 <!--more-->
 
@@ -38,9 +38,11 @@ What Krochet Kids discovered was that in some ways the most valuable service the
 
 When reading this year's Gates Letter Mobile Banking is one of the four pillars of the fifteen year plan. I have seen firsthand how empowering this can be.  
 
-_Sources:_
+#### Sources:
 
-* [Bill & Melinda Gates Foundation](http://www.gatesfoundation.org/)
-* [Krochet Kids](http://www.krochetkids.org/)
-* [Restore International](http://restoreinternational.org/)
-* [Bob Goff](http://bobgoff.com/)
+<span class="sources">
+[Bill & Melinda Gates Foundation](http://www.gatesfoundation.org/) <br>
+[Krochet Kids](http://www.krochetkids.org/) <br>
+[Restore International](http://restoreinternational.org/) <br>
+[Bob Goff](http://bobgoff.com/) <br>
+</span>

@@ -6,6 +6,12 @@ theme = "hugo"
 paginate = 5
 canonifyurls = true
 
+[blackfriday]
+  angledQuotes = false
+  # fractions = false
+  # plainIDAnchors = true
+  extensions = ["laxHtmlBlocks"]
+
 [params]
   googleAnalytics = "UA-44765020"
   truncate = true

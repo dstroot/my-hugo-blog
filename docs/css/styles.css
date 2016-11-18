@@ -167,19 +167,19 @@ abbr {
     border-bottom: 1px dotted #e5e5e5; }
 
 blockquote {
-  padding: .5rem 1rem;
-  margin: .8rem 0;
-  color: #7a7a7a;
-  border-left: 0.25rem solid #515151;
-  background-color: #f9f9f9; }
+  padding: 1.5rem 1.5rem 1.5rem 1.5rem;
+  margin: 0 0 1rem 0;
+  /* TRBL */
+  color: #000;
+  background-color: #f7f7f9;
+  font-style: italic;
+  font-size: 110%; }
   blockquote p:last-child {
     margin-bottom: 0; }
-  blockquote em {
-    font-size: 90%; }
-  @media (min-width: 30em) {
-    blockquote {
-      padding-right: 5rem;
-      padding-left: 1.25rem; } }
+  blockquote cite {
+    font-size: 80%;
+    font-style: normal;
+    padding-left: 2rem; }
 
 a[href^="#fn:"],
 a[href^="#fnref:"] {
@@ -191,14 +191,14 @@ a[href^="#fnref:"] {
   margin-top: 2rem;
   font-size: 85%; }
 
-.lead {
-  font-size: 1rem;
-  letter-spacing: 1px;
-  font-weight: 100; }
-
 .small {
   font-size: .7rem;
   font-weight: 100; }
+
+.sources > a {
+  font-size: 85%;
+  margin: 0 1rem;
+  color: #818a91; }
 
 /**
  * Code
@@ -272,14 +272,14 @@ code {
   display: block;
   margin-top: -.5rem;
   margin-bottom: 1rem;
-  color: #9a9a9a;
+  color: #818a91;
   font-size: .8rem;
   font-weight: 300; }
 
 .post-date > a {
   margin-top: -.5rem;
   margin-bottom: 1rem;
-  color: #9a9a9a;
+  color: #818a91;
   font-size: .8rem;
   font-weight: 300; }
 
@@ -378,19 +378,19 @@ code {
 .sidebar a {
   color: rgba(255, 255, 255, 0.5); }
 
-.sidebar p {
-  margin: 0; }
-
 /* About section */
 .sidebar-about h1 {
-  color: #FF0000;
   margin-top: 0;
   font-size: 2.5rem;
   font-weight: 200; }
 
 .sidebar-about p {
   display: none;
-  margin: 0; }
+  margin: 0;
+  font-size: 1rem;
+  letter-spacing: 1px;
+  font-weight: 200;
+  color: rgba(255, 255, 255, 0.5); }
 
 .sidebar-about img {
   display: none;
@@ -448,7 +448,7 @@ code {
   background: none; }
 
 .blog-archives > h1 {
-  color: #ccc;
+  color: #818a91;
   display: inline-block;
   position: relative; }
 
@@ -465,7 +465,7 @@ article > h2 {
   left: .5rem;
   top: .7rem;
   font-size: .8rem;
-  color: #767676;
+  color: #818a91;
   display: inline-block;
   text-transform: uppercase; }
 

@@ -74,13 +74,13 @@
   color: rgba(255,255,255,.5);
 }
 
-.sidebar p {
-  margin: 0;
-}
+// .sidebar p {
+//   margin: 0;
+// }
 
 /* About section */
 .sidebar-about h1 {
-  color: #FF0000; //#fff;
+  // color: #FF0000; //#fff;
   margin-top: 0;
   font-size: 2.5rem;
   font-weight: 200;
@@ -89,7 +89,18 @@
 .sidebar-about p {
   display: none;
   margin: 0;
+  font-size: 1rem;
+  letter-spacing: 1px;
+  font-weight: 200;
+  color: rgba(255,255,255,.5);
 }
+
+// .lead {
+//   font-size: 1rem;
+//   letter-spacing: 1px;
+//   font-weight: 100;
+// }
+//
 
 .sidebar-about img {
   display: none;

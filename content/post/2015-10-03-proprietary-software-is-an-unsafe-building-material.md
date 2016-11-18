@@ -25,7 +25,7 @@ A Columbia University professor, Eben Moglen, who founded the Software Freedom L
 
 >“Proprietary software is an unsafe building material”
 >
->_- Eben Moglen, Columbia University_
+><cite>&mdash; Eben Moglen, Columbia University</cite>
 
 How can we have "safe" cars or medical devices when the software is a black box and we simply have to trust the manufacturers? The code in automobiles is tightly protected under the Digital Millennium Copyright Act. Last year, several groups sought to have the code made available for “good-faith testing, identifying, disclosing and fixing of malfunctions, security flaws or vulnerabilities”. In response, a group of automobile manufacturers said that opening the code to scrutiny could create “serious threats to safety and security.” Think about that for a moment.
 
