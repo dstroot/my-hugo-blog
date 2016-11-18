@@ -33,5 +33,7 @@ When proprietary code inflicts harm, such as Volkswagen’s polluting cars, the 
 
 #### References
 
-* [Volkswagen’s Diesel Fraud Makes Critic of Secret Code a Prophet](http://www.nytimes.com/2015/09/23/nyregion/volkswagens-diesel-fraud-makes-critic-of-secret-code-a-prophet.html)
-* [VW’s Cheating Proves We Must Open Up the Internet of Things](http://www.wired.com/2015/09/volkswagen-open-iot/)
+<span class="sources">
+[Volkswagen’s Diesel Fraud Makes Critic of Secret Code a Prophet](http://www.nytimes.com/2015/09/23/nyregion/volkswagens-diesel-fraud-makes-critic-of-secret-code-a-prophet.html)<br>
+[VW’s Cheating Proves We Must Open Up the Internet of Things](http://www.wired.com/2015/09/volkswagen-open-iot/)
+</span>

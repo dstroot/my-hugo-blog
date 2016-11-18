@@ -30,10 +30,6 @@ ul, ol, dl {
   margin-bottom: 1rem;
 }
 
-// li {
-//   line-height: 1.2rem;
-// }
-
 dt {
   font-weight: bold;
 }
@@ -50,7 +46,7 @@ abbr {
 
   &[title] {
     cursor: help;
-    border-bottom: 1px dotted #e5e5e5;
+    border-bottom: 1px dotted $gray;
   }
 }
 
@@ -61,7 +57,6 @@ blockquote {
   background-color: $gray-lightest;
   font-style: italic;
   border-right: .25rem solid $gray;
-  // font-size: 110%;
 
   p:last-child {
     margin-bottom: 0;
@@ -71,7 +66,6 @@ blockquote {
     font-size: 80%;
     font-style: normal;
     padding-left: 2rem;
-    // float: right;
   }
 
   @media (min-width: 30em) {
@@ -103,10 +97,13 @@ a[href^="#fnref:"] {
 .small {
   font-size: .7rem;
   font-weight: 100;
+  margin: 0;
 }
 
 .sources > a {
-  font-size: 85%;
+  font-size: 80%;
   margin: 0 1rem;
-  color: $gray-light;
+  &:before {
+    content:"• ";
+  }
 }

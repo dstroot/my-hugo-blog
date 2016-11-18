@@ -4,7 +4,7 @@ categories: null
 date: '2010-01-15'
 published: true
 tags: null
-title: Lessons from Haiti - Never Under Estimate Ease of Use
+title: Lessons from Haiti- Never Under Estimate Ease of Use
 ---
 
 ![Haiti](/img/haiti.jpg)
@@ -14,7 +14,9 @@ My assistant Kathy told me today about donating to Haitian relief efforts by sim
 This led to an "unprecedented mobile response," and has raised over $10 million in relief for Haiti.  With text donations peaking at a rate of 10,000 a minute, at $10 per donation, this is raising $100,000 per minute!
 
 I had been watching the news about Haiti and was heartbroken at what they are going through.  I wanted to help.  But did I?
+
 <!--more-->
+
 **Wanting to donate** and **actually donating** are two different things.  Deciding the amount, finding my checkbook, writing a check, finding an envelope and stamp, addressing the envelope, mailing it – well frankly it was exhausting just typing all those steps.  Not only that but it's hard to imagine finding 10 minutes in my day to actually do it!  This new process cut that time down to less than 30 seconds!
 
 > **NOTE:** If you want to donate simply text HAITI to the number

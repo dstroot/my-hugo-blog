@@ -42,7 +42,7 @@
 
 .sidebar {
   text-align: center;
-  padding: .75rem;
+  padding: .5rem;
   color: rgba(255,255,255,.5);
   background-color: #202020;
 }
@@ -90,17 +90,8 @@
   display: none;
   margin: 0;
   font-size: 1rem;
-  letter-spacing: 1px;
   font-weight: 200;
-  color: rgba(255,255,255,.5);
 }
-
-// .lead {
-//   font-size: 1rem;
-//   letter-spacing: 1px;
-//   font-weight: 100;
-// }
-//
 
 .sidebar-about img {
   display: none;
@@ -118,6 +109,7 @@
   display: block;
   font-size: 2.5rem;
   letter-spacing: -1px;
+  margin: 0;
 }
 
 /* Sticky sidebar
