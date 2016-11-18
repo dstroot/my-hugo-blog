@@ -1,6 +1,6 @@
 baseurl = "http://danstroot.com"
 publishdir = "docs"
-title = "Dan Stroot"
+title = "Blog"
 languageCode = "en-us"
 theme = "hugo"
 paginate = 5
