@@ -2,11 +2,13 @@
  * Colors
  */
 
-$gray-dark:          #373a3c !default;
-$gray:               #55595c !default;
-$gray-light:         #818a91 !default;
-$gray-lighter:       #eceeef !default;
-$gray-lightest:      #f7f7f9 !default;
+$black:              #000;
+$gray-dark:          #373a3c;
+$gray:               #55595c;
+$gray-light:         #818a91;
+$gray-lighter:       #eceeef;
+$gray-lightest:      #f7f7f9;
+$white:              #fff;
 
 // $red: #ac4142;
 // $orange: #d28445;
@@ -18,9 +20,9 @@ $gray-lightest:      #f7f7f9 !default;
 // $brown: #8f5536;
 
 // Main
-$body-bg:       #fff;
+$body-bg:       $white;
 $link-color:    #FF0000;
-$body-color:    #515151;
+$body-color:    $gray-dark;
 $border-color:  #e5e5e5;
 
 // Code
@@ -28,7 +30,7 @@ $code-color: #d14;
 $code-background-color: #f8f8f8;
 
 // Posts
-$post-title: #515151;
+$post-title: $gray-dark;
 $post-meta: $gray-light;
 
 /**
