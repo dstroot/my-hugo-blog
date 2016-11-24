@@ -13,7 +13,7 @@
  */
 html {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-  font-size: 1.25rem;
+  font-size: 1rem;
   line-height: 1.5;
   box-sizing: border-box; }
   @media (min-width: 50rem) {
@@ -26,7 +26,7 @@ html {
 body {
   margin: 0;
   padding: 0;
-  color: #373a3c;
+  color: #818181;
   background-color: #fff;
   /* Better Font Rendering =========== */
   -webkit-text-size-adjust: 100%;
@@ -37,7 +37,7 @@ body {
   font-synthesis: none; }
 
 a {
-  color: #FF0000;
+  color: #42B6F3;
   text-decoration: none;
   transition: all 0.3s ease-in-out; }
   a:hover, a:focus {
@@ -259,14 +259,14 @@ code {
   .page li + li,
   .post li + li {
     margin-top: .25rem; }
-  .page p > a,
-  .post p > a {
-    font-weight: 400; }
+
+.post > h1, h2, h3, h4, h5, h6 {
+  color: #000; }
 
 .page-title,
 .post-title,
 .post-title a {
-  color: #373a3c; }
+  color: #000; }
 
 .page-title,
 .post-title {
@@ -300,21 +300,42 @@ code {
 
 .pagination > li {
   display: inline;
-  font-size: 1.25rem; }
+  height: 2rem;
+  line-height: 2rem; }
 
 .pagination > li:first-child > a {
   position: relative;
-  float: left; }
+  float: left;
+  color: #55595c;
+  padding: 0 10px;
+  border-radius: 6px;
+  border: 1px solid #818a91; }
+  .pagination > li:first-child > a:before {
+    content: '←';
+    margin-right: .25rem; }
 
 .pagination > li:last-child > a {
   position: relative;
   float: right;
-  text-align: right; }
+  text-align: right;
+  color: #55595c;
+  padding: 0 10px;
+  border-radius: 6px;
+  border: 1px solid #818a91; }
+  .pagination > li:last-child > a:after {
+    content: '→';
+    margin-left: .25rem; }
 
 .pagination > .disabled > a,
 .pagination > .disabled > a:hover,
 .pagination > .disabled > a:focus {
   display: none; }
+
+@media (min-width: 50rem) {
+  .pagination > li {
+    font-size: 1.25rem;
+    height: 2.5rem;
+    line-height: 2.5rem; } }
 
 /*
  * Sidebar
@@ -481,3 +502,33 @@ article > h2 {
   .blog-archives time {
     top: .8rem;
     font-size: 1rem; } }
+
+.button {
+  display: inline-block;
+  font-weight: 500;
+  color: #55595c;
+  padding: 0 10px;
+  border-radius: 6px;
+  height: 2rem;
+  line-height: 2rem;
+  border: 1px solid #818a91;
+  font-size: .8rem; }
+
+.button-previous:before {
+  content: '←';
+  position: relative;
+  margin-right: .25rem; }
+
+.button-next:after {
+  content: '→';
+  position: relative;
+  margin-left: .25rem; }
+
+.button:hover {
+  border: 1px solid #818a91; }
+
+.button-disabled {
+  opacity: 0.4; }
+
+.button-disabled:hover {
+  color: inherit; }

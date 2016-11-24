@@ -382,7 +382,7 @@ He would pick it until he tripped the detector mechanism, causing the lock to se
 &lt;p&gt;The Bill and Melinda Gates Foundation just released it&amp;rsquo;s &lt;a href=&#34;http://www.gatesnotes.com/2015-annual-letter?page=0&amp;amp;lang=en&amp;amp;WT.mc_id=01_21_2015_AL2015-GF_GFO_domain_Top_21&#34;&gt;annual letter&lt;/a&gt;.  I have come to look forward to these letters because I find them incredibly inspiring. This year instead of an annual update they are re-baselining and taking a fifteen year view of the future. As I read this year&amp;rsquo;s letter I was simultaneously moved, inspired and awed by the scope their mission:&lt;/p&gt;
 
 &lt;blockquote&gt;
-&lt;p&gt;The lives of people in poor countries will improve faster in the next 15 years than &lt;strong&gt;at any other time in history&lt;/strong&gt;. And their lives will improve more than anyone else&amp;rsquo;s.&lt;/p&gt;
+&lt;p&gt;&amp;ldquo;The lives of people in poor countries will improve faster in the next 15 years than &lt;strong&gt;at any other time in history&lt;/strong&gt;. And their lives will improve more than anyone else&amp;rsquo;s.&amp;rdquo;&lt;/p&gt;
 
 &lt;p&gt;&lt;cite&gt;&amp;mdash; 2015 Gates Annual Letter&lt;/cite&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -438,9 +438,10 @@ He would pick it until he tripped the detector mechanism, causing the lock to se
 
 &lt;ol&gt;
 &lt;li&gt;Look around the web for things that I liked and then proceed to &amp;lsquo;borrow&amp;rsquo; their aesthetic.&lt;/li&gt;
-&lt;li&gt;Leverage UX/UI frameworks such as &lt;a href=&#34;http://getbootstrap.com&#34;&gt;Bootstrap&lt;/a&gt; or &lt;a href=&#34;http://foundation.zurb.com/&#34;&gt;Foundation&lt;/a&gt;.
-&lt;/li&gt;
+&lt;li&gt;Leverage UX/UI frameworks such as &lt;a href=&#34;http://getbootstrap.com&#34;&gt;Bootstrap&lt;/a&gt; or &lt;a href=&#34;http://foundation.zurb.com/&#34;&gt;Foundation&lt;/a&gt;.&lt;/li&gt;
 &lt;/ol&gt;
+
+&lt;p&gt;&lt;/p&gt;
 
 &lt;p&gt;Combining a framework with something I think &amp;ldquo;looks cool&amp;rdquo; is a quick win.  I can get something created quickly that has an incredible amount of time and effort already baked in to making it usable, responsive and approachable.  Given the very wide of use of these frameworks I suspect many others work this way, but also since users are used to seeing many sites built with these frameworks it creates sense of familiarity.&lt;/p&gt;
 

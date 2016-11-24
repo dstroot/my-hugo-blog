@@ -10,22 +10,47 @@
 
 .pagination > li {
   display: inline;
-  font-size: 1.25rem;
+  height: 2rem;
+  line-height: 2rem;
 }
 
 .pagination > li:first-child > a {
   position: relative;
   float: left;
+  color: $gray;
+  padding: 0 10px;
+  border-radius: 6px;
+  border:1px solid $gray-light;
+  &:before {
+    content: '←';
+    margin-right: .25rem;
+  }
 }
 
 .pagination > li:last-child > a {
   position: relative;
   float: right;
   text-align: right;
+  color: $gray;
+  padding: 0 10px;
+  border-radius: 6px;
+  border:1px solid $gray-light;
+  &:after {
+    content: '→';
+    margin-left: .25rem;
+  }
 }
 
 .pagination > .disabled > a,
 .pagination > .disabled > a:hover,
 .pagination > .disabled > a:focus {
   display: none;
+}
+
+@media (min-width: $bp-large) {
+  .pagination > li {
+    font-size: 1.25rem;
+    height: 2.5rem;
+    line-height: 2.5rem;
+  }
 }
