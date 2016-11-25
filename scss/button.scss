@@ -8,19 +8,20 @@
   line-height: 2rem;
   border:1px solid $gray-light;
   font-size: .8rem;
+  vertical-align: middle;
 }
 
-.button-previous:before {
-  content:'←';
-  position:relative;
-  margin-right: .25rem;
-}
-
-.button-next:after {
-  content:'→';
-  position:relative;
-  margin-left: .25rem;
-}
+// .button-previous:before {
+//   // content:'←';
+//   position:relative;
+//   margin-right: .25rem;
+// }
+//
+// .button-next:after {
+//   // content:'→';
+//   position:relative;
+//   margin-left: .25rem;
+// }
 
 .button:hover {
   border:1px solid $gray-light;

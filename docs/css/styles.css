@@ -82,6 +82,7 @@ th {
   font-variant: normal;
   text-transform: none;
   line-height: 1;
+  vertical-align: -5%;
   /* Better Font Rendering =========== */ }
 
 .icon-home:before {
@@ -310,9 +311,6 @@ code {
   padding: 0 10px;
   border-radius: 6px;
   border: 1px solid #818a91; }
-  .pagination > li:first-child > a:before {
-    content: '←';
-    margin-right: .25rem; }
 
 .pagination > li:last-child > a {
   position: relative;
@@ -322,9 +320,6 @@ code {
   padding: 0 10px;
   border-radius: 6px;
   border: 1px solid #818a91; }
-  .pagination > li:last-child > a:after {
-    content: '→';
-    margin-left: .25rem; }
 
 .pagination > .disabled > a,
 .pagination > .disabled > a:hover,
@@ -512,17 +507,8 @@ article > h2 {
   height: 2rem;
   line-height: 2rem;
   border: 1px solid #818a91;
-  font-size: .8rem; }
-
-.button-previous:before {
-  content: '←';
-  position: relative;
-  margin-right: .25rem; }
-
-.button-next:after {
-  content: '→';
-  position: relative;
-  margin-left: .25rem; }
+  font-size: .8rem;
+  vertical-align: middle; }
 
 .button:hover {
   border: 1px solid #818a91; }

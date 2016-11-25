@@ -21,10 +21,10 @@
   padding: 0 10px;
   border-radius: 6px;
   border:1px solid $gray-light;
-  &:before {
-    content: '←';
-    margin-right: .25rem;
-  }
+  // &:before {
+  //   content: '←';
+  //   margin-right: .25rem;
+  // }
 }
 
 .pagination > li:last-child > a {
@@ -35,10 +35,10 @@
   padding: 0 10px;
   border-radius: 6px;
   border:1px solid $gray-light;
-  &:after {
-    content: '→';
-    margin-left: .25rem;
-  }
+  // &:after {
+  //   content: '→';
+  //   margin-left: .25rem;
+  // }
 }
 
 .pagination > .disabled > a,
