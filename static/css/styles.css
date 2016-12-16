@@ -172,7 +172,7 @@ blockquote {
   color: #000;
   background-color: #f7f7f9;
   font-style: italic;
-  border-right: 0.25rem solid #55595c; }
+  border-right: 0.4rem solid #55595c; }
   blockquote p:last-child {
     margin-bottom: 0; }
   blockquote cite {
@@ -408,7 +408,8 @@ code {
   display: none;
   margin: 0;
   font-size: 1rem;
-  font-weight: 200; }
+  font-weight: 200;
+  letter-spacing: .04em; }
 
 .sidebar-about img {
   display: none;
