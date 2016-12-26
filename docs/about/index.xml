@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Abouts on Blog</title>
-    <link>http://danstroot.com/about/index.xml</link>
+    <link>//danstroot.com/about/index.xml</link>
     <description>Recent content in Abouts on Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 29 Oct 2016 19:50:04 -0700</lastBuildDate>
-    <atom:link href="http://danstroot.com/about/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//danstroot.com/about/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>About Me</title>
-      <link>http://danstroot.com/about/</link>
+      <link>//danstroot.com/about/</link>
       <pubDate>Sat, 29 Oct 2016 19:50:04 -0700</pubDate>
       
-      <guid>http://danstroot.com/about/</guid>
+      <guid>//danstroot.com/about/</guid>
       <description>
 
 &lt;p&gt;However you know me, or however you found me, I’m glad you are here.&lt;/p&gt;

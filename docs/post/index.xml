@@ -2,23 +2,23 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Blog</title>
-    <link>http://danstroot.com/post/index.xml</link>
+    <link>//danstroot.com/post/index.xml</link>
     <description>Recent content in Posts on Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 16 Nov 2016 10:25:35 -0800</lastBuildDate>
-    <atom:link href="http://danstroot.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//danstroot.com/post/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>If you are in San Francisco... SFMOMA!</title>
-      <link>http://danstroot.com/2016/11/16/if-you-are-in-san-francisco...-sfmoma/</link>
+      <link>//danstroot.com/2016/11/16/if-you-are-in-san-francisco...-sfmoma/</link>
       <pubDate>Wed, 16 Nov 2016 10:25:35 -0800</pubDate>
       
-      <guid>http://danstroot.com/2016/11/16/if-you-are-in-san-francisco...-sfmoma/</guid>
+      <guid>//danstroot.com/2016/11/16/if-you-are-in-san-francisco...-sfmoma/</guid>
       <description>&lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
-&lt;th&gt;&lt;img src=&#34;http://danstroot.com/img/sfmoma.jpg&#34; alt=&#34;San Francisco MOMA&#34; /&gt;&lt;/th&gt;
+&lt;th&gt;&lt;img src=&#34;//danstroot.com/img/sfmoma.jpg&#34; alt=&#34;San Francisco MOMA&#34; /&gt;&lt;/th&gt;
 &lt;th&gt;If you are in San Francisco go visit MOMA. Just go. Now.&lt;/th&gt;
 &lt;/tr&gt;
 &lt;/thead&gt;
@@ -32,11 +32,11 @@
     
     <item>
       <title>There is No Such Thing as Not Voting</title>
-      <link>http://danstroot.com/2016/11/07/there-is-no-such-thing-as-not-voting/</link>
+      <link>//danstroot.com/2016/11/07/there-is-no-such-thing-as-not-voting/</link>
       <pubDate>Mon, 07 Nov 2016 15:15:42 -0800</pubDate>
       
-      <guid>http://danstroot.com/2016/11/07/there-is-no-such-thing-as-not-voting/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;http://danstroot.com/img/dfw.jpg&#34; alt=&#34;David Foster Wallace&#34; /&gt;&lt;/p&gt;
+      <guid>//danstroot.com/2016/11/07/there-is-no-such-thing-as-not-voting/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;//danstroot.com/img/dfw.jpg&#34; alt=&#34;David Foster Wallace&#34; /&gt;&lt;/p&gt;
 
 &lt;blockquote&gt;
 &lt;p&gt;“If you are bored and disgusted by politics and don&amp;rsquo;t bother to vote, you are in effect voting for the entrenched establishments of the two major parties, who please rest assured are not dumb, and who are keenly aware that it is in their interests to keep you disgusted and bored and cynical and to give you every possible reason to stay at home doing one-hitters and watching MTV on primary day. By all means stay home if you want, but don&amp;rsquo;t bullshit yourself that you&amp;rsquo;re not voting. In reality, there is no such thing as not voting: you either vote by voting, or you vote by staying home and tacitly doubling the value of some diehard&amp;rsquo;s vote.”&lt;/p&gt;
@@ -49,11 +49,11 @@
     
     <item>
       <title>Free to Believe Anything</title>
-      <link>http://danstroot.com/2016/10/30/free-to-believe-anything/</link>
+      <link>//danstroot.com/2016/10/30/free-to-believe-anything/</link>
       <pubDate>Sun, 30 Oct 2016 19:50:04 -0700</pubDate>
       
-      <guid>http://danstroot.com/2016/10/30/free-to-believe-anything/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;http://danstroot.com/img/comic.png&#34; alt=&#34;Cognitive Bias&#34; /&gt;&lt;/p&gt;
+      <guid>//danstroot.com/2016/10/30/free-to-believe-anything/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;//danstroot.com/img/comic.png&#34; alt=&#34;Cognitive Bias&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;When I was growing up, when you read the paper, watched the news, saw a film or a picture, you inherently believed in it.  You trusted the reality it portrayed. You trusted in journalism and even believed the news was actually &amp;ldquo;fair and balanced&amp;rdquo;. Then technology destroyed the business model of traditional journalism. The news institutions of the 20th century, print newspapers, the evening broadcast news, the trusted anchorman, are but relics of the past.&lt;/p&gt;
 
@@ -106,11 +106,11 @@
     
     <item>
       <title>Microsoft Surface Studio is Mindblowing</title>
-      <link>http://danstroot.com/2016/10/29/microsoft-surface-studio-is-mindblowing/</link>
+      <link>//danstroot.com/2016/10/29/microsoft-surface-studio-is-mindblowing/</link>
       <pubDate>Sat, 29 Oct 2016 15:59:01 -0700</pubDate>
       
-      <guid>http://danstroot.com/2016/10/29/microsoft-surface-studio-is-mindblowing/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;http://danstroot.com/img/Surface_Studio.jpg&#34; srcset=&#34;http://danstroot.com/img/Surface_Studio2x.jpg 2x&#34; alt=&#34;{{ .Site.Author.name }}&#34;&gt;&lt;/p&gt;
+      <guid>//danstroot.com/2016/10/29/microsoft-surface-studio-is-mindblowing/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;//danstroot.com/img/Surface_Studio.jpg&#34; srcset=&#34;//danstroot.com/img/Surface_Studio2x.jpg 2x&#34; alt=&#34;{{ .Site.Author.name }}&#34;&gt;&lt;/p&gt;
 
 &lt;p&gt;Saw the new Microsoft Surface Studio this weekend at the Microsoft store at the South Coast Plaza. I thought the display is pretty mind blowing. I have gotten used to wide screen displays but somehow the resolution and format of the screen just feels right. The display floats in space and fills your field of vision.&lt;/p&gt;
 
@@ -121,11 +121,11 @@
     
     <item>
       <title>Proprietary Software is an Unsafe Building Material</title>
-      <link>http://danstroot.com/2015/10/03/proprietary-software-is-an-unsafe-building-material/</link>
+      <link>//danstroot.com/2015/10/03/proprietary-software-is-an-unsafe-building-material/</link>
       <pubDate>Sat, 03 Oct 2015 10:00:00 +0000</pubDate>
       
-      <guid>http://danstroot.com/2015/10/03/proprietary-software-is-an-unsafe-building-material/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;http://danstroot.com/img/volkswagen.jpg&#34; alt=&#34;Volkswagen&#34; /&gt;&lt;/p&gt;
+      <guid>//danstroot.com/2015/10/03/proprietary-software-is-an-unsafe-building-material/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;//danstroot.com/img/volkswagen.jpg&#34; alt=&#34;Volkswagen&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;At one point in time I worked for an organization that banned the use of open source software.  They were concerned that in the event of issues &amp;ldquo;there would be no support&amp;rdquo;.  At the time they believed that commercial software from companies like IBM, Oracle, Microsoft and SAP was &amp;ldquo;safer&amp;rdquo; because there was a commercial entity that stood behind the products they sold and provided support.&lt;/p&gt;
 
@@ -163,11 +163,11 @@ The recent Volkswagen scandal brings to light the broader question of how vulner
     
     <item>
       <title>Is it Secure?</title>
-      <link>http://danstroot.com/2015/09/26/is-it-secure/</link>
+      <link>//danstroot.com/2015/09/26/is-it-secure/</link>
       <pubDate>Sat, 26 Sep 2015 10:00:00 +0000</pubDate>
       
-      <guid>http://danstroot.com/2015/09/26/is-it-secure/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;http://danstroot.com/img/SmartCarLock.png&#34; alt=&#34;Security&#34; /&gt;&lt;/p&gt;
+      <guid>//danstroot.com/2015/09/26/is-it-secure/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;//danstroot.com/img/SmartCarLock.png&#34; alt=&#34;Security&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;em&gt;Q&lt;/em&gt;: Is it secure? &lt;br&gt;
 &lt;em&gt;A&lt;/em&gt;: No it is not. Security is never binary.&lt;/p&gt;
@@ -243,10 +243,10 @@ He would pick it until he tripped the detector mechanism, causing the lock to se
     
     <item>
       <title>Why Automate Code Reviews?</title>
-      <link>http://danstroot.com/2015/09/06/why-automate-code-reviews/</link>
+      <link>//danstroot.com/2015/09/06/why-automate-code-reviews/</link>
       <pubDate>Sun, 06 Sep 2015 10:00:00 +0000</pubDate>
       
-      <guid>http://danstroot.com/2015/09/06/why-automate-code-reviews/</guid>
+      <guid>//danstroot.com/2015/09/06/why-automate-code-reviews/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;Ask a programmer to review 10 lines of code, they&amp;rsquo;ll make 10 suggestions. Ask them to review 1,000 lines of code and they&amp;rsquo;ll say &amp;ldquo;it looks good!&amp;rdquo;&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -264,11 +264,11 @@ He would pick it until he tripped the detector mechanism, causing the lock to se
     
     <item>
       <title>FinTech Startups Tug the Industry Forward</title>
-      <link>http://danstroot.com/2015/06/15/fintech-startups-tug-the-industry-forward/</link>
+      <link>//danstroot.com/2015/06/15/fintech-startups-tug-the-industry-forward/</link>
       <pubDate>Mon, 15 Jun 2015 10:00:00 +0000</pubDate>
       
-      <guid>http://danstroot.com/2015/06/15/fintech-startups-tug-the-industry-forward/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;http://danstroot.com/img/billguard.png&#34; alt=&#34;FinTech&#34; /&gt;&lt;/p&gt;
+      <guid>//danstroot.com/2015/06/15/fintech-startups-tug-the-industry-forward/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;//danstroot.com/img/billguard.png&#34; alt=&#34;FinTech&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Financial services companies are among the most highly regulated industries in the world.  They also suffer from a trust issue.  Trust is a key ingredient in making a financial services business viable. Why would I ever buy insurance, banking services or invest my savings via a company that I didn’t trust?&lt;/p&gt;
 
@@ -323,11 +323,11 @@ He would pick it until he tripped the detector mechanism, causing the lock to se
     
     <item>
       <title>The &#39;New&#39; New Microsoft</title>
-      <link>http://danstroot.com/2015/05/25/the-new-new-microsoft/</link>
+      <link>//danstroot.com/2015/05/25/the-new-new-microsoft/</link>
       <pubDate>Mon, 25 May 2015 10:00:00 +0000</pubDate>
       
-      <guid>http://danstroot.com/2015/05/25/the-new-new-microsoft/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;http://danstroot.com/img/satya-nadella-microsoft-ceo.jpg&#34; alt=&#34;Microsoft&#34; /&gt;&lt;/p&gt;
+      <guid>//danstroot.com/2015/05/25/the-new-new-microsoft/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;//danstroot.com/img/satya-nadella-microsoft-ceo.jpg&#34; alt=&#34;Microsoft&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;I&amp;rsquo;ve been a fan of Microsoft during my whole technical career.  However I don&amp;rsquo;t recommend Microsoft any longer for server workloads, and haven&amp;rsquo;t for years due to the fact that the Linux ecosystem is far less expensive and has more innovative people working on it and sharing what they do openly. However, I am very impressed with the direction and leadership of Satya Nadella.&lt;/p&gt;
 
@@ -373,11 +373,11 @@ He would pick it until he tripped the detector mechanism, causing the lock to se
     
     <item>
       <title>Make Big Bets</title>
-      <link>http://danstroot.com/2015/01/22/make-big-bets/</link>
+      <link>//danstroot.com/2015/01/22/make-big-bets/</link>
       <pubDate>Thu, 22 Jan 2015 10:00:00 +0000</pubDate>
       
-      <guid>http://danstroot.com/2015/01/22/make-big-bets/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;http://danstroot.com/img/african_children.jpg&#34; alt=&#34;Children&#34; /&gt;&lt;/p&gt;
+      <guid>//danstroot.com/2015/01/22/make-big-bets/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;//danstroot.com/img/african_children.jpg&#34; alt=&#34;Children&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;The Bill and Melinda Gates Foundation just released it&amp;rsquo;s &lt;a href=&#34;http://www.gatesnotes.com/2015-annual-letter?page=0&amp;amp;lang=en&amp;amp;WT.mc_id=01_21_2015_AL2015-GF_GFO_domain_Top_21&#34;&gt;annual letter&lt;/a&gt;.  I have come to look forward to these letters because I find them incredibly inspiring. This year instead of an annual update they are re-baselining and taking a fifteen year view of the future. As I read this year&amp;rsquo;s letter I was simultaneously moved, inspired and awed by the scope their mission:&lt;/p&gt;
 
@@ -402,7 +402,7 @@ He would pick it until he tripped the detector mechanism, causing the lock to se
 
 &lt;p&gt;One of the places we visited was &lt;a href=&#34;http://www.krochetkids.org/&#34;&gt;Krochet Kids&lt;/a&gt; in Gulu. They are the largest employer of women in the area. They provide job training, a fair wage to lift them and their families out of poverty, and a positive family-oriented environment. On a side note you can buy their products in Nordstrom!  This picture is &amp;ldquo;the factory&amp;rdquo; on the day we visited:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;http://danstroot.com/img/krochet-kids.jpg&#34; alt=&#34;Children&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;//danstroot.com/img/krochet-kids.jpg&#34; alt=&#34;Children&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;As you can see the women get to sit in the shade of large trees, children are welcome, and they are encouraged to socialize as they work. The women I met were very happy and grateful for the opportunity.  However we found out that when the women got paid (cash - they do not have bank accounts) their husbands would take the money.  Some husbands would go drinking or find other ways to spend the money unwisely. The women were not empowered culturally to resist.&lt;/p&gt;
 
@@ -428,11 +428,11 @@ He would pick it until he tripped the detector mechanism, causing the lock to se
     
     <item>
       <title>Keep it Simple... UX Design</title>
-      <link>http://danstroot.com/2015/01/13/keep-it-simple...-ux-design/</link>
+      <link>//danstroot.com/2015/01/13/keep-it-simple...-ux-design/</link>
       <pubDate>Tue, 13 Jan 2015 10:00:00 +0000</pubDate>
       
-      <guid>http://danstroot.com/2015/01/13/keep-it-simple...-ux-design/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;http://danstroot.com/img/iron_man.png&#34; alt=&#34;Iron Man&#34; /&gt;&lt;/p&gt;
+      <guid>//danstroot.com/2015/01/13/keep-it-simple...-ux-design/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;//danstroot.com/img/iron_man.png&#34; alt=&#34;Iron Man&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Having done some user interface work over the break I discovered that my design approach was basically to:&lt;/p&gt;
 
@@ -493,7 +493,7 @@ He would pick it until he tripped the detector mechanism, causing the lock to se
 
 &lt;p&gt;The main area that I struggle with is keeping it simple and minimal.  I tend to want to create &amp;ldquo;Tony Stark&amp;rdquo; approved interfaces, yet in the real world I strongly prefer clean simplicity. Check out this example from the retailer Victoria Beckham:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;http://danstroot.com/img/VICTORIA_BECKHAM.png&#34; alt=&#34;Victoria Beckham&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;//danstroot.com/img/VICTORIA_BECKHAM.png&#34; alt=&#34;Victoria Beckham&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;The product is front and center and draws your eye.  The navigation is minimal.  The buying options are as limited as possible, you can only choose your size.  Yet there is nothing missing - I can get more details if I want, or a size guide if needed.  To me, this is oustanding UI/UX.  It is clean, simple and usable, and it highlights the product and only the product. What is your ideal UI/UX?&lt;/p&gt;
 
@@ -508,11 +508,11 @@ He would pick it until he tripped the detector mechanism, causing the lock to se
     
     <item>
       <title>President Obama&#39;s Plan for a Free and Open Internet</title>
-      <link>http://danstroot.com/2014/11/10/president-obamas-plan-for-a-free-and-open-internet/</link>
+      <link>//danstroot.com/2014/11/10/president-obamas-plan-for-a-free-and-open-internet/</link>
       <pubDate>Mon, 10 Nov 2014 10:00:00 +0000</pubDate>
       
-      <guid>http://danstroot.com/2014/11/10/president-obamas-plan-for-a-free-and-open-internet/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;http://danstroot.com/img/obama_internet.png&#34; alt=&#34;Obama Internet&#34; /&gt;&lt;/p&gt;
+      <guid>//danstroot.com/2014/11/10/president-obamas-plan-for-a-free-and-open-internet/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;//danstroot.com/img/obama_internet.png&#34; alt=&#34;Obama Internet&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Today President Barack Obama has come out in favor of net neutrality in very public way.  He lays out in no uncertain terms that he believes no cable company or access provider should be able to put limits on access to the Internet. In addition, he’s suggesting that the FCC recognizes access to the Internet as a basic utility, and something that Americans have a basic right to. This means no blocking, no throttling, more transparency and no paid prioritization.
 &lt;/p&gt;
@@ -569,11 +569,11 @@ He would pick it until he tripped the detector mechanism, causing the lock to se
     
     <item>
       <title>USA&#39;s Digital Playbook</title>
-      <link>http://danstroot.com/2014/08/12/usas-digital-playbook/</link>
+      <link>//danstroot.com/2014/08/12/usas-digital-playbook/</link>
       <pubDate>Tue, 12 Aug 2014 10:00:00 +0000</pubDate>
       
-      <guid>http://danstroot.com/2014/08/12/usas-digital-playbook/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;http://danstroot.com/img/USDS_Playbook.png&#34; alt=&#34;Digital Playbook&#34; /&gt;&lt;/p&gt;
+      <guid>//danstroot.com/2014/08/12/usas-digital-playbook/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;//danstroot.com/img/USDS_Playbook.png&#34; alt=&#34;Digital Playbook&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;The White House announced on Monday, August 11th 2014, that it is formally launching a new U.S. Digital Service and that it has hired Mikey Dickerson to lead it.  Mickey Dickerson is an engineer widely credited with playing a central role in salvaging HealthCare.gov. The idea behind the USDS is institutionalizing the approach that saved the US health care website.
 &lt;/p&gt;
@@ -595,11 +595,11 @@ He would pick it until he tripped the detector mechanism, causing the lock to se
     
     <item>
       <title>From &#39;Open Government&#39; to &#39;Open Corporation&#39;</title>
-      <link>http://danstroot.com/2014/07/01/from-open-government-to-open-corporation/</link>
+      <link>//danstroot.com/2014/07/01/from-open-government-to-open-corporation/</link>
       <pubDate>Tue, 01 Jul 2014 10:00:00 +0000</pubDate>
       
-      <guid>http://danstroot.com/2014/07/01/from-open-government-to-open-corporation/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;http://danstroot.com/img/data_gov.png&#34; alt=&#34;Digital Playbook&#34; /&gt;&lt;/p&gt;
+      <guid>//danstroot.com/2014/07/01/from-open-government-to-open-corporation/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;//danstroot.com/img/data_gov.png&#34; alt=&#34;Digital Playbook&#34; /&gt;&lt;/p&gt;
 
 &lt;h3 id=&#34;let-s-talk-about-open-government-first&#34;&gt;Let&amp;rsquo;s Talk About Open Government First&lt;/h3&gt;
 
@@ -667,19 +667,19 @@ from 60 public agencies, and just this year Australian budget data was made avai
 
 &lt;p&gt;Goals, metrics and discoveries must be transparent.  Here are examples from city data:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;http://danstroot.com/img/goals.png&#34; alt=&#34;Digital Playbook&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;//danstroot.com/img/goals.png&#34; alt=&#34;Digital Playbook&#34; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;http://danstroot.com/img/goals_metric.png&#34; alt=&#34;Digital Playbook&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;//danstroot.com/img/goals_metric.png&#34; alt=&#34;Digital Playbook&#34; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;http://danstroot.com/img/open_data.png&#34; alt=&#34;Digital Playbook&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;//danstroot.com/img/open_data.png&#34; alt=&#34;Digital Playbook&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Datasets supporting the goals, metrics and discoveries must be publicly available, along with other supporting data:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;http://danstroot.com/img/data_catalog.png&#34; alt=&#34;Digital Playbook&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;//danstroot.com/img/data_catalog.png&#34; alt=&#34;Digital Playbook&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Platforms have sprung up to support the open government movement. &lt;a href=&#34;http://www.socrata.com/&#34;&gt;Socrata&lt;/a&gt; appears to have market leadership in this space and has a very complete vision of what an open data platform looks like:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;http://danstroot.com/img/socrata.png&#34; alt=&#34;Digital Playbook&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;//danstroot.com/img/socrata.png&#34; alt=&#34;Digital Playbook&#34; /&gt;&lt;/p&gt;
 
 &lt;h3 id=&#34;the-open-data-corporation&#34;&gt;The &amp;ldquo;Open Data&amp;rdquo; Corporation&lt;/h3&gt;
 
@@ -801,11 +801,11 @@ from 60 public agencies, and just this year Australian budget data was made avai
     
     <item>
       <title>CoreOS: thousands of machines and millions of Docker containers... no hypervisor needed.</title>
-      <link>http://danstroot.com/2014/06/29/coreos-thousands-of-machines-and-millions-of-docker-containers...-no-hypervisor-needed./</link>
+      <link>//danstroot.com/2014/06/29/coreos-thousands-of-machines-and-millions-of-docker-containers...-no-hypervisor-needed./</link>
       <pubDate>Sun, 29 Jun 2014 10:00:00 +0000</pubDate>
       
-      <guid>http://danstroot.com/2014/06/29/coreos-thousands-of-machines-and-millions-of-docker-containers...-no-hypervisor-needed./</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;http://danstroot.com/img/coreos-logo.png&#34; alt=&#34;CoreOS&#34; /&gt;&lt;/p&gt;
+      <guid>//danstroot.com/2014/06/29/coreos-thousands-of-machines-and-millions-of-docker-containers...-no-hypervisor-needed./</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;//danstroot.com/img/coreos-logo.png&#34; alt=&#34;CoreOS&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;I have been playing around with CoreOS to get a sense of how everything works. The vision of this project is incredible.&lt;/p&gt;
 
@@ -854,7 +854,7 @@ from 60 public agencies, and just this year Australian budget data was made avai
 
 &lt;p&gt;So now we have a hive of self-updating Linux hosts with a single, distributed init system (systemd and fleet) and a single shared brain (etcd).  It looks something like this:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;http://danstroot.com/img/coreos-action.png&#34; alt=&#34;CoreOS in Action&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;//danstroot.com/img/coreos-action.png&#34; alt=&#34;CoreOS in Action&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;This depicts eight containers (two load balancers and six api servers) being managed by &amp;ldquo;fleet&amp;rdquo; to run in various CoreOS hosts in the cluster, with shared access to etcd.&lt;/p&gt;
 

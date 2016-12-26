@@ -1,4 +1,4 @@
-baseurl = "http://danstroot.com"
+baseurl = "//danstroot.com"
 publishdir = "docs"
 title = "Blog"
 languageCode = "en-us"

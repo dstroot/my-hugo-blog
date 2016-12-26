@@ -211,12 +211,19 @@ gulp.task('htmlminify', function () {
 
 /**
  * Service Worker Setup
- * See: https://github.com/GoogleChrome/sw-precache
- * https://github.com/w3c/ServiceWorker/blob/master/explainer.md
+ * See:
+ *   https://github.com/GoogleChrome/sw-precache
+ *   https://github.com/w3c/ServiceWorker/blob/master/explainer.md
+ *   https://developers.google.com/web/fundamentals/getting-started/primers/service-workers
+ *
  * This task will create app/service-worker.js, which your client
  * pages need to register before it can take control of your site's
  * pages. service-worker-registration.js is a ready-to- use script
  * to handle registration.
+ *
+ * Service workers will not work unless your site is served via ssl.
+ * Since we are using github pages (which don't allow your own cert)
+ * we will also use cloudflare so that we can have ssl.
  */
 
 gulp.task('generate-service-worker', function (callback) {
