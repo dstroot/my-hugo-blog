@@ -1,10 +1,11 @@
-baseurl = "//danstroot.com"
-publishdir = "docs"
+baseURL = "//danstroot.com"
+publishDir = "docs"
 title = "Blog"
 languageCode = "en-us"
 theme = "hugo"
 paginate = 5
-canonifyurls = true
+canonifyURLs = true
+disqusShortname = "danstroot"
 
 # [blackfriday]
 #   angledQuotes = false
@@ -17,7 +18,6 @@ canonifyurls = true
   googleAnalytics = "UA-44765020"
   truncate = true
   tagline = "I love building things. Made in California. Family man, technologist and Hacker News aficionado. Eternally curious."
-  disqusShortname = "danstroot"
   gravatarHash = "b6e0ed5e10ea91f67808629f4ae109f2"
   github = "https://github.com/dstroot"
   linkedin = "https://www.linkedin.com/in/danstroot"
@@ -32,6 +32,6 @@ canonifyurls = true
   # The format shown here is the same one Jekyll/Octopress uses by default.
   post = "/:year/:month/:day/:title/"
 
-[taxonomies]
-    # Optional. Use if you want tags and lists.
-    category = "categories"
+# [taxonomies]
+#     # Optional. Use if you want tags and lists.
+#     category = "categories"

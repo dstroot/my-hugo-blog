@@ -218,6 +218,7 @@ gulp.task('htmlminify', function () {
  *   https://github.com/kappataumu/letsencrypt-cloudflare-hook
  *   http://kappataumu.com/articles/letsencrypt-cloudflare-dns-01-hook.html
  *   https://developers.google.com/web/updates/2015/10/splashscreen?hl=en
+ *   https://www.chromestatus.com/samples
  *
  * This task will create app/service-worker.js, which your client
  * pages need to register before it can take control of your site's
