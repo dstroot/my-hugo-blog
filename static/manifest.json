@@ -4,7 +4,7 @@
   "theme_color": "#202020",
   "background_color": "#202020",
   "display": "standalone",
-  "orientation": "portrait"
+  "orientation": "portrait",
   "icons": [
     {
       "src": "launcher-icon-0-75x.png",
