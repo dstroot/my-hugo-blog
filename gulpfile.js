@@ -215,6 +215,8 @@ gulp.task('htmlminify', function () {
  *   https://github.com/GoogleChrome/sw-precache
  *   https://github.com/w3c/ServiceWorker/blob/master/explainer.md
  *   https://developers.google.com/web/fundamentals/getting-started/primers/service-workers
+ *   https://github.com/kappataumu/letsencrypt-cloudflare-hook
+ *   http://kappataumu.com/articles/letsencrypt-cloudflare-dns-01-hook.html
  *
  * This task will create app/service-worker.js, which your client
  * pages need to register before it can take control of your site's
