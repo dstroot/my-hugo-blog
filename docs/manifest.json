@@ -1,6 +1,10 @@
 {
   "name": "Dan Stroot's Blog",
-  "short_name": "Dan Stroot's Blog",
+  "short_name": "Dan Stroot",
+  "theme_color": "#202020",
+  "background_color": "#202020",
+  "display": "standalone",
+  "orientation": "portrait"
   "icons": [
     {
       "src": "launcher-icon-0-75x.png",
