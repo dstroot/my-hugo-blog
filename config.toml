@@ -5,7 +5,8 @@ languageCode = "en-us"
 theme = "hugo"
 paginate = 5
 canonifyURLs = true
-disqusShortname = "danstroot"
+disqusShortname = "danstrootsblog"
+googleAnalytics = "UA-44765020"
 
 # [blackfriday]
 #   angledQuotes = false
@@ -15,7 +16,6 @@ disqusShortname = "danstroot"
 #   extensions = ["laxHtmlBlocks"]
 
 [params]
-  googleAnalytics = "UA-44765020"
   truncate = true
   tagline = "I love building things. Made in California. Family man, technologist and Hacker News aficionado. Eternally curious."
   gravatarHash = "b6e0ed5e10ea91f67808629f4ae109f2"
