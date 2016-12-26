@@ -2,11 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://danstroot.com/</loc>
-    <lastmod>2016-11-16T10:25:35-08:00</lastmod>
-  </url>
-  
-  <url>
     <loc>http://danstroot.com/2016/11/16/if-you-are-in-san-francisco...-sfmoma/</loc>
     <lastmod>2016-11-16T10:25:35-08:00</lastmod>
   </url>
@@ -234,6 +229,24 @@
   <url>
     <loc>http://danstroot.com/2010/01/15/lessons-from-haiti--never-under-estimate-ease-of-use/</loc>
     <lastmod>2010-01-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://danstroot.com/about/</loc>
+    <lastmod>2016-10-29T19:50:04-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://danstroot.com/</loc>
+    <lastmod>2016-11-16T10:25:35-08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://danstroot.com/post/</loc>
+    <lastmod>2016-11-16T10:25:35-08:00</lastmod>
+    <priority>0</priority>
   </url>
   
 </urlset>

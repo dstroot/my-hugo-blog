@@ -1,4 +1,6 @@
 /* jshint node: true */
+/* eslint-env node */
+
 'use strict';
 
 // Install: you must install gulp both globally *and* locally.
@@ -206,6 +208,62 @@ gulp.task('htmlminify', function () {
     .pipe(gulp.dest('./docs'));
 });
 
+
+/**
+ * Service Worker Setup
+ * See: https://github.com/GoogleChrome/sw-precache
+ * https://github.com/w3c/ServiceWorker/blob/master/explainer.md
+ * This task will create app/service-worker.js, which your client
+ * pages need to register before it can take control of your site's
+ * pages. service-worker-registration.js is a ready-to- use script
+ * to handle registration.
+ */
+
+gulp.task('generate-service-worker', function (callback) {
+  var path = require('path');
+  var swPrecache = require('sw-precache');
+  var rootDir = 'docs';
+
+
+  var config = {
+    cacheId: pkg.name,
+    // If handleFetch is false (i.e. because this is called from generate-service-worker-dev), then
+    // the service worker will precache resources but won't actually serve them.
+    // This allows you to test precaching behavior without worry about the cache preventing your
+    // local changes from being picked up during the development cycle.
+    handleFetch: true,
+    logger: $.util.log,
+    runtimeCaching: [{
+      // See https://github.com/GoogleChrome/sw-toolbox#methods
+      urlPattern: /runtime-caching/,
+      handler: 'cacheFirst',
+      // See https://github.com/GoogleChrome/sw-toolbox#options
+      options: {
+        cache: {
+          maxEntries: 1,
+          name: 'runtime-cache'
+        }
+      }
+    }],
+    staticFileGlobs: [
+      // rootDir + '/css/**.css',
+      // rootDir + '/**.html',
+      // rootDir + '/images/**.*',
+      // rootDir + '/js/**.js',
+      rootDir + '/**/*.{js,html,css,png,jpg,gif,svg,eot,ttf,woff}'
+    ],
+    stripPrefix: rootDir + '/',
+    // verbose defaults to false, but for the purposes of this demo, log more.
+    verbose: true
+  };
+
+  swPrecache.write(path.join(rootDir, 'service-worker.js'), config, callback);
+
+  // swPrecache.write(`${rootDir}/service-worker.js`), {
+  //   staticFileGlobs: [rootDir + '/**/*.{js,html,css,png,jpg,gif,svg,eot,ttf,woff}'],
+  //   stripPrefix: rootDir
+  // }, callback);
+});
 
 /**
  * Git it!
