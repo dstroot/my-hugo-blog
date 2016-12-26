@@ -5,7 +5,7 @@ languageCode = "en-us"
 theme = "hugo"
 paginate = 5
 canonifyURLs = true
-disqusShortname = "danstrootsblog"
+disqusShortname = "danstroot"
 googleAnalytics = "UA-44765020"
 
 # [blackfriday]
