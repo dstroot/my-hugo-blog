@@ -133,8 +133,9 @@ gulp.task('scripts', ['compile'], function () {
  */
 
 gulp.task('images', function () {
+  emitter.setMaxListeners()
   return gulp.src('static/img/*.{png,jpg,gif}')
-    .pipe($.changed('./static/img'))        // Only process new/changed
+    // .pipe($.changed('./static/img'))        // Only process new/changed
     .pipe($.imagemin({                      // Compress images
       progressive: true,   // JPG
       interlaced: true,    // GIF
