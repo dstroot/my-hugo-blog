@@ -1,5 +1,5 @@
 +++
-title = "If you are in San Francisco... SFMOMA!"
+title = "If you are in San Francisco go visit MOMA"
 description = ""
 keywords = [
 ]
