@@ -26,7 +26,7 @@ html {
 body {
   margin: 0;
   padding: 0;
-  color: #818181;
+  color: #595959;
   background-color: #fff;
   /* Better Font Rendering =========== */
   -webkit-text-size-adjust: 100%;
@@ -37,7 +37,7 @@ body {
   font-synthesis: none; }
 
 a {
-  color: #42B6F3;
+  color: #55595c;
   text-decoration: none;
   transition: all 0.3s ease-in-out; }
   a:hover, a:focus {
@@ -308,18 +308,14 @@ code {
   position: relative;
   float: left;
   color: #55595c;
-  padding: 0 10px;
-  border-radius: 6px;
-  border: 1px solid #818a91; }
+  padding: 0 10px; }
 
 .pagination > li:last-child > a {
   position: relative;
   float: right;
   text-align: right;
   color: #55595c;
-  padding: 0 10px;
-  border-radius: 6px;
-  border: 1px solid #818a91; }
+  padding: 0 10px; }
 
 .pagination > .disabled > a,
 .pagination > .disabled > a:hover,
@@ -504,10 +500,8 @@ article > h2 {
   font-weight: 500;
   color: #55595c;
   padding: 0 10px;
-  border-radius: 6px;
   height: 2rem;
   line-height: 2rem;
-  border: 1px solid #818a91;
   font-size: .8rem;
   vertical-align: middle; }
 

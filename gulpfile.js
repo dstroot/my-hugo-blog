@@ -133,9 +133,8 @@ gulp.task('scripts', ['compile'], function () {
  */
 
 gulp.task('images', function () {
-  emitter.setMaxListeners()
   return gulp.src('static/img/*.{png,jpg,gif}')
-    // .pipe($.changed('./static/img'))        // Only process new/changed
+    .pipe($.changed('./static/img'))        // Only process new/changed
     .pipe($.imagemin({                      // Compress images
       progressive: true,   // JPG
       interlaced: true,    // GIF
@@ -243,7 +242,7 @@ gulp.task('generate-service-worker', function (callback) {
     // the service worker will precache resources but won't actually serve them.
     // This allows you to test precaching behavior without worry about the cache preventing your
     // local changes from being picked up during the development cycle.
-    handleFetch: true,
+    handleFetch: false,
     logger: $.util.log,
     runtimeCaching: [{
       // See https://github.com/GoogleChrome/sw-toolbox#methods
@@ -266,7 +265,7 @@ gulp.task('generate-service-worker', function (callback) {
     ],
     stripPrefix: rootDir + '/',
     // verbose defaults to false, but for the purposes of this demo, log more.
-    verbose: true
+    verbose: false
   };
 
   swPrecache.write(path.join(rootDir, 'service-worker.js'), config, callback);
