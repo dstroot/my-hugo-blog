@@ -1,4 +1,4 @@
-baseURL = "//danstroot.com"
+baseURL = "https://danstroot.com"
 publishDir = "docs"
 title = "Blog"
 languageCode = "en-us"
