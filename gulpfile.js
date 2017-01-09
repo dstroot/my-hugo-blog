@@ -242,7 +242,7 @@ gulp.task('generate-service-worker', function (callback) {
     // the service worker will precache resources but won't actually serve them.
     // This allows you to test precaching behavior without worry about the cache preventing your
     // local changes from being picked up during the development cycle.
-    handleFetch: false,
+    handleFetch: true,
     logger: $.util.log,
     runtimeCaching: [{
       // See https://github.com/GoogleChrome/sw-toolbox#methods
