@@ -6,8 +6,50 @@
     <description>Recent content in Posts on Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 16 Nov 2016 10:25:35 -0800</lastBuildDate>
+    <lastBuildDate>Tue, 10 Jan 2017 10:25:35 -0800</lastBuildDate>
     <atom:link href="https://danstroot.com/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>I Feel the Need for Speed</title>
+      <link>https://danstroot.com/2017/01/10/i-feel-the-need-for-speed/</link>
+      <pubDate>Tue, 10 Jan 2017 10:25:35 -0800</pubDate>
+      
+      <guid>https://danstroot.com/2017/01/10/i-feel-the-need-for-speed/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://danstroot.com/img/speed.png&#34; alt=&#34;San Francisco MOMA&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Today google released a &lt;a href=&#34;https://testmysite.withgoogle.com&#34;&gt;new tool&lt;/a&gt; to test how mobile friendly your website is.  Since I recently rebuilt this site and been using a variety of tools to test it I was excited to see how well the site scored.  The UI is very nice but you have to opt-in to email to get your detailed report. I am definitely not a fan of that &amp;ldquo;dark pattern&amp;rdquo;.&lt;/p&gt;
+
+&lt;p&gt;Usually my go-to benchmark is the the venerable &lt;a href=&#34;https://developers.google.com/speed/pagespeed/insights/&#34;&gt;Google PageSpeed Insights&lt;/a&gt;. PageSpeed Insights is very clear about delivering actionable steps you can take to improve overall speed and performance.  Not too long ago Google also added a mobile section to give you insight about your mobile page performance as well.&lt;/p&gt;
+
+&lt;p&gt;However I recently adopted Google&amp;rsquo;s &lt;a href=&#34;https://github.com/GoogleChrome/lighthouse&#34;&gt;Lighthouse&lt;/a&gt; tool and found that to be exceptionally useful, particularly since it is service worker aware.  As a result this site will now run even when the network connection is severed on your mobile device. (Service workers should be a separate article)&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;p&gt;Google has pushed hard to support the unprecedented move to mobile device browsing. In November 2014, Google started labeling sites as “mobile-friendly” to denote which pages are optimized for phones. In February 2015, Google announced plans to roll out mobile ranking changes on April 21 (an unprecedented move — the company almost never announces algorithm changes in advance).&lt;/p&gt;
+
+&lt;p&gt;Recently (May 2016) Google announced it is rolling out an update to mobile search results that “increases the effect” of its mobile-friendly ranking signal. The goal is to “help our users find even more pages that are relevant and mobile-friendly,&amp;ldquo;.&lt;/p&gt;
+
+&lt;p&gt;So it is crystal clear that making your site mobile-friendly will help your rankings, but guess what?  Making your site mobile-friendly makes it a &lt;strong&gt;better experience for everyone, all the time&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;Why?&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Performance benefits everyone. Don&amp;rsquo;t waste the time of visitors to your site.&lt;/li&gt;
+&lt;li&gt;Responsiveness benefits everyone.  I rarely if ever have the browser on my laptop at full screen.&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Making your site handle network issues benefits everyone.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;In other words making your site run well on a phone means it will run great on more capable hardware with more reliable networking and your page ranking will reflect it.&lt;/p&gt;
+
+&lt;h4 id=&#34;references&#34;&gt;References:&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://testmysite.withgoogle.com&#34;&gt;https://testmysite.withgoogle.com&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/GoogleChrome/lighthouse&#34;&gt;https://github.com/GoogleChrome/lighthouse&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://venturebeat.com/2016/03/16/google-will-start-ranking-mobile-friendly-sites-even-higher-in-may/&#34;&gt;http://venturebeat.com/2016/03/16/google-will-start-ranking-mobile-friendly-sites-even-higher-in-may/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://developers.google.com/speed/pagespeed/insights/&#34;&gt;https://developers.google.com/speed/pagespeed/insights/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
     
     <item>
       <title>If you are in San Francisco go visit MOMA</title>
@@ -797,70 +839,6 @@ from 60 public agencies, and just this year Australian budget data was made avai
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://sheetlabs.com/#/&#34;&gt;Sheetlabs&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</description>
-    </item>
-    
-    <item>
-      <title>CoreOS: thousands of machines and millions of Docker containers... no hypervisor needed.</title>
-      <link>https://danstroot.com/2014/06/29/coreos-thousands-of-machines-and-millions-of-docker-containers...-no-hypervisor-needed./</link>
-      <pubDate>Sun, 29 Jun 2014 10:00:00 +0000</pubDate>
-      
-      <guid>https://danstroot.com/2014/06/29/coreos-thousands-of-machines-and-millions-of-docker-containers...-no-hypervisor-needed./</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;https://danstroot.com/img/coreos-logo.png&#34; alt=&#34;CoreOS&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;I have been playing around with CoreOS to get a sense of how everything works. The vision of this project is incredible.&lt;/p&gt;
-
-&lt;p&gt;CoreOS describes itself as &lt;em&gt;&amp;ldquo;a new Linux distribution that has been re-architected to provide features needed to run modern infrastructure stacks. The strategies and architectures that influence CoreOS allow companies like Google, Facebook and Twitter to run their services at scale with high resilience.&amp;rdquo;&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;CoreOS displaces hypervisors and machine virtualization in favor of Docker and Linux containers.  CoreOS uses Linux containers to manage your services at a high level of abstraction. A single service&amp;rsquo;s code and all dependencies are packaged within a container that can be run on one or many CoreOS machines.&lt;/p&gt;
-
-&lt;p&gt;Clustering works across platforms, meaning there is no cloud vendor lock-in. For example, CoreOS runs on Amazon EC2, Rackspace, QEMU/KVM, VMware and OpenStack and your own hardware. Running a single CoreOS cluster on multiple different clouds or cloud + bare metal is supported and encouraged. This lack of lock-in is the reason why I have supported OpenStack and CoreOS takes this even further.
-&lt;/p&gt;
-
-&lt;h4 id=&#34;we-begin-with-concept-of-a-large-fleet-of-machines-that-start-and-remain-exactly-consistent-at-the-os-level&#34;&gt;We begin with concept of a large fleet of machines that start (and remain) exactly consistent at the OS level.&lt;/h4&gt;
-
-&lt;ul&gt;
-&lt;li&gt;First, think of CoreOS somewhat like you might think of a hypervisor today.  It is the first layer you put down on bare metal, or as a virtual machine in a cloud. It is a &amp;ldquo;bare minimum&amp;rdquo; Linux-based OS that supports Linux LXC containers.&lt;/li&gt;
-&lt;li&gt;It is designed to run as a large fleet (hive?) of machines. It includes built-in primitives such as distributed locking and master election, plus key services necessary to manage the fleet of machines. (more on this later).&lt;/li&gt;
-&lt;li&gt;It is meant to always be consistent across machines.
-
-&lt;ul&gt;
-&lt;li&gt;CoreOS utilizes an active/passive dual-partition scheme to update the OS as a &lt;em&gt;single unit&lt;/em&gt; instead of &lt;em&gt;package by package&lt;/em&gt;.&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;CoreOS also has the tenant of &lt;strong&gt;automatically&lt;/strong&gt; updating itself. This avoids the issue of inconsistent state from machine to machine within a large cluster. Conceptually this is roughly like a self-updating hypervisor.&lt;/li&gt;
-&lt;li&gt;Each machine has to acquire and hold a reboot lock before it is allowed to reboot. The reboot lock is held until the machine releases it after a successful update. The number of machines allowed to reboot simultaneously is configurable. The main goal to allow for an update to be applied to a fleet quickly, without impacting capacity for the services running on the cluster.&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4 id=&#34;next-we-have-the-concept-that-the-fleet-of-machines-is-simply-a-single-pool-of-compute-resources&#34;&gt;Next, we have the concept that the fleet of machines is simply a single pool of compute resources.&lt;/h4&gt;
-
-&lt;ul&gt;
-&lt;li&gt;You treat your CoreOS cluster as if it has a single, shared init system - one giant systemd if you will.&lt;/li&gt;
-&lt;li&gt;Instead of running a service on a specific machine, services are submitted to the cluster via the cluster manager, fleetctl, which decides where they should run.&lt;/li&gt;
-&lt;li&gt;Your services/applications are in containers that act as small, ephemeral units that can easily migrate around a cluster of self-updating CoreOS machines.&lt;/li&gt;
-&lt;li&gt;It is smart enough to distribute services across a cluster using machine-level affinity or anti-affinity.&lt;/li&gt;
-&lt;li&gt;If your application consists of 5 containers fleet will guarantee that they stay running somewhere on the cluster. If a machine fails or needs to be updated, containers running on that machine will be moved to other qualified machines in the cluster.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4 id=&#34;with-a-single-shared-brain&#34;&gt;&amp;hellip; with a single, shared brain&lt;/h4&gt;
-
-&lt;ul&gt;
-&lt;li&gt;CoreOS provides a distributed key value store called &amp;ldquo;etcd&amp;rdquo;.&lt;/li&gt;
-&lt;li&gt;The etcd client runs on each machine in a cluster. etcd gracefully handles master election during network partitions and the loss of the current master.&lt;/li&gt;
-&lt;li&gt;Docker containers can read, write and listen to etcd over the docker0 network interface. With these three actions you construct extremely sophisticated orchestration to happen whenever etcd values change. An example of this would be listening for changes and then to reconfigure an upstream proxy when a new container of an application is started.&lt;/li&gt;
-&lt;li&gt;Since etcd is replicated, all changes are reflected across the entire cluster. Your application can always reach the local etcd instance at 127.0.0.1:4001.&lt;/li&gt;
-&lt;li&gt;Your applications can read and write data into etcd. Common examples are storing database connection details, cache settings, feature flags, and more. Let&amp;rsquo;s say we&amp;rsquo;re running a simple web app like Wordpress. Instead of hardcoding our database address with in the config file, we&amp;rsquo;ll fetch it from etcd instead. It&amp;rsquo;s as simple as curl-ing &lt;a href=&#34;http://127.0.0.1:4001/v1/keys/database&#34;&gt;http://127.0.0.1:4001/v1/keys/database&lt;/a&gt; and using the response within your DB connection code.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;summary&#34;&gt;Summary&lt;/h3&gt;
-
-&lt;p&gt;So now we have a hive of self-updating Linux hosts with a single, distributed init system (systemd and fleet) and a single shared brain (etcd).  It looks something like this:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://danstroot.com/img/coreos-action.png&#34; alt=&#34;CoreOS in Action&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;This depicts eight containers (two load balancers and six api servers) being managed by &amp;ldquo;fleet&amp;rdquo; to run in various CoreOS hosts in the cluster, with shared access to etcd.&lt;/p&gt;
-
-&lt;p&gt;Momentum is shifting this way rapidly. Earlier this month Rackspace announced &lt;a href=&#34;https://www.rackspace.com/blog/onmetal-the-right-way-to-scale/&#34;&gt;OnMetal&lt;/a&gt;. Rackspace&amp;rsquo;s OnMetal Cloud Service is the first of its kind. Using OnMetal you create machine instances using OpenStack APIs but, instead of being provisioned a virtual machine, you are provisioned &lt;strong&gt;on physical hardware&lt;/strong&gt;. OnMetal servers are single-tenant, bare-metal servers provisioned via the OpenStack API and can be spun up as quickly as VMs.&lt;/p&gt;
-
-&lt;p&gt;Once OnMetal is live, you&amp;rsquo;ll be able to provision CoreOS instances on Rackspace&amp;rsquo;s OnMetalcloud. This combination gives you the ease of spinning up machines with the click of a mouse, the security of running CoreOS with automatic updates, and the raw horsepower of running on bare metal. Pretty impressive!&lt;/p&gt;</description>
     </item>
     
   </channel>
