@@ -3,12 +3,12 @@
  */
 
 $black:              #000;
-$gray-darker:        #919191;
-$gray-dark:          #373a3c;
-$gray:               #55595c;
-$gray-light:         #818a91;
-$gray-lighter:       #eceeef;
-$gray-lightest:      #f7f7f9;
+$gray-darker:        #333333;
+$gray-dark:          #666666;
+$gray:               #999999;
+$gray-light:         #bababa;
+$gray-lighter:       #dddddd;
+$gray-lightest:      #ededed;
 $white:              #fff;
 
 // $red: #ac4142;
@@ -32,7 +32,7 @@ $code-background-color: #f8f8f8;
 
 // Posts
 $post-title: $black;
-$post-meta: $gray-light;
+$post-meta: $gray;
 
 /**
  * Fonts

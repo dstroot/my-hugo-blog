@@ -163,16 +163,16 @@ abbr {
   text-transform: uppercase; }
   abbr[title] {
     cursor: help;
-    border-bottom: 1px dotted #55595c; }
+    border-bottom: 1px dotted #999999; }
 
 blockquote {
   padding: 1.5rem;
   margin: 0 0 1rem 0;
   /* TRBL */
   color: #000;
-  background-color: #f7f7f9;
+  background-color: #ededed;
   font-style: italic;
-  border-right: 0.4rem solid #55595c; }
+  border-right: 0.4rem solid #999999; }
   blockquote p:last-child {
     margin-bottom: 0; }
   blockquote cite {
@@ -277,14 +277,14 @@ code {
   display: block;
   margin-top: -.5rem;
   margin-bottom: 1rem;
-  color: #818a91;
+  color: #999999;
   font-size: .8rem;
   font-weight: 300; }
 
 .post-date > a {
   margin-top: -.5rem;
   margin-bottom: 1rem;
-  color: #818a91;
+  color: #999999;
   font-size: .8rem;
   font-weight: 300; }
 
@@ -307,14 +307,14 @@ code {
 .pagination > li:first-child > a {
   position: relative;
   float: left;
-  color: #55595c;
+  color: #999999;
   padding: 0 10px; }
 
 .pagination > li:last-child > a {
   position: relative;
   float: right;
   text-align: right;
-  color: #55595c;
+  color: #999999;
   padding: 0 10px; }
 
 .pagination > .disabled > a,
@@ -464,7 +464,7 @@ code {
   background: none; }
 
 .blog-archives > h1 {
-  color: #818a91;
+  color: #bababa;
   display: inline-block;
   position: relative; }
 
@@ -481,7 +481,7 @@ article > h2 {
   left: .5rem;
   top: .7rem;
   font-size: .8rem;
-  color: #818a91;
+  color: #bababa;
   display: inline-block;
   text-transform: uppercase; }
 
@@ -498,7 +498,7 @@ article > h2 {
 .button {
   display: inline-block;
   font-weight: 500;
-  color: #55595c;
+  color: #999999;
   padding: 0 10px;
   height: 2rem;
   line-height: 2rem;
@@ -506,7 +506,7 @@ article > h2 {
   vertical-align: middle; }
 
 .button:hover {
-  border: 1px solid #818a91; }
+  border: 1px solid #bababa; }
 
 .button-disabled {
   opacity: 0.4; }
