@@ -45,7 +45,9 @@ Social media is how you reach these people. One consistent theme across both the
 
 One connection between the Trump campaign and the Brexit campaign was the alleged involvement of communications firm Cambridge Analytica (CA) – of which allegedly Steve Bannon was formerly chairman of the board.
 
-Cambridge Analytica uses psychometric profiling to identify potential voters and to inform their approach and rhetoric in reaching them. Psychometrics allows the utilization big data to assess vast numbers of people and construct personality profiles on each person in order to pinpoint individuals most likely to convert.  Cambridge Analytica claims to have up to 5,000 data points per person – and they’re talking about almost every person in the United States, plus many more worldwide.
+Cambridge Analytica uses psychometric profiling to identify potential voters and to inform their approach and rhetoric in reaching them. Psychometrics allows the utilization big data to assess vast numbers of people and construct personality profiles on each person in order to pinpoint individuals most likely to convert.  
+
+Cambridge Analytica claims to have up to 5,000 data points per person – and they’re talking about almost every person in the United States, plus many more worldwide.
 
 ### How do you build a profile of a person?
 
