@@ -47,7 +47,7 @@ One connection between the Trump campaign and the Brexit campaign was the allege
 
 Cambridge Analytica uses psychometric profiling to identify potential voters and to inform their approach and rhetoric in reaching them. Psychometrics allows the utilization big data to assess vast numbers of people and construct personality profiles on each person in order to pinpoint individuals most likely to convert.  
 
-Cambridge Analytica claims to have up to 5,000 data points per person – and they’re talking about almost every person in the United States, plus many more worldwide.
+Cambridge Analytica claims to have **up to 5,000 data points per person** – and they’re talking about almost every person in the United States, plus many more worldwide.
 
 ### How do you build a profile of a person?
 
@@ -59,7 +59,7 @@ With 170 likes per person, Kosinski’s methods were able to predict the followi
 
 ![Kosinski Research](/img/Facebook-research.png)
 
-### How can this information be used to influence voters?
+### Can this information be used to influence voters?
 
 One psychometric framework is known as The Big Five, or OCEAN.  This approach is centered around summarizing an individual’s personality through relation to five key categories:
 
@@ -98,13 +98,13 @@ Bots can also be used to silence people with opposing views.  An automated army 
 
 The bots targeted people by a hashtag symbol, like #Clinton. Their purpose: to rant, confuse people on facts, or simply muddy discussions, said Philip N. Howard, a sociologist at the Oxford Internet Institute and one of the authors of the report. In some cases, the bots would post embarrassing photos, make references to the Federal Bureau of Investigation inquiry into Mrs. Clinton’s private email server, or produce false statements, for instance, that Mrs. Clinton was about to go to jail or was already in jail.
 
-### Closing the deal.
+### Closing the Deal
 
 Once a voter has been "sold", or converted, then “confirmation bias" takes over. Confirmation bias is the tendency people have to embrace information that supports their beliefs and reject information that contradicts them. Of the many forms of faulty thinking that have been identified, confirmation bias is among the best catalogued; it’s the subject of entire textbooks’ worth of experiments. If reason is designed to generate sound judgments, then it’s hard to conceive of a more serious design flaw than confirmation bias. 
 
 However, people are not randomly wrong. Presented with someone else’s argument, we’re usually quite adept at spotting the weaknesses. Almost invariably, the positions we’re blind about are our own.
 
-Sources
+#### Sources
 
 * [BBC: Massive networks of fake accounts found on Twitter](http://www.bbc.com/news/technology-38724082)
 * [NBC: 1 in 10 Twitter accounts is fake, say researchers](http://www.nbcnews.com/business/1-10-twitter-accounts-fake-say-researchers-2D11655362)
