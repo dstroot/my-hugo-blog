@@ -6,8 +6,149 @@
     <description>Recent content in Posts on Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 19 Mar 2017 10:25:35 -0800</lastBuildDate>
+    <lastBuildDate>Fri, 07 Apr 2017 10:25:35 -0800</lastBuildDate>
     <atom:link href="https://danstroot.com/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>The Inside-Out Corporation</title>
+      <link>https://danstroot.com/2017/04/07/the-inside-out-corporation/</link>
+      <pubDate>Fri, 07 Apr 2017 10:25:35 -0800</pubDate>
+      
+      <guid>https://danstroot.com/2017/04/07/the-inside-out-corporation/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://danstroot.com/img/internet.jpg&#34; alt=&#34;the Internet&#34; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;we-know-how-to-make-services-secure-over-the-internet&#34;&gt;We know how to make services secure over the Internet&lt;/h3&gt;
+
+&lt;p&gt;From anywhere, using my personal laptop, I can:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Access my bank account(s)&lt;/li&gt;
+&lt;li&gt;Access my retirement and brokerage accounts&lt;/li&gt;
+&lt;li&gt;Use my credit card to buy things&lt;/li&gt;
+&lt;li&gt;Review my medical test results&lt;/li&gt;
+&lt;li&gt;Send love notes to my wife&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;These are the most sensitive and private things I can imagine, and I can do these things &lt;strong&gt;securely from any untrusted network anywhere in the world&lt;/strong&gt;.  Starbucks, my hotel, the airport, and from my mobile device anywhere there is cellular data service.&lt;/p&gt;
+
+&lt;h3 id=&#34;so-why-do-corporate-networks-still-exist&#34;&gt;So why do corporate networks still exist?&lt;/h3&gt;
+
+&lt;p&gt;Most companies still have a separate corporate network, protected by firewalls, intrusion prevention/detection, dedicated administrators, VPNs, etc. Why is it that can can I access information which is the most important, private, and precious to me in the world, from any computer, via any network, &lt;strong&gt;without all that extra cost, overhead, and effort&lt;/strong&gt;?&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;p&gt;Even before the Internet, there were corporate networks.  These networks were designed the way medieval castles were designed; as fortresses. They were designed to keep the unwanted out, using a heavily fortified gate (e.g. a firewall - a single point of ingress and egress).  Anyone outside is considered dangerous, and anyone inside is trusted.  However, anyone who makes it past the drawbridge has the run of the place.&lt;/p&gt;
+
+&lt;p&gt;New technology emerged against medieval defenses - scaling ladders; battering rams; siege towers and various types of catapults such as the mangonel, onager, ballista, and trebuchet. However, the main reason that the medieval castle approach failed was it became impossible to keep expanding a stone perimeter around a growing population.  Eventually people had to live &amp;ldquo;outside the wall&amp;rdquo;.&lt;/p&gt;
+
+&lt;h3 id=&#34;introducing-the-inside-out-corporation&#34;&gt;Introducing the &amp;ldquo;Inside Out&amp;rdquo; Corporation&lt;/h3&gt;
+
+&lt;p&gt;Imagine a company that eliminates the traditional corporate network by turning &amp;ldquo;inside out&amp;rdquo; and making &lt;strong&gt;all of it&amp;rsquo;s systems and applications available directly over the Internet&lt;/strong&gt;.  No more corporate network, no more employee VPNs.&lt;/p&gt;
+
+&lt;p&gt;Instead, access depends solely on device and user credentials, regardless of a user’s network location — be it an enterprise location, a home network, or a hotel or coffee shop.  As a result, all employees, contractors, consultants, etc. can work productively and securely from any network without the need for a traditional VPN connection into a privileged corporate network. Even the concept of local and remote access goes away - &lt;strong&gt;the user experience is identical&lt;/strong&gt; (apart from potential differences in latency).&lt;/p&gt;
+
+&lt;h4 id=&#34;the-results&#34;&gt;The results:&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Better security&lt;/strong&gt;. Yes, better security - &lt;strong&gt;each service is secured and hardened&lt;/strong&gt;. This approach forces application security to be truly effective and not &amp;ldquo;security theater&amp;rdquo;. When an attacker breaches a corporate network they may find very few internal connections are encrypted and packets can be sniffed easily - and internal services vulnerable to attack. This is called &amp;ldquo;Tootsie Pop&amp;rdquo; security - a hard outer shell and soft on the inside. However, using the inside-out model it would be difficult to breach even one service.  Delivering services over the Internet requires &lt;strong&gt;each connection to be secured by end-to-end encryption&lt;/strong&gt; via Transport Layer Security (TLS).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Lower costs&lt;/strong&gt;. Lets make a couple simplifying assumptions.  First, let&amp;rsquo;s assume that eliminating the corporate network saves money. Let&amp;rsquo;s also assume that making applications hardened so that they can be exposed to the Internet requires additional investment.  For the sake of argument let&amp;rsquo;s assume these costs offset each other so the net spend is the same (although later I will make some arguments that it could be significantly less).
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Lower Risk&lt;/strong&gt; - If these costs offset why is it still less expensive?  Because of lower risks - securing a network is done to prevent information leakage. Put another way, companies evaluate the cost of security &lt;strong&gt;relative&lt;/strong&gt; to the costs of a breach.  If the risk of a breach is reduced, then the potential cost to a company is also reduced.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Higher Productivity&lt;/strong&gt; - Another reason this model costs less is higher employee productivity. It cannot be stated strongly enough how even small barriers of time add up to large costs. If it takes an employee 3 minutes to log in via a VPN before they can be productive the cost is not just three minutes of their time, rather it is the cost that they may not log in remotely &lt;strong&gt;at all&lt;/strong&gt;.  Those extra few minutes cause employees to think &amp;ldquo;I&amp;rsquo;ll just do this tomorrow when I&amp;rsquo;m in the office&amp;rdquo;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Lower Business Continuity Costs&lt;/strong&gt; - Business continuity becomes cheaper.  If employees can work from anywhere then the need for specialized business continuity support for employees goes away.&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Lower Technology Costs Over Time&lt;/strong&gt; - The Internet is the most reliable technology ever created, and it is arguably the best value. It is nearly free and higher bandwidth costs less every year. The cost of deploying corporate applications over the Internet is only going to decrease over time, while the cost of defending a corporate network is only going to increase.&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;google-calls-the-inside-out-corporation-beyondcorp&#34;&gt;Google Calls the Inside-Out Corporation &amp;ldquo;BeyondCorp&amp;rdquo;&lt;/h3&gt;
+
+&lt;h4 id=&#34;google-s-beyondcorp-mission-2011-2017&#34;&gt;Google’s BeyondCorp Mission (2011-2017)&lt;/h4&gt;
+
+&lt;p&gt;To have every Google employee work successfully from untrusted networks without use of a VPN.&lt;/p&gt;
+
+&lt;h4 id=&#34;beyondcorp-principles&#34;&gt;BeyondCorp Principles&lt;/h4&gt;
+
+&lt;p&gt;Connecting from a particular network must not determine which services you can access.
+Access to services is granted based on what we know about you and your device.
+All access to services must be authenticated, authorized and encrypted.&lt;/p&gt;
+
+&lt;h4 id=&#34;high-level-components-of-beyondcorp&#34;&gt;High-level Components of BeyondCorp&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Single sign-on,&lt;/li&gt;
+&lt;li&gt;access proxy,&lt;/li&gt;
+&lt;li&gt;access control engine,&lt;/li&gt;
+&lt;li&gt;user inventory,&lt;/li&gt;
+&lt;li&gt;device inventory,&lt;/li&gt;
+&lt;li&gt;security policy,&lt;/li&gt;
+&lt;li&gt;trust repository&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Google first wrote about the concepts behind the BeyondCorp initiative in 2014, in a paper titled &lt;a href=&#34;https://www.beyondcorp.com/pdf/43231.pdf&#34;&gt;BeyondCorp: A New Approach to Enterprise Security&lt;/a&gt;. They wrote a follow up paper in 2016 titled &lt;a href=&#34;https://www.beyondcorp.com/pdf/44860.pdf&#34;&gt;BeyondCorp: Design to Deployment at Google&lt;/a&gt; that detailed their migration path and findings along the way. A third paper titled &lt;a href=&#34;https://www.beyondcorp.com/pdf/45728.pdf&#34;&gt;BeyondCorp: The Access Proxy&lt;/a&gt; goes into detail about a very key component.&lt;/p&gt;
+
+&lt;p&gt;BeyondCorp is now &lt;strong&gt;used by most Googlers every day!&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;how-to-turn-your-company-inside-out&#34;&gt;How to Turn Your Company Inside-Out&lt;/h3&gt;
+
+&lt;p&gt;As consumers of internet services we understand how to access our bank securely. The problem is many of us struggle with too many different user IDs and passwords. Yet, most of us are familiar with the experience of logging in to one service like Netflix, via Facebook. Imagine logging into all your services and sites via one single identity?&lt;/p&gt;
+
+&lt;p&gt;For example, Google implements Single Sign On in its services via &lt;a href=&#34;https://accounts.google.com&#34;&gt;https://accounts.google.com&lt;/a&gt;. Once you are logged in, you will be able to access all your Google services like Gmail, Youtube, and Google Docs without entering your credentials again. Imagine having the same experience but with your company applications.&lt;/p&gt;
+
+&lt;p&gt;In order to become an &amp;ldquo;Inside Out&amp;rdquo; company the first and most important thing is an effective &lt;strong&gt;identity management/single-sign on architecture&lt;/strong&gt; and the second is an &lt;strong&gt;access proxy&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;h4 id=&#34;identity-management-federation-and-single-sign-on&#34;&gt;Identity Management, Federation and Single sign-on&lt;/h4&gt;
+
+&lt;p&gt;The first thing needed is the ability to manage users and authorize those users to access corporate applications.  This requires:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Unified Directory&lt;/strong&gt;.  Companies may have many sources of user data, with none of them actually being the superset of all user data.  We need the ability to synchronize users with any number of directories, such as Active Directory, LDAP-based directories, Workday, or Google Apps. We must have a single source of all users and user data.&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Automated User Provisioning and De-Provisioning&lt;/strong&gt;. Provisioning should be done directly from some type of Human Capital Management (HCM) system. Ideally when an employee or contractor starts their identities should flow from the HCM application into the company user directory, along with user attributes such as department or job function so security and application access policies based on HR metadata can be applied. De-provisioning or off-boarding users is critical to preventing unauthorized access to enterprise data from former employees. Again this should flow directly and immediately from the HCM system.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Authorization Management&lt;/strong&gt; - We also support the main industry standards such as SAML, WS-Fed, and OAuth 2.0 so you can hook any third-party application that you need.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://danstroot.com/img/userlist.png&#34; alt=&#34;user list&#34; /&gt;&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;tr&gt;
+    &lt;td&gt;&lt;a href=&#34;https://auth0.com/&#34;&gt;&lt;img src=&#34;https://danstroot.com/img/auth0_logo.png&#34; alt=&#34;Auth0&#34; class=&#34;img-responsive&#34; width=&#34;200&#34;&gt;&lt;/a&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;a href=&#34;https://www.onelogin.com/&#34;&gt;&lt;img src=&#34;https://danstroot.com/img/onelogin_logo.png&#34; alt=&#34;Onelogin&#34; class=&#34;img-responsive&#34; width=&#34;200&#34;&gt;&lt;/a&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;&lt;a href=&#34;https://www.pingidentity.com/en.html&#34;&gt;&lt;img src=&#34;https://danstroot.com/img/ping_logo.png&#34; alt=&#34;Ping Identity&#34; class=&#34;img-responsive&#34; width=&#34;200&#34;&gt;&lt;/a&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;a href=&#34;https://www.okta.com/&#34;&gt;&lt;img src=&#34;https://danstroot.com/img/okta_logo.svg&#34; alt=&#34;Okta&#34; class=&#34;img-responsive&#34; width=&#34;200&#34;&gt;&lt;/a&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/table&gt;
+
+&lt;h4 id=&#34;access-proxy&#34;&gt;Access Proxy&lt;/h4&gt;
+
+&lt;p&gt;A key component of BeyondCorp&amp;rsquo;s front-end infrastructure is a fleet of HTTP/HTTPS reverse proxies that used to be called Google Front Ends (GFEs). GFEs provide a number of benefits, such as load balancing and TLS handling “as a service.”&lt;/p&gt;
+
+&lt;p&gt;BeyondCorp leverages the GFE as a logically centralized point of access policy enforcement. GFEs were enhanced to provide authentication, authorization, self-service provisioning, and centralized logging. The resulting &amp;ldquo;enhanced GFE&amp;rdquo; is called the Access Proxy (AP). As a result, web applications behind the proxy don&amp;rsquo;t have to have any identity or security built into them - it is &amp;ldquo;grafted on&amp;rdquo;, or applied at the reverse proxy layer. Web back ends can focus on serving requests and largely ignore the details of how requests are routed to them.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;This means corporate web applications can be made available to employees with no changes!&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Google has made this &lt;strong&gt;available as a free product&lt;/strong&gt; called the &lt;a href=&#34;https://cloud.google.com/iap/&#34;&gt;Identity-Aware Proxy&lt;/a&gt;.  It works like this:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://danstroot.com/img/iap-lead_2x.png&#34; alt=&#34;Identity-Aware Proxy&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Bitly has open-sourced a project called &lt;a href=&#34;https://github.com/bitly/oauth2_proxy&#34;&gt;oauth2_proxy&lt;/a&gt;. which is described as &amp;ldquo;a reverse proxy and static file server that provides authentication using Providers (Google, Azure, Facebook, GitHub, and others) to validate accounts by email, domain or group&amp;rdquo;.&lt;/p&gt;
+
+&lt;p&gt;Put simply, it is a completely free and open source Identity-Aware reverse proxy.  It can be deployed to make any web based application accessible via Oauth2 based authentication.  I have configured it for access to the Traefik console of my Kubernetes cluster &lt;a href=&#34;https://traefik.thepishoppe.com&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&#34;abandoning-the-castle&#34;&gt;Abandoning the Castle&lt;/h3&gt;
+
+&lt;p&gt;Isn&amp;rsquo;t it time all companies decide to live &amp;ldquo;outside the wall&amp;rdquo;?&lt;/p&gt;
+
+&lt;h4 id=&#34;references&#34;&gt;References&lt;/h4&gt;
+
+&lt;p&gt;&lt;span class=&#34;sources&#34;&gt;
+&lt;a href=&#34;https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/43231.pdf&#34;&gt;BeyondCorp&lt;/a&gt;&lt;br&gt;
+&lt;a href=&#34;https://cloud.google.com/beyondcorp/&#34;&gt;A new approach to enterprise security&lt;/a&gt;&lt;br&gt;
+&lt;a href=&#34;https://github.com/bitly/oauth2_proxy&#34;&gt;Bitly&amp;rsquo;s Oauth2 Proxy&lt;/a&gt;&lt;br&gt;
+&lt;a href=&#34;https://www.beyondcorp.com/&#34;&gt;BeyondCorp&lt;/a&gt;
+&lt;/span&gt;&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>The Man Least Likely to Succeed in Politics</title>
@@ -116,22 +257,22 @@
 
 &lt;p&gt;However, people are not randomly wrong. Presented with someone else’s argument, we’re usually quite adept at spotting the weaknesses. Almost invariably, the positions we’re blind about are our own.&lt;/p&gt;
 
-&lt;h4 id=&#34;sources&#34;&gt;Sources&lt;/h4&gt;
+&lt;h4 id=&#34;references&#34;&gt;References&lt;/h4&gt;
 
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.bbc.com/news/technology-38724082&#34;&gt;BBC: Massive networks of fake accounts found on Twitter&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.nbcnews.com/business/1-10-twitter-accounts-fake-say-researchers-2D11655362&#34;&gt;NBC: 1 in 10 Twitter accounts is fake, say researchers&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.process.st/science-of-persuasion/&#34;&gt;What Marketers Can Learn from Trump About The Science of Persuasion&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://qz.com/937590/for-casual-us-readers-the-person-who-shares-a-story-on-social-media-counts-for-more-than-the-actual-news-source/&#34;&gt;Who shares the story, not who reports the news, is what counts for casual readers&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://politicalbots.org/&#34;&gt;politicalbots.org: Project on Algorithms, Computational Propaganda, and Digital Politics&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.nytimes.com/2016/11/18/technology/automated-pro-trump-bots-overwhelmed-pro-clinton-messages-researchers-say.html?_r=0&#34;&gt;NYTimes: Automated Pro-Trump Bots Overwhelmed Pro-Clinton Messages, Researchers Say&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.thedailybeast.com/articles/2016/11/17/how-pro-trump-twitter-bots-spread-fake-news.html&#34;&gt;The Daily Beast: How Pro-Trump Twitter Bots Spread Fake News&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://techcrunch.com/2017/03/19/facebook-will-never-take-responsibility-for-fake-news/&#34;&gt;techcrunch: Facebook continues to be under fire for peddling fake news, but the platform will never take real responsibility.&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.newyorker.com/magazine/2017/02/27/why-facts-dont-change-our-minds&#34;&gt;The New Yorker: Why Facts Don&amp;rsquo;t Change our Minds&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.psy.ohio-state.edu/petty/documents/ncogscale.pdf&#34;&gt;Need for Cognition Scale&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://urban.hunter.cuny.edu/~schram/trumplowinformationvotersfinal.pdf&#34;&gt;The Cognitive and Emotional Sources of Trump Support: The Case of Low-Information Voters&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.washingtonpost.com/news/monkey-cage/wp/2016/11/07/low-information-voters-are-a-crucial-part-of-trumps-support/&#34;&gt;The Washington Post: ‘Low information voters’ are a crucial part of Trump’s support&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
+&lt;p&gt;&lt;span class=&#34;sources&#34;&gt;
+&lt;a href=&#34;http://www.bbc.com/news/technology-38724082&#34;&gt;Massive networks of fake accounts found on Twitter&lt;/a&gt;&lt;br&gt;
+&lt;a href=&#34;http://www.nbcnews.com/business/1-10-twitter-accounts-fake-say-researchers-2D11655362&#34;&gt;1 in 10 Twitter accounts is fake, say researchers&lt;/a&gt;&lt;br&gt;
+&lt;a href=&#34;https://www.process.st/science-of-persuasion/&#34;&gt;What Marketers Can Learn from Trump About The Science of Persuasion&lt;/a&gt;&lt;br&gt;
+&lt;a href=&#34;https://qz.com/937590/for-casual-us-readers-the-person-who-shares-a-story-on-social-media-counts-for-more-than-the-actual-news-source/&#34;&gt;Who shares the story, not who reports the news, is what counts for casual readers&lt;/a&gt;&lt;br&gt;
+&lt;a href=&#34;http://politicalbots.org/&#34;&gt;Project on Algorithms, Computational Propaganda, and Digital Politics&lt;/a&gt;&lt;br&gt;
+&lt;a href=&#34;https://www.nytimes.com/2016/11/18/technology/automated-pro-trump-bots-overwhelmed-pro-clinton-messages-researchers-say.html?_r=0&#34;&gt;Automated Pro-Trump Bots Overwhelmed Pro-Clinton Messages, Researchers Say&lt;/a&gt;&lt;br&gt;
+&lt;a href=&#34;http://www.thedailybeast.com/articles/2016/11/17/how-pro-trump-twitter-bots-spread-fake-news.html&#34;&gt;How Pro-Trump Twitter Bots Spread Fake News&lt;/a&gt;&lt;br&gt;
+&lt;a href=&#34;https://techcrunch.com/2017/03/19/facebook-will-never-take-responsibility-for-fake-news/&#34;&gt;Facebook under fire for fake news, but the platform will never take real responsibility.&lt;/a&gt;&lt;br&gt;
+&lt;a href=&#34;http://www.newyorker.com/magazine/2017/02/27/why-facts-dont-change-our-minds&#34;&gt;Why Facts Don&amp;rsquo;t Change our Minds&lt;/a&gt;&lt;br&gt;
+&lt;a href=&#34;http://www.psy.ohio-state.edu/petty/documents/ncogscale.pdf&#34;&gt;Need for Cognition Scale&lt;/a&gt;&lt;br&gt;
+&lt;a href=&#34;http://urban.hunter.cuny.edu/~schram/trumplowinformationvotersfinal.pdf&#34;&gt;Sources of Trump Support: The Case of Low-Information Voters&lt;/a&gt;&lt;br&gt;
+&lt;a href=&#34;https://www.washingtonpost.com/news/monkey-cage/wp/2016/11/07/low-information-voters-are-a-crucial-part-of-trumps-support/&#34;&gt;‘Low information voters’ are a crucial part of Trump’s support&lt;/a&gt;&lt;br&gt;
+&lt;/span&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -731,32 +872,6 @@ He would pick it until he tripped the detector mechanism, causing the lock to se
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;http://www.whitehouse.gov/net-neutrality&#34;&gt;White House - President Obama&amp;rsquo;s Plan for a Free and Open Internet&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-    </item>
-    
-    <item>
-      <title>USA&#39;s Digital Playbook</title>
-      <link>https://danstroot.com/2014/08/12/usas-digital-playbook/</link>
-      <pubDate>Tue, 12 Aug 2014 10:00:00 +0000</pubDate>
-      
-      <guid>https://danstroot.com/2014/08/12/usas-digital-playbook/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;https://danstroot.com/img/USDS_Playbook.png&#34; alt=&#34;Digital Playbook&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;The White House announced on Monday, August 11th 2014, that it is formally launching a new U.S. Digital Service and that it has hired Mikey Dickerson to lead it.  Mickey Dickerson is an engineer widely credited with playing a central role in salvaging HealthCare.gov. The idea behind the USDS is institutionalizing the approach that saved the US health care website.
-&lt;/p&gt;
-
-&lt;p&gt;USDS is launching with a pair of foundational texts: &lt;a href=&#34;https://playbook.cio.gov/&#34;&gt;A Digital Services Playbook&lt;/a&gt; with 13 key &amp;lsquo;plays&amp;rsquo;&amp;rdquo; for implementing digital government and a &lt;a href=&#34;https://github.com/WhiteHouse/playbook/blob/gh-pages/_includes/techfar-online.md&#34;&gt;TechFAR Handbook&lt;/a&gt; to advise agencies on how to take a more agile approach to federal contracting and procurement.&lt;/p&gt;
-
-&lt;p&gt;As I read through the digital playbook I was struck by the fact that it&amp;rsquo;s full of common sense, elegantly designed, has clear navigation, and is responsive to any device you choose to view it upon. In other words it is nothing like any official government documentation I have ever seen before.  Oh, and it&amp;rsquo;s hosted on GitHub.&lt;/p&gt;
-
-&lt;p&gt;The playbook is basically applied common sense and smart best practices from silicon valley.  In other words &amp;ldquo;it works&amp;rdquo; because it&amp;rsquo;s the same playbook employed by web giants like Google, Facebook and Twitter and nearly all web startups.&lt;/p&gt;
-
-&lt;p&gt;As a CIO I think the playbook should really be &lt;strong&gt;everyone&amp;rsquo;s&lt;/strong&gt; playbook - it&amp;rsquo;s very good and worth a read.&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Sources:&lt;/em&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.washingtonpost.com/blogs/the-switch/wp/2014/08/11/white-house-launches-u-s-digital-service-with-healthcare-gov-fixer-at-the-helm/&#34;&gt;White House launches ‘U.S. Digital Service,’ with HealthCare.gov fixer at the helm&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</description>
     </item>
     

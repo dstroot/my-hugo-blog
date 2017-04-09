@@ -104,17 +104,19 @@ Once a voter has been "sold", or converted, then “confirmation bias" takes ove
 
 However, people are not randomly wrong. Presented with someone else’s argument, we’re usually quite adept at spotting the weaknesses. Almost invariably, the positions we’re blind about are our own.
 
-#### Sources
+#### References
 
-* [BBC: Massive networks of fake accounts found on Twitter](http://www.bbc.com/news/technology-38724082)
-* [NBC: 1 in 10 Twitter accounts is fake, say researchers](http://www.nbcnews.com/business/1-10-twitter-accounts-fake-say-researchers-2D11655362)
-* [What Marketers Can Learn from Trump About The Science of Persuasion](https://www.process.st/science-of-persuasion/)
-* [Who shares the story, not who reports the news, is what counts for casual readers](https://qz.com/937590/for-casual-us-readers-the-person-who-shares-a-story-on-social-media-counts-for-more-than-the-actual-news-source/)
-* [politicalbots.org: Project on Algorithms, Computational Propaganda, and Digital Politics](http://politicalbots.org/)
-* [NYTimes: Automated Pro-Trump Bots Overwhelmed Pro-Clinton Messages, Researchers Say](https://www.nytimes.com/2016/11/18/technology/automated-pro-trump-bots-overwhelmed-pro-clinton-messages-researchers-say.html?_r=0)
-* [The Daily Beast: How Pro-Trump Twitter Bots Spread Fake News](http://www.thedailybeast.com/articles/2016/11/17/how-pro-trump-twitter-bots-spread-fake-news.html)
-* [techcrunch: Facebook continues to be under fire for peddling fake news, but the platform will never take real responsibility.](https://techcrunch.com/2017/03/19/facebook-will-never-take-responsibility-for-fake-news/)
-* [The New Yorker: Why Facts Don't Change our Minds](http://www.newyorker.com/magazine/2017/02/27/why-facts-dont-change-our-minds)
-* [Need for Cognition Scale](http://www.psy.ohio-state.edu/petty/documents/ncogscale.pdf)
-* [The Cognitive and Emotional Sources of Trump Support: The Case of Low-Information Voters](http://urban.hunter.cuny.edu/~schram/trumplowinformationvotersfinal.pdf)
-* [The Washington Post: ‘Low information voters’ are a crucial part of Trump’s support](https://www.washingtonpost.com/news/monkey-cage/wp/2016/11/07/low-information-voters-are-a-crucial-part-of-trumps-support/)
+<span class="sources">
+[Massive networks of fake accounts found on Twitter](http://www.bbc.com/news/technology-38724082)<br>
+[1 in 10 Twitter accounts is fake, say researchers](http://www.nbcnews.com/business/1-10-twitter-accounts-fake-say-researchers-2D11655362)<br>
+[What Marketers Can Learn from Trump About The Science of Persuasion](https://www.process.st/science-of-persuasion/)<br>
+[Who shares the story, not who reports the news, is what counts for casual readers](https://qz.com/937590/for-casual-us-readers-the-person-who-shares-a-story-on-social-media-counts-for-more-than-the-actual-news-source/)<br>
+[Project on Algorithms, Computational Propaganda, and Digital Politics](http://politicalbots.org/)<br>
+[Automated Pro-Trump Bots Overwhelmed Pro-Clinton Messages, Researchers Say](https://www.nytimes.com/2016/11/18/technology/automated-pro-trump-bots-overwhelmed-pro-clinton-messages-researchers-say.html?_r=0)<br>
+[How Pro-Trump Twitter Bots Spread Fake News](http://www.thedailybeast.com/articles/2016/11/17/how-pro-trump-twitter-bots-spread-fake-news.html)<br>
+[Facebook under fire for fake news, but the platform will never take real responsibility.](https://techcrunch.com/2017/03/19/facebook-will-never-take-responsibility-for-fake-news/)<br>
+[Why Facts Don't Change our Minds](http://www.newyorker.com/magazine/2017/02/27/why-facts-dont-change-our-minds)<br>
+[Need for Cognition Scale](http://www.psy.ohio-state.edu/petty/documents/ncogscale.pdf)<br>
+[Sources of Trump Support: The Case of Low-Information Voters](http://urban.hunter.cuny.edu/~schram/trumplowinformationvotersfinal.pdf)<br>
+[‘Low information voters’ are a crucial part of Trump’s support](https://www.washingtonpost.com/news/monkey-cage/wp/2016/11/07/low-information-voters-are-a-crucial-part-of-trumps-support/)<br>
+</span>

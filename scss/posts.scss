@@ -18,15 +18,15 @@
   color: $black;
 }
 
-// .post-content > p > a,
-// .post-content > li > a {
-//   font-weight: 500;
-//   // outline-width: 0;
-//   color: #818181;
-//   text-decoration: none;
-//   border-bottom: 1px dotted;  // from the link style on http://www.briangardner.com/
-//   border-bottom-color: inherit;
-// }
+.post-content > p > a,
+.post-content > li > a {
+  font-weight: 500;
+  // // outline-width: 0;
+  // color: #818181;
+  text-decoration: none;
+  border-bottom: 1px dotted;  // from the link style on http://www.briangardner.com/
+  border-bottom-color: inherit;
+}
 
 // Blog post or page title
 .page-title,
