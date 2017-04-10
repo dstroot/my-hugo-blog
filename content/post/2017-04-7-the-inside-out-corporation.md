@@ -24,7 +24,7 @@ These are the most sensitive and private things I can imagine, and I can do thes
 
 ### So why do corporate networks still exist?
 
-Most companies still have a separate corporate network, protected by firewalls, intrusion prevention/detection, dedicated administrators, VPNs, etc. Why is it that can can I access information which is the most important, private, and precious to me, from any computer, via any network, **without all that extra cost, overhead, and effort**?
+Most companies still have a separate corporate network, protected by firewalls, intrusion prevention/detection, dedicated administrators, VPNs, etc. Why is it that I can access information which is the most important, private, and precious to me, from any computer, via any network, **without all that extra cost, complexity, overhead, and effort?**
 
 <!--more-->
 
