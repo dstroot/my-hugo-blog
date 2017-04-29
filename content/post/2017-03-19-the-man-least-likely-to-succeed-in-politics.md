@@ -98,6 +98,8 @@ Bots can also be used to silence people with opposing views.  An automated army 
 
 The bots targeted people by a hashtag symbol, like #Clinton. Their purpose: to rant, confuse people on facts, or simply muddy discussions, said Philip N. Howard, a sociologist at the Oxford Internet Institute and one of the authors of the report. In some cases, the bots would post embarrassing photos, make references to the Federal Bureau of Investigation inquiry into Mrs. Clinton’s private email server, or produce false statements, for instance, that Mrs. Clinton was about to go to jail or was already in jail.
 
+*UPDATE 04/29/2017:* [Facebook has published](https://fbnewsroomus.files.wordpress.com/2017/04/facebook-and-information-operations-v1.pdf) how clusters of fake accounts were used to disseminate and amplify "fake news" during the 2016 election cycle.  
+
 ### Closing the Deal
 
 Once a voter has been "sold", or converted, then “confirmation bias" takes over. Confirmation bias is the tendency people have to embrace information that supports their beliefs and reject information that contradicts them. Of the many forms of faulty thinking that have been identified, confirmation bias is among the best catalogued; it’s the subject of entire textbooks’ worth of experiments. If reason is designed to generate sound judgments, then it’s hard to conceive of a more serious design flaw than confirmation bias. 
@@ -119,4 +121,6 @@ However, people are not randomly wrong. Presented with someone else’s argument
 [Need for Cognition Scale](http://www.psy.ohio-state.edu/petty/documents/ncogscale.pdf)<br>
 [Sources of Trump Support: The Case of Low-Information Voters](http://urban.hunter.cuny.edu/~schram/trumplowinformationvotersfinal.pdf)<br>
 [‘Low information voters’ are a crucial part of Trump’s support](https://www.washingtonpost.com/news/monkey-cage/wp/2016/11/07/low-information-voters-are-a-crucial-part-of-trumps-support/)<br>
+[Information Operations
+and Facebook](https://fbnewsroomus.files.wordpress.com/2017/04/facebook-and-information-operations-v1.pdf)
 </span>

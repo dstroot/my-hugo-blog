@@ -2,12 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Blog</title>
-    <link>https://danstroot.com/post/index.xml</link>
+    <link>https://danstroot.com/post/</link>
     <description>Recent content in Posts on Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 10 Apr 2017 10:25:35 -0800</lastBuildDate>
-    <atom:link href="https://danstroot.com/post/index.xml" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="https://danstroot.com/post/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>The Inside-Out Corporation</title>
@@ -33,140 +35,7 @@
 
 &lt;p&gt;Most companies still have a separate corporate network, protected by firewalls, intrusion prevention/detection, dedicated administrators, VPNs, etc. Why is it that I can access information which is the most important, private, and precious to me, from any computer, via any network, &lt;strong&gt;without all that extra cost, complexity, overhead, and effort?&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;/p&gt;
-
-&lt;p&gt;Even before the Internet, there were corporate networks.  These networks were designed the way medieval castles were designed; as fortresses. They were designed to keep the unwanted out, using a heavily fortified gate (e.g. a firewall - a single point of ingress and egress).  Anyone outside is considered dangerous, and anyone inside is trusted.  However, anyone who makes it past the drawbridge has the run of the place.&lt;/p&gt;
-
-&lt;p&gt;New technology emerged against medieval defenses - scaling ladders; battering rams; siege towers and various types of catapults including the trebuchet. However, the main reason that the medieval castle approach failed was it became impossible to keep expanding a stone perimeter around a growing population.  Eventually people had to live &amp;ldquo;outside the wall&amp;rdquo;.&lt;/p&gt;
-
-&lt;h3 id=&#34;introducing-the-inside-out-corporation&#34;&gt;Introducing the &amp;ldquo;Inside Out&amp;rdquo; corporation&lt;/h3&gt;
-
-&lt;p&gt;Imagine a company that eliminates the traditional corporate network by turning &amp;ldquo;inside out&amp;rdquo; and making &lt;strong&gt;all of it&amp;rsquo;s systems and applications available directly over the Internet&lt;/strong&gt;.  No more corporate network, no more employee VPNs. In other words, no more castle wall - instead employees live &amp;ldquo;outside the wall&amp;rdquo;, much like people in modern cities.&lt;/p&gt;
-
-&lt;p&gt;Access depends solely on device and user credentials, regardless of a user’s network location — whether it is an enterprise location, a home network, a hotel, or a coffee shop.  As a result, all employees, contractors, consultants, etc. can work productively and securely from any network without the need for a traditional VPN connection into a privileged corporate network. Even the concept of local vs. remote access goes away because &lt;strong&gt;the user experience is identical&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;h4 id=&#34;the-results&#34;&gt;The results:&lt;/h4&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Better security&lt;/strong&gt;. Because &lt;strong&gt;each service is secured and hardened&lt;/strong&gt;. This approach forces application security to be truly effective and not &amp;ldquo;security theater&amp;rdquo;. When an attacker breaches a corporate network they may find very few internal connections are encrypted and packets can be sniffed easily - and internal services vulnerable to attack. This is called &amp;ldquo;Tootsie Pop&amp;rdquo; security - a hard outer shell and soft on the inside. However, using the inside-out model it would be difficult to breach even one service.  Delivering services over the Internet requires &lt;strong&gt;each connection to be secured by end-to-end encryption&lt;/strong&gt; via Transport Layer Security (TLS).&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Lower costs&lt;/strong&gt;. Lets make a couple simplifying assumptions.  First, let&amp;rsquo;s assume that eliminating the corporate network saves money. Let&amp;rsquo;s also assume that making applications hardened so that they can be exposed to the Internet requires additional investment.  For the sake of argument let&amp;rsquo;s assume these costs offset each other (although later I will show how a &amp;ldquo;smart&amp;rdquo; reverse proxy could eliminate the need to change internal applications). If these costs offset why is it still less expensive?
-
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Lower Risk&lt;/strong&gt; - Lower risk = lower cost. Securing a network is done to prevent information leakage. Put another way, companies evaluate the cost of security &lt;strong&gt;relative&lt;/strong&gt; to the costs of a breach.  If the risk of a breach is reduced, then the potential cost to a company is also reduced.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Higher Productivity&lt;/strong&gt; - It cannot be stated strongly enough how even small barriers of time add up to large costs. If it takes an employee 3 minutes to log in via a VPN before they can be productive the cost is not just three minutes of their time, rather it is the risk that they may not log in remotely &lt;strong&gt;at all&lt;/strong&gt;.  Those extra few minutes cause employees to think &amp;ldquo;I&amp;rsquo;ll just do this tomorrow when I&amp;rsquo;m in the office&amp;rdquo;.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Lower Business Continuity Costs&lt;/strong&gt; - Business continuity becomes cheaper.  If employees can work from anywhere then the need for specialized business continuity support for employees goes away.&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Lower Technology Costs over Time&lt;/strong&gt; - The Internet is the most reliable technology ever created, and it is arguably the best value. It is nearly free and higher bandwidth costs less every year. The cost of deploying corporate applications over the Internet is only going to decrease over time, while the cost of managing and defending a corporate network is only going to increase.&lt;br /&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;google-calls-the-inside-out-corporation-beyondcorp&#34;&gt;Google calls the Inside-Out corporation &amp;ldquo;BeyondCorp&amp;rdquo;&lt;/h3&gt;
-
-&lt;h4 id=&#34;google-s-beyondcorp-mission-2011-2017&#34;&gt;Google’s BeyondCorp Mission (2011-2017)&lt;/h4&gt;
-
-&lt;p&gt;To have every Google employee work successfully from untrusted networks without use of a VPN.&lt;/p&gt;
-
-&lt;h4 id=&#34;beyondcorp-principles&#34;&gt;BeyondCorp Principles&lt;/h4&gt;
-
-&lt;p&gt;Connecting from a particular network must not determine which services you can access.
-Access to services is granted based on what we know about you and your device.
-All access to services must be authenticated, authorized and encrypted.&lt;/p&gt;
-
-&lt;h4 id=&#34;high-level-components-of-beyondcorp&#34;&gt;High-level Components of BeyondCorp&lt;/h4&gt;
-
-&lt;ul&gt;
-&lt;li&gt;User inventory&lt;/li&gt;
-&lt;li&gt;Device inventory&lt;/li&gt;
-&lt;li&gt;Security policy&lt;/li&gt;
-&lt;li&gt;Trust repository&lt;/li&gt;
-&lt;li&gt;Access control engine&lt;/li&gt;
-&lt;li&gt;Single sign-on&lt;/li&gt;
-&lt;li&gt;Identity-aware access proxy&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Google first wrote about the concepts behind the BeyondCorp initiative in 2014, in a paper titled &lt;a href=&#34;https://www.beyondcorp.com/pdf/43231.pdf&#34;&gt;BeyondCorp: A New Approach to Enterprise Security&lt;/a&gt;. They wrote a follow up paper in 2016 titled &lt;a href=&#34;https://www.beyondcorp.com/pdf/44860.pdf&#34;&gt;BeyondCorp: Design to Deployment at Google&lt;/a&gt; that detailed their migration path and findings along the way. A third paper titled &lt;a href=&#34;https://www.beyondcorp.com/pdf/45728.pdf&#34;&gt;BeyondCorp: The Access Proxy&lt;/a&gt; goes into detail about a key component of the solution.&lt;/p&gt;
-
-&lt;p&gt;BeyondCorp is now &lt;strong&gt;used by most Googlers every day!&lt;/strong&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;how-to-turn-your-company-inside-out&#34;&gt;How to turn Your company &amp;ldquo;Inside-Out&amp;rdquo;&lt;/h3&gt;
-
-&lt;p&gt;As consumers of internet services we understand how to access web sites securely. However many of us struggle with too many different user IDs and passwords. Yet, most of us are familiar with the experience of logging in to one service like Netflix, via an identity and authorization provider like Facebook. Imagine logging into all your services and sites via a single identity!&lt;/p&gt;
-
-&lt;p&gt;Google implements Single Sign On via &lt;a href=&#34;https://accounts.google.com&#34;&gt;https://accounts.google.com&lt;/a&gt;. Once you are logged in, you will be able to access all your Google services like Gmail, YouTube, and Google Docs without entering your credentials again. Imagine having the same experience but with all your company applications.&lt;/p&gt;
-
-&lt;p&gt;In order to become an &amp;ldquo;Inside Out&amp;rdquo; company the most important thing is an effective &lt;strong&gt;identity management/single-sign on architecture&lt;/strong&gt; and the second is an &lt;strong&gt;identity-aware access proxy&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;h4 id=&#34;identity-management-federation-and-single-sign-on&#34;&gt;Identity Management, Federation and Single sign-on&lt;/h4&gt;
-
-&lt;p&gt;The first thing needed is the ability to manage users and authorize those users to access corporate applications.  This requires:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Unified Directory&lt;/strong&gt;. We must begin with &lt;strong&gt;a single repository of all users and user data&lt;/strong&gt;. Companies may have many sources of user data, with none of them actually being the superset of all user data.  We need the ability to synchronize users with any number of directories, such as Active Directory, LDAP-based directories, Workday, or Google Apps.&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Simple Authorization Management&lt;/strong&gt; - It needs to be simple to grant a user in a specific department, with a defined role, access to the applications they need.  This should be driven by HR meta-data so security and application access policies can be applied automatically.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Here are some of the companies that specialize in turning organizations &amp;ldquo;inside-out&amp;rdquo;:&lt;/p&gt;
-
-&lt;table&gt;
-  &lt;tr&gt;
-    &lt;td&gt;&lt;a href=&#34;https://auth0.com/&#34;&gt;&lt;img src=&#34;https://danstroot.com/img/auth0_logo.png&#34; alt=&#34;Auth0&#34; class=&#34;img-responsive&#34; width=&#34;150&#34;&gt;&lt;/a&gt;&lt;/td&gt;
-    &lt;td&gt;&lt;a href=&#34;https://www.okta.com/&#34;&gt;&lt;img src=&#34;https://danstroot.com/img/okta_logo.svg&#34; alt=&#34;Okta&#34; class=&#34;img-responsive&#34; width=&#34;150&#34;&gt;&lt;/a&gt;&lt;/td&gt;
-  &lt;/tr&gt;
-  &lt;tr&gt;
-    &lt;td&gt;&lt;a href=&#34;https://www.onelogin.com/&#34;&gt;&lt;img src=&#34;https://danstroot.com/img/onelogin_logo.png&#34; alt=&#34;Onelogin&#34; class=&#34;img-responsive&#34; width=&#34;150&#34;&gt;&lt;/a&gt;&lt;/td&gt;
-    &lt;td&gt;&lt;a href=&#34;https://www.pingidentity.com/en.html&#34;&gt;&lt;img src=&#34;https://danstroot.com/img/ping_logo.png&#34; alt=&#34;Ping Identity&#34; class=&#34;img-responsive&#34; width=&#34;150&#34;&gt;&lt;/a&gt;&lt;/td&gt;
-  &lt;/tr&gt;
-&lt;/table&gt;
-
-&lt;p&gt;Interest in this space is increasing rapidly. On Friday, April 7th, Okta went public and their shares jumped more than 38 percent!&lt;/p&gt;
-
-&lt;h4 id=&#34;identity-aware-access-proxy&#34;&gt;Identity-Aware Access Proxy&lt;/h4&gt;
-
-&lt;p&gt;Another key component of BeyondCorp&amp;rsquo;s solution is a fleet of HTTP/HTTPS reverse proxies that used to be called Google Front Ends (GFEs). GFEs initially provided load balancing and TLS handling “as a service.”&lt;/p&gt;
-
-&lt;p&gt;BeyondCorp leverages the GFE as a logically centralized point of access policy enforcement. GFEs were enhanced to provide authentication, authorization, self-service provisioning, and centralized logging. The resulting &amp;ldquo;enhanced GFE&amp;rdquo; is called the Access Proxy (AP).&lt;/p&gt;
-
-&lt;p&gt;As a result, web applications behind the proxy don&amp;rsquo;t have to have any identity or security built into them - it is &amp;ldquo;bolted on&amp;rdquo;, or applied at the reverse proxy layer. Web applications can focus on serving requests and largely ignore the details of how requests are routed to them. &lt;strong&gt;This means corporate web applications can be made available to employees via the Internet with no changes!&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Google has made this &lt;strong&gt;available as a free product&lt;/strong&gt; called the &lt;a href=&#34;https://cloud.google.com/iap/&#34;&gt;Identity-Aware Proxy&lt;/a&gt;.  It works like this:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://danstroot.com/img/iap-lead_2x.png&#34; alt=&#34;Identity-Aware Proxy&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Bitly has also open-sourced a project called &lt;a href=&#34;https://github.com/bitly/oauth2_proxy&#34;&gt;oauth2_proxy&lt;/a&gt;. which is described as &amp;ldquo;a reverse proxy and static file server that provides authentication using Providers (Google, Azure, Facebook, GitHub, and others) to validate accounts by email, domain or group&amp;rdquo;.&lt;/p&gt;
-
-&lt;p&gt;Put simply, it is a completely free and open source Identity-Aware reverse proxy.  It can be deployed to make any web based application accessible via Oauth2 based authentication.  I have configured it to use Github for authentication for access to the Traefik console of my Kubernetes cluster &lt;a href=&#34;https://traefik.thepishoppe.com&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h3 id=&#34;abandoning-the-castle&#34;&gt;Abandoning the castle&lt;/h3&gt;
-
-&lt;p&gt;Google is one the most intelligent companies that exists today when it comes to understanding and managing IT security, and they are aggressively implementing their BeyondCorp &amp;ldquo;Inside-Out&amp;rdquo; model because it makes them more secure.&lt;/p&gt;
-
-&lt;p&gt;Isn&amp;rsquo;t it time all companies decide to live &amp;ldquo;outside the wall&amp;rdquo;?  The corporate perimeter security model is outdated and does not support today&amp;rsquo;s modern mobile and geographically diverse workforce.&lt;/p&gt;
-
-&lt;p&gt;Here are the main components summarized:&lt;/p&gt;
-
-&lt;div class=&#34;row text-center&#34;&gt;
-    &lt;div class=&#34;col-xs-12 col-md-4&#34;&gt;
-        &lt;h4 class=&#34;w700&#34;&gt;&lt;i class=&#34;fa fa-users&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt; Unified User Directory and Centralized Access Controls&lt;/h4&gt;
-        &lt;p&gt;We must have a single, unified repository of all users and user data and simple ways to control access to corporate applications.&lt;/p&gt;
-    &lt;/div&gt;
-  &lt;div class=&#34;col-xs-12 col-md-4&#34;&gt;
-    &lt;h4 class=&#34;w700&#34;&gt;&lt;i class=&#34;fa fa-exchange&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt; Identity-Aware Proxy&lt;/h4&gt;
-    &lt;p&gt;A &#34;smart&#34; reverse proxy is placed in front of internal applications, where policies handle authentication and authorization in a consistent manner. The proxy is controlled through our Unified Directory and access controls.&lt;/p&gt;
-  &lt;/div&gt;
-  &lt;div class=&#34;col-xs-12 col-md-4&#34;&gt;
-    &lt;h4 class=&#34;w700&#34;&gt;&lt;i class=&#34;fa fa-globe&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt; Perimeterless Architecture/Zero Trust&lt;/h4&gt;
-    &lt;p&gt;By making internal applications public facing, there is no longer the concept of a privileged network as the primary gatekeeper. Every connection is encrypted, and every request is authenticated and authorized based on changes in user status and device state dynamically.&lt;/p&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;h4 id=&#34;references&#34;&gt;References&lt;/h4&gt;
-
-&lt;p&gt;&lt;span class=&#34;sources&#34;&gt;
-&lt;a href=&#34;https://cloud.google.com/beyondcorp/&#34;&gt;BeyondCorp: A new approach to enterprise security&lt;/a&gt;&lt;br&gt;
-&lt;a href=&#34;https://threatpost.com/no-firewalls-no-problem-for-google/123748/&#34;&gt;No Firewalls, No Problem for Google&lt;/a&gt;&lt;br&gt;
-&lt;a href=&#34;https://dzone.com/articles/fundamentals-of-the-beyondcorp-zero-trust-security&#34;&gt;Fundamentals of the BeyondCorp ‘Zero-Trust’ Security Framework&lt;/a&gt;&lt;br&gt;
-&lt;a href=&#34;http://blog.code42.com/google-beyondcorp-leads-the-way-out-of-the-castle-to-the-cloud/&#34;&gt;Google leads the way out of the castle to the cloud&lt;/a&gt;&lt;br&gt;
-&lt;a href=&#34;https://github.com/bitly/oauth2_proxy&#34;&gt;Bitly&amp;rsquo;s Oauth2 Proxy&lt;/a&gt;&lt;br&gt;
-&lt;/span&gt;&lt;/p&gt;</description>
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -179,119 +48,7 @@ All access to services must be authenticated, authorized and encrypted.&lt;/p&gt
 
 &lt;p&gt;Dick Nixon understood that getting the smart, popular kids to vote for you didn&amp;rsquo;t matter. He called the popular kids &amp;ldquo;Franklins&amp;rdquo; and he called his kind the &amp;ldquo;Orthogonians&amp;rdquo;.  Nixon discovered that being hated by the &amp;ldquo;Franklins&amp;rdquo; was no impediment to political success.&lt;/p&gt;
 
-&lt;p&gt;&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;Franklins were well-rounded, graceful, moved smoothly, talked slickly. Nixon’s new club, the Orthogonians, was for the strivers, those not to the manner born, the commuter students like him. He persuaded his fellows that reveling in one’s unpolish was a nobility of its own&amp;hellip;&lt;/p&gt;
-
-&lt;p&gt;The Orthogonians’ base was among Whittier’s athletes. On the surface, jocks seem natural Franklins, the Big Men on Campus. But Nixon always had a gift for looking under social surfaces to see and exploit the subterranean truths that roiled underneath. It was an eminently Nixonian insight: that on every sports team there are only a couple of stars, and that if you want to win the loyalty of the team for yourself, the surest, if least glamorous, strategy is to concentrate on the nonspectacular—silent—majority. The ones who labor quietly, sometimes resentfully, in the quarterback’s shadow: the linemen, the guards, the punter. Nixon himself was exemplarily nonspectacular: the 150-pounder was the team’s tackle dummy, kept on squad by a loving, tough, and fatherly coach who appreciated Nixon’s unceasing grit&amp;hellip;&lt;/p&gt;
-
-&lt;p&gt;Nixon beat a Franklin for student body president. Looking back later, acquaintances marveled at the feat of this awkward, skinny kid the yearbook called “a rather quiet chap about campus,” dour and brooding, who couldn’t even win a girlfriend, who attracted enemies, who seemed, a schoolmate recalled, “the man least likely to succeed in politics.” They hadn’t learned what Nixon was learning. Being hated by the right people was no impediment to political success. The unpolished, after all, were everywhere&amp;hellip;&lt;/p&gt;
-
-&lt;p&gt;&lt;cite&gt;&amp;mdash; Rick Perlstein: &amp;ldquo;Nixonland: The Rise of a President and the Fracturing of America&amp;rdquo;&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h3 id=&#34;the-unpolished-after-all-are-everywhere&#34;&gt;The unpolished, after all, are everywhere.&lt;/h3&gt;
-
-&lt;p&gt;Trump reached out to those who are:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Less political&lt;/li&gt;
-&lt;li&gt;Less educated&lt;/li&gt;
-&lt;li&gt;Less suspicious of patently false claims &lt;em&gt;(Mexico will pay for the wall!)&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Less willing to do their research and homework &lt;em&gt;(You mean my healthcare is Obama care?)&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Less tolerant of people of different races&lt;/li&gt;
-&lt;li&gt;Less tolerant of people of different religions&lt;/li&gt;
-&lt;li&gt;Less tolerant of female leadership&lt;/li&gt;
-&lt;li&gt;Less tolerant of &amp;ldquo;tree huggers&amp;rdquo;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;how-do-you-reach-these-people&#34;&gt;How do you reach these people?&lt;/h3&gt;
-
-&lt;p&gt;They no longer read the LA Times, the New York Times, or the Washington Post (many probably never did).  They no longer watch the evening news with Dan Rather.  Rather, they glance up from Snapchat to see who got the rose on The Bachelor.&lt;/p&gt;
-
-&lt;p&gt;Social media is how you reach these people. One consistent theme across both the Trump victory and the Brexit success was their use of advanced marketing techniques. These campaigns utilized the power of emotion to drive their narratives and leveraged the complexities of Big Data to &lt;strong&gt;direct those messages at segmented groups via social media with devastating effect.&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;One connection between the Trump campaign and the Brexit campaign was the alleged involvement of communications firm Cambridge Analytica (CA) – of which allegedly Steve Bannon was formerly chairman of the board.&lt;/p&gt;
-
-&lt;p&gt;Cambridge Analytica uses psychometric profiling to identify potential voters and to inform their approach and rhetoric in reaching them. Psychometrics allows the utilization big data to assess vast numbers of people and construct personality profiles on each person in order to pinpoint individuals most likely to convert.&lt;/p&gt;
-
-&lt;p&gt;Cambridge Analytica claims to have &lt;strong&gt;up to 5,000 data points per person&lt;/strong&gt; – and they’re talking about almost every person in the United States, plus many more worldwide.&lt;/p&gt;
-
-&lt;h3 id=&#34;how-do-you-build-a-profile-of-a-person&#34;&gt;How do you build a profile of a person?&lt;/h3&gt;
-
-&lt;p&gt;Interestingly, by studying a person&amp;rsquo;s Facebook &amp;ldquo;likes&amp;rdquo; researchers can know them better than their spouse. Michael Kosinski, when researching at Cambridge University, created an experiment where he posted a free-to-access psychometric test online to gather small amounts of data to inform his data analysis. This test went viral on Facebook and Kosinski was able to draw some powerful conclusions from his study.&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;“Kosinski continued to work on the models incessantly: before long, he was able to evaluate a person better than the average work colleague, merely on the basis of ten Facebook “likes.” &lt;strong&gt;Seventy “likes” were enough to outdo what a person’s friends knew, 150 what their parents knew, and 300 “likes” what their partner knew.&lt;/strong&gt; More “likes” could even surpass what a person thought they knew about themselves.”&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;With 170 likes per person, Kosinski’s methods were able to predict the following attributes with the connected rates of accuracy.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://danstroot.com/img/Facebook-research.png&#34; alt=&#34;Kosinski Research&#34; /&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;can-this-information-be-used-to-influence-voters&#34;&gt;Can this information be used to influence voters?&lt;/h3&gt;
-
-&lt;p&gt;One psychometric framework is known as The Big Five, or OCEAN.  This approach is centered around summarizing an individual’s personality through relation to five key categories:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://danstroot.com/img/ocean.png&#34; alt=&#34;OCEAN&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;We know this methodology is employed by Cambridge Analytica as their CEO Alexander Nix is pictured here below giving a presentation with the Big Five methodology taking center stage as one of the ways of understanding data.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://danstroot.com/img/Nix-presenting-research.png&#34; alt=&#34;Alexander Nix&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;A politician in a US election needs to appeal to more than 65 million people in order to win the election. You need to find people susceptible to your product or message and be able to convert them. This is where the psychometric emotional mapping techniques offered through the Big Five methodology can help.&lt;/p&gt;
-
-&lt;h4 id=&#34;the-need-for-cognition-scale&#34;&gt;The Need for Cognition Scale&lt;/h4&gt;
-
-&lt;p&gt;Another method to target voters is called the &lt;a href=&#34;http://www.psy.ohio-state.edu/petty/documents/ncogscale.pdf&#34;&gt;Need for Cognition Scale&lt;/a&gt;.  This method is used in psychometrics to measure “the extent to which individuals are inclined towards effortful cognitive activities”, or feel “a need to understand and make reasonable the experiential world”.&lt;/p&gt;
-
-&lt;p&gt;This scale is used to understand how big an impact emotions make upon an individual’s decision-making process. Persons &lt;strong&gt;low&lt;/strong&gt; on the Need for Cognition Scale &lt;strong&gt;tend to form their opinions based heavily on emotion.&lt;/strong&gt;&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;Our research finds that Trump has attracted a disproportionate (and unprecedented) number of “low-information voters” to his campaign. Furthermore, these voters are more likely to respond to emotional appeals — whether about the economy, immigration, Muslims, racial relations, sexism, and even hostility to the first African American U.S. president, Barack Obama. They are the ideal constituency for a candidate like Trump.&lt;/p&gt;
-
-&lt;p&gt;We define low-information voters as those who do not know certain basic facts about government and lack what psychologists call a “need for cognition.” Those with a high need for cognition have a positive attitude toward tasks that require reasoning and effortful thinking and are, therefore, more likely to invest the time and resources to do so when evaluating complex issues. Those with a low need for cognition, on the other hand, find little reward in the collection and evaluation of new information when it comes to problem solving and the consideration of competing issue positions. They are more likely to rely on cognitive shortcuts, such as “experts” or other opinion leaders, for cues.&lt;/p&gt;
-
-&lt;p&gt;&lt;div class=&#34;bqfoot&#34;&gt;&lt;cite&gt;&amp;mdash; Richard Fording and Sanford Schram: &amp;ldquo;‘Low information voters’ are a crucial part of Trump’s support&amp;rdquo;, Washington Post, November 7, 2016&lt;/div&gt;&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Voters who score poorly on the Need for Cognition Scale &lt;strong&gt;are easier targets to sell political ideas to.&lt;/strong&gt; They are the easiest group of floating voters to target and capture based on a emotional message, delivered or shared by somebody they trust.&lt;/p&gt;
-
-&lt;h3 id=&#34;can-social-media-be-weaponized-to-exploit-targeted-voters&#34;&gt;Can Social Media be &amp;ldquo;weaponized&amp;rdquo; to exploit targeted voters?&lt;/h3&gt;
-
-&lt;p&gt;We know there are millions of fake accounts and highly active bots on all the social media platforms. Since these companies are valued by the number of accounts they have, or the number of accounts acquired, or &amp;ldquo;active users&amp;rdquo;, they have little incentive to block the creation of fake accounts and activity bots.&lt;/p&gt;
-
-&lt;p&gt;Italian security researchers Andrea Stroppa and Carlo De Micheli, in a report released four years ago, in 2013, claimed that they found 20 million fake accounts for sale on Twitter. Jason Ding, a research scientist at Barracuda Labs, told NBC News that the number of Twitter accounts that were fake was &amp;ldquo;at least 10 percent, maybe more.&amp;rdquo; Twitter, according to The Wall Street Journal, claimed in its Securities and Exchange Commission report that only 5 percent of its accounts were fake.&lt;/p&gt;
-
-&lt;p&gt;The people who run the fake accounts and the bot farms where you can buy followers on Twitter, or likes on Facebook, are no longer selling fake persona, they are now &lt;strong&gt;selling political influence&lt;/strong&gt;. Why buy just buy fake followers on twitter when you can tweet some fake news and have thousands of retweets?&lt;/p&gt;
-
-&lt;p&gt;Bots can also be used to silence people with opposing views.  An automated army of pro-Donald J. Trump chatbots overwhelmed similar programs supporting Hillary Clinton five to one in the days leading up to the presidential election, according to a report published Thursday by researchers at Oxford University.&lt;/p&gt;
-
-&lt;p&gt;The bots targeted people by a hashtag symbol, like #Clinton. Their purpose: to rant, confuse people on facts, or simply muddy discussions, said Philip N. Howard, a sociologist at the Oxford Internet Institute and one of the authors of the report. In some cases, the bots would post embarrassing photos, make references to the Federal Bureau of Investigation inquiry into Mrs. Clinton’s private email server, or produce false statements, for instance, that Mrs. Clinton was about to go to jail or was already in jail.&lt;/p&gt;
-
-&lt;h3 id=&#34;closing-the-deal&#34;&gt;Closing the Deal&lt;/h3&gt;
-
-&lt;p&gt;Once a voter has been &amp;ldquo;sold&amp;rdquo;, or converted, then “confirmation bias&amp;rdquo; takes over. Confirmation bias is the tendency people have to embrace information that supports their beliefs and reject information that contradicts them. Of the many forms of faulty thinking that have been identified, confirmation bias is among the best catalogued; it’s the subject of entire textbooks’ worth of experiments. If reason is designed to generate sound judgments, then it’s hard to conceive of a more serious design flaw than confirmation bias.&lt;/p&gt;
-
-&lt;p&gt;However, people are not randomly wrong. Presented with someone else’s argument, we’re usually quite adept at spotting the weaknesses. Almost invariably, the positions we’re blind about are our own.&lt;/p&gt;
-
-&lt;h4 id=&#34;references&#34;&gt;References&lt;/h4&gt;
-
-&lt;p&gt;&lt;span class=&#34;sources&#34;&gt;
-&lt;a href=&#34;http://www.bbc.com/news/technology-38724082&#34;&gt;Massive networks of fake accounts found on Twitter&lt;/a&gt;&lt;br&gt;
-&lt;a href=&#34;http://www.nbcnews.com/business/1-10-twitter-accounts-fake-say-researchers-2D11655362&#34;&gt;1 in 10 Twitter accounts is fake, say researchers&lt;/a&gt;&lt;br&gt;
-&lt;a href=&#34;https://www.process.st/science-of-persuasion/&#34;&gt;What Marketers Can Learn from Trump About The Science of Persuasion&lt;/a&gt;&lt;br&gt;
-&lt;a href=&#34;https://qz.com/937590/for-casual-us-readers-the-person-who-shares-a-story-on-social-media-counts-for-more-than-the-actual-news-source/&#34;&gt;Who shares the story, not who reports the news, is what counts for casual readers&lt;/a&gt;&lt;br&gt;
-&lt;a href=&#34;http://politicalbots.org/&#34;&gt;Project on Algorithms, Computational Propaganda, and Digital Politics&lt;/a&gt;&lt;br&gt;
-&lt;a href=&#34;https://www.nytimes.com/2016/11/18/technology/automated-pro-trump-bots-overwhelmed-pro-clinton-messages-researchers-say.html?_r=0&#34;&gt;Automated Pro-Trump Bots Overwhelmed Pro-Clinton Messages, Researchers Say&lt;/a&gt;&lt;br&gt;
-&lt;a href=&#34;http://www.thedailybeast.com/articles/2016/11/17/how-pro-trump-twitter-bots-spread-fake-news.html&#34;&gt;How Pro-Trump Twitter Bots Spread Fake News&lt;/a&gt;&lt;br&gt;
-&lt;a href=&#34;https://techcrunch.com/2017/03/19/facebook-will-never-take-responsibility-for-fake-news/&#34;&gt;Facebook under fire for fake news, but the platform will never take real responsibility.&lt;/a&gt;&lt;br&gt;
-&lt;a href=&#34;http://www.newyorker.com/magazine/2017/02/27/why-facts-dont-change-our-minds&#34;&gt;Why Facts Don&amp;rsquo;t Change our Minds&lt;/a&gt;&lt;br&gt;
-&lt;a href=&#34;http://www.psy.ohio-state.edu/petty/documents/ncogscale.pdf&#34;&gt;Need for Cognition Scale&lt;/a&gt;&lt;br&gt;
-&lt;a href=&#34;http://urban.hunter.cuny.edu/~schram/trumplowinformationvotersfinal.pdf&#34;&gt;Sources of Trump Support: The Case of Low-Information Voters&lt;/a&gt;&lt;br&gt;
-&lt;a href=&#34;https://www.washingtonpost.com/news/monkey-cage/wp/2016/11/07/low-information-voters-are-a-crucial-part-of-trumps-support/&#34;&gt;‘Low information voters’ are a crucial part of Trump’s support&lt;/a&gt;&lt;br&gt;
-&lt;/span&gt;&lt;/p&gt;</description>
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -308,32 +65,7 @@ All access to services must be authenticated, authorized and encrypted.&lt;/p&gt
 
 &lt;p&gt;However I recently adopted Google&amp;rsquo;s &lt;a href=&#34;https://github.com/GoogleChrome/lighthouse&#34;&gt;Lighthouse&lt;/a&gt; tool and found that to be exceptionally useful, particularly since it is service worker aware.  As a result this site will now run even when the network connection is severed on your mobile device. (Service workers should be a separate article)&lt;/p&gt;
 
-&lt;p&gt;&lt;/p&gt;
-
-&lt;p&gt;Google has pushed hard to support the unprecedented move to mobile device browsing. In November 2014, Google started labeling sites as “mobile-friendly” to denote which pages are optimized for phones. In February 2015, Google announced plans to roll out mobile ranking changes on April 21 (an unprecedented move — the company almost never announces algorithm changes in advance).&lt;/p&gt;
-
-&lt;p&gt;Recently (May 2016) Google announced it is rolling out an update to mobile search results that “increases the effect” of its mobile-friendly ranking signal. The goal is to “help our users find even more pages that are relevant and mobile-friendly,&amp;ldquo;.&lt;/p&gt;
-
-&lt;p&gt;So it is crystal clear that making your site mobile-friendly will help your rankings, but guess what?  Making your site mobile-friendly makes it a &lt;strong&gt;better experience for everyone, all the time&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;p&gt;Why?&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Performance benefits everyone. Don&amp;rsquo;t waste the time of visitors to your site.&lt;/li&gt;
-&lt;li&gt;Responsiveness benefits everyone.  I rarely if ever have the browser on my laptop at full screen.&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;Making your site handle network issues benefits everyone.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;In other words making your site run well on a phone means it will run great on more capable hardware with more reliable networking and your page ranking will reflect it.&lt;/p&gt;
-
-&lt;h4 id=&#34;references&#34;&gt;References:&lt;/h4&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://testmysite.withgoogle.com&#34;&gt;https://testmysite.withgoogle.com&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/GoogleChrome/lighthouse&#34;&gt;https://github.com/GoogleChrome/lighthouse&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://venturebeat.com/2016/03/16/google-will-start-ranking-mobile-friendly-sites-even-higher-in-may/&#34;&gt;http://venturebeat.com/2016/03/16/google-will-start-ranking-mobile-friendly-sites-even-higher-in-may/&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://developers.google.com/speed/pagespeed/insights/&#34;&gt;https://developers.google.com/speed/pagespeed/insights/&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -386,49 +118,7 @@ All access to services must be authenticated, authorized and encrypted.&lt;/p&gt
 
 &lt;p&gt;We turned to the Internet, but then we all learned the hard way that we can’t trust the Internet. We no longer know what is real and what is fake.  With everything now digital, and with excellent tools to edit audio, video, and photos, we have become skeptics. As soon as we see a viral video on YouTube we immediately say to ourselves “that’s fake”. Every magazine with a beautiful girl on the cover we think to ourselves “Photoshop”. When we read a blog post we think “spin”.&lt;/p&gt;
 
-&lt;p&gt;&lt;/p&gt;
-
-&lt;p&gt;The Internet is filled with anti-vaxxers, World Trade truthers, Kennedy theorists, religious fanatics of all stripes, and people who think that Barack Obama is a foreign-born Muslim. (He&amp;rsquo;s not). Since we no longer trust the news or what we read on the Internet we live in strange and interesting times. Now people are free to believe whatever they want to believe by discounting anything they see that does not align with their beliefs.&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;&amp;ldquo;In the new media landscape, the wall between news and entertainment is crumbling. The value of news is measured by its popularity. The loudest voice gets the most listeners. A lie bears equal weight as a fact.&amp;rdquo;&lt;/p&gt;
-
-&lt;p&gt;&lt;cite&gt;&amp;mdash; Vernon E. Jordan Jr., The Wall Street Journal&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;The big internet platforms, through their algorithms, have become an eye of a needle which news and media must pass through, limiting the content a person sees to that which &lt;strong&gt;already&lt;/strong&gt; conforms to their views. The Internet is becoming one big &amp;ldquo;echo chamber&amp;rdquo; which is designed to filter and shape the information someone sees based on previous searches, as well as information it might have about their location or preferences.&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;“More likely than not, you get your news from Facebook, forty-four per cent of US adults get news on the site, and 61% of millennials … if that doesn’t frighten you, you don’t know enough about Facebook’s algorithm. If you have a parent who’s a Trump supporter, they are seeing a completely different set of news items than you are.&amp;rdquo;&lt;/p&gt;
-
-&lt;p&gt;&lt;cite&gt;&amp;mdash; Caleb Gardner, president Obama’s former social media adviser&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Angela Merkel has joined a growing number of critics who have highlighted the dangers of receiving information that confirms an existing opinion or is recommended by people with similar ideas. Merkel called the issue a “challenge not just for political parties but for society as a whole”.&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;&amp;ldquo;Algorithms, when they are not transparent, can lead to a distortion of our perception, they can shrink our expanse of information.&amp;rdquo;&lt;/p&gt;
-
-&lt;p&gt;&lt;cite&gt;&amp;mdash; Angela Merkel, Chancellor of Germany&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;“Repeat a lie often enough and it becomes the truth”, is a law of propaganda often attributed to the Nazi Joseph Goebbels. Among psychologists this is known as the &amp;ldquo;illusion of truth&amp;rdquo; effect. Because we need to make quick judgements, we adopt mental shortcuts called heuristics. Relying on how often you&amp;rsquo;ve heard something to judge how truthful something feels is a heuristic strategy we all use. If we are only shown the news and information we choose to see, we are all reinforcing our own cognitive biases.&lt;/p&gt;
-
-&lt;p&gt;Is our increasingly polarized country due going to get even worse because we are only fed the information we want to see, and conflicting information is filtered from view? Are the UK&amp;rsquo;s &amp;ldquo;Brexit&amp;rdquo; movement and the USA&amp;rsquo;s Donald Trump just the beginning?&lt;/p&gt;
-
-&lt;p&gt;Donald Trump bypassed the old media gatekeepers and took his message straight to the electorate, using Twitter. Partisan websites and bloggers amplified his message. Mainstream television gave the candidate abundant free airtime, because his behavior was &amp;ldquo;entertaining&amp;rdquo;.&lt;/p&gt;
-
-&lt;p&gt;Yes, all candidates have equal access to technology, and of course we all have the freedom to listen to news and information the comfortably fits our views of the world. But isn&amp;rsquo;t a a healthy democracy dependent on people being confronted by opposing ideas?&lt;/p&gt;
-
-&lt;h4 id=&#34;references&#34;&gt;References&lt;/h4&gt;
-
-&lt;p&gt;&lt;span class=&#34;sources&#34;&gt;
-&lt;a href=&#34;https://www.theguardian.com/world/2016/oct/27/angela-merkel-internet-search-engines-are-distorting-our-perception&#34;&gt;Angela Merkel: internet search engines are &amp;lsquo;distorting perception&amp;rsquo;&lt;/a&gt;&lt;br&gt;
-&lt;a href=&#34;http://www.journalism.org/2015/06/01/facebook-top-source-for-political-news-among-millennials/&#34;&gt;Facebook Top Source for Political News Among Millennials&lt;/a&gt;&lt;br&gt;
-&lt;a href=&#34;http://www.bbc.com/future/story/20161026-how-liars-create-the-illusion-of-truth&#34;&gt;How liars create the &amp;lsquo;illusion of truth&amp;rsquo;&lt;/a&gt;&lt;br&gt;
-&lt;a href=&#34;http://www.wsj.com/articles/both-old-and-new-media-are-failing-voters-1478216173&#34;&gt;Both Old and New Media Are Failing Voters&lt;/a&gt;&lt;br&gt;
-&lt;a href=&#34;http://www.nytimes.com/2016/11/03/technology/how-the-internet-is-loosening-our-grip-on-the-truth.html&#34;&gt;How the Internet Is Loosening Our Grip on the Truth&lt;/a&gt;
-&lt;/span&gt;&lt;/p&gt;</description>
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -441,9 +131,7 @@ All access to services must be authenticated, authorized and encrypted.&lt;/p&gt
 
 &lt;p&gt;Saw the new Microsoft Surface Studio this weekend at the Microsoft store at the South Coast Plaza. I thought the display is pretty mind blowing. I have gotten used to wide screen displays but somehow the resolution and format of the screen just feels right. The display floats in space and fills your field of vision.&lt;/p&gt;
 
-&lt;p&gt;&lt;/p&gt;
-
-&lt;p&gt;The surface dial seems like it would be a gimmick but it isn&amp;rsquo;t. It feels very natural particularly when zooming in and out. Tilting the display down and working right on top of it is spectacular. Way to go Microsoft - you hit it out of the park!&lt;/p&gt;</description>
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -460,32 +148,7 @@ All access to services must be authenticated, authorized and encrypted.&lt;/p&gt
 
 &lt;p&gt;Most technology leadership today recognizes that proprietary software is not safer than open source software. Basic metrics around the number of disclosed vulnerabilities and &amp;ldquo;time to patch availability&amp;rdquo; seem to give an edge to open source software at least being patched faster.  Not only that but you have the option to inspect the code yourself, and patch it yourself - options that are simply not available with commercial, closed software. This causes a re-evaluation of the relationship of proprietary, commercial software to operating a safe and secure business.
 
-The recent Volkswagen scandal brings to light the broader question of how vulnerable we are to software that is beyond oversight.  Today when we have software running critical systems like medical devices, transportation systems, elevators, and cars we are realizing this code &lt;strong&gt;must&lt;/strong&gt; be open to inspection. This does not mean the code must be open source - only that the code must be available for inspection and oversight.&lt;/p&gt;
-
-&lt;p&gt;For example, the Food and Drug Administration (FDA) is responsible for evaluating the risks of new devices and monitoring the safety and efficacy of those currently on market. The software on these devices performs life-sustaining functions such as cardiac pacing and defibrillation, drug delivery, and insulin administration.&lt;/p&gt;
-
-&lt;p&gt;However, the agency is unlikely to scrutinize the software operating on devices during any phase of the regulatory process unless a model that has already been surgically implanted repeatedly malfunctions or is recalled. Despite the crucial importance of these devices medical device software is considered the exclusive property of its manufacturers, meaning neither patients nor their doctors are permitted to access their source code or test its security.&lt;/p&gt;
-
-&lt;h3 id=&#34;proprietary-software-puts-us-at-risk&#34;&gt;Proprietary software puts us at risk&lt;/h3&gt;
-
-&lt;p&gt;A Columbia University professor, Eben Moglen, who founded the Software Freedom Law Center, has argued proprietary, and thus invisible, software puts us all at risk. He uses the analogy of being able to inspect an elevator&amp;rsquo;s operating mechanical condition as a foundational principle for having &amp;ldquo;safe&amp;rdquo; elevators.  But isn&amp;rsquo;t the software that operates  elevators necessary to inspect as well?&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;“Proprietary software is an unsafe building material”&lt;/p&gt;
-
-&lt;p&gt;&lt;cite&gt;&amp;mdash; Eben Moglen, Columbia University&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;How can we have &amp;ldquo;safe&amp;rdquo; cars or medical devices when the software is a black box and we simply have to trust the manufacturers? The code in automobiles is tightly protected under the Digital Millennium Copyright Act. Last year, several groups sought to have the code made available for “good-faith testing, identifying, disclosing and fixing of malfunctions, security flaws or vulnerabilities”. In response, a group of automobile manufacturers said that opening the code to scrutiny could create “serious threats to safety and security.” Think about that for a moment.&lt;/p&gt;
-
-&lt;p&gt;When proprietary code inflicts harm, such as Volkswagen’s polluting cars, the creators of that code must be held accountable. It’s definitely time to start demanding appropriate transparency.&lt;/p&gt;
-
-&lt;h4 id=&#34;references&#34;&gt;References&lt;/h4&gt;
-
-&lt;p&gt;&lt;span class=&#34;sources&#34;&gt;
-&lt;a href=&#34;http://www.nytimes.com/2015/09/23/nyregion/volkswagens-diesel-fraud-makes-critic-of-secret-code-a-prophet.html&#34;&gt;Volkswagen’s Diesel Fraud Makes Critic of Secret Code a Prophet&lt;/a&gt;&lt;br&gt;
-&lt;a href=&#34;http://www.wired.com/2015/09/volkswagen-open-iot/&#34;&gt;VW’s Cheating Proves We Must Open Up the Internet of Things&lt;/a&gt;
-&lt;/span&gt;&lt;/p&gt;</description>
+The recent Volkswagen scandal brings to light the broader question of how vulnerable we are to software that is beyond oversight.  Today when we have software running critical systems like medical devices, transportation systems, elevators, and cars we are realizing this code &lt;strong&gt;must&lt;/strong&gt; be open to inspection. This does not mean the code must be open source - only that the code must be available for inspection and oversight.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -505,67 +168,7 @@ The recent Volkswagen scandal brings to light the broader question of how vulner
 &lt;p&gt;&lt;em&gt;Q&lt;/em&gt;: No, the first question was if it&amp;rsquo;s secure, the second question was how secure is it. &lt;br&gt;
 &lt;em&gt;A&lt;/em&gt;: Well now that wasn&amp;rsquo;t even a question at all.&lt;/p&gt;
 
-&lt;p&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;there-is-no-such-thing-as-perfect-security&#34;&gt;There is no such thing as perfect security&lt;/h3&gt;
-
-&lt;p&gt;Most information security practitioners do a poor job explaining the relative nature of security.  Secure relative to what? A bot that looks for un-patched systems? A determined hacker? A nation-state?&lt;/p&gt;
-
-&lt;p&gt;Security is a &amp;ldquo;scale of difficulty&amp;rdquo; – like mountain climbing. Everest was thought to be unclimbable until Sir Edmund Hillary did it.  Everest was finally tackled by a massive expedition with enormous resources. The 1953 expedition totaled over 400 people, including 362 porters, 20 Sherpa guides and 10,000 lbs of baggage.  It was analogous to a military assault.&lt;/p&gt;
-
-&lt;p&gt;Given enough time and resources &lt;strong&gt;any&lt;/strong&gt; security can be defeated.  The main goal of security is to raise the time and resources required to an unreasonable level.  But how do you really know how secure something is?&lt;/p&gt;
-
-&lt;p&gt;Like mountain climbing, security can and should be rated/evaluated based on actual experience. Also like mountain climbing there are initial conditions that indicate a “tough climb” or an easy one.&lt;/p&gt;
-
-&lt;h3 id=&#34;conditions-for-high-security-levels&#34;&gt;Conditions for high security levels&lt;/h3&gt;
-
-&lt;ol&gt;
-&lt;li&gt;&lt;strong&gt;The technology is widely deployed/adopted.&lt;/strong&gt; Note that being widely deployed does NOT mean the technology is secure (Windows XP was widely deployed). It simply means that we are more likely to have lots of data about its security performance. The more opportunities and incentives for attack will give us more data, which increases our confidence of it&amp;rsquo;s &amp;ldquo;rating&amp;rdquo;.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;The technology or system is attacked frequently with great intensity.&lt;/strong&gt; Ideally because of being widely deployed, it would be used is places that expose it to attack. Ideally those attacks are unrelenting.  This also increases our data about its security performance.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;The technology is simple to install and configure.&lt;/strong&gt; Many supposedly &amp;ldquo;secure&amp;rdquo; systems are dependent on how they are installed, or post-install &amp;ldquo;hardening&amp;rdquo;.  Systems and technologies must be &amp;ldquo;secure by default&amp;rdquo; when installed and easily installed properly by non-specialists.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Open code base.&lt;/strong&gt; An open code base allows for infinitely many sets of eyes to review the code, and infinitely many developers to fix any vulnerabilities found.  Open code bases do &lt;strong&gt;NOT&lt;/strong&gt; mean the code is secure.  However, there are generally fewer issues, and when issues are found they are addressed faster. They also tend to be widely deployed and tend to be less complex to install and maintain.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Bug Bounty Program&lt;/strong&gt;. Public, open &lt;a href=&#34;https://bugcrowd.com/list-of-bug-bounty-programs&#34;&gt;Bug Bounty Programs&lt;/a&gt; encourage vulnerability research in a responsible manner. As an economist by training I believe when the rewards for good behavior are there you tend to get good behavior. If not, only bad behavior is rewarded.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h3 id=&#34;conditions-for-low-security-levels&#34;&gt;Conditions for low security levels&lt;/h3&gt;
-
-&lt;ol&gt;
-&lt;li&gt;&lt;strong&gt;Not widely deployed&lt;/strong&gt; The less widely the technology is deployed and used the fewer opportunities we have to gather good data about it’s security profile.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Not frequently attacked, or successful attacks are generally not disclosed.&lt;/strong&gt; This goes hand in glove with the above point. One issue with vendor sofware used in specialized applications within companies is that successful attacks may not be recognized/known, and/or they may not be disclosed. This gives us low information quality about the actual security performance.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Difficult to install and configure properly.&lt;/strong&gt; ERP applications such as SAP are notoriously complex and difficult to install. The database has over 70,000 tables excluding Y and Z tables, the overall system takes days to setup by highly trained specialists. The attack surface is quite large. SAP may not be a good example because security is good by default and we rarely hear about successful breaches - but the risk in the complexity is real.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Closed code base&lt;/strong&gt; If you have to ask your vendor “is it secure?” then it’s not.  Security isn&amp;rsquo;t something you can provide an answer to unless you&amp;rsquo;re selling snake oil. If the vendor says: “It&amp;rsquo;s secure. We did not put in any back doors. We audited the code ourselves. There are not any kernel level hacks, root kits, or otherwise. This has been tested against a variety of anti-virus scanners and none of them flagged anything. We&amp;rsquo;re very good. Please, please trust us.” then you should know that they are telling you what you want, or need to hear. You could read the &lt;a href=&#34;https://technet.microsoft.com/en-us/library/bb457059.aspx&#34;&gt;WinXP pamphlet&lt;/a&gt; on security back when it was released and it had endless bullet points about how secure it was. It was probably the least secure software in the history of computing based on actual attacks after the fact.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h3 id=&#34;it-s-secure-until-it-s-not&#34;&gt;It’s secure… until it’s not&lt;/h3&gt;
-
-&lt;p&gt;In the 1770s Joseph Bramah created a lock that was vastly superior to any the world ever seen. Bramah believed it was 100% theft-proof. Bramah was so confident in his design that he published a pamphlet detailing exactly how it worked and he put it in the window of his London storefront, and painted on it a challenge:&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;“The artist who can make an instrument that will pick or open this lock shall receive 200 Guineas the moment it is produced.”&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Then Jeremiah Chubb created the Chubb detector lock. The way Chubb’s lock worked was that if a lock picker tried to lift one of the tumblers up too high, a latching mechanism would trigger, causing the lock to seize up. When that happened, even the key wouldn’t open the lock. To reset the lock, the owner would have to put in a different key and rotate it in the opposite direction to reset the tumblers.&lt;/p&gt;
-
-&lt;p&gt;Thus, if lock owners went to unlock a chest, or a vault, or a front door, and found that their key didn’t work, they would know that someone had tried to get in—and that they had failed.&lt;/p&gt;
-
-&lt;p&gt;For 70 years, the names Chubb and Bramah meant “perfect security”.&lt;/p&gt;
-
-&lt;p&gt;In 1851, London was hosting The Great Exhibition—the first international exhibition of manufactured products. One of the attendees was A. C. Hobbs, an American locksmith. Back in the states, Hobbs had made a name for himself by showing bank managers that their locks could be easily picked, and convincing them to buy one of his. Hobbs was selling lots of locks.&lt;/p&gt;
-
-&lt;p&gt;On day one of the exhibition, Hobbs publicly announced that he would pick the Chubb detector lock — the one that stops working if you pick it incorrectly. It took Hobbs about 25 minutes. And the way Hobbs did it was to use the lock against itself.
-He would pick it until he tripped the detector mechanism, causing the lock to seize up. That would give Hobbs information about how it worked, and then he would pick the lock in the opposite direction to reset the detector. He’d go back and forth firing and resetting the detector until the lock told him everything he needed to know about how to get it open.&lt;/p&gt;
-
-&lt;p&gt;But the Chubb detector lock was really just a warm up. The main event was the Bramah safety lock—the one with the challenge painted on it in gold lettering, which had been sitting Bramah’s storefront window for 70 years, unbeaten.&lt;/p&gt;
-
-&lt;p&gt;After working on the lock for about 52 hours over the course of fourteen days, Hobbs opened it.&lt;/p&gt;
-
-&lt;p&gt;Overnight, the feeling of perfect security had evaporated. And we have never gotten it back.&lt;/p&gt;
-
-&lt;h4 id=&#34;references&#34;&gt;References&lt;/h4&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://gizmodo.com/in-1851-a-man-picked-two-unpickable-locks-and-changed-1698557792&#34;&gt;In 1851 a man picked two unpickable locks&amp;hellip;&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -580,13 +183,7 @@ He would pick it until he tripped the detector mechanism, causing the lock to se
 
 &lt;p&gt;Many people have begun integrating bots into the GitHub ecosystem for code review. For example the folks who created the Bootstrap UI framework created a bot called &lt;a href=&#34;https://github/twbs/rorshach&#34;&gt;rorshach&lt;/a&gt; to perform sanity checks on pull requests. If the sanity check fails it leaves a nice informative comment, explaining the issue and how to fix it.&lt;/p&gt;
 
-&lt;p&gt;&lt;/p&gt;
-
-&lt;p&gt;There is another example at &lt;a href=&#34;https://betterdiff.com/&#34;&gt;BetterDiff&lt;/a&gt;. The idea there is that instead of having humans go through and give cursory reviews, you have a round of automated review by bots (using normal, industry-standard tooling) and it comments on the pull request just like a reviewer would.&lt;/p&gt;
-
-&lt;p&gt;Pretty soon I expect to see &amp;ldquo;when tests pass, and code reviews pass, then go ahead and merge the code&amp;rdquo; bots.&lt;/p&gt;
-
-&lt;p&gt;Welcome to the future.&lt;/p&gt;</description>
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -601,51 +198,7 @@ He would pick it until he tripped the detector mechanism, causing the lock to se
 
 &lt;p&gt;After the sub-prime debt crisis in 2008 it became clear that the financial services industry would need to rebuild it’s image. Companies would need to zealously rebuild their brands to aspire to become “trusted advisors”. From an IT standpoint it is crystal clear that client and corporate data must be guarded and protected to prevent any loss as well as minimize the potential for damage to an organization’s reputation. How to manage the risk and yet stay innovative?&lt;/p&gt;
 
-&lt;p&gt;&lt;/p&gt;
-
-&lt;p&gt;The response by some financial services companies is to stick their head in the sand and avoid &amp;ldquo;the cloud&amp;rdquo;, open source technologies, and try to make their networks ever more restrictive. This backfires in several ways:&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;Their economics are always working against them relative to more open competitors, which they justify by convincing themselves that they are more secure and it&amp;rsquo;s &amp;ldquo;worth it&amp;rdquo;. However managed properly their competitors are just as secure.&lt;/li&gt;
-&lt;li&gt;Their employees skills go stale. Since IT personnel cost so much the result is  mismanging a key resource.&lt;/li&gt;
-&lt;li&gt;By outsourcing aspects of their security to companies like Oracle, Microsoft and IBM they convince themselves they are more secure.  Does anyone know how many vulnerabilities there have been in the .NET framework &lt;a href=&#34;http://www.cvedetails.com/vulnerability-list/vendor_id-26/product_id-2002/Microsoft-.net-Framework.html&#34;&gt;over the years&lt;/a&gt;?&lt;/li&gt;
-&lt;li&gt;Employees will begin actively circumventing security when it impedes their ability to do their job. I&amp;rsquo;ve met employees who use their personal laptops on open Wi-Fi because they tell me they can&amp;rsquo;t work on their corporate laptop and network because it is so locked down.&lt;br /&gt;&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;What&amp;rsquo;s even worse than the problems listed above is the &lt;strong&gt;market never stands still&lt;/strong&gt;.  Your future competitors are today&amp;rsquo;s startups. FinTech companies are improving payment processes, reducing fraud, saving users money, promoting financial planning and responsibility, improving lending, and ultimately moving a giant, cautious industry forward.&lt;/p&gt;
-
-&lt;p&gt;If we look at a recent article in Forbes that profiles &lt;a href=&#34;http://www.forbes.com/sites/ilyapozin/2014/12/14/15-fintech-startups-to-watch-in-2015/&#34;&gt;15 FinTech startups to watch in 2015&lt;/a&gt; we can then also peek at the technologies they are using as see where the future lies with financial services:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.billguard.com/&#34;&gt;BillGuard&lt;/a&gt;: nginx, Apache, postmark, ZenDesk, Amazon AWS, Cloudflare&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://planwise.com/&#34;&gt;PlanWise&lt;/a&gt;: nginx, Apache, MailChimp, Wordpress, PHP, Fastly&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.ondeck.com/home-qualify/&#34;&gt;OnDeck&lt;/a&gt;: nginx, Azure, Wordpress, PHP&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.wealthfront.com/&#34;&gt;WealthFront&lt;/a&gt;: nginx, Amazon AWS, Cloudfront&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.currencycloud.com/&#34;&gt;CurrencyCloud&lt;/a&gt;: nginx, Varnish, Mandrill, Cloudflare, Google Apps&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://stripe.com/&#34;&gt;Stripe&lt;/a&gt;: nginx, Amazon AWS, Mandrill, Ruby on Rails, Google Apps&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.epiphyte.com/&#34;&gt;Epiphyte&lt;/a&gt;: Office 365, Azure, Node.js/Express, Bootstrap&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.astropaycard.com/&#34;&gt;AstroPay&lt;/a&gt;: nginx, Amazon AWS, PHP, AngularJS&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.bankingup.com/&#34;&gt;BankingUp&lt;/a&gt;: Apache, Google Apps,&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://squareup.com/&#34;&gt;Square&lt;/a&gt;: nginx, Ruby on Rails, Amazon Cloudfront CDN&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.tipalti.com/&#34;&gt;Tipalti&lt;/a&gt;: IIS, nginx, Google Apps, Rackspace, Wordpress, PHP, .NET&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.flint.com/&#34;&gt;Flint&lt;/a&gt;: Apache, Amazon AWS, Google Apps, PHP, Akamai CDN&lt;/li&gt;
-&lt;li&gt;Check - Acquired by Intuit (no info available)&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.zipmark.com/&#34;&gt;Zipmark&lt;/a&gt;: Cowboy(erlang), Postmark, Google Apps, Amazon AWS, Ruby on Rails, Heroku&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.wepay.com/&#34;&gt;WePay&lt;/a&gt;: nginx, Amazon AWS, Mailgun, Zendesk, Google Apps, Akamai CDN&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;What can we take away from this list?&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;Fintech startups are not afraid of open source.&lt;/li&gt;
-&lt;li&gt;Fintech startups are taking advantange of cloud economics and scale (AWS, Rackspace and Azure as examples).&lt;/li&gt;
-&lt;li&gt;Fintech startups are not afraid of using other &amp;ldquo;startup&amp;rdquo; services.&lt;/li&gt;
-&lt;li&gt;Yet they also must be solving the security issue as well - what the most tenuous point in any companies lifespan and the one where trust matters the most?  The startup phase.&lt;br /&gt;&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;What will this mean for incumbent companies that refuse to change? Maybe in the future they will be both secure and irrelevant.  Or worse, maybe just irrelevant.&lt;/p&gt;
-
-&lt;p&gt;Note: Technology data from &lt;a href=&#34;http://builtwith.com/&#34;&gt;builtwith.com&lt;/a&gt;&lt;/p&gt;</description>
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -658,44 +211,7 @@ He would pick it until he tripped the detector mechanism, causing the lock to se
 
 &lt;p&gt;I&amp;rsquo;ve been a fan of Microsoft during my whole technical career.  However I don&amp;rsquo;t recommend Microsoft any longer for server workloads, and haven&amp;rsquo;t for years due to the fact that the Linux ecosystem is far less expensive and has more innovative people working on it and sharing what they do openly. However, I am very impressed with the direction and leadership of Satya Nadella.&lt;/p&gt;
 
-&lt;p&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;windows-package-manager&#34;&gt;Windows Package Manager&lt;/h3&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;In Windows 10 we are launching a new Package Management feature (formerly referred to as OneGet) that enables ITPros or DevOps to automate software discovery, installation, and inventory (SDII), locally or remotely, no matter what the installer technology is and where the software is located.&lt;/p&gt;
-
-&lt;p&gt;So why are we implementing Package Management? In the Linux world, people are familiar with package managers such as Apt-Get, YUM, RPM, etc, for different Linux distros.  In the Windows world, however, there are quite a few installer technologies, each having their own way to install software, such as MSI, MSU, APPX, and the list goes on and on. This creates a challenge for ITPros and DevOps and a need for a tool to automate the software deployment experience.  PackageManagement is aimed at solving this problem.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h3 id=&#34;net-for-linux-and-mac&#34;&gt;.NET for Linux and Mac&lt;/h3&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;.NET Core supports Windows, OS X and Linux. You can write Universal apps on Windows 10 and ASP.NET 5 and Console apps on all of the three OSes. FreeBSD support is in progress, led by the .NET open source community. We expect that the community will create other OS ports. In fact, the OS X port has also been community led.&lt;/p&gt;
-
-&lt;p&gt;.NET Core supports x86, x64 and ARM CPUs in order to support device, cloud and console app scenarios. We expect that to see more chips come online, particularly given the LLILC LLVM integration project. LLILC will (in theory) make it possible to port .NET Core to all of the chips that LLVM supports.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;strong&gt;The .NET Core is open source on GitHub!&lt;/strong&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;visual-studio-code&#34;&gt;Visual Studio Code&lt;/h3&gt;
-
-&lt;p&gt;This marks the first time that Microsoft offers developers a true cross-platform code editor. The full Visual Studio is still Windows-only, but today’s announcement shows the company’s commitment to supporting other platforms.  What is really fascinating is they built it with SAME basic architecture as GitHub&amp;rsquo;s Atom editor!&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;Architecturally, Visual Studio Code combines the best of web, native, and language-specific technologies. Using the &lt;strong&gt;GitHub Electron Shell, Code combines web technologies such as JavaScript and Node.js with the speed and flexibility of native apps&lt;/strong&gt;. Code uses a newer, faster version of the same industrial-strength HTML-based editor that has powered the “Monaco” cloud editor, Internet Explorer&amp;rsquo;s F12 Tools, and other projects. And Code uses a tools service architecture that enables it to use many of the same technologies that power Visual Studio, including Roslyn for .NET, TypeScript, the Visual Studio debugging engine, and more. In future previews, as we continue to evolve and refine this architecture, Visual Studio Code will include a public extensibility model that lets developers build and use plug-ins, and richly customize their edit-build-debug experience.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;This is all incredible coming from Microsoft.  Way to go!&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Sources:&lt;/em&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://techcrunch.com/2015/04/29/microsoft-shocks-the-world-with-visual-studio-code-a-free-code-editor-for-os-x-linux-and-windows/&#34;&gt;Microsoft Launches Visual Studio Code&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://code.visualstudio.com/Docs&#34;&gt;Visual Studio Docs&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://techcrunch.com/2015/04/29/microsoft-launches-its-net-distribution-for-linux-and-mac/&#34;&gt;Microsoft Launches Its .NET Distribution For Linux And Mac&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://blogs.technet.com/b/packagemanagement/archive/2015/04/29/introducing-packagemanagement-in-windows-10.aspx&#34;&gt;Introducing PackageManagement in Windows 10&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -714,43 +230,7 @@ He would pick it until he tripped the detector mechanism, causing the lock to se
 &lt;p&gt;&lt;cite&gt;&amp;mdash; 2015 Gates Annual Letter&lt;/cite&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;&lt;/p&gt;
-
-&lt;p&gt;There are four pillars to accomplish this mission:&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;Health&lt;/li&gt;
-&lt;li&gt;Farming&lt;/li&gt;
-&lt;li&gt;Banking&lt;/li&gt;
-&lt;li&gt;Education&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;My daughter and I spent 10 days traveling in Uganda several years ago with our friends Jeff Jensen and his daughter Caroline.  We traveled fairly extensively and visited a number of charitable organizations in and around Kampala and Gulu.  It&amp;rsquo;s hard to appreciate how far ahead we are economically unless you experience it first hand.&lt;/p&gt;
-
-&lt;p&gt;One of the places we visited was &lt;a href=&#34;http://www.krochetkids.org/&#34;&gt;Krochet Kids&lt;/a&gt; in Gulu. They are the largest employer of women in the area. They provide job training, a fair wage to lift them and their families out of poverty, and a positive family-oriented environment. On a side note you can buy their products in Nordstrom!  This picture is &amp;ldquo;the factory&amp;rdquo; on the day we visited:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://danstroot.com/img/krochet-kids.jpg&#34; alt=&#34;Children&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;As you can see the women get to sit in the shade of large trees, children are welcome, and they are encouraged to socialize as they work. The women I met were very happy and grateful for the opportunity.  However we found out that when the women got paid (cash - they do not have bank accounts) their husbands would take the money.  Some husbands would go drinking or find other ways to spend the money unwisely. The women were not empowered culturally to resist.&lt;/p&gt;
-
-&lt;p&gt;The founders of Krochet Kids decided they needed to find a way to create a type of bank where the women could protect their wages. If they didn&amp;rsquo;t bring home cash their husbands would not have access to it. The key was to find a way to allow them to save money in an account, and also possibly loan each other money.  The Village Savings and Loans Association (VSLA) was born. Currently on any given week there is roughly $10,000 being saved in the VSLA. The VSLA now offers small loans to women in the group and collects and divides any interest incurred.&lt;/p&gt;
-
-&lt;p&gt;What Krochet Kids discovered was that in some ways the most valuable service they provided was not &amp;ldquo;a job&amp;rdquo; but rather training and mentorship on personal budgeting, savings, loans and business management topics.  One of their stated goals is now:&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;To equip the women of Northern Uganda with the financial assets and knowledge to enter into the local economy and thereby end their dependence on humanitarian aid.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;When reading this year&amp;rsquo;s Gates Letter Mobile Banking is one of the four pillars of the fifteen year plan. I have seen firsthand how empowering this can be.&lt;/p&gt;
-
-&lt;h4 id=&#34;sources&#34;&gt;Sources:&lt;/h4&gt;
-
-&lt;p&gt;&lt;span class=&#34;sources&#34;&gt;
-&lt;a href=&#34;http://www.gatesfoundation.org/&#34;&gt;Bill &amp;amp; Melinda Gates Foundation&lt;/a&gt; &lt;br&gt;
-&lt;a href=&#34;http://www.krochetkids.org/&#34;&gt;Krochet Kids&lt;/a&gt; &lt;br&gt;
-&lt;a href=&#34;http://restoreinternational.org/&#34;&gt;Restore International&lt;/a&gt; &lt;br&gt;
-&lt;a href=&#34;http://bobgoff.com/&#34;&gt;Bob Goff&lt;/a&gt; &lt;br&gt;
-&lt;/span&gt;&lt;/p&gt;</description>
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -768,69 +248,7 @@ He would pick it until he tripped the detector mechanism, causing the lock to se
 &lt;li&gt;Leverage UX/UI frameworks such as &lt;a href=&#34;http://getbootstrap.com&#34;&gt;Bootstrap&lt;/a&gt; or &lt;a href=&#34;http://foundation.zurb.com/&#34;&gt;Foundation&lt;/a&gt;.&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;p&gt;&lt;/p&gt;
-
-&lt;p&gt;Combining a framework with something I think &amp;ldquo;looks cool&amp;rdquo; is a quick win.  I can get something created quickly that has an incredible amount of time and effort already baked in to making it usable, responsive and approachable.  Given the very wide of use of these frameworks I suspect many others work this way, but also since users are used to seeing many sites built with these frameworks it creates sense of familiarity.&lt;/p&gt;
-
-&lt;p&gt;I am definitely not a designer and usually this is a cerebral as I get when it comes to UX/UI design work but I decide to step back and think about what we were trying accomplish. For example what are the base principles that could guide us?  I found some good material from &lt;a href=&#34;http://www.nngroup.com/&#34;&gt;Nielsen Norman Group&lt;/a&gt; that I want to share (I hope it&amp;rsquo;s OK).&lt;/p&gt;
-
-&lt;p&gt;Nielsen&amp;rsquo;s 10 Heuristic Design Principles:&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;h4 id=&#34;visibility-of-system-status&#34;&gt;VISIBILITY OF SYSTEM STATUS&lt;/h4&gt;
-
-&lt;p&gt;The system should always keep users informed about what is going on, through appropriate feedback within reasonable time.&lt;/p&gt;
-
-&lt;h4 id=&#34;match-between-system-and-the-real-world&#34;&gt;MATCH BETWEEN SYSTEM AND THE REAL WORLD&lt;/h4&gt;
-
-&lt;p&gt;The system should speak the users&amp;rsquo; language, with words, phrases and concepts familiar to the user, rather than system-oriented terms. Follow real-world conventions, making information appear in a natural and logical order.&lt;/p&gt;
-
-&lt;h4 id=&#34;user-control-and-freedom&#34;&gt;USER CONTROL AND FREEDOM&lt;/h4&gt;
-
-&lt;p&gt;Users often choose system functions by mistake and will need a clearly marked &amp;ldquo;emergency exit&amp;rdquo; to leave the unwanted state without having to go through an extended dialogue. Support undo and redo.&lt;/p&gt;
-
-&lt;h4 id=&#34;consistency-and-standards&#34;&gt;CONSISTENCY AND STANDARDS&lt;/h4&gt;
-
-&lt;p&gt;Users should not have to wonder whether different words, situations, or actions mean the same thing. Follow platform conventions.&lt;/p&gt;
-
-&lt;h4 id=&#34;error-prevention&#34;&gt;ERROR PREVENTION&lt;/h4&gt;
-
-&lt;p&gt;Even better than good error messages is a careful design which prevents a problem from occurring in the first place. Either eliminate error-prone conditions or check for them and present users with a confirmation option before they commit to the action.&lt;/p&gt;
-
-&lt;h4 id=&#34;recognition-rather-than-recall&#34;&gt;RECOGNITION RATHER THAN RECALL&lt;/h4&gt;
-
-&lt;p&gt;Minimize the user&amp;rsquo;s memory load by making objects, actions, and options visible. The user should not have to remember information from one part of the dialogue to another. Instructions for use of the system should be visible or easily retrievable whenever appropriate.&lt;/p&gt;
-
-&lt;h4 id=&#34;flexibility-and-efficiency-of-use&#34;&gt;FLEXIBILITY AND EFFICIENCY OF USE&lt;/h4&gt;
-
-&lt;p&gt;Accelerators &amp;ndash; unseen by the novice user &amp;ndash; may often speed up the interaction for the expert user such that the system can cater to both inexperienced and experienced users. Allow users to tailor frequent actions.&lt;/p&gt;
-
-&lt;h4 id=&#34;aesthetic-and-minimalist-design&#34;&gt;AESTHETIC AND MINIMALIST DESIGN&lt;/h4&gt;
-
-&lt;p&gt;Dialogues should not contain information which is irrelevant or rarely needed. Every extra unit of information in a dialogue competes with the relevant units of information and diminishes their relative visibility.&lt;/p&gt;
-
-&lt;h4 id=&#34;help-users-recognize-diagnose-and-recover-from-errors&#34;&gt;HELP USERS RECOGNIZE, DIAGNOSE, AND RECOVER FROM ERRORS&lt;/h4&gt;
-
-&lt;p&gt;Error messages should be expressed in plain language (no codes), precisely indicate the problem, and constructively suggest a solution.&lt;/p&gt;
-
-&lt;h4 id=&#34;help-and-documentation&#34;&gt;HELP AND DOCUMENTATION&lt;/h4&gt;
-
-&lt;p&gt;Even though it is better if the system can be used without documentation, it may be necessary to provide help and documentation. Any such information should be easy to search, focused on the user&amp;rsquo;s task, list concrete steps to be carried out, and not be too large.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;The main area that I struggle with is keeping it simple and minimal.  I tend to want to create &amp;ldquo;Tony Stark&amp;rdquo; approved interfaces, yet in the real world I strongly prefer clean simplicity. Check out this example from the retailer Victoria Beckham:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://danstroot.com/img/VICTORIA_BECKHAM.png&#34; alt=&#34;Victoria Beckham&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;The product is front and center and draws your eye.  The navigation is minimal.  The buying options are as limited as possible, you can only choose your size.  Yet there is nothing missing - I can get more details if I want, or a size guide if needed.  To me, this is oustanding UI/UX.  It is clean, simple and usable, and it highlights the product and only the product. What is your ideal UI/UX?&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Sources:&lt;/em&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.nngroup.com/&#34;&gt;Nielsen Norman Group&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.victoriabeckham.com&#34;&gt;Victoria Beckham&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://userium.com/&#34;&gt;Userium&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -842,56 +260,508 @@ He would pick it until he tripped the detector mechanism, causing the lock to se
       <description>&lt;p&gt;&lt;img src=&#34;https://danstroot.com/img/obama_internet.png&#34; alt=&#34;Obama Internet&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Today President Barack Obama has come out in favor of net neutrality in very public way.  He lays out in no uncertain terms that he believes no cable company or access provider should be able to put limits on access to the Internet. In addition, he’s suggesting that the FCC recognizes access to the Internet as a basic utility, and something that Americans have a basic right to. This means no blocking, no throttling, more transparency and no paid prioritization.
-&lt;/p&gt;
+&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>USA&#39;s Digital Playbook</title>
+      <link>https://danstroot.com/2014/08/12/usas-digital-playbook/</link>
+      <pubDate>Tue, 12 Aug 2014 10:00:00 +0000</pubDate>
+      
+      <guid>https://danstroot.com/2014/08/12/usas-digital-playbook/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://danstroot.com/img/USDS_Playbook.png&#34; alt=&#34;Digital Playbook&#34; /&gt;&lt;/p&gt;
 
-&lt;p&gt;Here are the four principles quoted directly:&lt;/p&gt;
+&lt;p&gt;The White House announced on Monday, August 11th 2014, that it is formally launching a new U.S. Digital Service and that it has hired Mikey Dickerson to lead it.  Mickey Dickerson is an engineer widely credited with playing a central role in salvaging HealthCare.gov. The idea behind the USDS is institutionalizing the approach that saved the US health care website.
+&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>From &#39;Open Government&#39; to &#39;Open Corporation&#39;</title>
+      <link>https://danstroot.com/2014/07/01/from-open-government-to-open-corporation/</link>
+      <pubDate>Tue, 01 Jul 2014 10:00:00 +0000</pubDate>
+      
+      <guid>https://danstroot.com/2014/07/01/from-open-government-to-open-corporation/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://danstroot.com/img/data_gov.png&#34; alt=&#34;Digital Playbook&#34; /&gt;&lt;/p&gt;
 
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;No blocking.&lt;/strong&gt; If a consumer requests access to a website or service, and the content is legal, your ISP should not be permitted to block it. That way, every player — not just those commercially affiliated with an ISP — gets a fair shot at your business.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;No throttling.&lt;/strong&gt; Nor should ISPs be able to intentionally slow down some content or speed up others — through a process often called “throttling” — based on the type of service or your ISP’s preferences.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Increased transparency.&lt;/strong&gt; The connection between consumers and ISPs — the so-called “last mile” — is not the only place some sites might get special treatment. So, I am also asking the FCC to make full use of the transparency authorities the court recently upheld, and if necessary to apply net neutrality rules to points of interconnection between the ISP and the rest of the Internet.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;No paid prioritization.&lt;/strong&gt; Simply put: No service should be stuck in a “slow lane” because it does not pay a fee. That kind of gatekeeping would undermine the level playing field essential to the Internet’s growth. So, as I have before, I am asking for an explicit ban on paid prioritization and any other restriction that has a similar effect.&lt;/li&gt;
-&lt;/ul&gt;
+&lt;h3 id=&#34;let-s-talk-about-open-government-first&#34;&gt;Let&amp;rsquo;s Talk About Open Government First&lt;/h3&gt;
 
-&lt;p&gt;It doesn&amp;rsquo;t matter whether you are on the &amp;ldquo;red team&amp;rdquo; or the &amp;ldquo;blue team&amp;rdquo; - this is a noble goal and one I hope everyone supports. An open Internet benefits us all in a myriad of ways and allows a free and open exchange of ideas across society. I&amp;rsquo;d urge you to read &lt;a href=&#34;http://www.raptitude.com/2014/11/the-gift/&#34;&gt;The Greatest Gift We Ever Had&lt;/a&gt;.  Key quote:&lt;/p&gt;
+&lt;p&gt;President Barack Obama, on his first day in office in 2009, signed an executive order stating that all government information that did not have to be kept secret for security or privacy reasons should be made public. The administration also launched the Open Data Initiative to publish government data and the &lt;a href=&#34;http://www.data.gov/&#34;&gt;data.gov&lt;/a&gt; website to distribute the data.&lt;/p&gt;
 
 &lt;blockquote&gt;
-&lt;p&gt;&amp;hellip;honest, inclusive conversation across a society will reliably lead to equality and higher quality of life, in any place it is allowed to happen.&lt;/p&gt;
+&lt;p&gt;My Administration is committed to creating an unprecedented level of openness in Government. We will work together to ensure the public trust and establish a system of transparency, public participation, and collaboration. Openness will strengthen our democracy and promote efficiency and effectiveness in Government.&lt;/p&gt;
+
+&lt;p&gt;_&lt;a href=&#34;http://www2.gwu.edu/~nsarchiv/news/20090121/2009_transparency_memo.pdf&#34;&gt;President Barack Obama, January 21, 2009&lt;/a&gt;_&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;h3 id=&#34;my-thoughts&#34;&gt;My Thoughts:&lt;/h3&gt;
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>CoreOS: thousands of machines and millions of Docker containers... no hypervisor needed.</title>
+      <link>https://danstroot.com/2014/06/29/coreos-thousands-of-machines-and-millions-of-docker-containers...-no-hypervisor-needed./</link>
+      <pubDate>Sun, 29 Jun 2014 10:00:00 +0000</pubDate>
+      
+      <guid>https://danstroot.com/2014/06/29/coreos-thousands-of-machines-and-millions-of-docker-containers...-no-hypervisor-needed./</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://danstroot.com/img/coreos-logo.png&#34; alt=&#34;CoreOS&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;I have been playing around with CoreOS to get a sense of how everything works. The vision of this project is incredible.&lt;/p&gt;
+
+&lt;p&gt;CoreOS describes itself as &lt;em&gt;&amp;ldquo;a new Linux distribution that has been re-architected to provide features needed to run modern infrastructure stacks. The strategies and architectures that influence CoreOS allow companies like Google, Facebook and Twitter to run their services at scale with high resilience.&amp;rdquo;&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;CoreOS displaces hypervisors and machine virtualization in favor of Docker and Linux containers.  CoreOS uses Linux containers to manage your services at a high level of abstraction. A single service&amp;rsquo;s code and all dependencies are packaged within a container that can be run on one or many CoreOS machines.&lt;/p&gt;
+
+&lt;p&gt;Clustering works across platforms, meaning there is no cloud vendor lock-in. For example, CoreOS runs on Amazon EC2, Rackspace, QEMU/KVM, VMware and OpenStack and your own hardware. Running a single CoreOS cluster on multiple different clouds or cloud + bare metal is supported and encouraged. This lack of lock-in is the reason why I have supported OpenStack and CoreOS takes this even further.
+&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Virtual Machines vs Containers</title>
+      <link>https://danstroot.com/2014/05/05/virtual-machines-vs-containers/</link>
+      <pubDate>Mon, 05 May 2014 10:00:00 +0000</pubDate>
+      
+      <guid>https://danstroot.com/2014/05/05/virtual-machines-vs-containers/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://danstroot.com/img/docker.png&#34; alt=&#34;Docker&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Three driving forces of infrastructure efficiency in a large, distributed environment were:&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;There is one principle missing: &lt;strong&gt;No Content Modification.&lt;/strong&gt; ISPs should not be allowed to modify any of the content they transport.  This prevents them from injecting beacons, tracking code, advertising, etc. into web content that they are entrusted to deliver.  This is happening and it needs to be stopped.&lt;/li&gt;
-&lt;li&gt;&amp;ldquo;Government Regulation&amp;rdquo; is known to increase costs, and potentially reduce growth and innovation.  All things being equal I am in favor of less regulation rather than more regulation.  We need to tread carefully as we seek to increase regulation to protect openness (bit of an oxymoron isn&amp;rsquo;t it?).&lt;/li&gt;
-&lt;li&gt;We have to think carefully about the paid access issue. Does &amp;ldquo;no slow lanes&amp;rdquo; also mean &amp;ldquo;No Fast Lanes&amp;rdquo;?  What if I want an ISP to provide a service where I get premium access to YouTube content, or Netflix content?  Should that be illegal?&lt;/li&gt;
-&lt;li&gt;It is not a requirement that ISPs block unlawful content, rather it is a prohibition on blocking lawful content. But a strong enough prohibition on blocking lawful content (e.g., one which provides consequences whenever lawful content is blocked, even if the intent was to block unlawful content and the lawful content just got caught up in the filter) actually reduces the incentive for ISPs to attempt to identify and block unlawful content, since attempting to do so but making a misidentification in the process can result in penalties.  In other words access to child pornography, terrorist information, and illicit drugs could actually increase as a result (i.e. &amp;ldquo;the law of unintended consequences&amp;rdquo;).&lt;/li&gt;
+&lt;li&gt;Data center consolidation &lt;em&gt;(KPI: How many DCs do you have?)&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Host virtualization &lt;em&gt;(KPI: what percentage of your servers are virtual?)&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&amp;ldquo;Cloud&amp;rdquo; in its various forms &lt;em&gt;(KPI: How many servers are you still running?)&lt;/em&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&#34;here-is-president-obama-s-video&#34;&gt;Here is President Obama&amp;rsquo;s Video:&lt;/h3&gt;
+&lt;p&gt;Assuming you have been aggresive you may not have any data centers left.  You may be buying services rather than servers, and/or all of your remaining machines might be virtualized and hosted in someone else&amp;rsquo;s data center. Now what?&lt;/p&gt;
 
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Enterprise Search 2014</title>
+      <link>https://danstroot.com/2014/03/14/enterprise-search-2014/</link>
+      <pubDate>Fri, 14 Mar 2014 10:00:00 +0000</pubDate>
+      
+      <guid>https://danstroot.com/2014/03/14/enterprise-search-2014/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://danstroot.com/img/Google_Enterprise_Search.png&#34; alt=&#34;Google Enterprise Search&#34; /&gt;&lt;/p&gt;
 
-&lt;div style=&#34;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&#34;&gt;
-  &lt;iframe src=&#34;//www.youtube.com/embed/uKcjQPVwfDk&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34; allowfullscreen frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
- &lt;/div&gt;
+&lt;p&gt;One of the challenges in a large distributed enterprise is &amp;ldquo;finding stuff&amp;rdquo;.  Sure we call it collaboration, knowledge management, or any number of other sophisticated terms but often it boils down to just finding stuff.&lt;/p&gt;
 
+&lt;p&gt;To compensate the organization reacts by saving multiple copies and versions of a file in many different locations: email, shared file systems, intranets, etc.  Of course this compounds the issue and drives the desire to save &amp;ldquo;my copy&amp;rdquo; to &amp;ldquo;somewhere where I can find it&amp;rdquo;.
+&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Happy Birthday Steve</title>
+      <link>https://danstroot.com/2014/02/24/happy-birthday-steve/</link>
+      <pubDate>Mon, 24 Feb 2014 10:00:00 +0000</pubDate>
+      
+      <guid>https://danstroot.com/2014/02/24/happy-birthday-steve/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://danstroot.com/img/SteveJobsCloseUp-lg.jpg&#34; alt=&#34;Steve Jobs&#34; /&gt;&lt;/p&gt;
 
-&lt;h3 id=&#34;update&#34;&gt;Update:&lt;/h3&gt;
-
-&lt;p&gt;As someone who considers himself a Republican It saddens me that this issue has become so polarized along party lines.&lt;/p&gt;
-
-&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;&amp;quot;Net Neutrality&amp;quot; is Obamacare for the Internet; the Internet should not operate at the speed of government.&lt;/p&gt;&amp;mdash; Senator Ted Cruz (@SenTedCruz) &lt;a href=&#34;https://twitter.com/SenTedCruz/status/531834493922189313&#34;&gt;November 10, 2014&lt;/a&gt;&lt;/blockquote&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Remembering my friend Steve on his birthday. &amp;quot;Stay hungry, Stay foolish&amp;quot;. We honor him by continuing the work he loved so much.&lt;/p&gt;&amp;mdash; Tim Cook (@tim_cook) &lt;a href=&#34;https://twitter.com/tim_cook/status/437966455229804545&#34;&gt;February 24, 2014&lt;/a&gt;&lt;/blockquote&gt;
 &lt;script async src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
 
-&lt;p&gt;The only similarity to the Affordable Care Act is that Obama supports it. There may be a rational, reasoned argument against Net Neutrality, but Republicans aren’t making it, and neither are the cable companies or cellular providers.&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>IPv6 Gets Real</title>
+      <link>https://danstroot.com/2014/02/18/ipv6-gets-real/</link>
+      <pubDate>Tue, 18 Feb 2014 10:00:00 +0000</pubDate>
+      
+      <guid>https://danstroot.com/2014/02/18/ipv6-gets-real/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://danstroot.com/img/IPv6-google.jpg&#34; alt=&#34;IPv6&#34; /&gt;&lt;/p&gt;
 
-&lt;p&gt;The main thrust seems to be &amp;ldquo;Government regulation of the Internet will be bad.&amp;rdquo;  And yet, we seem to have no issues regulating banks, power utilities, telephone companies and other utilities.  The other argument seems to be the &amp;ldquo;slippery slope&amp;rdquo; argument - by introducing goverment regulation it is easy to envision that we will soon start regulating &lt;strong&gt;content&lt;/strong&gt;.  However, with our country&amp;rsquo;s foundation on free speech I find that argument quite a stretch and exactly the opposite of Obama&amp;rsquo;s first principle: &amp;ldquo;No Blocking&amp;rdquo;.&lt;/p&gt;
+&lt;p&gt;Google’s IPv6 measurements crossed the 3% milestone just under five months from when the 2% milestone was crossed.  Prior to that it had taken 11 months to go from 1% to 2%.&lt;/p&gt;
 
-&lt;p&gt;&lt;em&gt;Sources:&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>A Soul Crushing Exercise</title>
+      <link>https://danstroot.com/2014/02/07/a-soul-crushing-exercise/</link>
+      <pubDate>Fri, 07 Feb 2014 10:00:00 +0000</pubDate>
+      
+      <guid>https://danstroot.com/2014/02/07/a-soul-crushing-exercise/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://danstroot.com/img/soulcrushing.jpg&#34; alt=&#34;Soul Crushing&#34; /&gt;&lt;/p&gt;
 
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.whitehouse.gov/net-neutrality&#34;&gt;White House - President Obama&amp;rsquo;s Plan for a Free and Open Internet&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
+&lt;p&gt;This morning I saw a post on LinkedIn by Bob Sutton who is a Stanford Professor and Co-author of Scaling up Excellence.  He discusses Adobe&amp;rsquo;s move to abolish it&amp;rsquo;s employee stack ranking system.  After the system was eliminated, one Adobe employee noted that a feeling of relief spread throughout the company because the old annual review system was &lt;strong&gt;“a soul-less and soul crushing exercise.”&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Fixing Windows 8</title>
+      <link>https://danstroot.com/2014/02/01/fixing-windows-8/</link>
+      <pubDate>Sat, 01 Feb 2014 10:00:00 +0000</pubDate>
+      
+      <guid>https://danstroot.com/2014/02/01/fixing-windows-8/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://danstroot.com/img/windows8.jpg&#34; alt=&#34;Windows 8&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;I just saw &lt;a href=&#34;http://jaymachalani.com/blog/2013/12/12/fixing-windows-8&#34;&gt;this piece&lt;/a&gt; by Jay Machalani about restructuring the UI/UX of Windows 8.  It&amp;rsquo;s a brilliant piece of work!&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Facebook Saves a BILLION Dollars via Open Compute Designs</title>
+      <link>https://danstroot.com/2014/01/28/facebook-saves-a-billion-dollars-via-open-compute-designs/</link>
+      <pubDate>Tue, 28 Jan 2014 10:00:00 +0000</pubDate>
+      
+      <guid>https://danstroot.com/2014/01/28/facebook-saves-a-billion-dollars-via-open-compute-designs/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://danstroot.com/img/fb-server.jpg&#34; alt=&#34;Facebook Server&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Last week, IBM announced that it was selling its low-end server business to Chinese hardware manufacturer Lenovo. The deal has been widely viewed as the logical result of the commoditization of x86-based servers, in much the same way PCs were commoditized a decade ago.&lt;/p&gt;
+
+&lt;p&gt;This week Microsoft announced it is joining the Open Compute Project and will “open source” its server designs, sharing them with the world at large.  Microsoft joins Facebook, Google, Amazon, Bloomberg, Intel, Box and many others.  Microsoft will be contributing designs for the servers that power global cloud services like Windows Azure, Office 365, and Bing.
+
+It&amp;rsquo;s clear that the server business is never going to be same.  For Microsoft open source goes against it&amp;rsquo;s DNA, and for IBM the server business was viewed as core not so long ago.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Awkward: Bill Gates Notices Jimmy Fallon Uses a Mac</title>
+      <link>https://danstroot.com/2014/01/22/awkward-bill-gates-notices-jimmy-fallon-uses-a-mac/</link>
+      <pubDate>Wed, 22 Jan 2014 10:00:00 +0000</pubDate>
+      
+      <guid>https://danstroot.com/2014/01/22/awkward-bill-gates-notices-jimmy-fallon-uses-a-mac/</guid>
+      <description>&lt;p&gt;
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;//www.youtube.com/embed/Qk7pPutimCM&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34; allowfullscreen frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
+ &lt;/div&gt;
+&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;Last night Bill Gates was a guest on Late Night with Jimmy Fallon to talk about his charitable work. The man has &lt;strong&gt;eliminated polio in India!&lt;/strong&gt;  However the segment takes an awkward turn when Bill starts eying Jimmy’s MacBook. This made me laugh&amp;hellip;it&amp;rsquo;s about 1:35 into the video&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Billion Dollar March Madness Bracket</title>
+      <link>https://danstroot.com/2014/01/22/billion-dollar-march-madness-bracket/</link>
+      <pubDate>Wed, 22 Jan 2014 10:00:00 +0000</pubDate>
+      
+      <guid>https://danstroot.com/2014/01/22/billion-dollar-march-madness-bracket/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://danstroot.com/img/ncaa-brackets.jpg&#34; alt=&#34;NCAA Bracket&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Quicken Loans and Warren Buffet annouced a billion dollar prize for a perfect NCAA college bracket prediction. As Quicken Loans puts it:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;You read that right: one billion. Not one million. Not one hundred million. Not five hundred million. One billion U.S. dollars.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&#34;why-give-away-a-billion-dollars&#34;&gt;Why Give Away a Billion Dollars?&lt;/h3&gt;</description>
+    </item>
+    
+    <item>
+      <title>NY FinTech Community is Thriving</title>
+      <link>https://danstroot.com/2014/01/13/ny-fintech-community-is-thriving/</link>
+      <pubDate>Mon, 13 Jan 2014 10:00:00 +0000</pubDate>
+      
+      <guid>https://danstroot.com/2014/01/13/ny-fintech-community-is-thriving/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://danstroot.com/img/new-ui.jpg&#34; alt=&#34;FX Trading UI&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;I was reading up on the &amp;ldquo;MEAN&amp;rdquo; stack: Mongo, Express, Angular and Node and came across a blog post from &lt;a href=&#34;http://francescak.me/blog/2013/04/09/fintech-hackathon-recap/&#34;&gt;Francesca Krihely&lt;/a&gt; about the FinTech hackathon in NY from back in April, 2013.&lt;/p&gt;
+
+&lt;p&gt;This interested me because as a former &amp;ldquo;insider&amp;rdquo; in a large financial services company I can see clearly how open source code and tooling is replacing more proprietry code and tooling (for example .net/visual studio) but it requires an entirely different skill set for internal developers.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Technology Adoption Curves vs. Birth Year and Life Expectancy</title>
+      <link>https://danstroot.com/2014/01/03/technology-adoption-curves-vs.-birth-year-and-life-expectancy/</link>
+      <pubDate>Fri, 03 Jan 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://danstroot.com/2014/01/03/technology-adoption-curves-vs.-birth-year-and-life-expectancy/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://danstroot.com/img/adoption_curve.jpg&#34; alt=&#34;Adoption Curve&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Asymco has done a fascinating piece of research mapping technology adoption curves, technology refresh rates, and human lifespan, to predict technology lifetime ownership.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&amp;rdquo;&amp;hellip;knowing how what innovations become universal and the speed at which these technologies are replaced can give us an idea of what individuals might experience [own] in their lifetimes.&amp;rdquo;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Supercomputer Weather Visualization in a Browser</title>
+      <link>https://danstroot.com/2014/01/02/supercomputer-weather-visualization-in-a-browser/</link>
+      <pubDate>Thu, 02 Jan 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://danstroot.com/2014/01/02/supercomputer-weather-visualization-in-a-browser/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://danstroot.com/img/earth_wind_map.jpg&#34; alt=&#34;Earth&#39;s Weather&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;This is a pretty amazing technology demonstration of what is possible using the currently available open source tooling, open source data, and using cloud service providers for hosting and content delivery.  It was written by Cameron Beccario (@cambecc). Check it out below.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Responsive Design vs. Mobile-First</title>
+      <link>https://danstroot.com/2013/12/31/responsive-design-vs.-mobile-first/</link>
+      <pubDate>Tue, 31 Dec 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://danstroot.com/2013/12/31/responsive-design-vs.-mobile-first/</guid>
+      <description>&lt;p&gt;I have heard some people speak of &amp;ldquo;mobile-first&amp;rdquo; and &amp;ldquo;responsive design&amp;rdquo; interchangeably making them sound as if they were one and the same.  However I think there are some subtle differences.  I believe responsive design is the broadest possible definition. It says to me that we are going to target all platforms, screen sizes, pixel densities, etc.  It means that the user experience will be custom tailored to the exact device you just happen to be viewing it with. This should be our ulimate goal, right?&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Apple&#39;s Astounding Capital Expenditures</title>
+      <link>https://danstroot.com/2013/10/30/apples-astounding-capital-expenditures/</link>
+      <pubDate>Wed, 30 Oct 2013 10:00:00 +0000</pubDate>
+      
+      <guid>https://danstroot.com/2013/10/30/apples-astounding-capital-expenditures/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://danstroot.com/img/iSpaceship.jpg&#34; alt=&#34;Earth&#39;s Weather&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Apple’s most recent 10-K filing with the U.S. Securities and Exchange Commission shows the company has budgeted &lt;strong&gt;$11 billion in capital expenditures for fiscal 2014&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;This is more than &lt;strong&gt;5 times&lt;/strong&gt; Apple&amp;rsquo;s capital expenditure in 2010 and &lt;strong&gt;57 percent more than the $7 billion it spent in 2013&lt;/strong&gt;.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Intrinsic Bias</title>
+      <link>https://danstroot.com/2013/10/15/intrinsic-bias/</link>
+      <pubDate>Tue, 15 Oct 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://danstroot.com/2013/10/15/intrinsic-bias/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://danstroot.com/img/bias.jpg&#34; alt=&#34;Bias&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;As a CIO in a large, publicly owned financial services company I held the responsibility of keeping our client&amp;rsquo;s (and our organization’s) data safe and secure.  As the economics of cloud services became compelling the largest hurdle to adoption was &amp;ldquo;potential security risks&amp;rdquo;, by a large measure.&lt;/p&gt;
+
+&lt;p&gt;Let me explain what I mean by &amp;ldquo;potential security risks&amp;rdquo;.   Recently Ben Fried, Google&amp;rsquo;s CIO, made a &lt;a href=&#34;http://allthingsd.com/20131010/google-cio-ben-fried-on-how-google-works/&#34;&gt;remark about Dropbox&lt;/a&gt;:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;“The important thing to understand about Dropbox,” Fried said, “is
+that when your users use it in a corporate context, &lt;strong&gt;your corporate
+data is being held in someone else’s data center.&lt;/strong&gt;”&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;(Emphasis added)&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Work Like Hell</title>
+      <link>https://danstroot.com/2013/10/04/work-like-hell/</link>
+      <pubDate>Fri, 04 Oct 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://danstroot.com/2013/10/04/work-like-hell/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://danstroot.com/img/elon-musk.jpg&#34; alt=&#34;Elon Musk&#34; /&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&amp;ldquo;If other people are putting in 40-hour workweeks, and you&amp;rsquo;re
+putting in 100-hour workweeks, then, even if you&amp;rsquo;re doing the same
+thing, you will achieve in four months what it takes them a year
+to achieve.&amp;rdquo;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;- Elon Musk&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Only Usain Bolt Looks at the Clock</title>
+      <link>https://danstroot.com/2013/08/01/only-usain-bolt-looks-at-the-clock/</link>
+      <pubDate>Thu, 01 Aug 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://danstroot.com/2013/08/01/only-usain-bolt-looks-at-the-clock/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://danstroot.com/img/Usain-Bolt-Opt.jpg&#34; alt=&#34;Usain Bolt&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;If you watch someone run the 100 meters, they sneak glances around. Sprinters watch each other while they run.  They want to know where are in the pack and what place they might get.  I noticed that only Usain Bolt looks at the clock.
+&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Great Web Product Images: PlaceIt</title>
+      <link>https://danstroot.com/2013/07/30/great-web-product-images-placeit/</link>
+      <pubDate>Tue, 30 Jul 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://danstroot.com/2013/07/30/great-web-product-images-placeit/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://danstroot.com/img/breezi_placeit2.jpg&#34; alt=&#34;Product Placement&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Saw this today on &lt;a href=&#34;https://news.ycombinator.com/news&#34;&gt;Hacker News&lt;/a&gt;.  Perfect timing as I was looking to create some images for this blog.  I think it works pretty well for about 30 seconds of effort.  Well done guys!&lt;/p&gt;
+
+&lt;p&gt;Here&amp;rsquo;s the &lt;a href=&#34;http://placeit.breezi.com/productshots/&#34;&gt;link&lt;/a&gt; if you want to try it.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Hosting your Blog on Amazon S3</title>
+      <link>https://danstroot.com/2013/07/25/hosting-your-blog-on-amazon-s3/</link>
+      <pubDate>Thu, 25 Jul 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://danstroot.com/2013/07/25/hosting-your-blog-on-amazon-s3/</guid>
+      <description>&lt;p&gt;One of the cleanest designed blogs I have seen in a while belongs to &lt;a href=&#34;http://blog.yourkarma.com/&#34;&gt;Karma Mobility&lt;/a&gt;.  So I asked in the comments on a particularly interesting post by Stefan Borsje and he very nicely responded &amp;ldquo;Thanks Daniel! This blog uses Jekyll and is hosted on S3.&amp;rdquo;&lt;/p&gt;
+
+&lt;p&gt;Hmmm.  That&amp;rsquo;s two cool things at once.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Risk Mitigation Costs Too Much</title>
+      <link>https://danstroot.com/2012/11/16/risk-mitigation-costs-too-much/</link>
+      <pubDate>Fri, 16 Nov 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://danstroot.com/2012/11/16/risk-mitigation-costs-too-much/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://danstroot.com/img/edison.jpg&#34; alt=&#34;Thomas Edison&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Many large organizations work exceptionally hard minimize &amp;ldquo;risk&amp;rdquo;.   Ironically, by working so diligently to reduce risk they are paying for it anyway, and reducing innovation at the same time.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Minority Report and Big Data</title>
+      <link>https://danstroot.com/2012/10/21/minority-report-and-big-data/</link>
+      <pubDate>Sun, 21 Oct 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://danstroot.com/2012/10/21/minority-report-and-big-data/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://danstroot.com/img/minorityreport.jpg&#34; alt=&#34;Minority Report&#34; /&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;The United Arab Emirates holds the largest biometric database in
+the world, the Emirates Identity Authority has announced. The
+population register of Emirates ID has over &lt;strong&gt;103 million digital
+fingerprints and over 15 million digital facial recognition
+records&lt;/strong&gt;, which includes multiple records of each UAE resident,
+and digital signatures as of October 11, senior officials said.&lt;/p&gt;
+
+&lt;p&gt;Dr. Ali Al Khoury, Director General of Emirates ID, said the
+authority has submitted an official application to the World
+Record Academy to recognize this record. Asked about the
+confirmation of the authority’s claims about the world record, an
+official spokesman of the authority told Gulf News on Sunday: &amp;ldquo;We
+have made worldwide surveys and inquiries with the similar
+official authorities and agencies of the world governments holding
+such databases and confirmed that our database is the largest. The
+World Record Academy also confirmed to us that no other government
+or authority has made a similar claim for such a record.&amp;rdquo; 1&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>TEDx Orange Coast 2012</title>
+      <link>https://danstroot.com/2012/10/11/tedx-orange-coast-2012/</link>
+      <pubDate>Thu, 11 Oct 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://danstroot.com/2012/10/11/tedx-orange-coast-2012/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://danstroot.com/img/TEDx-logo.jpg&#34; alt=&#34;TEDx&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Yesterday I had the pleasure of mental stimulation.  The theme of the TEDx OC conference was relevance.  Specifically how do you stay relevant in today’s world?&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Apple Reaches for Greatness Without Apology</title>
+      <link>https://danstroot.com/2012/05/02/apple-reaches-for-greatness-without-apology/</link>
+      <pubDate>Wed, 02 May 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://danstroot.com/2012/05/02/apple-reaches-for-greatness-without-apology/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://danstroot.com/img/SteveJobsCloseUp-lg.jpg&#34; alt=&#34;Steve Jobs&#34; /&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;I haven’t got any sort of odd chip on my shoulder about proving anything to myself or anybody else.  And remember, though the outside world looks at success from a numerical point of view, my yardstick might be quite different than that.  My yardstick may be how every computer that’s designed from here on out will have to be at least as good as a Macintosh.
+&lt;em&gt;– &lt;a href=&#34;http://www.newsweek.com/1985/09/30/jobs-talks-about-his-rise-and-fall.print.html&#34;&gt;Steve Jobs, 1985&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>20.5 Million hits a day using an Amazon Micro server ($15 a month) and Node.js</title>
+      <link>https://danstroot.com/2012/04/30/20.5-million-hits-a-day-using-an-amazon-micro-server-15-a-month-and-node.js/</link>
+      <pubDate>Mon, 30 Apr 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://danstroot.com/2012/04/30/20.5-million-hits-a-day-using-an-amazon-micro-server-15-a-month-and-node.js/</guid>
+      <description>&lt;p&gt;I have been building a website recently just to get current with the latest web technologies and scaling.  I  saw this post on Hacker News: &lt;a href=&#34;http://www.ewanleith.com/blog/900/10-million-hits-a-day-with-wordpress-using-a-15-server&#34; title=&#34;10 Million hits a day with WordPress using a $15 server&#34;&gt;10 Million hits a day with WordPress using a $15 server&lt;/a&gt; and was intrigued.  It was time to benchmark one of my own applications (&lt;a href=&#34;http://www.vizilinkz.com/&#34; title=&#34;ViziLinkz&#34;&gt;vizilinkz.com&lt;/a&gt;) since it also runs on an Amazon Micro server for now as my development/production machine.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Transparency Wins</title>
+      <link>https://danstroot.com/2012/01/03/transparency-wins/</link>
+      <pubDate>Tue, 03 Jan 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://danstroot.com/2012/01/03/transparency-wins/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://danstroot.com/img/google_docs.jpg&#34; alt=&#34;Google Docs&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://bconnected-project.berkeley.edu/about/email-calendar-platform-comparison&#34;&gt;UC Berkeley just did a great assessment of Office 365 vs. Google Apps&lt;/a&gt;.  What I really like is how they were able to make the results easy to understand for their constituency.&lt;/p&gt;
+
+&lt;p&gt;I often struggle to communicate large, impactful descisions across a large organization.  They did a great job with the &amp;ldquo;Assessment Matrix&amp;rdquo; matrix they created that clearly spells out each function by priority, and which platform &amp;ldquo;wins&amp;rdquo;.&lt;/p&gt;
+
+&lt;p&gt;In this case I think transparency wins.  Good example to learn from!&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>The Corporate iCloud, part 2</title>
+      <link>https://danstroot.com/2011/12/22/the-corporate-icloud-part-2/</link>
+      <pubDate>Thu, 22 Dec 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://danstroot.com/2011/12/22/the-corporate-icloud-part-2/</guid>
+      <description>When Apple introduced iCloud I wrote an article about the potential impact in the corporate computing space: The Corporate iCloud.
+In the article I compared what I was doing with Dropbox as a potential corporate version of iCloud. It turns out there was a LOT more there than meets the eye. Dropbox may even have become iCloud had some things gone a bit differently.
+Wired has done a deep dive on this topic.</description>
+    </item>
+    
+    <item>
+      <title>The Corporate iCloud</title>
+      <link>https://danstroot.com/2011/06/10/the-corporate-icloud/</link>
+      <pubDate>Fri, 10 Jun 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://danstroot.com/2011/06/10/the-corporate-icloud/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://danstroot.com/img/icloud2.jpg&#34; alt=&#34;iCloud&#34; /&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Apple’s announcements at this year’s WWDC keynote will have far reaching effects.  Much has already been written about the impacts to you and me as consumers of Apple products.  But let’s stop and think for a moment about how this will affect our perceptions about technology, and how that will translate into the corporate IT space.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>iPad Security Vulnerability: Fingerprints</title>
+      <link>https://danstroot.com/2010/04/28/ipad-security-vulnerability-fingerprints/</link>
+      <pubDate>Wed, 28 Apr 2010 00:00:00 +0000</pubDate>
+      
+      <guid>https://danstroot.com/2010/04/28/ipad-security-vulnerability-fingerprints/</guid>
+      <description>I have noticed a security vulnerability on the iPad – fingerprints! Each time I use my iPad I have to type in my four digit security code. This leaves four fingerprints telling you very clearly what four digits I use.
+Now you only have to guess the order, and there are only 16 possible combinations. Unless I wipe the screen each time this makes it really easy to hack my iPad if it was lost or stolen.</description>
+    </item>
+    
+    <item>
+      <title>iPad Goes Corporate</title>
+      <link>https://danstroot.com/2010/01/29/ipad-goes-corporate/</link>
+      <pubDate>Fri, 29 Jan 2010 00:00:00 +0000</pubDate>
+      
+      <guid>https://danstroot.com/2010/01/29/ipad-goes-corporate/</guid>
+      <description>&lt;p&gt;Like many people in the Technology world I watched Apple&amp;rsquo;s iPad announcement this week with intense interest.  Unlike most people I am interested not in the consumer space  - but rather how could this device be used for business.  How could a new category like this be used?&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Lessons from Haiti- Never Under Estimate Ease of Use</title>
+      <link>https://danstroot.com/2010/01/15/lessons-from-haiti--never-under-estimate-ease-of-use/</link>
+      <pubDate>Fri, 15 Jan 2010 00:00:00 +0000</pubDate>
+      
+      <guid>https://danstroot.com/2010/01/15/lessons-from-haiti--never-under-estimate-ease-of-use/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://danstroot.com/img/haiti.jpg&#34; alt=&#34;Haiti&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;My assistant Kathy told me today about donating to Haitian relief efforts by simply sending a text message from my cellphone.  The Red Cross, via a company called mGive, has got the major U.S. carriers on board to allow people to very easily donate $10 to the Red Cross via a simple SMS text message.&lt;/p&gt;
+
+&lt;p&gt;This led to an &amp;ldquo;unprecedented mobile response,&amp;rdquo; and has raised over $10 million in relief for Haiti.  With text donations peaking at a rate of 10,000 a minute, at $10 per donation, this is raising $100,000 per minute!&lt;/p&gt;
+
+&lt;p&gt;I had been watching the news about Haiti and was heartbroken at what they are going through.  I wanted to help.  But did I?&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
   </channel>
