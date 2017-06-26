@@ -150,4 +150,5 @@ Here are the main components summarized:
 [Fundamentals of the BeyondCorp ‘Zero-Trust’ Security Framework](https://dzone.com/articles/fundamentals-of-the-beyondcorp-zero-trust-security)<br>
 [Google leads the way out of the castle to the cloud](http://blog.code42.com/google-beyondcorp-leads-the-way-out-of-the-castle-to-the-cloud/)<br>
 [Bitly's Oauth2 Proxy](https://github.com/bitly/oauth2_proxy)<br>
+[Ditch your VPN, improve security and go to the cloud](https://www.blog.google/topics/google-cloud/how-use-beyondcorp-ditch-your-vpn-improve-security-and-go-cloud/)<br>
 </span>
