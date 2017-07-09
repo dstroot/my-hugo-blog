@@ -2,7 +2,7 @@
 /* eslint-env node */
 
 'use strict';
-process.setMaxListeners(0);
+require('events').EventEmitter.prototype._maxListeners = 100;
 
 // Install: you must install gulp both globally *and* locally.
 // Make sure you `$ npm install -g gulp`
