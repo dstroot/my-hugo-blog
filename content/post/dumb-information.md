@@ -1,5 +1,5 @@
 +++
-title = "Internet != smarter people"
+title = "Internet != Smarter People"
 description = ""
 keywords = [
 ]
