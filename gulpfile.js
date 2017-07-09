@@ -2,6 +2,7 @@
 /* eslint-env node */
 
 'use strict';
+process.setMaxListeners(0);
 
 // Install: you must install gulp both globally *and* locally.
 // Make sure you `$ npm install -g gulp`
