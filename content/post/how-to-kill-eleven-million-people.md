@@ -11,7 +11,7 @@ date = "2017-08-10T10:25:35-08:00"
 
 ![San Francisco MOMA](/img/holocaust.jpg)
 
-One particular aspect of the Holocaust remains puzzling.  It is the answer to one simple question. How do you actually go about killing eleven million people? Why for month after month and year after year, did millions of intelligent human beings—guarded by a relatively few Nazi soldiers—willingly load their families into tens of thousands of cattle cars to be transported by rail to one of the many death camps scattered across Europe? 
+One particular aspect of the Holocaust remains puzzling. How do you actually go about killing eleven million people? Why for month after month and year after year, did millions of intelligent human beings—guarded by a relatively few Nazi soldiers—willingly load their families into tens of thousands of cattle cars to be transported by rail to one of the many death camps scattered across Europe? 
 
 The answer is simple – **you lie to them**.
 
@@ -41,7 +41,7 @@ At that moment they were lost.
 
 If you believe the “truth shall set you free” then if you don’t know truth can its absence place you in bondage?
 
-It has been standard operating procedure for many politicians to say whatever is needed in order to get elected. The danger to any government is not a single bad politician, or even a group of them. The most dangerous thing any nation faces is a citizenry capable of trusting liars to lead them. 
+It has been standard operating procedure for many politicians to say whatever is needed in order to get elected. The danger to any government is not a single bad politician, or even a group of them. **The most dangerous thing any nation faces is a citizenry capable of trusting liars to lead them.**
 
 In the long run, it is much easier to undo the policies of poor leadership than to restore common sense and wisdom to an ignorant and deceived population willing to elect such leaders in the first place. 
 
@@ -54,7 +54,7 @@ In the long run, it is much easier to undo the policies of poor leadership than 
 * How are we supposed to tell the difference between the “good guys" and the “bad guys” if we don’t have an objective and shared way of seeing and measuring truth?
 * What happens to a society in which truth is absent?
 
-We must be informed, passionate citizens who demand honesty and integrity from our leaders, or suffer the consequences of our own ignorance and apathy. Any country can survive having chosen a fool as their leader. But history has shown time and again that a nation of fools is surely doomed.
+Citizens must demand truth, honesty and integrity from our leaders, or suffer the consequences of our own ignorance and apathy. A nation may survive having chosen a fool as their leader, but a nation of fools is surely doomed.
 
 _Note: This post references content from a book written by Andy Andrews. His book (linked below) explores the powerful, provocative question, “How do you kill eleven million people?” — the number of people killed by the Nazi German regime between 1933 and 1945.  This book is only 96 pages and costs just $2.99, yet is one of the most powerful books I have ever read._
 
