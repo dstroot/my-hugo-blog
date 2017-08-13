@@ -9,7 +9,11 @@ categories = [
 date = "2017-08-10T10:25:35-08:00"
 +++
 
-![San Francisco MOMA](/img/holocaust.jpg)
+![Holocaust](/img/holocaust.jpg)
+
+_This blog was meant for technology topics, not politics. However, I watched what happened yesterday (8/12/2017) in Charlottesville, VA.  I actually saw people saluting and carrying Nazi flags. I was shocked and worried about where we are headed as a country. I sincerely hope we consider what made us great in the first place - beginning with our rich diversity of cultures, religions, and ethnic groups - and ending with our strong leaders like Abraham Lincoln who were willing to risk everything to do the right thing._
+
+<hr>
 
 One particular aspect of the Holocaust remains puzzling. How do you actually go about killing eleven million people? Why for month after month and year after year, did millions of intelligent human beings—guarded by a relatively few Nazi soldiers—willingly load their families into tens of thousands of cattle cars to be transported by rail to one of the many death camps scattered across Europe? 
 
@@ -35,15 +39,13 @@ The Jewish husbands and fathers were accepting of the explanation and comforted 
 
 At that moment they were lost.
 
+It has been standard operating procedure for many politicians to say whatever is needed in order to get elected. The danger to any government is not a single bad politician, or even a group of them. **The most dangerous thing any nation faces is a citizenry capable of trusting liars to lead them.**
+
 >For you shall know the truth, and the truth shall set you free.
 >
 ><cite>&mdash; John, 8:32</cite>
 
-If you believe the “truth shall set you free” then if you don’t know truth can its absence place you in bondage?
-
-It has been standard operating procedure for many politicians to say whatever is needed in order to get elected. The danger to any government is not a single bad politician, or even a group of them. **The most dangerous thing any nation faces is a citizenry capable of trusting liars to lead them.**
-
-In the long run, it is much easier to undo the policies of poor leadership than to restore common sense and wisdom to an ignorant and deceived population willing to elect such leaders in the first place. 
+If you believe the “truth shall set you free” then if you don’t know truth can its absence place you in bondage?  Psychologists and sociologists say dictators have two main tools; fear and control of information. Manufacturing an external threat, like Jews to Hitler's Germany, help keep the society off balance and collectively paranoid. However, **controlling information** is the key to maintaining a totalitarian state.
 
 >The price good men pay for indifference to public affairs is to be ruled by inferior men.
 >
@@ -54,9 +56,9 @@ In the long run, it is much easier to undo the policies of poor leadership than 
 * How are we supposed to tell the difference between the “good guys" and the “bad guys” if we don’t have an objective and shared way of seeing and measuring truth?
 * What happens to a society in which truth is absent?
 
-Citizens must demand truth, honesty and integrity from our leaders, or suffer the consequences of our own ignorance and apathy. A nation may survive having chosen a fool as their leader, but a nation of fools is surely doomed.
+Citizens must demand truth, honesty and integrity from each other and our leaders, or suffer the consequences of our own ignorance and apathy. A nation may survive having chosen a fool as their leader, but **a nation of fools is surely doomed**.
 
-_Note: This post references content from a book written by Andy Andrews. His book (linked below) explores the powerful, provocative question, “How do you kill eleven million people?” — the number of people killed by the Nazi German regime between 1933 and 1945.  This book is only 96 pages and costs just $2.99, yet is one of the most powerful books I have ever read._
+<span class="small">_Note: This post references content from a book written by Andy Andrews. His book (linked below) explores the powerful, provocative question, “How do you kill eleven million people?” — the number of people killed by the Nazi German regime between 1933 and 1945.  This book is only 96 pages and costs just $2.99, yet is one of the most powerful books I have ever read._</span>
 
 #### References
 
