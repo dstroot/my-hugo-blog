@@ -1,7 +1,7 @@
 +++
 title = "How to Kill 11 Million People?"
 description = ""
-draft = true
+draft = false
 keywords = [
 ]
 categories = [
