@@ -11,7 +11,7 @@ date = "2017-08-10T10:25:35-08:00"
 
 ![Holocaust](/img/holocaust.jpg)
 
-_This blog was meant for technology topics, not politics. However, I watched what happened yesterday (8/12/2017) in Charlottesville, VA.  I actually saw people saluting and carrying Nazi flags. I was shocked and worried about where we are headed as a country. I sincerely hope we consider what made us great in the first place - beginning with our rich diversity of cultures, religions, and ethnic groups - and ending with our strong leaders like Abraham Lincoln who were willing to risk everything to do the right thing._
+_This blog was meant for technology topics, not politics. However, I watched what happened in Charlottesville, VA on 8/12/2017.  I actually saw people saluting and carrying Nazi flags. I was shocked and worried that our president didn't immediately denounce racial hatred and bigotry. We cannot condone or allow racism, and we cannot allow our leaders to support it - especially if those leaders also **lie to us**. Citizens must demand truth, honesty and integrity from each other and our leaders, or suffer the consequences of our own ignorance and apathy._
 
 <hr>
 
