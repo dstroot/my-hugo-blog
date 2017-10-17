@@ -265,7 +265,7 @@ code {
   margin-bottom: 2rem; }
 
 .post > h1, h2, h3, h4, h5, h6 {
-  color: #000; }
+  color: #595959; }
 
 .post-content > p > a,
 .post-content > li > a {
@@ -277,7 +277,7 @@ code {
 .page-title,
 .post-title,
 .post-title a {
-  color: #000; }
+  color: #595959; }
 
 .page-title,
 .post-title {
