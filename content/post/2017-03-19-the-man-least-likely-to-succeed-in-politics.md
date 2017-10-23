@@ -100,6 +100,20 @@ The bots targeted people by a hashtag symbol, like #Clinton. Their purpose: to r
 
 *UPDATE 04/29/2017:* [Facebook has published](https://fbnewsroomus.files.wordpress.com/2017/04/facebook-and-information-operations-v1.pdf) how clusters of fake accounts were used to disseminate and amplify "fake news" during the 2016 election cycle.  
 
+*UPDATE 10/12/2017:* [What Facebook Did to American Democracy](https://www.theatlantic.com/technology/archive/2017/10/what-facebook-did/542502/?single_page=true) The Atlantic has published what is currently one of the best, in depth looks at how social media and Facebook specifically was used to influence our presidential election. 
+
+Quotes from the article:
+
+>The same was true even of people inside Facebook. “If you’d come to me in 2012, when the last presidential election was raging and we were cooking up ever more complicated ways to monetize Facebook data, and told me that Russian agents in the Kremlin’s employ would be buying Facebook ads to subvert American democracy, I’d have asked where your tin-foil hat was,” wrote Antonio García Martínez, who managed ad targeting for Facebook back then. “And yet, now we live in that otherworldly political reality.”
+<hr>
+>Through 2015, Breitbart went from a medium-sized site with a small Facebook page of 100,000 likes into a powerful force shaping the election with almost 1.5 million likes. In the key metric for Facebook’s News Feed, its posts got 886,000 interactions from Facebook users in January. By July, Breitbart had surpassed The New York Times’ main account in interactions. By December, it was doing 10 million interactions per month, about 50 percent of Fox News, which had 11.5 million likes on its main page. 
+<hr>
+>A Guardian reporter who looked into Russian military doctrine around information war found a handbook that described how it might work. “The deployment of information weapons, [the book] suggests, ‘acts like an invisible radiation’ upon its targets: ‘The population doesn’t even feel it is being acted upon. So the state doesn’t switch on its self-defense mechanisms,’” wrote Peter Pomerantsev.
+<hr>
+>Jonathan Albright, research director of the Tow Center for Digital Journalism at Columbia University, pulled data on the six publicly known Russia-linked Facebook pages. He found that their posts had been shared 340 million times. And those were six of 470 pages that Facebook has linked to Russian operatives. You’re probably talking billions of shares, with who knows how many views, and with what kind of specific targeting.
+<hr>
+>Add everything up. The chaos of a billion-person platform that competitively dominated media distribution. The known electoral efficacy of Facebook. The wild fake news and misinformation rampaging across the internet generally and Facebook specifically. The Russian info operations. All of these things were known. And yet no one could quite put it all together: The dominant social network had altered the information and persuasion environment of the election beyond recognition while taking a very big chunk of the estimated $1.4 billion worth of digital advertising purchased during the election. 
+
 ### Closing the Deal
 
 Once a voter has been "sold", or converted, then “confirmation bias" takes over. Confirmation bias is the tendency people have to embrace information that supports their beliefs and reject information that contradicts them. Of the many forms of faulty thinking that have been identified, confirmation bias is among the best catalogued; it’s the subject of entire textbooks’ worth of experiments. If reason is designed to generate sound judgments, then it’s hard to conceive of a more serious design flaw than confirmation bias. 
@@ -122,5 +136,6 @@ However, people are not randomly wrong. Presented with someone else’s argument
 [Sources of Trump Support: The Case of Low-Information Voters](http://urban.hunter.cuny.edu/~schram/trumplowinformationvotersfinal.pdf)<br>
 [‘Low information voters’ are a crucial part of Trump’s support](https://www.washingtonpost.com/news/monkey-cage/wp/2016/11/07/low-information-voters-are-a-crucial-part-of-trumps-support/)<br>
 [Information Operations
-and Facebook](https://fbnewsroomus.files.wordpress.com/2017/04/facebook-and-information-operations-v1.pdf)
+and Facebook](https://fbnewsroomus.files.wordpress.com/2017/04/facebook-and-information-operations-v1.pdf)<br>
+[What Facebook Did to American Democracy](https://www.theatlantic.com/technology/archive/2017/10/what-facebook-did/542502/?single_page=true)
 </span>
