@@ -21,9 +21,7 @@ require('events').EventEmitter.prototype._maxListeners = 100;
 
 var gulp          = require('gulp');
 var $             = require('gulp-load-plugins')({ lazy: true });
-var del           = require('del');
 var runSequence   = require('run-sequence');
-var pngcrush      = require('imagemin-pngcrush');
 var terminus      = require('terminus');
 var exec          = require('child_process').exec;
 
@@ -111,7 +109,7 @@ gulp.task('styles', function () {
  */
 
 gulp.task('compile', function (cb) {
-  exec('cd static/lib/highlight && node tools/build.js -t browser bash css dockerfile go json scss xml yaml', function (err, stdout, stderr) {
+  return exec('cd static/lib/highlight && node tools/build.js -t browser bash css dockerfile go json scss xml yaml', function (err, stdout, stderr) {
     console.log(stdout);
     console.log(stderr);
     cb();  // finished task
@@ -134,6 +132,7 @@ gulp.task('scripts', ['compile'], function () {
  */
 
 gulp.task('images', function () {
+  var pngcrush      = require('imagemin-pngcrush');
   return gulp.src('static/img/*.{png,jpg,gif}')
     // .pipe($.changed('./static/img'))        // Only process new/changed
     .pipe($.imagemin({                      // Compress images
