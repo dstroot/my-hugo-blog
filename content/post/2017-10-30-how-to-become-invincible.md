@@ -1,7 +1,7 @@
 +++
 title = "How to Become Invincible"
 description = ""
-draft = true
+draft = false
 keywords = []
 categories = []
 date = "2017-10-30T10:25:35-08:00"
