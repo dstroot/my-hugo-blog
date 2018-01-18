@@ -6,10 +6,32 @@
     <description>Recent content on Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 30 Oct 2017 10:25:35 -0800</lastBuildDate>
+    <lastBuildDate>Thu, 18 Jan 2018 10:25:35 -0800</lastBuildDate>
     
 	<atom:link href="https://danstroot.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Turn Your Company Inside-Out for $3/mo</title>
+      <link>https://danstroot.com/2018/01/18/turn-your-company-inside-out-for-3/mo/</link>
+      <pubDate>Thu, 18 Jan 2018 10:25:35 -0800</pubDate>
+      
+      <guid>https://danstroot.com/2018/01/18/turn-your-company-inside-out-for-3/mo/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://danstroot.com/img/citadel.jpg&#34; alt=&#34;Citadel&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;I have already described the &amp;ldquo;inside out&amp;rdquo; corporation &lt;a href=&#34;https://danstroot.com/2017/04/10/the-inside-out-corporation/&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;It imagines a world where:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Corporate networks no longer exist (so VPNs and other remote access solutions are no longer needed)&lt;/li&gt;
+&lt;li&gt;There is no concept of &amp;ldquo;in&amp;rdquo; or &amp;ldquo;outside&amp;rdquo; the corporate network.&lt;/li&gt;
+&lt;li&gt;All corporate services are accessible anywhere over the Internet &lt;strong&gt;securely&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Corporate network costs are reduced appropriately.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>How to Become Invincible</title>
@@ -68,7 +90,7 @@
       <guid>https://danstroot.com/2017/08/10/how-to-kill-11-million-people/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;https://danstroot.com/img/holocaust.jpg&#34; alt=&#34;Holocaust&#34; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;em&gt;This blog was meant for technology topics, not politics. However, I watched what happened in Charlottesville, VA on 8/12/2017.  I actually saw people saluting and carrying Nazi flags. I was shocked and worried that our president didn&amp;rsquo;t immediately denounce racial hatred and bigotry. We cannot condone or allow racism, and we cannot allow our leaders to support it - especially if those leaders also &lt;strong&gt;lie to us&lt;/strong&gt;. Citizens must demand truth, honesty and integrity from each other and our leaders, or suffer the consequences of our own ignorance and apathy.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;This blog was meant for technology topics, not politics. However, I watched what happened in Charlottesville, VA on 8/12/2017.  I actually saw people saluting and carrying Nazi flags. I was shocked that our president didn&amp;rsquo;t immediately denounce racial hatred and bigotry. We cannot condone or allow racism, and we cannot allow our leaders to support it - especially if those leaders also &lt;strong&gt;lie to us&lt;/strong&gt;. Citizens must demand truth, honesty and integrity from our leaders, or suffer the consequences of our own ignorance and apathy.&lt;/em&gt;&lt;/p&gt;
 
 &lt;hr&gt;
 
@@ -85,9 +107,7 @@
       <pubDate>Sun, 09 Jul 2017 10:25:35 -0800</pubDate>
       
       <guid>https://danstroot.com/2017/07/09/internet--smarter-people/</guid>
-      <description>&lt;blockquote&gt;
-&lt;p&gt;I thought the Internet would make ignorant people smarter and more informed, via better access to information. Instead the opposite happened. Ignorant people just polluted the Internet with false information.&lt;/p&gt;
-&lt;/blockquote&gt;
+      <description>&lt;p&gt;I thought the Internet would make people smarter and more informed via better access to information. Instead, in many ways the opposite happened. Ignorant people just polluted the Internet with false information.&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;</description>
     </item>

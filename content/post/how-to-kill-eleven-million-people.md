@@ -11,7 +11,7 @@ date = "2017-08-10T10:25:35-08:00"
 
 ![Holocaust](/img/holocaust.jpg)
 
-_This blog was meant for technology topics, not politics. However, I watched what happened in Charlottesville, VA on 8/12/2017.  I actually saw people saluting and carrying Nazi flags. I was shocked and worried that our president didn't immediately denounce racial hatred and bigotry. We cannot condone or allow racism, and we cannot allow our leaders to support it - especially if those leaders also **lie to us**. Citizens must demand truth, honesty and integrity from each other and our leaders, or suffer the consequences of our own ignorance and apathy._
+_This blog was meant for technology topics, not politics. However, I watched what happened in Charlottesville, VA on 8/12/2017.  I actually saw people saluting and carrying Nazi flags. I was shocked that our president didn't immediately denounce racial hatred and bigotry. We cannot condone or allow racism, and we cannot allow our leaders to support it - especially if those leaders also **lie to us**. Citizens must demand truth, honesty and integrity from our leaders, or suffer the consequences of our own ignorance and apathy._
 
 <hr>
 
@@ -45,7 +45,7 @@ It has been standard operating procedure for many politicians to say whatever is
 >
 ><cite>&mdash; John, 8:32</cite>
 
-If you believe the “truth shall set you free” then if you don’t know truth can its absence place you in bondage?  Psychologists and sociologists say dictators have two main tools; fear and control of information. Manufacturing an external threat, like Jews to Hitler's Germany, help keep the society off balance and collectively paranoid. However, **controlling information** is the key to maintaining a totalitarian state.
+Can the absence of truth place you in bondage?  Psychologists and sociologists say dictators have two main tools; fear and control of information. Manufacturing an external threat, like Jews to Hitler's Germany, help keep the society off balance and collectively paranoid. However, **controlling information** is the key to maintaining a totalitarian state.
 
 >The price good men pay for indifference to public affairs is to be ruled by inferior men.
 >
