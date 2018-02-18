@@ -52,7 +52,7 @@ The collective rights view of the amendment is that it gives each state the righ
 
 **Individual Rights**
 
-Those with the individual rights viewpoint believe the amendment gives every citizen the right to own guns, free of federal regulations, to protect themselves in the face of danger. The individualists believe the amendment's militia clause was never meant to restrict each citizen's rights to bear arms.
+Those with the individual rights viewpoint believe the amendment gives every citizen the right to own guns, free of federal regulations, to protect themselves in the face of danger. The individualists believe the amendment's militia clause was never meant to restrict each citizen's rights to bear arms. Note that there is not a single word about an individual’s right to a gun for self-defense or recreation in Madison’s notes from the Constitutional Convention.
 
 **The Supreme Court's View**
 
@@ -70,13 +70,17 @@ In 1939 the U.S. Supreme Court considered the matter in United States v. Miller.
 
 Miller argued that the National Firearms Act violated their rights under the Second Amendment. The Supreme Court disagreed, however, saying "in the absence of any evidence tending to show that possession or use of a 'shotgun having a barrel of less than eighteen inches in length' at this time has **some reasonable relationship to the preservation or efficiency of a well regulated militia**, we cannot say that the Second Amendment guarantees the right to keep and bear such an instrument." The Court then explained that the congress included the Second Amendment to ensure the effectiveness of the military.
 
-It would be nearly 70 years before the court took up the issue again, this time in the District of Columbia v. Heller in 2008. The case centered on Dick Heller, a licensed special police office in Washington, D.C., who challenged the nation's capital's handgun ban. **For the first time, the Supreme Court ruled that despite state laws, individuals who were not part of a state militia did have the right to bear arms.** As part of its ruling, the court wrote, "The Second Amendment protects an individual right to possess a firearm unconnected with service in a militia, and to use that arm for traditionally lawful purposes, such as self-defense within the home."
+It would be nearly 70 years before the court took up the issue again, this time in the District of Columbia v. Heller in 2008. The case centered on Dick Heller, a licensed special police office in Washington, D.C., who challenged the nation's capital's handgun ban. **For the first time, after 217 years, the Supreme Court ruled that despite state laws, individuals who were not part of a state militia did have the right to bear arms.** As part of its ruling, the court wrote, "The Second Amendment protects an individual right to possess a firearm unconnected with service in a militia, and to use that arm for traditionally lawful purposes, such as self-defense within the home."
 
 The court would rule on the issue again two years later as part of McDonald v. City of Chicago, which challenged the city's ban on private handgun ownership. In a similar 5-to-4 ruling, the court affirmed its decision in the Heller case, saying the Second Amendment "applies equally to the federal government and the states."
 
 In 2016, the Supreme Court again ruled on a right-to-bear-arms case, Caetano v. Massachusetts. The case involved a woman who was in possession of a stun gun for self-defense against an abusive ex-boyfriend. Because stun guns were illegal under Massachusetts law, the woman was arrested and convicted for possessing the weapon. The case made its way to the Supreme Court, which ruled that stun guns and, indeed "all instruments that constitute bearable arms," are protected under the Second Amendment.
 
 In summary, for 217 years the Second Amendment was viewed by our highest court as regulating the preservation or efficiency of a "well regulated militia". Then in 2008, the view changed that **despite state laws, individuals who were not part of a state militia did have the individual right to bear arms.**
+
+ >"A fraud on the American public."
+ >
+ ><cite>&mdash; Warren Burger, former Chief Justice, describing the idea that the Second Amendment gives an unfettered individual right to a gun on PBS in 1990.</cite>
 
 ### Our world has changed significantly the last 226 years
 
@@ -152,4 +156,5 @@ The debate is not about banning gun ownership - rather it should be about how to
 [US Militia](https://en.wikipedia.org/wiki/Militia#United_States)<br>
 [Law enforcement in the United States](https://en.wikipedia.org/wiki/Law_enforcement_in_the_United_States)<br>
 [Heckler & Koch MP7A1](https://www.armsunlimited.com/Heckler-Koch-MP7A1-PDW-4-6x30mm-Submachine-Gun-p/hk-mp7a1.htm)<br>
+[How the NRA Rewrote the Second Amendment](https://www.politico.com/magazine/story/2014/05/nra-guns-second-amendment-106856)
 </span>
