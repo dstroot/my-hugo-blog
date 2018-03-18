@@ -1,7 +1,7 @@
 +++
 title = "Facebook suspends Cambridge Analytica"
 description = ""
-draft = false
+draft = true
 keywords = [
 ]
 categories = [
