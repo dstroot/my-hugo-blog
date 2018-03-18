@@ -114,6 +114,8 @@ Quotes from the article:
 <hr>
 >Add everything up. The chaos of a billion-person platform that competitively dominated media distribution. The known electoral efficacy of Facebook. The wild fake news and misinformation rampaging across the internet generally and Facebook specifically. The Russian info operations. All of these things were known. And yet no one could quite put it all together: The dominant social network had altered the information and persuasion environment of the election beyond recognition while taking a very big chunk of the estimated $1.4 billion worth of digital advertising purchased during the election. 
 
+*UPDATE 03/16/2018:* [Facebook suspends Trump-affiliated data firm over privacy concerns](https://www.politico.com/story/2018/03/16/facebook-cambridge-analytica-suspended-trump-campaign-468692) Politico informs us that Cambridge Analytica has been suspended after Mueller requested emails from Cambridge Analytica’s Trump-affiliated employees in connection with the probe into Russian election meddling. 
+
 ### Closing the Deal
 
 Once a voter has been "sold", or converted, then “confirmation bias" takes over. Confirmation bias is the tendency people have to embrace information that supports their beliefs and reject information that contradicts them. Of the many forms of faulty thinking that have been identified, confirmation bias is among the best catalogued; it’s the subject of entire textbooks’ worth of experiments. If reason is designed to generate sound judgments, then it’s hard to conceive of a more serious design flaw than confirmation bias. 
