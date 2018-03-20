@@ -6,10 +6,32 @@
     <description>Recent content on Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 18 Jan 2018 10:25:35 -0800</lastBuildDate>
+    <lastBuildDate>Sat, 17 Mar 2018 10:25:35 -0800</lastBuildDate>
     
 	<atom:link href="https://danstroot.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Facebook suspends Cambridge Analytica</title>
+      <link>https://danstroot.com/2018/03/17/facebook-suspends-cambridge-analytica/</link>
+      <pubDate>Sat, 17 Mar 2018 10:25:35 -0800</pubDate>
+      
+      <guid>https://danstroot.com/2018/03/17/facebook-suspends-cambridge-analytica/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://danstroot.com/img/cambridge_analytica.jpg&#34; alt=&#34;Alexander Nix&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;A year ago I wrote about how big data, collected from social media sites, and machine learning was used to influence voting in the United States in &lt;a href=&#34;https://danstroot.com/2017/03/19/the-man-least-likely-to-succeed-in-politics/&#34;&gt;The man least likely to succeed in politics&lt;/a&gt;. Collecting big data, and more specifically social data about each of us, has been described as the &amp;ldquo;new goldrush&amp;rdquo;.  Yet many of us are unaware of how technology is enabling the use (and misuse) of our personal data. As a technologist I find this area fascinating and evolving rapidly.&lt;/p&gt;
+
+&lt;p&gt;In the article I discussed how the Trump campaign used a firm named Cambridge Analytica to identify potential voters and to influence them. It was shown that by harvesting and studying a person&amp;rsquo;s Facebook profile and &amp;ldquo;likes&amp;rdquo; researchers can know them better than their spouse.&lt;/p&gt;
+
+&lt;p&gt;Now, Facebook announced that it has suspended Cambridge Analytica over concerns that it and other parties improperly obtained and stored users&amp;rsquo; personal information. Facebook admits it knew about this issue in 2015, prior to the election.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;In 2015, we learned that a psychology professor at the University of Cambridge named Dr. Aleksandr Kogan lied to us and violated our Platform Policies by passing data from an app that was using Facebook Login to SCL/Cambridge Analytica, a firm that does political, government and military work around the globe.
+&lt;div class=&#34;bqfoot&#34;&gt;&lt;cite&gt;&amp;mdash; Facebook, &amp;ldquo;Suspending Cambridge Analytica and SCL Group from Facebook&amp;rdquo;, March 16, 2018&lt;/div&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Turn Your Company Inside-Out for $3/mo</title>
