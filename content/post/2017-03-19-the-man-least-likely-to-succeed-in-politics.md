@@ -116,6 +116,8 @@ Quotes from the article:
 
 *UPDATE 03/16/2018:* [Facebook suspends Trump-affiliated data firm over privacy concerns](https://www.politico.com/story/2018/03/16/facebook-cambridge-analytica-suspended-trump-campaign-468692) Politico informs us that Cambridge Analytica has been suspended after Mueller requested emails from Cambridge Analytica’s Trump-affiliated employees in connection with the probe into Russian election meddling. 
 
+*UPDATE 03/19/2018:* [Facebook Executive Planning to Leave Company Amid Disinformation Backlash](https://www.nytimes.com/2018/03/19/technology/facebook-alex-stamos.html?hp&action=click&pgtype=Homepage&clickSource=story-heading&module=first-column-region&region=top-news&WT.nav=top-news) Alex Stamos, Facebook’s chief information security officer, plans to leave Facebook by August. He had advocated more disclosure around Russian interference of the platform and some restructuring to better address the issues, but was met with resistance by colleagues, said the current and former employees. In December, Mr. Stamos’ day-to-day responsibilities were reassigned to others.
+
 ### Closing the Deal
 
 Once a voter has been "sold", or converted, then “confirmation bias" takes over. Confirmation bias is the tendency people have to embrace information that supports their beliefs and reject information that contradicts them. Of the many forms of faulty thinking that have been identified, confirmation bias is among the best catalogued; it’s the subject of entire textbooks’ worth of experiments. If reason is designed to generate sound judgments, then it’s hard to conceive of a more serious design flaw than confirmation bias. 

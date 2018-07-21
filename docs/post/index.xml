@@ -6,10 +6,35 @@
     <description>Recent content in Posts on Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 17 Mar 2018 10:25:35 -0800</lastBuildDate>
+    <lastBuildDate>Fri, 20 Jul 2018 10:25:35 -0800</lastBuildDate>
     
 	<atom:link href="https://danstroot.com/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Modern Web Development</title>
+      <link>https://danstroot.com/2018/07/20/modern-web-development/</link>
+      <pubDate>Fri, 20 Jul 2018 10:25:35 -0800</pubDate>
+      
+      <guid>https://danstroot.com/2018/07/20/modern-web-development/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://danstroot.com/img/rekit.png&#34; alt=&#34;Rekit&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Web development has evolved faster than nearly every other software engineering discipline. The pace of innovation has been relentless, and front-end developers are confronted with new frameworks, tools, and standards for “modern” web development &lt;strong&gt;constantly&lt;/strong&gt;. Framework fatigue is real thing. Even the languages of the web (HTML, CSS, and ECMAScript) have gone through a major modernization effort (and the pace of change increased):&lt;/p&gt;
+
+&lt;p&gt;&lt;small&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;HTML &amp;gt; HTML5 &amp;gt; HTML 5.2&lt;/li&gt;
+&lt;li&gt;CSS 3 &amp;gt; CSS 4 + SCSS, PostCSS, autoprefixer, etc.&lt;/li&gt;
+&lt;li&gt;ECMAScript 5 (2009) &amp;gt; ECMAScript 2015, ECMAScript 2016, ECMAScript 2017, ECMAScript 2018&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;/small&gt;&lt;/p&gt;
+
+&lt;p&gt;The positive aspects of all the &amp;ldquo;churn&amp;rdquo; in the web development ecosystem are some truly incredible innovations that have fundamentally changed web development to enable much richer, engaging, and performant web &amp;ldquo;applications&amp;rdquo;.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Facebook suspends Cambridge Analytica</title>
@@ -546,9 +571,9 @@ It&amp;rsquo;s clear that the server business is never going to be same.  For Mi
       
       <guid>https://danstroot.com/2014/01/22/awkward-bill-gates-notices-jimmy-fallon-uses-a-mac/</guid>
       <description>&lt;p&gt;
-&lt;div style=&#34;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&#34;&gt;
-  &lt;iframe src=&#34;//www.youtube.com/embed/Qk7pPutimCM&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34; allowfullscreen frameborder=&#34;0&#34; title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
- &lt;/div&gt;
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;//www.youtube.com/embed/Qk7pPutimCM&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
 &lt;br&gt;&lt;/p&gt;
 
 &lt;p&gt;Last night Bill Gates was a guest on Late Night with Jimmy Fallon to talk about his charitable work. The man has &lt;strong&gt;eliminated polio in India!&lt;/strong&gt;  However the segment takes an awkward turn when Bill starts eying Jimmy’s MacBook. This made me laugh&amp;hellip;it&amp;rsquo;s about 1:35 into the video&lt;/p&gt;
