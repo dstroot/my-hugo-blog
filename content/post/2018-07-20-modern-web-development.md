@@ -28,7 +28,7 @@ The positive aspects of all the "churn" in the web development ecosystem are som
 
 One of the best things to come along lately are **progressive web applications**. Progressive web apps are "installable" and provide user experiences that combine the best of the web and the best of apps. They are useful to users from the very first visit in a browser, no install required. They are [responsive](https://danstroot.com/2013/12/31/responsive-design-vs.-mobile-first/) to screen size, pixel density and orientation. They can load quickly (even _without_ an Internet connection), can have an icon on the home screen, and can run as an app with a top-level, full screen experience.
 
-> By the way **this** blog is a progressive web app and has been for a couple years. ;)
+> By the way **this** blog is a progressive web app and has been for a couple years. Boom.
 
 #### A Progressive Web App is:
 
@@ -62,9 +62,11 @@ The **not** modern web:
 
 ![No TLS](/img/no-TLS.png)
 
-#### So how do you build a progressive, TLS-secured, **web application**...<br>that gets **perfect** marks <small>(Lighthouse, Qualys and Securityheaders.com</small>)...<br>over a **weekend**...<br>and deploy it for **free**?
+#### So how do you build a progressive, TLS-secured, **web application**<br> - that gets **perfect** marks <small>(Lighthouse, Qualys and Securityheaders.com</small>)<br> - over a **weekend**<br> - and deploy it for **free**?
 
 You must stand on the shoulders of giants. Seriously. This project uses the "giants" of modern web development:
+
+<small>
 
 - React
 - Yarn
@@ -78,6 +80,8 @@ You must stand on the shoulders of giants. Seriously. This project uses the "gia
 - autoprefixer
 - PostCSS
 - Etc.
+
+</small>
 
 Given all the tools and complexity, it might take days just to be able to configure a development environment, **or** you can just install `create-react-app`. You are up and running in about 35 seconds with **no build configuration** work.
 
@@ -106,6 +110,8 @@ It was built over the course of a weekend. I am not a graphic designer, so pleas
 I deployed it using Google Firebase Hosting - deploying your app from a local directory to the web only takes one command. The real draw is that it's 100% free for my usage level - 1 GB of storage (huge in web terms), and 10 GB/month of data, plus a free SSL certificate!
 
 #### The Results ([veritedatascience.com](https://veritedatascience.com)):
+
+:thumbsup: Full source is available on [GitHub](https://github.com/dstroot/react-vds).
 
 Perfect Lighthouse scores:
 

@@ -2,6 +2,7 @@ baseURL = "https://danstroot.com"
 publishDir = "docs"
 title = "Blog"
 languageCode = "en-us"
+enableEmoji = true
 theme = "hugo"
 paginate = 5
 canonifyURLs = true
