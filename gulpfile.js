@@ -21,8 +21,6 @@ require("events").EventEmitter.prototype._maxListeners = 100;
 
 var gulp = require("gulp");
 var $ = require("gulp-load-plugins")({ lazy: true });
-// var runSequence = require("run-sequence");
-var terminus = require("terminus");
 var exec = require("child_process").exec;
 var log = require("fancy-log");
 
@@ -179,17 +177,6 @@ gulp.task("hugo", function(cb) {
 });
 
 /**
- * Validate HTML
- */
-
-gulp.task("htmlhint", function() {
-  return gulp
-    .src(paths.html)
-    .pipe($.htmlhint())
-    .pipe($.htmlhint.reporter());
-});
-
-/**
  * HTML Minify
  */
 
@@ -296,16 +283,6 @@ gulp.task("git", function(cb) {
  * Default Task
  *   - Build all the things...
  */
-
-// gulp.task("default", function(cb) {
-//   runSequence(
-//     "clean",
-//     ["styles", "images", "lint"], // , 'scripts'
-//     "hugo",
-//     "htmlminify",
-//     cb
-//   );
-// });
 
 gulp.task(
   "default",
