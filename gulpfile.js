@@ -12,7 +12,6 @@ require("events").EventEmitter.prototype._maxListeners = 100;
 // 1) compile scss to css
 // 2) inline css to head partial
 // 3) build hugo
-// 4) run HTML hint
 // 4) minify HTML
 
 /**
@@ -135,22 +134,20 @@ gulp.task("scripts", function() {
 
 gulp.task("images", function() {
   var pngcrush = require("imagemin-pngcrush");
-  return (
-    gulp
-      .src("static/img/*.{png,jpg,gif}")
-      // .pipe($.changed('./static/img'))        // Only process new/changed
-      .pipe(
-        $.imagemin({
-          // Compress images
-          progressive: true, // JPG
-          interlaced: true, // GIF
-          svgoPlugins: [{ removeViewBox: false }], // SVG
-          use: [pngcrush()] // PNG
-        })
-      )
-      .on("error", console.error)
-      .pipe(gulp.dest("./static/img"))
-  ); // Write processed images
+  return gulp
+    .src("static/img/*.{png,jpg,gif}")
+    .pipe($.changed("./static/img")) // Only process new/changed
+    .pipe(
+      $.imagemin({
+        // Compress images
+        progressive: true, // JPG
+        interlaced: true, // GIF
+        svgoPlugins: [{ removeViewBox: false }], // SVG
+        use: [pngcrush()] // PNG
+      })
+    )
+    .on("error", console.error)
+    .pipe(gulp.dest("./static/img")); // Write processed images
 });
 
 /**
