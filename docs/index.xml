@@ -6,10 +6,23 @@
     <description>Recent content on Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 20 Jul 2018 10:25:35 -0800</lastBuildDate>
+    <lastBuildDate>Wed, 03 Oct 2018 10:25:35 -0800</lastBuildDate>
     
 	<atom:link href="https://danstroot.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Hammer Factories</title>
+      <link>https://danstroot.com/2018/10/03/hammer-factories/</link>
+      <pubDate>Wed, 03 Oct 2018 10:25:35 -0800</pubDate>
+      
+      <guid>https://danstroot.com/2018/10/03/hammer-factories/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://danstroot.com/img/hammer.png&#34; alt=&#34;the Internet&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;There is a post from 2005 by &lt;a href=&#34;http://www.benjismith.net/&#34;&gt;Benji Smith&lt;/a&gt; in the old (and now closed) &lt;a href=&#34;http://discuss.joelonsoftware.com/?joel.3.219431.12&#34;&gt;Joel on Software Discussion Group&lt;/a&gt;. It&amp;rsquo;s titled &amp;ldquo;Why I Hate Frameworks&amp;rdquo;. But I know it as &amp;ldquo;the hammer factory&amp;rdquo; post. It&amp;rsquo;s just brilliant, even 13 years later. I am reproducing it here for posterity in case the old Joel on Software Discussion Group ever disappears.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Modern Web Development</title>
