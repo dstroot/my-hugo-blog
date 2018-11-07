@@ -61,7 +61,17 @@ Another example is a firm I know that created a "fund of funds", containing cura
 
 ### 4. Capability
 
-An organization is only as good as it's people.
+An organization is only as good as it's people. Successful organizations start out with great people. Great people help build the company and many careers are built as the company matures.
+
+#### Hiring Practices
+
+#### Compensation Practices
+
+As a company matures and it's industry grows benchmarking becomes increasingly important to the management team. This is especially pervasive inside HR organizations in enterprises who must
+
+Usain Bolt doesn't look behind him, he only looks at the clock because he isn't racing the other runners, he is racing only himself. It is the other runners who measure themselves against him. In the same way compensation benchmarking is always behind. All benchmarking is an imperfect science but compensation figures are collected annually by large HR consulting firms and then sold in the next budget/compensation cycle. This means it is already stale when you get it.
+
+Enterprises all say they want the best people, yet they attempt to benchmark their compensation to the average of year-old stale data. The A players get offered jobs elsewhere and leave, and the enterprise is left with average players at average compensation.
 
 ### 5. Security
 
