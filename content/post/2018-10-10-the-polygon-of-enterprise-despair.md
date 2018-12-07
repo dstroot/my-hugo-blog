@@ -12,30 +12,27 @@ published = "false"
 
 ![The polygon of enterprise despair](/img/polygon.png)
 
-When enterprises see the destruction wrought by disruptors on incumbents in music (Spotify), media (Google) or retail (Amazon), they wonder what may be in store for them in the future. A Sloan Management Review survey found that 90% of executives anticipate their industry will be digitally disrupted to either a great or moderate extent. In the same study, only 44% of executives thought their company was adequately prepared.
+When enterprises see the changes wrought by disruptors in music (Spotify), advertising (Google) or retail (Amazon), they wonder what may be in store for them. A Sloan Management Review survey found that 90% of executives anticipate their industry will be digitally disrupted to either a great or moderate extent. In the same study, only 44% of executives thought their company was adequately prepared.
 
-Boards are right to be concerned, and settling for panaceas like innovation studios and occassional hackathons won’t be enough to secure a company’s digital future. There is a huge gulf between the speed and agility of a digital start-up and a large, entrenched incumbent - it's called the **Polygon of Enterprise Despair.**
+Boards should be concerned, and settling for panaceas like innovation studios and occassional hackathons won’t be enough to secure a company’s digital future. There is a huge gulf between the speed and agility of a digital start-up and a large, entrenched incumbent. Not only do enterprises lack the proper digital skills, they simply cannot respond fast enough to react.  This inertia has a name - it's called the **Polygon of Enterprise Despair.**
 
 <!--more-->
 
 Some of you may have heard of [Paul Shetler](https://www.paulshetler.com/). Paul was the CEO of the Digital Transformation Office and the Chief Digital Officer of the Australian Government's Digital Transformation Agency. I believe Paul coined the term "Square of Enterprise Despair". I have taken some liberties with Paul's ideas and extended them to the "Polygon of Enterprise Despair". It certainly doesn't have the same ring to it, but it is a more complete picture to the challenges of working within a large enterprise.
 
-Most importantly, tackling the Polygon of Enterprise Despair means reversing the deskilling and learnt helplessness of the organization on which it feeds. The reason why so many firms rely on contractors and heavy governance is ultimately because they don’t trust their employees to deliver anymore. In too many companies, that’s for good reason: a BCG report found digital capability and training is lacking, across industries like retail, financial services and consumer goods.
+Tackling the Polygon of Enterprise Despair means reversing the deskilling and learnt helplessness of the organization that feeds it. The reason why so many firms rely on contractors and heavy governance is ultimately because they don’t trust their employees to deliver anymore. In too many companies, that’s for good reason: a BCG report found digital capability and training is lacking, across industries like retail, financial services and consumer goods.
 
-Let's run through each of the facets on the polygon of enterprise despair:
+Let's run through each of the facets on the polygon of enterprise despair so can understand and hopefully conteract them:
 
 ### 1. Institutional Inertia
 
-Large incumbent enterprises exist because they **did things right**. They made good choices, hired good people and created good products and services. If they hadn't they would not be around today. The fact they were successful under the old paradigms is what makes it so hard to adapt to new ones.
+Large incumbent enterprises exist because they **did things right**. They made good choices, hired good people and created good products and services. If they hadn't they would not be around today. The fact they were so successful under the old paradigms is what makes it so hard to adapt to new ones.
 
-Enterprises are realizing they are now becoming software companies, and the people running a software company need to know how to do that. There needs to be digital training at every level of the organization, including in the boardroom and executive suite.
+Enterprises are realizing they are now becoming **software companies**, and the people running a software company need to know how to do that. There needs to be digital training at every level of the organization, including in the boardroom and executive suite.
 
 Transformation by consensus, or by occasional hackathon, will not work, because transformation is not iteration from a low baseline: it requires making fundamental changes to an organization’s structure and processes.
 
-‘Waiting any longer to embrace digital change means exposing your organization - and its employees - to the risk of being driven out of the market.’
-Transformation is difficult and it’s essential, if businesses want to remain off a Receiver’s watch list in a digital world.
-
-Organizations that want to thrive in the digital age need to redesign their internal structure, tackle the Square of Despair, upskill their staff and have the political will to radically transform themselves, rather than adopting tokenistic solutions.
+Organizations that want to thrive in the digital age need to redesign their internal structure, tackle the Polygon of Enterprise Despair, upskill their staff, and wield the political will to radically transform themselves, rather than adopting tokenistic solutions.
 
 Business as usual is no longer an option.
 
@@ -47,39 +44,92 @@ Worse, the models that build up the costs to be allocated are usually only known
 
 They conclude that if they can't change the allocation they can make damn sure to get the best possible service level. So they begin to beat on the organization supplying the service for higher service levels. This of course eventually ruins the working relationship between them and continues until all parties thoroughly dislike each other. It goes without saying that things do not move quickly or efficiently at this point because the parties stop speaking to each other, and in really bad cases they actively sabotage each other.
 
+Cost allocations must be completely transparent, and both costs and service levels must be benchmarked against the market. The receiving organization must be given the freedom to opt out. Finally, the enterprise must recognize that some costs should not be allocated, especially for those centralized services that divsions or subsidiaries are forced to adopt. 
+
 ### 3. Risk Management
 
-Enterprises have well developed risk management muscles. Particularly in regulated industries like healthcare or financial services. Since IT is the basis for nearly all business processes within a financial services company, the Risk Management function is always very interested in the consequences of a significant IT failure/outage, or a data breach.
+Enterprises have well-developed risk management muscles, particularly in regulated industries like healthcare or financial services. Since IT is the basis for nearly all business processes within a financial services company, the Risk Management function is always very interested in the consequences of a significant IT failure/outage, or a data breach.
 
-They are so interested that they are very involved in key functions like project delivery and change management. The effect of this involvement is lots of documentation and meetings, two things that are sure to slow anything in an enterprise to a crawl.
+They are so interested that they are very involved in key functions like project delivery and change management. The effect of this involvement is lots of documentation and meetings, two things that are sure to slow anything to a crawl.
 
-Like some aspects of security, some the risk management is referred to internally as "risk management theatre". It exists to show we have it, and it's primary purpose is management reporting, however it typically fails to avert much risk. It is usually focused on issues that either occur regularly, or at least have already occurred in the past. It rarely anticipates issues that have never happened before, but of course those are the ones that can actually take down the company. The financial crises of 2009 is a great illustration. Does anyone think Bear Stearns or Lehman didn't have a risk management function? Of course they did - they just didn't anticipate the actual risk facing the firms.
+Like some aspects of security, sometimes the risk management activities are referred to internally as "risk management theatre". It exists to show we have it, and it's primary purpose is management reporting. It is less clear if it truly averts much risk - particularly "black swan" risks. It is usually focused on issues that either occur regularly, or at least have already occurred in the past. It rarely anticipates issues that have never happened before, but of course those are the ones that can actually take down the company. The financial crises of 2009 is a great illustration. Does anyone think Bear Stearns or Lehman didn't have a risk management function? Of course they did - they just didn't anticipate or understand the actual risks facing the firms.
 
-Another example is a firm I know that created a "fund of funds", containing curated hedge funds. It sold daily liquidity, but the hedge funds only allowed monthly or quarterly liquidity. This worked quite well as money flowed in. It was of course a disaster during the crash. Risk Management never even looked at it ahead of time. But they know they can make departments like IT fill out loads of forms and this can be used to create wonderful reports.
+Another example is a firm I know that created a "fund of funds", containing curated hedge funds. It sold daily liquidity, but the hedge funds only allowed monthly or quarterly liquidity. This worked quite well as money flowed in. It was of course a disaster during the crash. Risk Management never even looked at it ahead of time. But they know they can make departments like IT fill out loads of forms which can be used to create wonderful reports.
 
 ### 4. Capability
 
-An organization is only as good as it's people. Successful organizations start out with great people. Great people help build the company and many careers are built as the company matures.
+An organization is only as good as it's people. Successful organizations start out with great people. Great people help build the company and many careers are built as the company matures.  Over time the great people go on to other challenges, or they retire. New leaders must take the reins, usually people who grew up inside the company and respect the culture and track record that made the company successful.  These people are usually terrific choices for continuity, and maintaining the status quo. Conversely if the market really changes, and the company has to reinvent itself these leaders struggle.  
+
+As the company grows it will develop a strong HR organization with all the best intentions.  The HR professionals will perform their duties with professionalism and dedication. Unfortunately through hiring practices and compensation practices they will force the workforce to become "average" rather than exceptional.  
 
 #### Hiring Practices
+
+In a startup the founders are usually A+ players who saw an opportunity and were potentially frustrated with the ability to go after it in thier former employers. These people recruit and hire the A players they know from enterprises struggling under the yoke of the Polygon of Enterprise Despair.  They don;t spend a lot of time formalizing job descriptions or titles, they don't benchmark their salaries - they just grab the best people they can and go for it.
+
+Conversely, in a large organization the process goes something like this:  
+
+##### Step 1: Conduct a job analysis
+
+Basically, this step will allow the human resources manager, hiring manager, and other members of management to determine if we really need this new position and define what the new employee will be required to do in the new position. According to human resource managers, the position or job description is the “core of a successful recruitment process”. 
+
+##### Step 2: Build a job description.
+
+Before anything else, the organization must first define exactly what it needs. Job analysis involves identification of the activities of the job, and the attributes that are needed for it. These are the main parts that will make up the job description. This part has to be done right, since the job description will also be used in the job advertisement.
+
+##### Step 3: Set minimum qualifications for the employee who will do the job.
+
+These are the basic requirements that applicants are required to have in order to be considered for the position. These are required for the employee to be able to accomplish the essential functions of the job. 
+
+##### Step 4: Define a salary range.
+
+The job must belong to a salary range that is deemed commensurate to the duties and responsibilities that come with the position. Aside from complying with legislation (such as laws on minimum wages and other compensation required by law), the organization should also base this on prevailing industry rates. For example, if the position is that of a computer programmer, then the salary range should be within the same range that other companies within the same industry offer. *(see how the concept of "average" sneaks right in?)*
+
+##### Step 5: Sourcing of talent
+
+This is the stage where the organization will let it be known to everyone that there is an open position, and that they are looking for someone to fill it up. Before advertising, however, the organization must first know where to look for potential candidates. They should search out the sources where the persons that can potentially fill the job are going to be available for recruitment. That way, they will know where to direct their advertising efforts.
+
+##### Step 6: Screening of applicants
+
+This is most probably the part of the recruitment process that requires the most amount of work. This is where the applicants’ skills and personalities are going to be tested and evaluated, to ascertain whether they are a good fit for the job and its description.
+
+
+If they do not arrive at a decision, there may be a need to restart the recruiting process, until such time that they are able to reach a decision that everyone will be satisfied with.
+
+
+Step 4: Finalization of the job offer
+
+The last step of the previous phase involves the selection of the best candidate out of the pool of applicants. It is now time for the organization to offer the job to the selected applicant.
+
+Making the offer: To make things more formal, a representative of the company or of the human resources department will contact the candidate and inform him that he has been selected for the job. In this stage, complete details of the compensation package will also be made known to the applicant.
+Acceptance of the offer by the applicant: The applicant should also communicate his acceptance of the offer for it to be final. Take note that, if the selected applicant does not accept the job offer and declines it, the recruitment process will have to start all over again.
+
+Step 5: Introduction and induction of the new employee
+
+The moment that the applicant accepted the job offer, he has officially gone from being an applicant to an employee of the organization. The induction process will now begin.
+
+Usually, the beginning of the induction process is marked by the signing of the employment contract, along with a welcome package given to the new employee. The date for the first day that the employee will have to report for work and start working in the company will be determined and communicated to the newly hired employee.
+
+However, it doesn’t end there. The employee will still have to undergo pre-employment screening, which often includes background and reference checks. When all these pre-employment information have been verified, the employee will now be introduced to th
+
+
 
 #### Compensation Practices
 
 As a company matures and it's industry grows benchmarking becomes increasingly important to the management team. This is especially pervasive inside HR organizations in enterprises who must
 
-Usain Bolt doesn't look behind him, he only looks at the clock because he isn't racing the other runners, he is racing only himself. It is the other runners who measure themselves against him. In the same way compensation benchmarking is always behind. All benchmarking is an imperfect science but compensation figures are collected annually by large HR consulting firms and then sold in the next budget/compensation cycle. This means it is already stale when you get it.
+Usain Bolt doesn't look behind him, he only looks at the clock because he isn't racing the other runners, he is racing only himself. It is the other runners who measure themselves against him. In the same way compensation benchmarking is always behind. All benchmarking is an imperfect science but compensation figures are collected annually by large HR consulting firms and then sold in the next budget/compensation cycle. This means the data is already stale when you get it.
 
-Enterprises all say they want the best people, yet they attempt to benchmark their compensation to the average of year-old stale data. The A players get offered jobs elsewhere and leave, and the enterprise is left with average players at average compensation.
+Enterprises all say they want the best people, yet they attempt to benchmark their compensation to the average of year-old stale data. The true A players get offered jobs elsewhere and leave, and the enterprise is left with average players at average compensation.
 
 ### 5. Security
 
-If you’re working on something significant in a large enterprise, such as a new product, or installing new software, then it may become necessary to get a ‘security sign-off’.
+If you’re working on something significant in a large enterprise, such as a new product, or installing new software, then it usually becomes necessary to get a ‘security sign-off’.
 
-Processes around this vary, but essentially, one or more security experts descend at some point on your project and audit it. It’s like a medieval trial by ordeal. You get poked and prodded in various ways while questions are asked to determine weaknesses in your story. This might involve a penetration test, a look at your code and documentation, or an interview with the engineers. There will likely be references to various 'security standards' which in turn are enforced with differing degrees of severity.
+Processes around this vary, but essentially, one or more security experts descend at some point on your project and audit it. It’s basically a medieval trial by ordeal. You get poked and prodded in various ways while questions are asked to determine weaknesses in your story. This might involve a penetration test, a look at your code and documentation, or an interview with the engineers. There will likely be references to various 'security standards' which in turn are enforced with differing degrees of severity.
 
 The beatings will continue until risks are identified (I’ve never heard of there being none). The outcome is a report outlining the set of risks that have been identified. These risks may need to be ‘signed off’ by someone senior so that responsibility lies with them if there is a breach. That process in itself is arduous (especially when the senior management person doesn’t fully understand the risk) and will be repeated on a regular basis until the risks are sufficiently ‘mitigated’ through further engineering effort or process controls.
 
-After which it’s then re-reviewed.
+After which it’s then re-reviewed and the process repeats.
 
 ### 6. Outdated Paradigms
 
@@ -87,7 +137,7 @@ What’s your oldest Excel spreadsheet still in use? This question was asked rec
 
 > "I just realized that a spreadsheet I use weekly was first created in 2004 and has been in constant use now for over 13 years!"
 
-The winner (or loser depending on your perspective) - several people who were still using spreadsheets created in 1995, the year that Excel began to take root with the launch of Microsoft Office for Windows 95. Hopefully they are no longer using Excel 95 and are presumably using a modern version of Excel. Yet these files — and the 'business logic' they contain — are still working for them now, some twenty-three years later.
+The winners (or losers depending on your perspective) were several people still using spreadsheets from 1995, the year that Excel began to take root with the launch of Microsoft Office for Windows 95. Hopefully they are presumably using a modern version of Excel. Yet these files — and the 'business logic' they contain — are still working for them now, some twenty-three years later.
 
 > “You take the new thing and shove it into the old paradigm”.
 >
@@ -103,9 +153,9 @@ Regulators have power ultimately derived from government. They are able to enfor
 
 So to ‘simplify’ things large enterprises often create a set of rules that cover all the regulations that may ever apply to their business across all jurisdictions. Those rules are generally the strictest you can imagine. Added to that, those rules are curated by the legal/compliance organization and develop a life and culture of their own within the organization **independent of the regulator** - such that they can’t easily be brought into question.
 
-These rules become huge inhibitors of change. Regulators embrace paradigms are rooted in the experiences of software built in previous decades - because that is what worked back then. And if you want to change that, it will itself likely take years and agreement from multiple parties who are unlikely to want to risk losing their job. So you can end up in a situation where you are forced to work in a way prescribed years ago by your internal legal and compliance team, which are in turn based on interpretations of regulations which were written years before. All based on software development processes that were created years before that!
+These rules become huge inhibitors of change. Regulators embrace paradigms that are rooted in the experiences of software built in previous decades - because that is what worked back then. And if you want to change that, it will itself likely take years and agreement from multiple parties who are unlikely to want to risk losing their job. So you can end up in a situation where you are forced to work in a way prescribed years ago by your internal legal and compliance team, which are in turn based on interpretations of regulations which were written years before. All based on software development processes that were in vogue years before that!
 
-Obviously, this slows things down further and makes change quite difficult. Want to bring development and operations closer together and form a "devops" team? Well that's not how we did it 25 years ago!
+Obviously, this slows things down further and makes change quite difficult. Want to bring development and operations closer together and form a "devops" team? Well that's not how we did it 25 years ago!  Therefore it's not recognized as best practice by the regulators and would definitely be frowned upon.  
 
 ### 8. Procurement
 
@@ -140,7 +190,7 @@ To complicate matters further, sourcing might have its own preferred supplier li
 
 To add insult to injury those "valued added" services your VARs used to provide are no longer provided because they were either squeezed out in the negotiations, or you have lost the relationship capital you formerly had.
 
-The enterprise "saves money" by trading for the costs of delay, lack of agility, and treating supplies as adversaries instead of partners.
+The enterprise "saves money" by trading against the costs of delay, lack of agility, and treating supplies as adversaries instead of partners.
 
 ### 9. Legacy
 
@@ -150,7 +200,7 @@ More automation grew around them and integrated with those systems, taking into 
 
 > "If it ain't broke, don't fix it!"
 
-It becomes nearly impossible to gain sponsorship to replace legacy systems because of the inherent costs and risks. What executive wants to sponsor a legacy system replacement when they can instead champion a new predictive analytics system or a spiffier web site? So these systems lumber on like large ancient beasts, cared for and fed by a tribe that speaks "assembly", "VSAM", "JCL" and "COBOL" and communes with companies like IBM that were dominant when "I Dream of Jeanie" was on TV. Of course there is no current documentation of how the system works or what the system does - it exists only in the heads of the tribe members.
+It becomes nearly impossible to gain sponsorship to replace legacy systems because of the inherent costs and risks. What executive wants to sponsor a legacy system replacement when they can instead champion a new predictive analytics system or a brand new web site? So these systems lumber on like large ancient beasts, cared for and fed by a tribe that speaks "assembly", "VSAM", "JCL" and "COBOL" and communes with companies like IBM that were dominant when "I Dream of Jeanie" was on TV. Of course there is no current documentation of how the system works or what the system does - it exists only in the heads of the tribe members.
 
 CIO's talk about reducing "run" costs to free up resources for "change". Legacy systems usually have many years of intricate patching and modifications making them very brittle and difficult to change. Older hardware and software may require added compatibility layers to facilitate integration with "modern" hardware and software. All of this drives up the run costs. The key issue is how do you materially change your run costs without ever having the sponsorship, resources and political will to tackle the legacy systems? I suppose it's for the same reason that some of us smoke and are overweight; we know it's bad for us but somehow the will to change evades us.
 
