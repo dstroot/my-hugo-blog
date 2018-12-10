@@ -14,7 +14,7 @@ published = "false"
 
 When enterprises see the changes wrought by disruptors in music (Spotify), advertising (Google) or retail (Amazon), they wonder what may be in store for them. A Sloan Management Review survey found that 90% of executives anticipate their industry will be digitally disrupted to either a great or moderate extent. In the same study, only 44% of executives thought their company was adequately prepared.
 
-Boards should be concerned, and settling for panaceas like innovation studios and occassional hackathons won’t be enough to secure a company’s digital future. There is a huge gulf between the speed and agility of a digital start-up and a large, entrenched incumbent. Not only do enterprises lack the proper digital skills, they simply cannot respond fast enough to react.  This inertia has a name - it's called the **Polygon of Enterprise Despair.**
+Boards should be concerned, and settling for panaceas like innovation studios and occassional hackathons won’t be enough to secure a company’s digital future. There is a huge gulf between the speed and agility of a digital start-up and a large, entrenched incumbent. Not only do enterprises lack the proper digital skills, they simply cannot respond fast enough to react. This inertia has a name - it's called the **Polygon of Enterprise Despair.**
 
 <!--more-->
 
@@ -44,7 +44,7 @@ Worse, the models that build up the costs to be allocated are usually only known
 
 They conclude that if they can't change the allocation they can make damn sure to get the best possible service level. So they begin to beat on the organization supplying the service for higher service levels. This of course eventually ruins the working relationship between them and continues until all parties thoroughly dislike each other. It goes without saying that things do not move quickly or efficiently at this point because the parties stop speaking to each other, and in really bad cases they actively sabotage each other.
 
-Cost allocations must be completely transparent, and both costs and service levels must be benchmarked against the market. The receiving organization must be given the freedom to opt out. Finally, the enterprise must recognize that some costs should not be allocated, especially for those centralized services that divsions or subsidiaries are forced to adopt. 
+Cost allocations must be completely transparent, and both costs and service levels must be benchmarked against the market. The receiving organization must be given the freedom to opt out. Finally, the enterprise must recognize that some costs should not be allocated, especially for those centralized services that divsions or subsidiaries are forced to adopt.
 
 ### 3. Risk Management
 
@@ -58,49 +58,48 @@ Another example is a firm I know that created a "fund of funds", containing cura
 
 ### 4. Capability
 
-An organization is only as good as it's people. Successful organizations start out with great people. Great people help build the company and many careers are built as the company matures.  Over time the great people go on to other challenges, or they retire. New leaders must take the reins, usually people who grew up inside the company and respect the culture and track record that made the company successful.  These people are usually terrific choices for continuity, and maintaining the status quo. Conversely if the market really changes, and the company has to reinvent itself these leaders struggle.  
+An organization is only as good as it's people. Successful organizations start out with great people. Great people help build the company and many careers are built as the company matures. Over time the great people go on to other challenges, or they retire. New leaders must take the reins, usually people who grew up inside the company and respect the culture and track record that made the company successful. These people are usually terrific choices for continuity, and maintaining the status quo. Conversely if the market really changes, and the company has to reinvent itself these leaders struggle.
 
-As the company grows it will develop a strong HR organization with all the best intentions.  The HR professionals will perform their duties with professionalism and dedication. Unfortunately through hiring practices and compensation practices they will force the workforce to become "average" rather than exceptional.  
+As the company grows it will develop a strong HR organization with all the best intentions. The HR professionals will perform their duties with professionalism and dedication. Unfortunately through hiring practices and compensation practices they will force the workforce to become "average" rather than exceptional.
 
 #### Hiring Practices
 
-In a startup the founders are usually A+ players who saw an opportunity and were potentially frustrated with the ability to go after it in thier former employers. These people recruit and hire the A players they know from enterprises struggling under the yoke of the Polygon of Enterprise Despair.  They don;t spend a lot of time formalizing job descriptions or titles, they don't benchmark their salaries - they just grab the best people they can and go for it.
+In a startup the founders are usually A+ players who saw an opportunity and were potentially frustrated with the ability to go after it inside their former employers. These people recruit and hire the "A players" they know from enterprises struggling under the yoke of the Polygon of Enterprise Despair. They don't spend a lot of time formalizing job descriptions or titles, they don't benchmark their salaries - they just grab the best people they can and go for it.
 
-Conversely, in a large organization the process goes something like this:  
+Conversely, in a large organization the process goes something like this:
 
-##### Step 1: Conduct a job analysis
+#### Step 1: Conduct a job analysis
 
-Basically, this step will allow the human resources manager, hiring manager, and other members of management to determine if we really need this new position and define what the new employee will be required to do in the new position. According to human resource managers, the position or job description is the “core of a successful recruitment process”. 
+Basically, this step will allow the human resources manager, hiring manager, and other members of management to determine if we really need this new position and define what the new employee will be required to do in the new position.
 
-##### Step 2: Build a job description.
+#### Step 2: Create a job description.
 
-Before anything else, the organization must first define exactly what it needs. Job analysis involves identification of the activities of the job, and the attributes that are needed for it. These are the main parts that will make up the job description. This part has to be done right, since the job description will also be used in the job advertisement.
+Before anything else, the organization must first define exactly what it needs. Job analysis involves identification of the activities of the job, and the attributes that are needed for it. These are the main parts that will make up the job description. According to human resource managers, the job description is the “core of a successful recruitment process”.
 
-##### Step 3: Set minimum qualifications for the employee who will do the job.
+- **Define minimum qualifications**. These are the basic requirements that applicants are required to have in order to be considered for the position. These are required for the employee to be able to accomplish the essential functions of the job.
 
-These are the basic requirements that applicants are required to have in order to be considered for the position. These are required for the employee to be able to accomplish the essential functions of the job. 
+- **Define a salary range.** The job must belong to a salary range that is deemed commensurate to the duties and responsibilities that come with the position. Aside from complying with legislation (such as laws on minimum wages and other compensation required by law), the organization should also base this on prevailing industry rates. For example, if the position is that of a computer programmer, then the salary range should be within the same range that other companies within the same industry offer. _(see how the concept of "average" sneaks right in?)_
 
-##### Step 4: Define a salary range.
+#### Step 3: Sourcing of talent
 
-The job must belong to a salary range that is deemed commensurate to the duties and responsibilities that come with the position. Aside from complying with legislation (such as laws on minimum wages and other compensation required by law), the organization should also base this on prevailing industry rates. For example, if the position is that of a computer programmer, then the salary range should be within the same range that other companies within the same industry offer. *(see how the concept of "average" sneaks right in?)*
+Usually there is a rule that says the job must be offered internally first. This simply slows things down and wastes time - there is no reason why internal candidates cannot be evaluated in parallel with external candidates. In fact it makes more sense because you are looking at all possibilities rather than just candidates from a shallow pool - after all you want the best candidate right? Yet large companies have this speed bump. Once you review the internal candidates and politely tell them "no, but thank you for applying" (usually creating some form of ill will) you can move forward.
 
-##### Step 5: Sourcing of talent
+In a startup you hire the best people you know from places where you have worked or consulted. Talent is easy to spot when you work side by side (but difficult to uncover in a 60 minute interview). Assuming you can convince them to join, you pay whatever is necessary to get them because you know they are "A players".
 
-This is the stage where the organization will let it be known to everyone that there is an open position, and that they are looking for someone to fill it up. Before advertising, however, the organization must first know where to look for potential candidates. They should search out the sources where the persons that can potentially fill the job are going to be available for recruitment. That way, they will know where to direct their advertising efforts.
+Conversely, in a large company the hiring manager rarely does any sourcing at all - it is HR's job to go source candidates. Yet most people in HR don't truly understand the roles they are recruiting for, relying on the job description and salary band to get in a few resumes in that don't completely stink.
 
 ##### Step 6: Screening of applicants
 
 This is most probably the part of the recruitment process that requires the most amount of work. This is where the applicants’ skills and personalities are going to be tested and evaluated, to ascertain whether they are a good fit for the job and its description.
 
-
 If they do not arrive at a decision, there may be a need to restart the recruiting process, until such time that they are able to reach a decision that everyone will be satisfied with.
 
-
-Step 4: Finalization of the job offer
+##### Step 7: Making of the job offer
 
 The last step of the previous phase involves the selection of the best candidate out of the pool of applicants. It is now time for the organization to offer the job to the selected applicant.
 
 Making the offer: To make things more formal, a representative of the company or of the human resources department will contact the candidate and inform him that he has been selected for the job. In this stage, complete details of the compensation package will also be made known to the applicant.
+
 Acceptance of the offer by the applicant: The applicant should also communicate his acceptance of the offer for it to be final. Take note that, if the selected applicant does not accept the job offer and declines it, the recruitment process will have to start all over again.
 
 Step 5: Introduction and induction of the new employee
@@ -111,7 +110,7 @@ Usually, the beginning of the induction process is marked by the signing of the 
 
 However, it doesn’t end there. The employee will still have to undergo pre-employment screening, which often includes background and reference checks. When all these pre-employment information have been verified, the employee will now be introduced to th
 
-
+Meanwhile, in the startup the "A player" has been on the ground for two months already and built the first MVP product.
 
 #### Compensation Practices
 
@@ -155,13 +154,13 @@ So to ‘simplify’ things large enterprises often create a set of rules that c
 
 These rules become huge inhibitors of change. Regulators embrace paradigms that are rooted in the experiences of software built in previous decades - because that is what worked back then. And if you want to change that, it will itself likely take years and agreement from multiple parties who are unlikely to want to risk losing their job. So you can end up in a situation where you are forced to work in a way prescribed years ago by your internal legal and compliance team, which are in turn based on interpretations of regulations which were written years before. All based on software development processes that were in vogue years before that!
 
-Obviously, this slows things down further and makes change quite difficult. Want to bring development and operations closer together and form a "devops" team? Well that's not how we did it 25 years ago!  Therefore it's not recognized as best practice by the regulators and would definitely be frowned upon.  
+Obviously, this slows things down further and makes change quite difficult. Want to bring development and operations closer together and form a "devops" team? Well that's not how we did it 25 years ago! Therefore it's not recognized as best practice by the regulators and would definitely be frowned upon.
 
 ### 8. Procurement
 
 As an enterprise grows it suddenly wakes up one day and realizes there are 50 departments/divisions/subsidiaries all buying "widgets" and if it could just coordinate and consolidate all "widget spend" it would save money. The logical thing to do is to create a centralized purchasing function to acquire widgets at the lowest possible price.
 
-There are many ways in which this perfectly sensible idea goes very wrong. The very first of which is that the new head of widget procurement and the widget procurement officers and analysts all must justify their roles. It wouldn't make sense spending $1M annually to operate our widget procurement office while only saving $500k on widgets, would it?
+There are many ways in which this perfectly sensible idea goes very wrong. The very first of which is that the new head of widget procurement and the widget procurement officers and analysts all must justify their roles. It wouldn't make sense spending $1M annually to operate our widget procurement office while only saving$500k on widgets, would it?
 
 The logical responses are:
 
