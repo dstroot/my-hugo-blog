@@ -142,13 +142,13 @@ The winners (or losers depending on your perspective) were several people still 
 >
 > <div class="bqfoot"><cite>&mdash; Rob Wolcott, Professor of Innovation & Entrepreneurship at Northwestern Kellogg</div></cite>
 
-It’s my strong opinion, backed by years of experience, that companies embarking on a digital transformation are trying to apply company level strategies to a product level problem. As my friends over at Radical Product have eloquently said about this situation, “These are completely different classes of problem. It makes perfect sense that the same framework would not apply to both”.
+Can enterprises using spreadsheets from 1995 transform into digital winners?
 
 #### Agile-ish and Scrum-Theater
 
 Most companies embarking on ‘digital transformation’ are "consciously incompetent". They know what’s not working, and they know they have skill gaps and process issues, but are under the illusion that if they just adopt "the right process" it will save them. These companies frequently adopt an Agile or Lean process in name but not in practice. This is what’s sometimes referred to as scrum-theater.
 
-![The polygon of enterprise despair](/img/agile_manifesto.jpeg)
+![The polygon of enterprise despair](/img/agile_manifesto.jpg)
 
 If your software team is the only Agile part of the product team, that’s scrum-theater. At this stage you’re gathering little or no market feedback. Product backlogs are prioritized around dev and engineering and not for customer value. Product teams are rushing to build solutions first before validating market value.
 
