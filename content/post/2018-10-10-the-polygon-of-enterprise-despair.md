@@ -5,32 +5,42 @@ keywords = [
 ]
 categories = [
 ]
-date = "2018-10-06T10:25:35-08:00"
-published = "false"
+date = "2019-01-06T10:25:35-08:00"
+published = "true"
 
 +++
 
 ![The polygon of enterprise despair](/img/polygon.png)
 
-When enterprises see the changes wrought by disruptors in music (Spotify), advertising (Google) or retail (Amazon), they wonder what may be in store for them. A Sloan Management Review survey found that 90% of executives anticipate their industry will be digitally disrupted to either a great or moderate extent. In the same study, only 44% of executives thought their company was adequately prepared.
+When enterprises see the changes wrought by disruptors in music (Spotify), advertising (Google) or retail (Amazon), they wonder what may be in store for them.
 
-Boards should be concerned, and settling for panaceas like innovation studios and occassional hackathons won’t be enough to secure a company’s digital future. There is a huge gulf between the speed and agility of a digital start-up and a large, entrenched incumbent. Not only do enterprises lack the proper digital skills, they simply cannot respond fast enough to react. This inertia has a name - it's called the **Polygon of Enterprise Despair.**
+As of this writing, in early 2019 Sears announced it is near liquidation, with a $4.4B bid to keep operating.  At the same moment, on the same day, Amazon.com is the most valuable company in the world with an$810B valuation, or 184 times greater.
+
+Prior to Amazon's founding Sears had everything. Global supply chain, check. Top notch distribution operation, check. System and infrastructure to take orders and handling billing, check. Brand recognition and established customer base, check.
+
+Unfortunately for an incumbent, change is **much** harder than anyone imagines it to be.
 
 <!--more-->
+
+> "The most important component of evolution is death. Or, said another way, it’s easier to create a new organism than to change an existing one. Most organisms are highly resistant to change, but when they die it becomes possible for new and improved organisms to take their place. This rule applies to social structures such as corporations as well as biological organisms: very few companies are capable of making significant changes in their culture or business model, so it is good for companies eventually to go out of business, thereby opening space for better companies in the future."
+>
+> <div class="bqfoot"><cite>&mdash; John Ousterhout, Stanford professor ([My Favorite Sayings](http://web.stanford.edu/~ouster/cgi-bin/sayings.php))</div></cite>
+
+Boards should be concerned, and settling for panaceas like innovation studios and occasional hackathons won’t be enough to secure a company’s digital future. There is a huge gulf between the speed and agility of a digital start-up and a large, entrenched incumbent. Not only do enterprises lack the proper digital skills, they simply cannot respond fast enough to react. This inertia has a name - it's called the **Polygon of Enterprise Despair.**
 
 Some of you may have heard of [Paul Shetler](https://www.paulshetler.com/). Paul was the CEO of the Digital Transformation Office and the Chief Digital Officer of the Australian Government's Digital Transformation Agency. I believe Paul coined the term "Square of Enterprise Despair". I have taken some liberties with Paul's ideas and extended them to the "Polygon of Enterprise Despair". It certainly doesn't have the same ring to it, but it is a more complete picture to the challenges of working within a large enterprise.
 
 Tackling the Polygon of Enterprise Despair means reversing the deskilling and learnt helplessness of the organization that feeds it. The reason why so many firms rely on contractors and heavy governance is ultimately because they don’t trust their employees to deliver anymore. In too many companies, that’s for good reason: a BCG report found digital capability and training is lacking, across industries like retail, financial services and consumer goods.
 
-Let's run through each of the facets on the polygon of enterprise despair so can understand and hopefully conteract them:
+Let's run through each of the facets on the polygon of enterprise despair so we can understand and hopefully counteract them:
 
 ### 1. Institutional Inertia
 
-Large incumbent enterprises exist because they **did things right**. They made good choices, hired good people and created good products and services. If they hadn't they would not be around today. The fact they were so successful under the old paradigms is what makes it so hard to adapt to new ones.
+Large incumbent enterprises exist because they **did things right**. They made good choices, hired good people and created outstanding products and services. If they hadn't they would not be around today. The fact they were so successful under the old paradigms is exactly what makes it so hard to adapt to new ones.
 
 Enterprises are realizing they are now becoming **software companies**, and the people running a software company need to know how to do that. There needs to be digital training at every level of the organization, including in the boardroom and executive suite.
 
-Transformation by consensus, or by occasional hackathon, will not work, because transformation is not iteration from a low baseline: it requires making fundamental changes to an organization’s structure and processes.
+Transformation by consensus, or by occasional hackathon, will not work, because transformation is not iteration from a low baseline: it requires making fundamental changes to an organization’s structure and processes. It may involve making fundamental changes to the organization's workforce.
 
 Organizations that want to thrive in the digital age need to redesign their internal structure, tackle the Polygon of Enterprise Despair, upskill their staff, and wield the political will to radically transform themselves, rather than adopting tokenistic solutions.
 
@@ -38,13 +48,13 @@ Business as usual is no longer an option.
 
 ### 2. Cost Allocation
 
-Poor cost allocation models create all manner of suboptimal enterprise behavior. Mainly they create a sense of helplessness for the department receiving the allocation. They feel they are unable to manage the allocation amount or service level. Maybe they would like a lower (or higher) service level and are will to sacrifice (or pay) for the privilege. But the enterprise usually only offers limited options, usually "one price, one service level".
+Poor cost allocation models create all manner of suboptimal enterprise behavior. They create a sense of helplessness for the department receiving the allocation. Leaders feel they are unable to manage the allocation amount or service level. Maybe they would like a lower (or higher) service level and are willing to sacrifice (or pay) for the privilege. But the enterprise usually only offers limited options, generally "one price, one service level".
 
 Worse, the models that build up the costs to be allocated are usually only known inside the allocating organization and rarely reflect reality. If the organization receiving the allocation wants to "pull out" and buy the service from a third party they are usually told they can't because that would simply drive up costs for the remaining parties (same pie, bigger slices). So they feel stuck.
 
 They conclude that if they can't change the allocation they can make damn sure to get the best possible service level. So they begin to beat on the organization supplying the service for higher service levels. This of course eventually ruins the working relationship between them and continues until all parties thoroughly dislike each other. It goes without saying that things do not move quickly or efficiently at this point because the parties stop speaking to each other, and in really bad cases they actively sabotage each other.
 
-Cost allocations must be completely transparent, and both costs and service levels must be benchmarked against the market. The receiving organization must be given the freedom to opt out. Finally, the enterprise must recognize that some costs should not be allocated, especially for those centralized services that divsions or subsidiaries are forced to adopt.
+Cost allocations must be completely transparent, and both costs and service levels must be benchmarked against the market. The receiving organization must be given the freedom to opt out. Finally, the enterprise must recognize that some costs should not be allocated, especially for those centralized services that divisions or subsidiaries are forced to adopt.
 
 ### 3. Risk Management
 
@@ -52,19 +62,25 @@ Enterprises have well-developed risk management muscles, particularly in regulat
 
 They are so interested that they are very involved in key functions like project delivery and change management. The effect of this involvement is lots of documentation and meetings, two things that are sure to slow anything to a crawl.
 
-Like some aspects of security, sometimes the risk management activities are referred to internally as "risk management theatre". It exists to show we have it, and it's primary purpose is management reporting. It is less clear if it truly averts much risk - particularly "black swan" risks. It is usually focused on issues that either occur regularly, or at least have already occurred in the past. It rarely anticipates issues that have never happened before, but of course those are the ones that can actually take down the company. The financial crises of 2009 is a great illustration. Does anyone think Bear Stearns or Lehman didn't have a risk management function? Of course they did - they just didn't anticipate or understand the actual risks facing the firms.
+Like some aspects of security, occassionally the risk management activities are referred to internally as "risk management theatre". It exists to show we have it, and it's primary purpose is management reporting. It is less clear if it truly averts much risk - particularly "black swan" risks. It is usually focused on issues that either occur regularly, or at least have already occurred in the past. It rarely anticipates issues that have never happened before, but of course those are the ones that can actually take down the company.
+
+The financial crises of 2009 is a great illustration. Does anyone think Bear Stearns or Lehman didn't have a risk management function? Of course they did - they just didn't anticipate or understand the actual risks facing the firms.
 
 Another example is a firm I know that created a "fund of funds", containing curated hedge funds. It sold daily liquidity, but the hedge funds only allowed monthly or quarterly liquidity. This worked quite well as money flowed in. It was of course a disaster during the crash. Risk Management never even looked at it ahead of time. But they know they can make departments like IT fill out loads of forms which can be used to create wonderful reports.
 
+Risk Management should a) be skilled enough to actually have a conversation about IT architecture because that is what determines how resilient a company's technology really is, and b) figure out how to reduce their "friction" to forward progress.
+
+Risk management is (by definition) meant to reduce risk, which also by definition promotes the status quo.
+
 ### 4. Capability
 
-An organization is only as good as it's people. Successful organizations start out with great people. Great people help build the company and many careers are built as the company matures. Over time the great people go on to other challenges, or they retire. New leaders must take the reins, usually people who grew up inside the company and respect the culture and track record that made the company successful. These people are usually terrific choices for continuity, and maintaining the status quo. Conversely if the market really changes, and the company has to reinvent itself these leaders struggle.
+An organization is only as good as it's people. Successful organizations start out with great people. Great people help build the company and many successful careers are built as the company matures. Over time the great people go on to other challenges, or they retire. New leaders must take the reins, usually people who grew up inside the company and respect the culture and track record that made the company successful. These people are usually terrific choices for continuity, and maintaining the status quo. Conversely if the market really changes, and the company has to reinvent itself these leaders struggle.
 
-As the company grows it will develop a strong HR organization with all the best intentions. The HR professionals will perform their duties with professionalism and dedication. Unfortunately through hiring practices and compensation practices they will force the workforce to become "average" rather than exceptional.
+As the company grows it will develop a strong HR organization with all the best intentions. The HR professionals will perform their duties with professionalism and dedication. Unfortunately through hiring practices and compensation practices they will force the workforce to become "average" rather than exceptional. Here's why:
 
 #### Hiring Practices
 
-In a startup the founders are usually A+ players who saw an opportunity and were potentially frustrated with the ability to go after it inside their former employers. These people recruit and hire the "A players" they know from enterprises struggling under the yoke of the Polygon of Enterprise Despair. They don't spend a lot of time formalizing job descriptions or titles, they don't benchmark their salaries - they just grab the best people they can and go for it.
+In a startup the founders are usually A+ players who saw an opportunity and were potentially frustrated with the ability to go after it inside their former employers. These people recruit and hire the "A players" they know from within enterprises struggling under the yoke of the Polygon of Enterprise Despair. They don't spend a lot of time formalizing job descriptions or titles, they don't benchmark their salaries - they just grab the best people they can and go for it.
 
 Conversely, in a large organization the process goes something like this:
 
@@ -88,29 +104,13 @@ In a startup you hire the best people you know from places where you have worked
 
 Conversely, in a large company the hiring manager rarely does any sourcing at all - it is HR's job to go source candidates. Yet most people in HR don't truly understand the roles they are recruiting for, relying on the job description and salary band to get in a few resumes in that don't completely stink.
 
-##### Step 6: Screening of applicants
-
-This is most probably the part of the recruitment process that requires the most amount of work. This is where the applicants’ skills and personalities are going to be tested and evaluated, to ascertain whether they are a good fit for the job and its description.
-
-If they do not arrive at a decision, there may be a need to restart the recruiting process, until such time that they are able to reach a decision that everyone will be satisfied with.
-
-##### Step 7: Making of the job offer
+#### Step 4: Making of the job offer
 
 The last step of the previous phase involves the selection of the best candidate out of the pool of applicants. It is now time for the organization to offer the job to the selected applicant.
 
-Making the offer: To make things more formal, a representative of the company or of the human resources department will contact the candidate and inform him that he has been selected for the job. In this stage, complete details of the compensation package will also be made known to the applicant.
+Assuming the person accepts, the new employee will still have to undergo pre-employment screening, which often includes background and reference checks. When all these pre-employment information have been verified, the employee will now be introduced to the team.
 
-Acceptance of the offer by the applicant: The applicant should also communicate his acceptance of the offer for it to be final. Take note that, if the selected applicant does not accept the job offer and declines it, the recruitment process will have to start all over again.
-
-Step 5: Introduction and induction of the new employee
-
-The moment that the applicant accepted the job offer, he has officially gone from being an applicant to an employee of the organization. The induction process will now begin.
-
-Usually, the beginning of the induction process is marked by the signing of the employment contract, along with a welcome package given to the new employee. The date for the first day that the employee will have to report for work and start working in the company will be determined and communicated to the newly hired employee.
-
-However, it doesn’t end there. The employee will still have to undergo pre-employment screening, which often includes background and reference checks. When all these pre-employment information have been verified, the employee will now be introduced to th
-
-Meanwhile, in the startup the "A player" has been on the ground for two months already and built the first MVP product.
+Meanwhile, in the startup the "A player" has been on the ground for **two months and already built the first MVP product**.
 
 #### Compensation Practices
 
@@ -118,7 +118,7 @@ As a company matures and it's industry grows benchmarking becomes increasingly i
 
 Usain Bolt doesn't look behind him, he only looks at the clock because he isn't racing the other runners, he is racing only himself. It is the other runners who measure themselves against him. In the same way compensation benchmarking is always behind. All benchmarking is an imperfect science but compensation figures are collected annually by large HR consulting firms and then sold in the next budget/compensation cycle. This means the data is already stale when you get it.
 
-Enterprises all say they want the best people, yet they attempt to benchmark their compensation to the average of year-old stale data. The true A players get offered jobs elsewhere and leave, and the enterprise is left with average players at average compensation.
+Enterprises all say they want the best people, yet they attempt to benchmark their compensation to the average of year-old stale data. True A players get offered jobs elsewhere and leave, and the enterprise is left with **average players at average compensation** - exactly what the process is designed to produce.
 
 ### 5. Security
 
@@ -128,7 +128,7 @@ Processes around this vary, but essentially, one or more security experts descen
 
 The beatings will continue until risks are identified (I’ve never heard of there being none). The outcome is a report outlining the set of risks that have been identified. These risks may need to be ‘signed off’ by someone senior so that responsibility lies with them if there is a breach. That process in itself is arduous (especially when the senior management person doesn’t fully understand the risk) and will be repeated on a regular basis until the risks are sufficiently ‘mitigated’ through further engineering effort or process controls.
 
-After which it’s then re-reviewed and the process repeats.
+The real issue is very few senior leaders understand IT security and into the knowledge gap flows money and resources resulting in "lots of security" with questionable real effectiveness and measurable decreases in productivity across the company
 
 ### 6. Outdated Paradigms
 
@@ -142,9 +142,25 @@ The winners (or losers depending on your perspective) were several people still 
 >
 > <div class="bqfoot"><cite>&mdash; Rob Wolcott, Professor of Innovation & Entrepreneurship at Northwestern Kellogg</div></cite>
 
-It’s my strong opinion, backed by dozens of interviews, that companies embarking on a digital transformation are trying to apply company level strategies to a product level problem. As my friends over at Radical Product have eloquently said about this situation, “These are completely different classes of problem. It makes perfect sense that the same framework would not apply to both”.
+It’s my strong opinion, backed by years of experience, that companies embarking on a digital transformation are trying to apply company level strategies to a product level problem. As my friends over at Radical Product have eloquently said about this situation, “These are completely different classes of problem. It makes perfect sense that the same framework would not apply to both”.
 
-https://medium.com/pminsider/its-time-to-get-real-about-digital-transformation-a268a186844d
+#### Agile-ish and Scrum-Theater
+
+Most companies embarking on ‘digital transformation’ are "consciously incompetent". They know what’s not working, and they know they have skill gaps and process issues, but are under the illusion that if they just adopt "the right process" it will save them. These companies frequently adopt an Agile or Lean process in name but not in practice. This is what’s sometimes referred to as scrum-theater.
+
+![The polygon of enterprise despair](/img/agile_manifesto.jpeg)
+
+If your software team is the only Agile part of the product team, that’s scrum-theater. At this stage you’re gathering little or no market feedback. Product backlogs are prioritized around dev and engineering and not for customer value. Product teams are rushing to build solutions first before validating market value.
+
+#### It All Starts With A Product Vision
+
+Why do you need a product vision? Because it simultaneously aligns your product with a customer pain point or need, while filtering out who on your team will stay and who will go.
+
+Here’s how that works. A product vision inspires some and scares others. While a company mission sets the purpose for why a company should exist, a product vision suggests a future state in all it’s glory. It’s a great filter to motivate and activate the best in your supporters. It’s also a great way to get fence-sitters to decide where their loyalty lies and possibly ‘get them off the bus’.
+
+If your highest paid people are driving opinion then consider the impact on your transformation. If they lack the fluency and literacy required to guide the business through change then you’re not going to get far. The product vision and strategy must be owned by the person who is responsible for the product itself, not someone who sits at a higher level in the org chart. That person must be competent and get "product/market fit" and paying customers as fast as possible and then iterate even faster.
+
+There is no finish line. Digital isn’t something to be achieved. It’s state of being that’s always evolving.
 
 ### 7. Regulation
 
@@ -166,7 +182,7 @@ The logical responses are:
 
 1.  **Attempt to get more savings.** Let's squeeze the widget providers harder, cut down the number of widget providers so we have more leverage, commit to certain levels of widget spend, etc. If all goes well we will save even more money! However, the widget procurement process is now slower and less responsive to business needs. We may be saving on widgets but it may take months longer to buy widgets due to extensive negotiations. We now may be committed to buy a certain number of widgets - and if our needs change those savings may evaporate. We usually alienate our suppliers through this process so they have very little incentives to go "above and beyond" when called for. Finally, vendor consolidation may leave us more vulnerable to vendor risk. The fact our risk went up, our vendors don't like us anymore, and our agility went down, are very real costs, but unfortunately they are hard to quantify.
 2.  **Put the savings in a better light.** Don't underestimate the lengths people will go to justify their position. I have seen savings estimated off the "highest widget price" vs. the "average widget price". Or, based on what widget prices are expected to be in the future. Or, based on some external benchmark like "industry average widget price". Anything that can be used to make our savings figures look as good as possible. Is this cynical? Yes. Does it really happen? Yes.
-3.  **Cast a wider net.** Are we not saving enough on widgets to justify a department of widget procurement? Easy - what other things do we buy that the procurement office can help with? This is where technology always comes into focus. Technology is a large spend in any enterprise and that makes it an attractive target. However, buying technology is **not the same as buying widgets.**
+3.  **Cast a wider net.** Are we not saving enough on widgets to justify a department of widget procurement? Easy - what other things do we buy that the procurement office can help with? This is where technology always comes into focus. Technology is a large spend in any enterprise and that makes it an attractive target. However, **buying technology is not the same as buying widgets.**
 
 First of all, technologists who are making big platform technology acquisition decisions have to look years into the future. Whatever decisions taken today will affect an enterprise for a long time. We have to meet with the vendors and understand their roadmaps. We must evaluate their underlying architecture. We must understand the ecosystem they operate in. This knowledge comes by building relationships with Value Added Resellers (VARs) and the vendors themselves.
 
@@ -218,10 +234,11 @@ In an enterprise, especially in a regulated industry, there is always some kind 
 - While in theory the change can be signed off in minutes, in reality change requests can take weeks or months as obscure fields in forms are filled out wrongly (‘you put the wrong code in field 44B!’), sign-off deadlines expire, change freezes come and go, and so on.
 - As a result there is sometimes the concept of an "emergency" change request that very senior people can approve and basically "push it through". However, very senior people don't like approving emergency changes and ask lots of uncomfortable questions.
 
-All this makes the effort of making changes far more onerous than it is elsewhere.
+All this makes the effort of making changes far more onerous than it is elsewhere, which enforces the status quo.
 
-research
+#### References
 
 https://www.kellogg.northwestern.edu/faculty/directory/wolcott_robert.aspx#research=page1
 https://medium.com/pminsider/its-time-to-get-real-about-digital-transformation-a268a186844d
 https://www.radicalproduct.com/
+https://zwischenzugs.com/2018/10/02/why-are-enterprises-so-slow/
