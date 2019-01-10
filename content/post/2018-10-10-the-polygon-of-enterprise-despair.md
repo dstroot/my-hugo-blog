@@ -42,7 +42,11 @@ Enterprises are realizing they are now becoming **software companies**, and the 
 
 Transformation by consensus, or by occasional hackathon, will not work, because transformation is not iteration from a low baseline: it requires making fundamental changes to an organization’s structure and processes. It may involve making fundamental changes to the organization's workforce.
 
-Organizations that want to thrive in the digital age need to redesign their internal structure, tackle the Polygon of Enterprise Despair, upskill their staff, and wield the political will to radically transform themselves, rather than adopting tokenistic solutions.
+Organizations that want to thrive in the digital age need to redesign their internal structure, tackle the Polygon of Enterprise Despair, upskill their staff, and wield the political will to radically transform themselves, rather than adopting tokenistic solutions.  Given what we know about the challenges of organizational change this will likely fail.
+
+What works more often is to create a "digital as a businesss" organization that is completely separate from the legacy company.  This new organization can recruit the talent it needs and operate like a startup.  This is the clearest way to potentially kill the Polygon of Enterprise Despair and compete on a level playing field with the "Industry+Tech" startups that hope to make you irrelevant. The challenge is to make this as seperate from the legacy organization as possible, including location - and it has to be able to choose what corporate functions it taps into, otherwise it is yoked to the same issues as the parent.  
+
+Many organizations have created in-house VC funds to seek out promising startups and take a stake in them to secure their digital future. This approach creates the ideal amount of independence and separation.  
 
 Business as usual is no longer an option.
 
