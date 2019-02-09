@@ -6,10 +6,37 @@
     <description>Recent content on Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 06 Jan 2019 10:25:35 -0800</lastBuildDate>
+    <lastBuildDate>Fri, 08 Feb 2019 10:25:35 -0800</lastBuildDate>
     
 	<atom:link href="https://danstroot.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>I&#39;m OK; the Bull is Dead.</title>
+      <link>https://danstroot.com/2019/02/08/im-ok-the-bull-is-dead./</link>
+      <pubDate>Fri, 08 Feb 2019 10:25:35 -0800</pubDate>
+      
+      <guid>https://danstroot.com/2019/02/08/im-ok-the-bull-is-dead./</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://danstroot.com/img/bull.jpg&#34; alt=&#34;bull&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Years ago I read a great article on clear communication. Unfortunately it is hard to find these days. I am reproducing it here for posterity and full attribution.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;By Gopal K. Kapur&lt;br/&gt;
+&lt;small&gt;Computerworld | JUN 21, 2004 7:00 AM PT&lt;/small&gt;&lt;/p&gt;
+
+&lt;p&gt;Early in my career, when I worked as an engineer, my boss had a process by which the engineering team was expected to report project status. He insisted that we use the following steps, in the specified order:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Punch line:&lt;/strong&gt; The facts; no adjectives, adverbs or modifiers. &amp;ldquo;Milestone 4 wasn&amp;rsquo;t hit on time, and we didn&amp;rsquo;t start Task 8 as planned.&amp;rdquo; Or, &amp;ldquo;Received charter approval as planned.&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Current status:&lt;/strong&gt; How the punch-line statement affects the project. &amp;ldquo;Because of the missed milestone, the critical path has been delayed five days.&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Next steps:&lt;/strong&gt; The solution, if any. &amp;ldquo;I will be able to make up three days during the next two weeks but will still be behind by two days.&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Explanation:&lt;/strong&gt; The reason behind the punch line. &amp;ldquo;Two of the five days&amp;rsquo; delay is due to late discovery of a hardware interface problem, and the remaining three days&amp;rsquo; delay is due to being called to help the customer support staff for a production problem.&amp;rdquo;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Notice the almost reverse order of these points in comparison with the common reporting style in which team members start with a long explanation of why things went wrong. Using the four steps described above, the project manager learns the most important information first, then he learns supporting information to help complete the story.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>The Polygon of Enterprise Despair</title>
@@ -84,10 +111,10 @@
     
     <item>
       <title>Turn Your Company Inside-Out for $3/mo</title>
-      <link>https://danstroot.com/2018/01/18/turn-your-company-inside-out-for-3-mo/</link>
+      <link>https://danstroot.com/2018/01/18/turn-your-company-inside-out-for-3/mo/</link>
       <pubDate>Thu, 18 Jan 2018 10:25:35 -0800</pubDate>
       
-      <guid>https://danstroot.com/2018/01/18/turn-your-company-inside-out-for-3-mo/</guid>
+      <guid>https://danstroot.com/2018/01/18/turn-your-company-inside-out-for-3/mo/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;https://danstroot.com/img/citadel.jpg&#34; alt=&#34;Citadel&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;I have already described the &amp;ldquo;inside out&amp;rdquo; corporation &lt;a href=&#34;https://danstroot.com/2017/04/10/the-inside-out-corporation/&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
