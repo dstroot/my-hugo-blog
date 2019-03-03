@@ -26,7 +26,9 @@ You can send a SMS to [+1 949 333-0466](tel:+19493330466) to try it out.
 - [Twilio](https://www.twilio.com)
 - [Node.js](https://nodejs.org/en/)
 
-This is a "production ready" stack that took a couple hours to build and test. It could scale to millions of users, but since it's "serverless" the code just sits there until someone actually uses it. It deploys for pennies per month. Each outbound MMS costs \$0.02. Since the code is only ~5mb the storage costs on AWS are nearly zero.
+This is a "production ready" stack that took a couple hours to build and test. It could scale to millions of users if it had to, but since it's "serverless" the code just sits there until someone actually uses it. It deploys for pennies per month. Each outbound MMS costs \$0.02. Since the code is only ~5mb the storage costs on AWS are nearly zero.
+
+This has some huge advantages. You can "prove" the application before you scale it and pay for it. It's not just fail fast, it's also "fail cheap". This is the cheapest application architecture you can create today for launching new services.
 
 The architecture looks like this:
 
