@@ -9,6 +9,7 @@ canonifyURLs = true
 disqusShortname = "danstroot"
 googleAnalytics = "UA-44765020"
 dataDir = "data"
+pygmentsUseClasses=true
 
 # [blackfriday]
 #   angledQuotes = false

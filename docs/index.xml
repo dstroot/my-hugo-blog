@@ -6,10 +6,23 @@
     <description>Recent content on Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 06 Jan 2019 10:25:35 -0800</lastBuildDate>
+    <lastBuildDate>Sat, 02 Mar 2019 10:25:35 -0800</lastBuildDate>
     
 	<atom:link href="https://danstroot.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Digital Business Card</title>
+      <link>https://danstroot.com/2019/03/02/digital-business-card/</link>
+      <pubDate>Sat, 02 Mar 2019 10:25:35 -0800</pubDate>
+      
+      <guid>https://danstroot.com/2019/03/02/digital-business-card/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://danstroot.com/img/shredded.jpg&#34; alt=&#34;shredded paper&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Recently I took on a new role. I was asked for information so that business cards could be ordered for me. I reflected a moment and realized I don&amp;rsquo;t really use business cards anymore. I decided that I needed a digital way to share my business (and personal) information and I wanted to be able to control what I share. One of the side benefits of this is I don&amp;rsquo;t have to share my personal mobile phone number either. The number below is purchased through Twilio and is only used to reply with my digital business card.&lt;/p&gt;
+
+&lt;p&gt;You can send a SMS to &lt;a href=&#34;tel:+19493330466&#34;&gt;+1 949 333-0466&lt;/a&gt; to try it out.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>The Polygon of Enterprise Despair</title>
@@ -84,10 +97,10 @@
     
     <item>
       <title>Turn Your Company Inside-Out for $3/mo</title>
-      <link>https://danstroot.com/2018/01/18/turn-your-company-inside-out-for-3-mo/</link>
+      <link>https://danstroot.com/2018/01/18/turn-your-company-inside-out-for-3/mo/</link>
       <pubDate>Thu, 18 Jan 2018 10:25:35 -0800</pubDate>
       
-      <guid>https://danstroot.com/2018/01/18/turn-your-company-inside-out-for-3-mo/</guid>
+      <guid>https://danstroot.com/2018/01/18/turn-your-company-inside-out-for-3/mo/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;https://danstroot.com/img/citadel.jpg&#34; alt=&#34;Citadel&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;I have already described the &amp;ldquo;inside out&amp;rdquo; corporation &lt;a href=&#34;https://danstroot.com/2017/04/10/the-inside-out-corporation/&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
