@@ -42,9 +42,13 @@ Enterprises are realizing they are now becoming **software companies**, and the 
 
 Transformation by consensus, or by occasional hackathon, will not work, because transformation is not iteration from a low baseline: it requires making fundamental changes to an organization’s structure and processes. It may involve making fundamental changes to the organization's workforce.
 
-Organizations that want to thrive in the digital age need to redesign their internal structure, tackle the Polygon of Enterprise Despair, upskill their staff, and wield the political will to radically transform themselves, rather than adopting tokenistic solutions.
+Organizations that want to thrive in the digital age need to redesign their internal structure, tackle the Polygon of Enterprise Despair, upskill their staff, and wield the political will to radically transform themselves, rather than adopting tokenistic solutions. Given what we know about the challenges of organizational change this will likely fail.
 
-Business as usual is no longer an option.
+What works more often is to create a "digital as a business" organization that is completely separate from the legacy company. This new organization can recruit the talent it needs and operate like a startup. This is the clearest way to slay the Polygon of Enterprise Despair and compete on a level playing field with the "Industry+Tech" startups that hope to make you irrelevant.
+
+The challenge is to make this as separate from the legacy organization as possible, including location - and it has to be able to choose what corporate functions it taps into, otherwise it is yoked to the same issues as the parent. Many organizations have created in-house VC funds to seek out promising startups and take a stake in them to secure their digital future. This approach creates the maximum amount of independence and separation.
+
+Whatever route taken business as usual is no longer an option.
 
 ### 2. Cost Allocation
 
@@ -176,36 +180,42 @@ Obviously, this slows things down further and makes change quite difficult. Want
 
 As an enterprise grows it suddenly wakes up one day and realizes there are 50 departments/divisions/subsidiaries all buying "widgets" and if it could just coordinate and consolidate all "widget spend" it would save money. The logical thing to do is to create a centralized purchasing function to acquire widgets at the lowest possible price.
 
-There are many ways in which this perfectly sensible idea goes very wrong. The very first of which is that the new head of widget procurement and the widget procurement officers and analysts all must justify their roles. It wouldn't make sense spending $1M annually to operate our widget procurement office while only saving$500k on widgets, would it?
+There are many ways in which this perfectly sensible idea goes wrong. The first of which is that the new head of widget procurement and the widget procurement officers and analysts all must justify their roles. It wouldn't make sense spending $1M annually to operate our widget procurement office while only saving$500k on widgets, would it?
 
 The logical responses are:
 
-1.  **Attempt to get more savings.** Let's squeeze the widget providers harder, cut down the number of widget providers so we have more leverage, commit to certain levels of widget spend, etc. If all goes well we will save even more money! However, the widget procurement process is now slower and less responsive to business needs. We may be saving on widgets but it may take months longer to buy widgets due to extensive negotiations. We now may be committed to buy a certain number of widgets - and if our needs change those savings may evaporate. We usually alienate our suppliers through this process so they have very little incentives to go "above and beyond" when called for. Finally, vendor consolidation may leave us more vulnerable to vendor risk. The fact our risk went up, our vendors don't like us anymore, and our agility went down, are very real costs, but unfortunately they are hard to quantify.
-2.  **Put the savings in a better light.** Don't underestimate the lengths people will go to justify their position. I have seen savings estimated off the "highest widget price" vs. the "average widget price". Or, based on what widget prices are expected to be in the future. Or, based on some external benchmark like "industry average widget price". Anything that can be used to make our savings figures look as good as possible. Is this cynical? Yes. Does it really happen? Yes.
+1.  **Attempt to create more savings.** Let's squeeze the widget vendors harder, cut down the number of widget vendors so we have more leverage, commit to certain levels of widget spend, etc. If all goes well we will save even more money! However, the widget procurement process is now slower and less responsive to business needs. We may be saving on widgets but it may take months longer to buy widgets due to extensive negotiations. We now may be committed to buy a certain number of widgets - and if our needs change those savings may evaporate. We usually alienate our suppliers through this process so they have very little incentives to go "above and beyond" when called for. Finally, vendor consolidation may leave us more vulnerable to vendor risk. The fact our risk went up, our vendors don't like us anymore, and our agility went down, are very real costs, but unfortunately they are hard to quantify and therefore don't count.
+2.  **Put the savings in a better light.** I have seen savings estimated off the "highest widget price" vs. the "average widget price". Or, based on what widget prices are expected to be in the future. Or, based on some external benchmark like "industry average widget price". Anything that can be used to make our savings figures look as good as possible. Is this cynical? Yes. Does it really happen? Yes.
 3.  **Cast a wider net.** Are we not saving enough on widgets to justify a department of widget procurement? Easy - what other things do we buy that the procurement office can help with? This is where technology always comes into focus. Technology is a large spend in any enterprise and that makes it an attractive target. However, **buying technology is not the same as buying widgets.**
 
 First of all, technologists who are making big platform technology acquisition decisions have to look years into the future. Whatever decisions taken today will affect an enterprise for a long time. We have to meet with the vendors and understand their roadmaps. We must evaluate their underlying architecture. We must understand the ecosystem they operate in. This knowledge comes by building relationships with Value Added Resellers (VARs) and the vendors themselves.
 
 Once we make a purchasing decision we expect the VAR, or occasionally the vendor, to help us with bringing the new technology online. We expect security advice, configuration support and advice, and deployment help. These services may not be explicitly called out, or priced in a bid, but they are very important and valuable. Success or failure may hinge on these services.
 
-What happens when procurement gets involved? First, they make sure that technical people have no direct control over the negotiation (or sourcing process) at all. Second the relationships that technology has nurtured over time migrate to procurement, disconnecting the technology practitioners, and making it difficult for them to get the information they need to be effective going forward.
+What happens when procurement gets involved? First, they usually make sure that technical people have no direct control over the negotiation (or sourcing process). Second the relationships that technology has nurtured over time migrate to procurement, disconnecting the technology practitioners, and making it difficult for them to get the information they need to be effective going forward.
 
 What often happens is something close to this:
 
 - You go to senior person to get sign-off for a budget for purpose X
 - They agree
-- You document at least two options for products that fulfill that purpose
+- You document several options for products that fulfill that purpose
 - The sourcing team will take that document and negotiate with the suppliers
 - Some magic happens
 - You get told which supplier "won"
 
-This process helps reduce the risk that someone has undue influence to push a particular vendor (there are strict rules around accepting so much as a coffee from a potential supplier), which is a good thing. On the other hand, this process can take months (or even years). And might need to be repeated if the process takes so long that funding has disappeared or teams have been disbanded.
+This process helps reduce the risk that someone has undue influence to push a particular vendor (there are strict rules around accepting so much as a coffee from a potential supplier), which is a good thing. On the other hand, this process does extend the timeframe and can add months.
 
-To complicate matters further, sourcing might have its own preferred supplier lists of companies that have been vetted and audited in the past. If your preferred supplier isn't on that list (and hasn't made a deal with one on those list), the process could take longer or stall.
+To complicate matters further, sourcing might have its own preferred supplier lists of companies that have been vetted and audited in the past. If your preferred supplier isn't on that list (and hasn't made a deal with one on those list), the process will take even longer or stall.
 
 To add insult to injury those "valued added" services your VARs used to provide are no longer provided because they were either squeezed out in the negotiations, or you have lost the relationship capital you formerly had.
 
-The enterprise "saves money" by trading against the costs of delay, lack of agility, and treating supplies as adversaries instead of partners.
+The enterprise "saves money" by trading against the costs of delay, lack of agility, and treating supplies as adversaries instead of partners. You didn’t get your twitter account by putting out an RFP for a "microblogging service" right? Enterprise software companies now actively work to circumvent procurement offices by keeping initial costs low or non-existent and delivering their software via a web browser. Once the software is established, it is likely some "enterprise features" will be required that are then expensive to acquire.
+
+Old school vendors who operate under a licensing model can become predatory (examples: Oracle, Adobe) with frequent licensing audits. If a company's procurement office is not sufficiently aligned with the IT organization these audits can be train wrecks.
+
+Centralized procurement is not required for contract language standardization. In most organizations, even those with centralized procurement, the contracts are still reviewed by legal. Legal can enforce standard contract language regardless of centralized procurement.
+
+Some risks can be managed by staffing the centralized procurement office with experienced technology procurement officers who act as "consultants" to the IT practitioners (so the vendor relationships are not disrupted). VAR services should be called out and valued. Time must be valued in some fashion - how do we expose the cost of delay against the potential for additional savings and make good decisions?
 
 ### 9. Legacy
 

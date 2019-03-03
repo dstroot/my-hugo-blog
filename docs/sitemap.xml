@@ -3,8 +3,13 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+<<<<<<< HEAD
     <loc>https://danstroot.com/2019/03/02/digital-business-card/</loc>
     <lastmod>2019-03-02T10:25:35-08:00</lastmod>
+=======
+    <loc>https://danstroot.com/2019/02/08/im-ok-the-bull-is-dead./</loc>
+    <lastmod>2019-02-08T10:25:35-08:00</lastmod>
+>>>>>>> db4b9d3b35053d4782b14e43ddbb89145a5d2788
   </url>
   
   <url>
@@ -304,7 +309,11 @@
   
   <url>
     <loc>https://danstroot.com/</loc>
+<<<<<<< HEAD
     <lastmod>2019-03-02T10:25:35-08:00</lastmod>
+=======
+    <lastmod>2019-02-08T10:25:35-08:00</lastmod>
+>>>>>>> db4b9d3b35053d4782b14e43ddbb89145a5d2788
     <priority>0</priority>
   </url>
   
@@ -315,7 +324,11 @@
   
   <url>
     <loc>https://danstroot.com/post/</loc>
+<<<<<<< HEAD
     <lastmod>2019-03-02T10:25:35-08:00</lastmod>
+=======
+    <lastmod>2019-02-08T10:25:35-08:00</lastmod>
+>>>>>>> db4b9d3b35053d4782b14e43ddbb89145a5d2788
     <priority>0</priority>
   </url>
   
