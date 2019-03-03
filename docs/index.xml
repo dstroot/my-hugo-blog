@@ -6,17 +6,12 @@
     <description>Recent content on Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-<<<<<<< HEAD
     <lastBuildDate>Sat, 02 Mar 2019 10:25:35 -0800</lastBuildDate>
-=======
-    <lastBuildDate>Fri, 08 Feb 2019 10:25:35 -0800</lastBuildDate>
->>>>>>> db4b9d3b35053d4782b14e43ddbb89145a5d2788
     
 	<atom:link href="https://danstroot.com/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-<<<<<<< HEAD
       <title>Digital Business Card</title>
       <link>https://danstroot.com/2019/03/02/digital-business-card/</link>
       <pubDate>Sat, 02 Mar 2019 10:25:35 -0800</pubDate>
@@ -27,7 +22,9 @@
 &lt;p&gt;Recently I took on a new role. I was asked for information so that business cards could be ordered for me. I reflected a moment and realized I don&amp;rsquo;t really use business cards anymore. I decided that I needed a digital way to share my business (and personal) information and I wanted to be able to control what I share. One of the side benefits of this is I don&amp;rsquo;t have to share my personal mobile phone number either. The number below is purchased through Twilio and is only used to reply with my digital business card.&lt;/p&gt;
 
 &lt;p&gt;You can send a SMS to &lt;a href=&#34;tel:+19493330466&#34;&gt;+1 949 333-0466&lt;/a&gt; to try it out.&lt;/p&gt;</description>
-=======
+    </item>
+    
+    <item>
       <title>I&#39;m OK; the Bull is Dead.</title>
       <link>https://danstroot.com/2019/02/08/im-ok-the-bull-is-dead./</link>
       <pubDate>Fri, 08 Feb 2019 10:25:35 -0800</pubDate>
@@ -52,7 +49,6 @@
 &lt;/ol&gt;
 
 &lt;p&gt;Notice the almost reverse order of these points in comparison with the common reporting style in which team members start with a long explanation of why things went wrong. Using the four steps described above, the project manager learns the most important information first, then he learns supporting information to help complete the story.&lt;/p&gt;</description>
->>>>>>> db4b9d3b35053d4782b14e43ddbb89145a5d2788
     </item>
     
     <item>
