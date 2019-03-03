@@ -67,6 +67,8 @@ $ cd my-service
 
 #### Build, test and deploy your service
 
+NOTE: the actual lambda code is in the repo linked below. I am outlining how to use Serverless here.
+
 - Test the function locally. Note "-f" specifies the function and "-p" passes in data to simulate an API call
 
   ```sh
@@ -84,5 +86,13 @@ $ cd my-service
   ```sh
   serverless logs -f twilio -t
   ```
+
+#### Hookup Twilio
+
+Once your API is up and running you simply point the Twilio webhook of your phone number to your API endpoint:
+
+![Twilio](/img/twilio.png)
+
+When an SMS is sent to my Twilio phone number, Twilio calls my API and posts the SMS as the payload. The lambda function formats a response using Twilio's XML format and sends it back as the HTTP response. Twilio reads the XML which instructs Twilio to respond with a MMS message with my digital business card information.
 
 Full working code is [here](https://github.com/dstroot/twilio-business-card-aws-lambda)
