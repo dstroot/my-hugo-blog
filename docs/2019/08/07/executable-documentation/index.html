@@ -1,0 +1,68 @@
+<!DOCTYPE html><html lang="en-us"><meta http-equiv="content-type" content="text/html; charset=utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1"><title>Dan Stroot &middot; Executable Documentation</title><meta name="description" content=""><meta name="keywords" content=""><meta name="theme-color" content="#202020"><link rel="manifest" href="https://danstroot.com/manifest.json"><link rel="stylesheet" href="https://danstroot.com/css/styles.min.css"><link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"><link rel="icon" href="https://danstroot.com/favicon.png"><link rel="apple-touch-icon-precomposed" sizes="152x152" href="http://www.gravatar.com/avatar/b6e0ed5e10ea91f67808629f4ae109f2.png?s=152"><link rel="apple-touch-icon-precomposed" sizes="120x120" href="http://www.gravatar.com/avatar/b6e0ed5e10ea91f67808629f4ae109f2.png?s=120"><link rel="apple-touch-icon-precomposed" sizes="76x76" href="http://www.gravatar.com/avatar/b6e0ed5e10ea91f67808629f4ae109f2.png?s=76"><link rel="apple-touch-icon-precomposed" href="http://www.gravatar.com/avatar/b6e0ed5e10ea91f67808629f4ae109f2.png?s=60"><script type="application/javascript">var doNotTrack=!1;doNotTrack||(window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)},ga.l=+new Date,ga("create","UA-44765020","auto"),ga("send","pageview"))</script><script async src="https://www.google-analytics.com/analytics.js"></script><body class=""><div class="sidebar"><div class="container sidebar-sticky"><div class="myface"><a href="https://danstroot.com/"><img src="https://danstroot.com/img/face_sm.jpg" srcset="https://danstroot.com/img/face_lg.jpg 2x" alt="Dan Stroot" height="150" width="150"> <i class="icon-home"></i></a></div><div class="sidebar-about"><a href="https://danstroot.com/"><h1>Dan Stroot</h1></a><p class="lead">I love building things. Made in California. Family man, technologist and Hacker News aficionado. Eternally curious.</div><hr class="hr-sidebar"><a href="https://danstroot.com/about">About</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://danstroot.com/post">Archive</a><hr class="hr-sidebar"><ul class="sidebar-nav"><li class="sidebar-nav-item"><a href="https://github.com/dstroot"><span class="icon-github-square"></span></a> <a href="https://www.linkedin.com/in/danstroot"><span class="icon-linkedin-square"></span></a> <a href="https://www.facebook.com/dan.stroot"><span class="icon-facebook-square"></span></a> <a href="https://twitter.com/danstroot"><span class="icon-twitter-square"></span></a></ul><p class="small">Copyright &copy; 2019</div></div><div class="content container"><div class="post"><h1 class="post-title">Executable Documentation</h1><span class="post-date">August 7, 2019 &middot; <span class="icon-clock-o"></span> 5 minute read &middot; <a href="https://danstroot.com/2019/08/07/executable-documentation/#disqus_thread">Comments</a><br></span><div class="post-content"><p><img src="https://danstroot.com/img/exec_doc.png" alt="script"><p>Every team has manual procedures or checklists that they haven’t gotten around to automating yet. Sometimes there are branches and special cases to keep track of as you go. Procedures/checklists are frustrating because they’re focus-intensive yet require very little thought. They demand our full attention, but our attention isn’t rewarded with interesting problems or satisfying solutions – just another checkbox checked. Procedures like this are called a <strong>slog</strong>.<p>Slogs are ripe for automation. We know that a computer could do it better than we can, and with less tendency toward practical drift. However, automating slogs feels like an all-or-nothing proposition. Maybe we could write a script to handle step 2, or step 5, but that wouldn’t really make the procedure any less cumbersome. It would lead to a proliferation of single-purpose scripts with different conventions and expectations, and you’d still have to follow a documented multi-step procedure for using those scripts.<p>This <strong>perception of futility</strong> is the problem we really need to solve in order to escape from these manual slogs. Here&rsquo;s an approach that works. It&rsquo;s called &ldquo;executable documentation&rdquo;.<p>Almost any slog can be turned into executable documentation. Executable documentation is a script that encodes the instructions of a slog, encapsulating each step in a function. For example we could write the following executable documentation script:<pre><code class="language-sh">#! /bin/sh
+# ------------------------------------------------------------------------------
+# Copyright (c) 2014 Dan Stroot
+# All rights reserved.
+# ------------------------------------------------------------------------------
+# NAME:           example.sh
+# PURPOSE:        example of executable documentation
+# VERSION:  1.0   Initial version
+# ------------------------------------------------------------------------------
+set -e
+
+# Default settings
+PROGNAME=$0
+VER=&quot;1.0&quot;
+
+step_1 () {
+    echo &quot;Do step 1, press (y, enter) when complete.&quot;
+    read -r response
+    case $response in
+    [yY])
+        echo &quot;Step 1 completed.\n&quot;
+        ;;
+    *)
+        echo &quot;Step 1 NOT completed.\n&quot;
+        exit 1
+        ;;
+    esac
+}
+
+step_2 () {
+    echo &quot;Do step 2, press (y, enter) when complete.&quot;
+    read -r response
+    case $response in
+    [yY])
+        echo &quot;Step 2 completed.\n&quot;
+        ;;
+    *)
+        echo &quot;Step 2 NOT completed.\n&quot;
+        exit 1
+        ;;
+    esac
+}
+
+step_3 () {
+    echo &quot;Do step 3, press (y, enter) when complete.&quot;
+    read -r response
+    case $response in
+    [yY])
+        echo &quot;Step 3 completed.\n&quot;
+        ;;
+    *)
+        echo &quot;Step 3 NOT completed.\n&quot;
+        exit 1
+        ;;
+    esac
+}
+
+main() {
+    echo &quot;Running: ${PROGNAME}, version ${VER}.\n&quot;
+    step_1
+    step_2
+    step_3
+    echo &quot;All Done!&quot;
+    echo &quot;Wouldn't it be great if this was automated?&quot;
+}
+
+main &quot;$@&quot;
+</code></pre><p>Notice this script <strong>doesn’t actually do any of the steps of the procedure</strong>! It feeds the user a step at a time and waits for them to complete each step manually. These scripts will have little logic, and make little use of variables. They can also have a .txt filename to ensure that people understand, that first of all, this is a set of instructions for how to do something, which also just so happens to be a valid shell script.<p>At first glance, it might not be obvious that this script provides any value, but the value is immense. First, these scripts actually do something: they allow storing and updating the <em>state</em> of a process. By having these scripts run in a shell rather than in your head, the current state is stored in a machine, not your brain.<ul><li>It’s now much less likely that you’ll lose your place and skip a step. This makes it easier to maintain focus on the actual work and power through the slog. You can even exit the script and it will tell you where you stopped.<li>Each step of the procedure is now encapsulated in a function, which makes it possible to replace the text in any given step with code that actually performs the action.<li>Over time, you’ll develop a library of useful steps, which will make future automation tasks more efficient.<li>It will lower the inhibition to automation - each run you can just automate one or two more steps.</ul><p>Executable documentation doesn’t initially save your team any manual effort. However, <strong>it lowers the activation energy for automating tasks</strong>, which allows the team to eliminate toil over time.<p>For example I have a process to reinstall the operating system on my personal laptop from scratch, based on a checklist. I&rsquo;d always wanted to automate it but it just seemed like such a daunting task that I never ended up doing it. The frequency of use didn&rsquo;t seem to warrant the effort.<p>Last time I turned the checklist into a script, telling me what to do at each step. Then, since I was scripting rather writing a document I also implemented the ones that are easy to automate. I planned to automate a few more items each time I ran the checklist, until it&rsquo;s fully automated. A funny thing happened though - after few runs I had autmated a large portion of the steps, and that motivated me to just knock it out and finish. This is the power of executable documentation.<p>Executable documentation as concept can be very broad - many producst are based around the idea of complex tasks &ldquo;as code&rdquo;. Products like:<ul><li><a href="https://aws.amazon.com/cloudformation/">AWS Cloudformation</a><li><a href="https://www.terraform.io">Hashicorp Terraform</a><li><a href="https://www.chef.io/">Chef</a><li><a href="https://puppet.com">Puppet</a><li><a href="https://www.ansible.com/">Ansible</a><li><a href="https://jupyter.org">Jupyter</a></ul><p>So you take this concept pretty far!<h4 id="resources">Resources</h4><p><span class="sources"><a href="https://queue.acm.org/detail.cfm?id=3197520">Manual work is a bug</a><br><a href="https://www.youtube.com/watch?v=tweyWNr6X18">Record shell sessions</a><br><a href="https://www.newyorker.com/magazine/2007/12/10/the-checklist">NYT - The Checklist</a><br><a href="https://blog.nuclino.com/the-simple-genius-of-checklists-from-b-17-to-the-apollo-missions">The Simple Genius of Checklists, from B-17 to the Apollo Missions</a></span></div></div><ul class="pagination"><li><a class="" href="https://danstroot.com/2019/03/02/digital-business-card/">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Next Post <span class="icon-chevron-circle-right"></span></a></ul><hr class="soften"><div id="disqus_thread"></div><script type="text/javascript">!function(){if("localhost"!=window.location.hostname){var e=document.createElement("script");e.type="text/javascript",e.async=!0;e.src="//danstroot.disqus.com/embed.js",(document.getElementsByTagName("head")[0]||document.getElementsByTagName("body")[0]).appendChild(e)}}()</script></div><script id="dsq-count-scr" src="//danstroot.disqus.com/count.js" async></script><script src="https://danstroot.com/js/loadjs.min.js"></script><script>loadjs(["https://danstroot.com/css/highlight/github.css","https://danstroot.com/js/highlight.pack.js"],{success:function(){hljs.initHighlightingOnLoad()},error:function(o){console.log("file not found")}})</script><script>loadjs(["https://danstroot.com/js/service-worker-registration.js"],{error:function(o){console.log("file not found")}})</script>

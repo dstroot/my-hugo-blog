@@ -6,10 +6,100 @@
     <description>Recent content in Posts on Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 02 Mar 2019 10:25:35 -0800</lastBuildDate>
+    <lastBuildDate>Wed, 07 Aug 2019 10:25:35 -0800</lastBuildDate>
     
 	<atom:link href="https://danstroot.com/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Executable Documentation</title>
+      <link>https://danstroot.com/2019/08/07/executable-documentation/</link>
+      <pubDate>Wed, 07 Aug 2019 10:25:35 -0800</pubDate>
+      
+      <guid>https://danstroot.com/2019/08/07/executable-documentation/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://danstroot.com/img/exec_doc.png&#34; alt=&#34;script&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Every team has manual procedures or checklists that they haven’t gotten around to automating yet. Sometimes there are branches and special cases to keep track of as you go. Procedures/checklists are frustrating because they’re focus-intensive yet require very little thought. They demand our full attention, but our attention isn’t rewarded with interesting problems or satisfying solutions – just another checkbox checked. Procedures like this are called a &lt;strong&gt;slog&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;Slogs are ripe for automation. We know that a computer could do it better than we can, and with less tendency toward practical drift. However, automating slogs feels like an all-or-nothing proposition. Maybe we could write a script to handle step 2, or step 5, but that wouldn’t really make the procedure any less cumbersome. It would lead to a proliferation of single-purpose scripts with different conventions and expectations, and you’d still have to follow a documented multi-step procedure for using those scripts.&lt;/p&gt;
+
+&lt;p&gt;This &lt;strong&gt;perception of futility&lt;/strong&gt; is the problem we really need to solve in order to escape from these manual slogs. Here&amp;rsquo;s an approach that works.  It&amp;rsquo;s called &amp;ldquo;executable documentation&amp;rdquo;.&lt;/p&gt;
+
+&lt;p&gt;Almost any slog can be turned into executable documentation. Executable documentation is a script that encodes the instructions of a slog, encapsulating each step in a function. For example we could write the following executable documentation script:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;#! /bin/sh
+# ------------------------------------------------------------------------------
+# Copyright (c) 2014 Dan Stroot
+# All rights reserved.
+# ------------------------------------------------------------------------------
+# NAME:           example.sh
+# PURPOSE:        example of executable documentation
+# VERSION:  1.0   Initial version
+# ------------------------------------------------------------------------------
+set -e
+
+# Default settings
+PROGNAME=$0
+VER=&amp;quot;1.0&amp;quot;
+
+step_1 () {
+    echo &amp;quot;Do step 1, press (y, enter) when complete.&amp;quot;
+    read -r response
+    case $response in
+    [yY])
+        echo &amp;quot;Step 1 completed.\n&amp;quot;
+        ;;
+    *)
+        echo &amp;quot;Step 1 NOT completed.\n&amp;quot;
+        exit 1
+        ;;
+    esac
+}
+
+step_2 () {
+    echo &amp;quot;Do step 2, press (y, enter) when complete.&amp;quot;
+    read -r response
+    case $response in
+    [yY])
+        echo &amp;quot;Step 2 completed.\n&amp;quot;
+        ;;
+    *)
+        echo &amp;quot;Step 2 NOT completed.\n&amp;quot;
+        exit 1
+        ;;
+    esac
+}
+
+step_3 () {
+    echo &amp;quot;Do step 3, press (y, enter) when complete.&amp;quot;
+    read -r response
+    case $response in
+    [yY])
+        echo &amp;quot;Step 3 completed.\n&amp;quot;
+        ;;
+    *)
+        echo &amp;quot;Step 3 NOT completed.\n&amp;quot;
+        exit 1
+        ;;
+    esac
+}
+
+main() {
+    echo &amp;quot;Running: ${PROGNAME}, version ${VER}.\n&amp;quot;
+    step_1
+    step_2
+    step_3
+    echo &amp;quot;All Done!&amp;quot;
+    echo &amp;quot;Wouldn&#39;t it be great if this was automated?&amp;quot;
+}
+
+main &amp;quot;$@&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Notice this script &lt;strong&gt;doesn’t actually do any of the steps of the procedure&lt;/strong&gt;! It feeds the user a step at a time and waits for them to complete each step manually. These scripts will have little logic, and make little use of variables. They can also have a .txt filename to ensure that people understand, that first of all, this is a set of instructions for how to do something, which also just so happens to be a valid shell script.&lt;/p&gt;
+
+&lt;p&gt;At first glance, it might not be obvious that this script provides any value, but the value is immense. First, these scripts actually do something: they allow storing and updating the &lt;em&gt;state&lt;/em&gt; of a process. By having these scripts run in a shell rather than in your head, the current state is stored in a machine, not your brain.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Digital Business Card</title>
