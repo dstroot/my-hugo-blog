@@ -271,9 +271,8 @@ gulp.task("git", function(cb) {
     function(err, stdout, stderr) {
       console.log(stdout);
       console.log(stderr);
-      cb(); // finished task
-    }
-  );
+      cb(err); // finished task
+    });
 });
 
 /**

@@ -12,7 +12,7 @@
   "scripts": {},
   "repository": {
     "type": "git",
-    "url": "https://github.com/dstroot/my_blog"
+    "url": "https://github.com/dstroot/my_hugo_blog"
   },
   "license": "UNLICENSED",
   "devDependencies": {
