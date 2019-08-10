@@ -81,7 +81,7 @@ gulp.task("styles", function() {
   var sass = require("gulp-sass");
 
   var processors = [
-    autoprefixer({ browsers: ["last 2 versions"] }),
+    autoprefixer(),
     cssnano({ safe: true })
   ];
 
