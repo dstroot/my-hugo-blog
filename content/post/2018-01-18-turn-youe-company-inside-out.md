@@ -35,4 +35,5 @@ As a CIO I **love this concept** of lowering enterprise costs, simplifying emplo
 [Bitly's Oauth2 Proxy](https://github.com/bitly/oauth2_proxy)<br>
 [Ditch your VPN, improve security and go to the cloud](https://www.blog.google/topics/google-cloud/how-use-beyondcorp-ditch-your-vpn-improve-security-and-go-cloud/)<br>
 [Cloudflare Access](https://blog.cloudflare.com/introducing-cloudflare-access/)
+[Securing infrastructure at scale - Cloudflare](https://blog.cloudflare.com/access-wildcard-subdomain/)
 </span>
